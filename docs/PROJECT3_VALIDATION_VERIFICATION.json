@@ -1,0 +1,32 @@
+{
+  "uploaded_files": 16,
+  "input_hashes_matched": 15,
+  "cohort_and_selection_rule_verified": true,
+  "validation_predictions_independently_reproduced": 446,
+  "max_prediction_absolute_difference": 2.0577983761427276e-13,
+  "metrics_game_summaries_calibration_recomputed": true,
+  "selected_model": "M2_behavior",
+  "validation_log_loss_difference": -0.00017317395204297092,
+  "rds_status": "Preserved intact; not deserialized",
+  "test_status": "208 rows / six games structurally verified from identifier/date/predictor columns only; Test targets and performance not evaluated",
+  "script13_status": "To be run in user R environment after the fixed protocol; no Test results claimed",
+  "github_visibility": "Private until all four workstreams finish",
+  "uploaded_sha256": {
+    "12_project3_validation.R": "f84caeb54e5c9027d89cb9f2f476e5ef49e0d263939b74c27f6c0e32f293baf3",
+    "FROZEN_PROTOCOL.txt": "64226abcff2e0877626354e94a163e54f6b943bda6dc304ec05d17b672e16212",
+    "INTERPRETATION_LIMITS.txt": "37056d59fd8c34abbd134059728db203b4be2a2669ac6825229177d4041ae1f4",
+    "RUN_COMPLETE.txt": "240c82de99c7497a29ffd13ebc40acca79ec78255d9f564001a07fb9dac4aea5",
+    "cohort_ids.csv": "9e5f280699c9f54d9847165d0c23760f507103e671d44ca02ec95f734a1768c5",
+    "console.txt": "d27bc6695cd774d9b32dcd459f0a780cda6e50d26cc0de2d40bac63a566f416a",
+    "frozen_protocol.rds": "60cb1bcecbe93ffc40de4a263831447d3413cc2ac6457f4988fb82a51991f2db",
+    "input_hashes.csv": "bc853adc657a124280a5ab24c8523f46fdaa827cb0aeafab407d3351d9925c2b",
+    "model_selection.csv": "04d3f5f1654e3c1257e501277ecafa2aa72da40ea7895affc395189306111309",
+    "project3_validation.rds": "0456cb2a336a8460f261378d4e5f3e112062dc80b0bbd7b4e921658684f2e6de",
+    "sessionInfo.txt": "010024dd5b8260f345613d9da0c817849c99fc1db9f488764a10baa2e4633031",
+    "train_fitted_behavior_coefficients.csv": "7aed9e0fc735076eb9f312cad2d9b1e65473120317dc7ff7a18413b6c832e7ed",
+    "validation_by_game.csv": "bfe17b654da2aeb5a15db13f26f13959c0161e62591a538e00733e16d376d83d",
+    "validation_calibration_bins.csv": "37c5208b9bea2d2500a2a80a398ba60d4fd0b9bbf463b9f39087de88198812e3",
+    "validation_metrics.csv": "b19d1cd3932f7c0758913ba3ace9e14933c4d22ba382b3277a40974944ad0cdf",
+    "validation_predictions.csv": "af2a422b74f0ebaa23b1c1bd816f0968c99672bbd51640bbd825e1cb513a49db"
+  }
+}

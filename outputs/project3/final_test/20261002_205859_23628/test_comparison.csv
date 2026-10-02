@@ -1,0 +1,2 @@
+"selected_model","comparator","log_loss_difference","brier_difference","auc_difference","interpretation"
+"M2_behavior","M0_prevalence",0.00440259269617732,0.000965364219895321,0.0405572755417957,"Negative loss differences favor selected model; no post-test reselection"

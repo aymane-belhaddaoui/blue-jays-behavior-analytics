@@ -1,0 +1,6 @@
+list(selected_model = "M2_behavior", comparator = "M0_prevalence", 
+    fit_n = 1250L, fit_games = 33, fit_events = 218, baseline_probability = 0.1744, 
+    formula = "target_strikeout ~ log_routine + total_tics", 
+    primary_metric = "Test log loss, descriptive final assessment", 
+    threshold = 0.5, threshold_purpose = "Diagnostic only", recalibration = "None", 
+    selection_after_test = "None", validation_source = "outputs/project3/validation/20261002_202247_23628")

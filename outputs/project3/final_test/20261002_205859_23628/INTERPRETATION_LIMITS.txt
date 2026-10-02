@@ -1,0 +1,11 @@
+Test has now been evaluated; it is no longer unused for this project.
+M2 remains the validation-selected approach; do not select a replacement using these test scores.
+If M2 loses to prevalence, report failure to beat that benchmark on these six games.
+All performance numbers are descriptive; six game clusters limit uncertainty assessment and generalization.
+No independent-PA confidence intervals or formal model-comparison p-values are claimed.
+Threshold .5 is a diagnostic convention, not an optimized operational threshold.
+Calibration displays do not authorize post-test recalibration. New development would require fresh evaluation data.
+Earlier full-period predictor EDA was documented; held-out target evaluation followed the frozen selection sequence.
+Prediction time is after the first-pitch routine, before the first-pitch outcome.
+The final model concerns eligible observed-routine/tic PAs in this team/time window, not all baseball PAs.
+GitHub remains private until all four workstreams are finished.
