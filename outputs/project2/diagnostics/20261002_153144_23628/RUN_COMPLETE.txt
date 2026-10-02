@@ -1,0 +1,3 @@
+Completed training PA diagnostics; no outcome model fitted.
+Primary candidate exposure: first-pitch disruption. Any disruption is retrospective and opportunity-dependent.
+Total PA pitch count is not a baseline adjustment variable. Sparse exposure/event cells require model review.

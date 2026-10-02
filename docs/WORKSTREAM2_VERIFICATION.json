@@ -1,0 +1,25 @@
+{
+  "archived_files": 13,
+  "input_hashes_matched": 10,
+  "cohort_ids_match": true,
+  "descriptive_tables_and_pitch_timing_verified": true,
+  "rds_status": "Preserved byte-for-byte; not deserialized here",
+  "script09_status": "Source inspected and counts/mathematical benchmark independently checked; not executed in R",
+  "github_status": "User reports repository created in GitHub Desktop, files copied and published privately; no remote inspection by assistant",
+  "github_visibility_decision": "Remain private until all four workstreams are finished",
+  "uploaded_sha256": {
+    "08_project2_diagnostics.R": "78d30f2b8e159702859815b5b8880bfca04fc199730d1cc2e1cb9941573385a3",
+    "RUN_COMPLETE.txt": "af962c58fd8930df6745a946c7c638d0d11e5409252fd987ce16fe7c2da65989",
+    "batter_id_support.csv": "b94aaf11b09682c6ca60c32ef11b9ecab79fd7b48672e06c77ab8ede64e41114",
+    "cohort_ids.csv": "db8896995dd11f91d29b149243aa9b97badf0afded3cf9c45e731a04e6d70403",
+    "console.txt": "132ebef399fdf988e6a092132f2876b4c3efecea5f38788ad2e2e4107bdf24c8",
+    "exposure_outcome_counts.csv": "de40cf63efda227b150e24c0373dcbbc61fa043bbf51b11fdf3d67c83177aaa9",
+    "first_pitch_by_risp_and_outcome.csv": "353c6860433606ac7a3bfeb332cf459587cab806bb79e1ab1208cf097334e990",
+    "game_id_support.csv": "13c2449113f7676c30572f35ea4ed35de8989b86a898a51c96f44beace6e2b5b",
+    "input_hashes.csv": "60bee326c4503573a7ac1921fe808ea1d49f9d9e6b83baf2de0b08327ec322dc",
+    "pa_disruption_timing.csv": "02e43736af52d630312e3bd85f4e10fb5d85ad6b280f447b16b4fca5beeb1551",
+    "pa_length_by_any_disruption.csv": "dd9435d89c41d5a491129d3dc5057bf791e9c02faf6a73645a08031b67a48784",
+    "project2_diagnostics.rds": "98eae6c505980a31e44e7a1d3212908b38a9b2f3828e4b37418f81cc40a79668",
+    "sessionInfo.txt": "60219410607a97c67a188a0fed472f628d834f909d241bf95ec6325e2cacba5d"
+  }
+}

@@ -1,0 +1,83 @@
+TRAINING PA COHORT
+       pas      games    batters strikeouts 
+      1028         27         16        185 
+               exposure value  pas strikeouts non_strikeouts strikeout_fraction games batters
+1 disrupted_first_pitch     0 1015        184            831         0.18128079    27      16
+2 disrupted_first_pitch     1   13          1             12         0.07692308     9       6
+3         disrupted_any     0  978        179            799         0.18302658    27      16
+4         disrupted_any     1   50          6             44         0.12000000    16      14
+
+SUPPORT BY batter_id 
+       id pas strikeouts first_pitch_exposed exposed_strikeouts any_disrupted
+B001 B001  98         12                   0                  0             7
+B002 B002  80         10                   0                  0             2
+B003 B003  35          9                   0                  0             1
+B004 B004 115         24                   2                  0             6
+B005 B005  53         14                   0                  0             2
+B007 B007  25          7                   1                  0             1
+B008 B008  94          8                   0                  0             4
+B009 B009  89         16                   0                  0             3
+B010 B010  38         13                   1                  1             2
+B011 B011  34         10                   0                  0             1
+B012 B012 105         23                   3                  0             4
+B013 B013  63          8                   0                  0             4
+B014 B014  97         15                   2                  0             6
+B015 B015   4          1                   0                  0             0
+B016 B016   9          4                   0                  0             0
+B017 B017  89         11                   4                  0             7
+
+SUPPORT BY game_id 
+                           id pas strikeouts first_pitch_exposed exposed_strikeouts any_disrupted
+TOR_20260814_1 TOR_20260814_1  31          8                   2                  1             5
+TOR_20260815_1 TOR_20260815_1  38          9                   1                  0             3
+TOR_20260816_1 TOR_20260816_1  37          5                   0                  0             1
+TOR_20260818_1 TOR_20260818_1  48          7                   2                  0             5
+TOR_20260819_1 TOR_20260819_1  39          7                   0                  0             3
+TOR_20260820_1 TOR_20260820_1  39         12                   1                  0             3
+TOR_20260821_1 TOR_20260821_1  37          8                   0                  0             1
+TOR_20260822_1 TOR_20260822_1  43          6                   1                  0             6
+TOR_20260823_1 TOR_20260823_1  35          5                   0                  0             2
+TOR_20260825_1 TOR_20260825_1  38          7                   0                  0             0
+TOR_20260826_1 TOR_20260826_1  31          5                   0                  0             1
+TOR_20260827_1 TOR_20260827_1  35          3                   0                  0             3
+TOR_20260828_1 TOR_20260828_1  38          3                   0                  0             1
+TOR_20260829_1 TOR_20260829_1  36          6                   2                  0             6
+TOR_20260830_1 TOR_20260830_1  38          5                   2                  0             4
+TOR_20260901_1 TOR_20260901_1  32         14                   0                  0             0
+TOR_20260902_1 TOR_20260902_1  44          8                   0                  0             0
+TOR_20260903_1 TOR_20260903_1  44         10                   0                  0             0
+TOR_20260904_1 TOR_20260904_1  43          4                   0                  0             0
+TOR_20260905_1 TOR_20260905_1  42          4                   0                  0             0
+TOR_20260906_1 TOR_20260906_1  34          5                   0                  0             0
+TOR_20260907_1 TOR_20260907_1  38          4                   0                  0             0
+TOR_20260908_1 TOR_20260908_1  36          6                   0                  0             0
+TOR_20260909_1 TOR_20260909_1  34          9                   0                  0             0
+TOR_20260911_1 TOR_20260911_1  40          9                   1                  0             2
+TOR_20260912_1 TOR_20260912_1  39         10                   0                  0             0
+TOR_20260913_1 TOR_20260913_1  39          6                   1                  0             4
+  disrupted_first_pitch risp_start strikeout Freq
+1                     0          0         0  603
+2                     1          0         0   10
+3                     0          1         0  228
+4                     1          1         0    2
+5                     0          0         1  140
+6                     1          0         1    1
+7                     0          1         1   44
+8                     1          1         1    0
+
+PA LENGTH BY ANY DISRUPTION (descriptive)
+  disrupted_any   n mean_pitches median_pitches max_pitches
+1             0 978     3.764826              4          11
+2             1  50     5.160000              6           8
+
+FIRST DISRUPTION POSITION
+
+   1    2    3    4    5    6 <NA> 
+  13    4    8   11    7    7  978 
+
+FIRST DISRUPTION ON TERMINAL PITCH
+
+   0    1 <NA> 
+  35   15  978 
+
+Project 2 diagnostics saved in: outputs/project2/diagnostics/20261002_153144_23628 

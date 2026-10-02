@@ -1,0 +1,5 @@
+"exposure","value","pas","strikeouts","non_strikeouts","strikeout_fraction","games","batters"
+"disrupted_first_pitch",0,1015,184,831,0.18128078817734,27,16
+"disrupted_first_pitch",1,13,1,12,0.0769230769230769,9,6
+"disrupted_any",0,978,179,799,0.183026584867076,27,16
+"disrupted_any",1,50,6,44,0.12,16,14
