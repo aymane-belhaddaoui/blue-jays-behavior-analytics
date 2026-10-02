@@ -1,0 +1,8 @@
+This is an evidence-limited exploratory workstream, not an adjusted effect estimate.
+Only 13 first-pitch-exposed PAs and one exposed strikeout support the contrast.
+The GLM is an unadjusted learning benchmark. No Wald significance result is promoted.
+Fisher is an independent-PA reference; exact refers to that reference distribution, not validity under clustered observations.
+A confidence interval spanning one does not demonstrate equivalence or no association.
+Batter and game composition may confound the comparison. Sparse support is not repaired by penalization alone.
+Any-PA disruption stays descriptive because timing/opportunity differ. Total pitch count is not a baseline covariate.
+No model selected using validation/test outcomes. GitHub remains private until all four workstreams are finished.
