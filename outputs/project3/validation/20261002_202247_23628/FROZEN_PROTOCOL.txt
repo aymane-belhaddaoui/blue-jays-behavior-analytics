@@ -1,0 +1,13 @@
+List of 12
+ $ shortlist        : chr [1:2] "M0_prevalence" "M2_behavior"
+ $ formula          : chr "target_strikeout ~ log_routine + total_tics"
+ $ selection_metric : chr "Validation log loss, lower is better"
+ $ tie_rule         : chr "Within 1e-12 choose M0_prevalence"
+ $ threshold        : num 0.5
+ $ threshold_purpose: chr "Diagnostic only; not an operational recommendation"
+ $ preprocessing    : chr "Natural log of observed positive duration; no learned scaling or imputation"
+ $ fitting_data     : chr "Train only: 1027 first-pitch rows, 27 games"
+ $ selection_data   : chr "Validation only: 223 first-pitch rows, 6 games"
+ $ final_plan       : chr "After review, refit selected model on Train+Validation; evaluate selected model and prevalence comparator on Te"| __truncated__
+ $ test_use         : chr "None in this script"
+ $ visibility       : chr "GitHub private until all four workstreams finished"

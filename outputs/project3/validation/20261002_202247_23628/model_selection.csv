@@ -1,0 +1,2 @@
+"selected_model","criterion","baseline_log_loss","behavior_log_loss","behavior_minus_baseline","test_evaluated"
+"M2_behavior","Validation log loss",0.422872793185837,0.422699619233794,-0.000173173952043026,FALSE

@@ -1,0 +1,48 @@
+
+VALIDATION SCORES: 223 PAs, six later games
+          model   n events prevalence mean_prediction  log_loss     brier   roc_auc threshold  accuracy precision
+1 M0_prevalence 223     33  0.1479821       0.1801363 0.4228728 0.1271173 0.5000000       0.5 0.8520179        NA
+2   M2_behavior 223     33  0.1479821       0.1810701 0.4226996 0.1271442 0.5239234       0.5 0.8520179        NA
+  recall tp fp  tn fn
+1      0  0  0 190 33
+2      0  0  0 190 33
+
+LOCKED SELECTION RULE RESULT
+  selected_model           criterion baseline_log_loss behavior_log_loss behavior_minus_baseline test_evaluated
+1    M2_behavior Validation log loss         0.4228728         0.4226996            -0.000173174          FALSE
+
+PER-GAME DIAGNOSTICS
+                                    game_id         model  n events prevalence mean_prediction  log_loss      brier
+TOR_20260914_1.M0_prevalence TOR_20260914_1 M0_prevalence 40      7  0.1750000       0.1801363 0.4638164 0.14440138
+TOR_20260915_1.M0_prevalence TOR_20260915_1 M0_prevalence 36      6  0.1666667       0.1801363 0.4511879 0.13907032
+TOR_20260916_1.M0_prevalence TOR_20260916_1 M0_prevalence 36      4  0.1111111       0.1801363 0.3669977 0.10352991
+TOR_20260918_1.M0_prevalence TOR_20260918_1 M0_prevalence 34      7  0.2058824       0.1801363 0.5106163 0.16415767
+TOR_20260919_1.M0_prevalence TOR_20260919_1 M0_prevalence 34      4  0.1176471       0.1801363 0.3769024 0.10771114
+TOR_20260920_1.M0_prevalence TOR_20260920_1 M0_prevalence 43      5  0.1162791       0.1801363 0.3748293 0.10683600
+TOR_20260914_1.M2_behavior   TOR_20260914_1   M2_behavior 40      7  0.1750000       0.1772433 0.4791794 0.14878899
+TOR_20260915_1.M2_behavior   TOR_20260915_1   M2_behavior 36      6  0.1666667       0.1770884 0.4524334 0.13945057
+TOR_20260916_1.M2_behavior   TOR_20260916_1   M2_behavior 36      4  0.1111111       0.1825800 0.3495378 0.09807007
+TOR_20260918_1.M2_behavior   TOR_20260918_1   M2_behavior 34      7  0.2058824       0.1747150 0.5050852 0.16288084
+TOR_20260919_1.M2_behavior   TOR_20260919_1   M2_behavior 34      4  0.1176471       0.1885992 0.3875171 0.11095804
+TOR_20260920_1.M2_behavior   TOR_20260920_1   M2_behavior 43      5  0.1162791       0.1857713 0.3691954 0.10558904
+                               roc_auc threshold  accuracy precision recall tp fp tn fn
+TOR_20260914_1.M0_prevalence 0.5000000       0.5 0.8250000        NA      0  0  0 33  7
+TOR_20260915_1.M0_prevalence 0.5000000       0.5 0.8333333        NA      0  0  0 30  6
+TOR_20260916_1.M0_prevalence 0.5000000       0.5 0.8888889        NA      0  0  0 32  4
+TOR_20260918_1.M0_prevalence 0.5000000       0.5 0.7941176        NA      0  0  0 27  7
+TOR_20260919_1.M0_prevalence 0.5000000       0.5 0.8823529        NA      0  0  0 30  4
+TOR_20260920_1.M0_prevalence 0.5000000       0.5 0.8837209        NA      0  0  0 38  5
+TOR_20260914_1.M2_behavior   0.3549784       0.5 0.8250000        NA      0  0  0 33  7
+TOR_20260915_1.M2_behavior   0.6027778       0.5 0.8333333        NA      0  0  0 30  6
+TOR_20260916_1.M2_behavior   0.7265625       0.5 0.8888889        NA      0  0  0 32  4
+TOR_20260918_1.M2_behavior   0.5740741       0.5 0.7941176        NA      0  0  0 27  7
+TOR_20260919_1.M2_behavior   0.3916667       0.5 0.8823529        NA      0  0  0 30  4
+TOR_20260920_1.M2_behavior   0.5947368       0.5 0.8837209        NA      0  0  0 38  5
+
+DESCRIPTIVE CALIBRATION BINS
+                                model       bin   n mean_prediction observed_fraction
+M0_prevalence.(0.1,0.2] M0_prevalence (0.1,0.2] 223       0.1801363         0.1479821
+M2_behavior.(0.1,0.2]     M2_behavior (0.1,0.2] 174       0.1699953         0.1436782
+M2_behavior.(0.2,0.3]     M2_behavior (0.2,0.3]  49       0.2203971         0.1632653
+
+Validation outputs saved in: outputs/project3/validation/20261002_202247_23628 

@@ -1,0 +1,8 @@
+Validation is now used for selection; it is not final unbiased test performance.
+No new candidate, recalibration or threshold was selected from the calibration/game diagnostics.
+A lower score may be a tiny difference. Selection does not establish meaningful superiority.
+Six games give limited evidence; no independent-PA performance intervals or significance tests are claimed.
+0.5 is a diagnostic threshold only. No operating costs have been specified.
+The next step reviews this fixed selection, refits using Train+Validation, and performs one final Test assessment.
+Test rows may have been loaded by shared ingestion, but no Test predictions, targets or scores are analyzed here.
+Earlier full-period predictor EDA remains documented. GitHub stays private until all four workstreams finish.

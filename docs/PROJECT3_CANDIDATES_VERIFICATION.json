@@ -1,0 +1,29 @@
+{
+  "files": 13,
+  "input_hashes_matched": 12,
+  "prediction_rows_checked": 4608,
+  "models": 8,
+  "distinct_assessment_pas": 576,
+  "reported_fold_and_pooled_metrics_recomputed": true,
+  "baseline_predictions_match_previous_run": true,
+  "encoding_audit_recomputed": true,
+  "model_fit_limit": "New glmnet/ranger models not independently refitted in R; saved RDS retained without deserialization. Metrics verified from stored probabilities.",
+  "validation_protocol": "Frozen shortlist M0_prevalence and M2_behavior; select lower Validation log loss; numerical ties within 1e-12 favor M0; no threshold tuning; Test unused until final selected-model assessment.",
+  "script12_status": "Source inspected but not run. No Validation/Test scores calculated during this review.",
+  "github_visibility": "Private until all four workstreams are finished",
+  "uploaded_sha256": {
+    "11_project3_candidates.R": "d60f62732c6af4597110b7653985713fb913184b3d8e4e608854980a55abe91d",
+    "DESIGN_AND_LIMITS.txt": "e8aeed89046ac22bea662617c23a079e33910853df9904e55fdbc2118fa595e8",
+    "RUN_COMPLETE.txt": "e95e2ce18cd1472c971c6853e13c78f680224d0e6ca002b2da633794f033de7b",
+    "all_out_of_fold_predictions.csv": "f342d1b5b4e71cfe44351f6942e37f7a62fbfeb3e4e51fba3a69e96ff125e878",
+    "behavior_increment_by_fold.csv": "28d101ec898b1487c148e401690cbabf5a5a40d8a05e118b643acd75a901a9fb",
+    "console.txt": "32c8105d1382c7ffa3c15908c17a86a36b940d31c8410bb12c453f60cf08b2ce",
+    "encoding_audit.csv": "245d3b5387c463bce26016bf267e36fcd21352809c93dd3fd28cba2fb32d87b3",
+    "fold_metrics.csv": "24bb3f7726ec466ac6948da3c4a3827503ffb51ff34da7a4a857ca3201c87f75",
+    "fold_schedule.csv": "fb47e4aeca539bc9eada11825f12faa2f4b11e07ff5b146dc856d2c04ade3867",
+    "input_hashes.csv": "63107dbf0514b1ef637fff78cdc156e4b117d0c37f003bfa34a2e9d3df3351d9",
+    "pooled_metrics.csv": "e6bf9be6e8b2a82896571f5ea663257d424f17b4763e33440967a08021cb6289",
+    "project3_candidates.rds": "6167bcc9562146abb23e87883bbcab5121385f5c62feb449d1b41c38a6d708ed",
+    "sessionInfo.txt": "010024dd5b8260f345613d9da0c817849c99fc1db9f488764a10baa2e4633031"
+  }
+}
