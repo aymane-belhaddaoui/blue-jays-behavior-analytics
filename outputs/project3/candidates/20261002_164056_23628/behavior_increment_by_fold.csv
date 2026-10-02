@@ -1,0 +1,7 @@
+"fold","with_behavior","without_behavior","log_loss_difference","brier_difference"
+1,"M5_ridge_player_behavior","M4_ridge_player_context",-0.00253928088029154,-0.00157511215265338
+2,"M5_ridge_player_behavior","M4_ridge_player_context",0.0012486293120117,0.000239814987245401
+3,"M5_ridge_player_behavior","M4_ridge_player_context",-0.00917594007519063,-0.0025598324912969
+1,"M7_forest_player_behavior","M6_forest_player_context",-0.0048399413760305,-0.00164128611804595
+2,"M7_forest_player_behavior","M6_forest_player_context",-0.00581884488210288,-0.00153508183486703
+3,"M7_forest_player_behavior","M6_forest_player_context",0.000779993031542192,4.57545900042766e-06

@@ -1,0 +1,10 @@
+Fixed candidate round: ridge lambda .01; probability forests 500 trees, min.node.size 20, mtry floor(sqrt(p)).
+Lambda path supplies warm starts; only .01 is assessed. No hyperparameter search is conducted.
+Player/opponent one-hot levels and zero-variance filtering learned within fit window only.
+Unseen categories use all-zero indicators for their field, not target encoding. Rows logged in encoding_audit.csv.
+glmnet standardization is learned from fit data internally; forest input is unstandardized.
+Compare behavior additions within the same model family. Different-feature forests also change mtry under the fixed rule.
+This is exploratory model development after reviewing script10. Reusing folds does not make selection unbiased.
+No holdout evaluation, threshold tuning, class balancing, or feature-importance claim.
+Review this bounded round, freeze a shortlist, then evaluate Validation. Test remains for final assessment.
+GitHub remains private until all four workstreams are finished.

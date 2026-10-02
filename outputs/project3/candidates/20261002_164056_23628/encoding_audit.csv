@@ -1,0 +1,7 @@
+"fold","feature_set","columns","unseen_batter_rows","unseen_opponent_rows","ridge_lambda","forest_trees","forest_mtry","forest_min_node_size"
+1,"context",20,0,187,0.01,500,4,20
+1,"behavior",22,0,187,0.01,500,4,20
+2,"context",22,8,38,0.01,500,4,20
+2,"behavior",24,8,38,0.01,500,4,20
+3,"context",24,4,118,0.01,500,4,20
+3,"behavior",26,4,118,0.01,500,5,20

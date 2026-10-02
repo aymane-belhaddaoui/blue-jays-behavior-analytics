@@ -1,0 +1,47 @@
+
+POOLED DEVELOPMENT METRICS
+                                              model   n events  log_loss     brier   roc_auc  accuracy precision
+M2_behavior                             M2_behavior 576    103 0.4697460 0.1465835 0.5310351 0.8211806        NA
+M0_prevalence                         M0_prevalence 576    103 0.4707012 0.1471675 0.4398284 0.8211806        NA
+M3_context_behavior             M3_context_behavior 576    103 0.4771687 0.1491163 0.4853548 0.8211806        NA
+M1_context                               M1_context 576    103 0.4781467 0.1495194 0.4679283 0.8211806        NA
+M7_forest_player_behavior M7_forest_player_behavior 576    103 0.4877301 0.1506529 0.5293828 0.8211806        NA
+M5_ridge_player_behavior   M5_ridge_player_behavior 576    103 0.4904965 0.1511989 0.5397689 0.8211806       0.5
+M6_forest_player_context   M6_forest_player_context 576    103 0.4910773 0.1517199 0.5200230 0.8211806        NA
+M4_ridge_player_context     M4_ridge_player_context 576    103 0.4938800 0.1524621 0.5287260 0.8211806       0.5
+                               recall tp fp  tn  fn log_loss_difference_vs_baseline
+M2_behavior               0.000000000  0  0 473 103                   -0.0009552235
+M0_prevalence             0.000000000  0  0 473 103                    0.0000000000
+M3_context_behavior       0.000000000  0  0 473 103                    0.0064674673
+M1_context                0.000000000  0  0 473 103                    0.0074454127
+M7_forest_player_behavior 0.000000000  0  0 473 103                    0.0170288178
+M5_ridge_player_behavior  0.009708738  1  1 472 102                    0.0197952128
+M6_forest_player_context  0.000000000  0  0 473 103                    0.0203760716
+M4_ridge_player_context   0.009708738  1  1 472 102                    0.0231788026
+
+BEHAVIOR INCREMENT WITHIN MODEL FAMILY (negative favors behavior)
+  fold             with_behavior         without_behavior log_loss_difference brier_difference
+1    1  M5_ridge_player_behavior  M4_ridge_player_context        -0.002539281    -1.575112e-03
+2    2  M5_ridge_player_behavior  M4_ridge_player_context         0.001248629     2.398150e-04
+3    3  M5_ridge_player_behavior  M4_ridge_player_context        -0.009175940    -2.559832e-03
+4    1 M7_forest_player_behavior M6_forest_player_context        -0.004839941    -1.641286e-03
+5    2 M7_forest_player_behavior M6_forest_player_context        -0.005818845    -1.535082e-03
+6    3 M7_forest_player_behavior M6_forest_player_context         0.000779993     4.575459e-06
+
+ENCODING / SETTINGS AUDIT
+           fold feature_set columns unseen_batter_rows unseen_opponent_rows ridge_lambda forest_trees forest_mtry
+1_context     1     context      20                  0                  187         0.01          500           4
+1_behavior    1    behavior      22                  0                  187         0.01          500           4
+2_context     2     context      22                  8                   38         0.01          500           4
+2_behavior    2    behavior      24                  8                   38         0.01          500           4
+3_context     3     context      24                  4                  118         0.01          500           4
+3_behavior    3    behavior      26                  4                  118         0.01          500           5
+           forest_min_node_size
+1_context                    20
+1_behavior                   20
+2_context                    20
+2_behavior                   20
+3_context                    20
+3_behavior                   20
+
+Candidate outputs saved in: outputs/project3/candidates/20261002_164056_23628 

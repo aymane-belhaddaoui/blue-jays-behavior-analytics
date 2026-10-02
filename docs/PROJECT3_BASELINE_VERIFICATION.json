@@ -1,0 +1,44 @@
+{
+  "uploaded_files": 13,
+  "input_hashes_matched": 10,
+  "prediction_rows": 2304,
+  "distinct_assessment_pas": 576,
+  "fold_membership_verified": true,
+  "all_predictions_reproduced_from_csv": "Independent logistic IRLS and prevalence calculations",
+  "max_prediction_absolute_difference": 1.9122758931899853e-12,
+  "all_reported_metrics_recomputed": true,
+  "rds": "Preserved intact; not deserialized",
+  "next_script": "R source reviewed; category handling checked against training folds; new package fits not run in this environment",
+  "category_audit": [
+    {
+      "fold": 1,
+      "unseen_batter_rows": 0,
+      "unseen_opponent_rows": 187
+    },
+    {
+      "fold": 2,
+      "unseen_batter_rows": 8,
+      "unseen_opponent_rows": 38
+    },
+    {
+      "fold": 3,
+      "unseen_batter_rows": 4,
+      "unseen_opponent_rows": 118
+    }
+  ],
+  "uploaded_sha256": {
+    "10_project3_baselines.R": "90dad2e8b65d74b070bb844a5cbaf66d3dd7716a5aa7cdfe1b00cc45bdf446bb",
+    "DESIGN_AND_LIMITS.txt": "0a9e583f5b469a270d3407df8e2725842d3623896fa5cf6f2746894827310977",
+    "RUN_COMPLETE.txt": "89373bc69319ce5d597381679ad3d1a6b077371f787ae388a43829d1d24f7acd",
+    "console.txt": "12d98244638f6b3176cf0ba41a5decc594717162b472d6101b2f5bd61c129540",
+    "fold_membership.csv": "0969a93507a1df8d05fc1703434dc8f426b83be3efeac69df7eeab17d34e8e00",
+    "fold_metrics.csv": "79eb12a962dd9f2899252dc5b94cbd490735641dd23514f5c652fedf6cc58c72",
+    "fold_schedule.csv": "fb47e4aeca539bc9eada11825f12faa2f4b11e07ff5b146dc856d2c04ade3867",
+    "input_hashes.csv": "54919430fda3dbf4c60bc301eaff0ee2fb88aea902664f4aedf5fb17693b6a87",
+    "out_of_fold_predictions.csv": "247748e0d42a43077c735dba83460a62524ed79f55cba567d2c21941fd33ad4f",
+    "pooled_metrics.csv": "cc0f73beeac6f44e73cada0b50168405bf523e8da3cc3c8c91c5e67575d6cced",
+    "project3_baselines.rds": "83ea3c1ce9d679ea8493e822306e5c0426056da80130517bc6cba10336727cc5",
+    "sessionInfo.txt": "60219410607a97c67a188a0fed472f628d834f909d241bf95ec6325e2cacba5d",
+    "train_cohort_ids.csv": "edf734735be4867a0b3dec4b648f11398af0c4c27b95bd0797402ac48e13e0ab"
+  }
+}
