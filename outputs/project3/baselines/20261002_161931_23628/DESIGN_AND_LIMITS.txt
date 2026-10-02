@@ -1,0 +1,12 @@
+Primary development metric: log loss. Secondary: Brier score; ROC-AUC describes ranking.
+0.5 is a diagnostic threshold only; no threshold optimization or class balancing.
+First 12 training dates initialize fitting; OOF metrics cover the later 15 dates only.
+The baseline estimates prevalence from each fold's fit data, never assessment labels.
+Pooled AUC can reflect differences between folds; inspect fold AUCs as well.
+All folds come from Train. Validation and Test outcomes are not evaluated.
+Later folds reuse earlier assessment dates for fitting, as in expanding-window forecasting.
+No independent-PA standard errors, model-comparison p-values or performance CIs are claimed.
+Same-team later-game prediction; not a test of generalization to unseen players.
+Initial context is limited to RISP, home/road and inning; no player/opponent benchmark yet.
+A winning development score is not a final selected/tested model. Holdout evaluation follows a frozen specification.
+Earlier full-period predictor EDA remains documented. No labels from holdout are used to choose this design.

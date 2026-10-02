@@ -1,0 +1,55 @@
+{
+  "files_in_association_run": 14,
+  "input_hashes_matched": 10,
+  "cohort_ids_exact_match": true,
+  "descriptive_glm_and_omitted_game_counts_verified": true,
+  "fisher_verified": "Independent SciPy calculation; conditional estimate/CI agree within absolute 3e-5 (numerical tolerance), p-value agrees",
+  "rds_status": "Preserved byte-for-byte, not deserialized",
+  "next_script_status": "R source inspected; joins, counts, temporal fold separation and design-matrix rank checked in Python. R execution pending. No baseline performance claimed.",
+  "script10_folds": [
+    {
+      "fold": 1,
+      "fit_start": "2026-08-14",
+      "fit_end": "2026-08-27",
+      "assess_start": "2026-08-28",
+      "assess_end": "2026-09-02",
+      "fit_n": 451,
+      "assess_n": 187
+    },
+    {
+      "fold": 2,
+      "fit_start": "2026-08-14",
+      "fit_end": "2026-09-02",
+      "assess_start": "2026-09-03",
+      "assess_end": "2026-09-07",
+      "fit_n": 638,
+      "assess_n": 201
+    },
+    {
+      "fold": 3,
+      "fit_start": "2026-08-14",
+      "fit_end": "2026-09-07",
+      "assess_start": "2026-09-08",
+      "assess_end": "2026-09-13",
+      "fit_n": 839,
+      "assess_n": 188
+    }
+  ],
+  "github_visibility": "Private until all four workstreams are finished",
+  "uploaded_sha256": {
+    "09_project2_sparse_association.R": "3c0895dcd6fc8fb4dbc42c68fdd9cde1140822e48376738caef41ed6431aa44d",
+    "INTERPRETATION_LIMITS.txt": "2a323826129b4662a5d48958905bf9ab803ea7ce762652dd29cf7cf31d1ff07c",
+    "RUN_COMPLETE.txt": "5073215ce16a15f15cdf55657a604615b659a41ad00e7c9ed2fc0cada894665b",
+    "cohort_ids.csv": "db8896995dd11f91d29b149243aa9b97badf0afded3cf9c45e731a04e6d70403",
+    "console.txt": "d044c1972aabb174aadea029be35262132adebdaaf6ff454c0029ed9c94ccea8",
+    "descriptive_association.csv": "ae6fe4cebe3d0e1c38333b619a8632c24713298af02f53eb1fce2ad6e8e6c8c1",
+    "first_pitch_2x2.csv": "6d924336f70040b2687d03f641259d0b837cbe1661c08cbb9bd61d7644dd73a6",
+    "glm_coefficients.csv": "7186c6c6bfc3fc9ac7dd81a87ae3cbba97ca12dd2a5ffbd43651bd6c5157214f",
+    "glm_fitted_probabilities.csv": "194ff079c0989896979b996cb45a8d081e04487acbd8a57631814b37336b552a",
+    "independence_reference_fisher.csv": "96cebae658b0f33931806f1a55304e7b9bfaefe69666d3ba82ce014591f8ff5d",
+    "input_hashes.csv": "c5bac2fa954dda18a4217b0dc12aea9384a0520e19cb5d5fd253d3475ebc96e5",
+    "leave_one_game_out_support.csv": "b164b5b4cd5bdbd675c4a56a0e802b86f6cdf0929518e3792ca3c7f2864181a1",
+    "project2_sparse_association.rds": "e9057a43f11fa0a28bafa39ecbaff394b9f2eb702c4493b46db7bfb71f9e2f85",
+    "sessionInfo.txt": "60219410607a97c67a188a0fed472f628d834f909d241bf95ec6325e2cacba5d"
+  }
+}

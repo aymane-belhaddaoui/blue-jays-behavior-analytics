@@ -1,0 +1,48 @@
+
+FIXED TEMPORAL FOLDS
+  fold  fit_start    fit_end assess_start assess_end fit_n fit_events assess_n assess_events
+1    1 2026-08-14 2026-08-27   2026-08-28 2026-09-02   451         82      187            36
+2    2 2026-08-14 2026-09-02   2026-09-03 2026-09-07   638        118      201            27
+3    3 2026-08-14 2026-09-07   2026-09-08 2026-09-13   839        145      188            40
+
+FOLD METRICS
+                      fold               model   n events prevalence  log_loss     brier   roc_auc threshold
+1.M0_prevalence          1       M0_prevalence 187     36  0.1925134 0.4902257 0.1555664 0.5000000       0.5
+2.M0_prevalence          2       M0_prevalence 201     27  0.1343284 0.4037378 0.1188471 0.5000000       0.5
+3.M0_prevalence          3       M0_prevalence 188     40  0.2127660 0.5228745 0.1690919 0.5000000       0.5
+1.M1_context             1          M1_context 187     36  0.1925134 0.4863429 0.1544284 0.5768948       0.5
+2.M1_context             2          M1_context 201     27  0.1343284 0.4210873 0.1247368 0.4497659       0.5
+3.M1_context             3          M1_context 188     40  0.2127660 0.5309989 0.1711328 0.4646959       0.5
+1.M2_behavior            1         M2_behavior 187     36  0.1925134 0.4907725 0.1552647 0.5198675       0.5
+2.M2_behavior            2         M2_behavior 201     27  0.1343284 0.4018432 0.1181154 0.5609834       0.5
+3.M2_behavior            3         M2_behavior 188     40  0.2127660 0.5214297 0.1683852 0.5589527       0.5
+1.M3_context_behavior    1 M3_context_behavior 187     36  0.1925134 0.4883849 0.1548685 0.5407469       0.5
+2.M3_context_behavior    2 M3_context_behavior 201     27  0.1343284 0.4185150 0.1237663 0.4755215       0.5
+3.M3_context_behavior    3 M3_context_behavior 188     40  0.2127660 0.5287217 0.1704976 0.4995777       0.5
+                       accuracy precision recall tp fp  tn fn
+1.M0_prevalence       0.8074866        NA      0  0  0 151 36
+2.M0_prevalence       0.8656716        NA      0  0  0 174 27
+3.M0_prevalence       0.7872340        NA      0  0  0 148 40
+1.M1_context          0.8074866        NA      0  0  0 151 36
+2.M1_context          0.8656716        NA      0  0  0 174 27
+3.M1_context          0.7872340        NA      0  0  0 148 40
+1.M2_behavior         0.8074866        NA      0  0  0 151 36
+2.M2_behavior         0.8656716        NA      0  0  0 174 27
+3.M2_behavior         0.7872340        NA      0  0  0 148 40
+1.M3_context_behavior 0.8074866        NA      0  0  0 151 36
+2.M3_context_behavior 0.8656716        NA      0  0  0 174 27
+3.M3_context_behavior 0.7872340        NA      0  0  0 148 40
+
+POOLED OUT-OF-FOLD METRICS: lower log loss/Brier is better
+                                  model   n events prevalence  log_loss     brier   roc_auc threshold  accuracy
+M2_behavior                 M2_behavior 576    103  0.1788194 0.4697460 0.1465835 0.5310351       0.5 0.8211806
+M0_prevalence             M0_prevalence 576    103  0.1788194 0.4707012 0.1471675 0.4398284       0.5 0.8211806
+M3_context_behavior M3_context_behavior 576    103  0.1788194 0.4771687 0.1491163 0.4853548       0.5 0.8211806
+M1_context                   M1_context 576    103  0.1788194 0.4781467 0.1495194 0.4679283       0.5 0.8211806
+                    precision recall tp fp  tn  fn log_loss_difference_vs_baseline brier_difference_vs_baseline
+M2_behavior                NA      0  0  0 473 103                   -0.0009552235                -0.0005839207
+M0_prevalence              NA      0  0  0 473 103                    0.0000000000                 0.0000000000
+M3_context_behavior        NA      0  0  0 473 103                    0.0064674673                 0.0019488456
+M1_context                 NA      0  0  0 473 103                    0.0074454127                 0.0023519141
+
+Project 3 baseline outputs saved in: outputs/project3/baselines/20261002_161931_23628 
