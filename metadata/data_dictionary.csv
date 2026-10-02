@@ -1,0 +1,162 @@
+table,column,storage_type,missing,definition
+games,game_id,text,CSV empty; database NULL; R NA,"Stable source game ID. Join key, not model predictor."
+games,game_order,integer,CSV empty; database NULL; R NA,Chronological order among 39 logged games.
+games,game_timestamp,text,CSV empty; database NULL; R NA,ISO source timestamp; 12:00 offsets distinguish doubleheaders and are not actual start times.
+games,game_date,text,CSV empty; database NULL; R NA,ISO calendar date. Does not uniquely identify doubleheaders.
+games,game_on_date,integer,CSV empty; database NULL; R NA,Ordinal game slot on the date.
+games,home,integer,CSV empty; database NULL; R NA,"1 home, 0 road."
+games,opponent,text,CSV empty; database NULL; R NA,Recorded opposing franchise.
+games,result,text,CSV empty; database NULL; R NA,W or L.
+games,win,integer,CSV empty; database NULL; R NA,"1 win, 0 loss."
+games,runs_for,integer,CSV empty; database NULL; R NA,Blue Jays final game score.
+games,runs_against,integer,CSV empty; database NULL; R NA,Opponent final game score.
+games,run_differential,integer,CSV empty; database NULL; R NA,runs_for minus runs_against.
+games,split,text,CSV empty; database NULL; R NA,Train through Sep 13; Validation Sep 14–20; Test Sep 21–27. Metadata only.
+games,pitch_count,integer,CSV empty; database NULL; R NA,Number of pitch rows for the table record (PA or game).
+games,pa_count,integer,CSV empty; database NULL; R NA,Number of PA records including flagged records.
+games,routine_n,integer,CSV empty; database NULL; R NA,Number of available durations including calculated value.
+games,routine_mean_secs,real,CSV empty; database NULL; R NA,Mean available durations including calculated value.
+games,routine_sd_secs,real,CSV empty; database NULL; R NA,Sample SD of available durations; NULL for n<2.
+games,routine_cv,real,CSV empty; database NULL; R NA,Sample SD divided by mean duration.
+games,tic_n,integer,CSV empty; database NULL; R NA,Number of fully measured tic records.
+games,tics_mean,real,CSV empty; database NULL; R NA,Mean total tics per fully measured pitch.
+games,disruption_count,integer,CSV empty; database NULL; R NA,Count of disrupted pitches in game.
+games,disruption_rate,real,CSV empty; database NULL; R NA,Disrupted pitches divided by logged pitches.
+games,risp_rate,real,CSV empty; database NULL; R NA,Share of pitches with RISP.
+games,logged_offensive_innings,integer,CSV empty; database NULL; R NA,Highest offensive inning logged; not full game length.
+games,prior_5_win_rate,real,CSV empty; database NULL; R NA,Win proportion of five preceding logged games; NULL for first five.
+games,window_win_streak_before,integer,CSV empty; database NULL; R NA,"Consecutive wins before current game, left-truncated at study start."
+games,disruption_coverage,text,CSV empty; database NULL; R NA,Observed_User_Confirmed; no external authentication implied.
+batters,batter_id,text,CSV empty; database NULL; R NA,"Dataset-local batter ID, not an MLB identifier."
+batters,batter_name,text,CSV empty; database NULL; R NA,"Recorded batter name, Unicode preserved."
+plate_appearances,pa_id,text,CSV empty; database NULL; R NA,"Stable PA ID. Join/grouping key, not predictor."
+plate_appearances,game_id,text,CSV empty; database NULL; R NA,"Stable source game ID. Join key, not model predictor."
+plate_appearances,batter_id,text,CSV empty; database NULL; R NA,"Dataset-local batter ID, not an MLB identifier."
+plate_appearances,inning,integer,CSV empty; database NULL; R NA,Offensive inning number.
+plate_appearances,first_source_row,integer,CSV empty; database NULL; R NA,First source row of PA.
+plate_appearances,last_source_row,integer,CSV empty; database NULL; R NA,Final source row of PA.
+plate_appearances,pitch_count,integer,CSV empty; database NULL; R NA,Number of pitch rows for the table record (PA or game).
+plate_appearances,pa_result,text,CSV empty; database NULL; R NA,"Recorded terminal category, generic Hit not reinterpreted as Single."
+plate_appearances,pa_group,text,CSV empty; database NULL; R NA,"Hit aggregates Hit/Double/Home Run; Batted_Out aggregates Groundout/Flyout/Lineout. Walk, HBP, Strikeout and Fielders_Choice separate."
+plate_appearances,strikeout,integer,CSV empty; database NULL; R NA,1 if recorded outcome Strikeout.
+plate_appearances,hit_any,integer,CSV empty; database NULL; R NA,"1 Hit, Double or Home Run."
+plate_appearances,walk,integer,CSV empty; database NULL; R NA,"1 Walk, excluding HBP."
+plate_appearances,hbp,integer,CSV empty; database NULL; R NA,1 hit by pitch.
+plate_appearances,pa_sequence_valid,integer,CSV empty; database NULL; R NA,1 when internal sequence checks pass. Not source authentication.
+plate_appearances,outcome_inferred,integer,CSV empty; database NULL; R NA,1 for the PA with assistant-inferred Walk at Q9.
+plate_appearances,outcome_comment_corrected,integer,CSV empty; database NULL; R NA,1 for the PA with comment-supported HR at Q120.
+plate_appearances,risp_start,integer,CSV empty; database NULL; R NA,RISP before first pitch of PA.
+plate_appearances,disrupted_first_pitch,integer,CSV empty; database NULL; R NA,Disruption on first pitch; primary exploratory PA-level exposure.
+plate_appearances,disrupted_any,integer,CSV empty; database NULL; R NA,"Any disruption during PA; retrospective, depends on PA length/opportunity."
+plate_appearances,disrupted_pitches,integer,CSV empty; database NULL; R NA,Number of disrupted pitches in PA.
+plate_appearances,routine_n,integer,CSV empty; database NULL; R NA,Number of available durations including calculated value.
+plate_appearances,routine_mean_secs,real,CSV empty; database NULL; R NA,Mean available durations including calculated value.
+plate_appearances,routine_sd_secs,real,CSV empty; database NULL; R NA,Sample SD of available durations; NULL for n<2.
+plate_appearances,tic_n,integer,CSV empty; database NULL; R NA,Number of fully measured tic records.
+plate_appearances,tics_mean,real,CSV empty; database NULL; R NA,Mean total tics per fully measured pitch.
+plate_appearances,outcome_model_eligible,integer,CSV empty; database NULL; R NA,Valid PA sequence and outcome not assistant-inferred.
+pitches,pitch_id,text,CSV empty; database NULL; R NA,Stable pitch ID in preserved source order.
+pitches,pa_id,text,CSV empty; database NULL; R NA,"Stable PA ID. Join/grouping key, not predictor."
+pitches,source_row,integer,CSV empty; database NULL; R NA,Row number in the prior Pitch Log workbook.
+pitches,pitch_number_pa,integer,CSV empty; database NULL; R NA,1-based pitch position in PA.
+pitches,pre_balls,integer,CSV empty; database NULL; R NA,Count before pitch; NULL after unresolved count contradiction.
+pitches,pre_strikes,integer,CSV empty; database NULL; R NA,Strikes before pitch; NULL after unresolved contradiction.
+pitches,runner_on_first,integer,CSV empty; database NULL; R NA,0/1 pre-pitch first-base occupancy.
+pitches,runner_on_second,integer,CSV empty; database NULL; R NA,0/1 pre-pitch second-base occupancy.
+pitches,runner_on_third,integer,CSV empty; database NULL; R NA,0/1 pre-pitch third-base occupancy.
+pitches,risp,integer,CSV empty; database NULL; R NA,1 when second or third occupied. Not a full leverage or psychological stress measure.
+pitches,runners_on,integer,CSV empty; database NULL; R NA,Sum of three base occupancy indicators.
+pitches,pitcher_disruption,integer,CSV empty; database NULL; R NA,Recorded 0/1 disruption. User confirms observation.
+pitches,routine_time_secs,real,CSV empty; database NULL; R NA,"Recorded duration in seconds. Calculated at source K162, otherwise observed when present."
+pitches,glove_straps,integer,CSV empty; database NULL; R NA,Count of glove-strap adjustments.
+pitches,helmet_touches,integer,CSV empty; database NULL; R NA,Count of helmet touches.
+pitches,plate_taps,integer,CSV empty; database NULL; R NA,Count of plate taps.
+pitches,total_tics,integer,CSV empty; database NULL; R NA,Sum of the three tic counts; NULL if any component missing.
+pitches,pitch_result,text,CSV empty; database NULL; R NA,Outcome of current pitch. Never a pre-pitch predictor.
+pitches,is_terminal,integer,CSV empty; database NULL; R NA,1 when terminal PA result recorded. Never a predictor.
+pitches,routine_over_60_secs,integer,CSV empty; database NULL; R NA,Sensitivity flag; long routines are retained.
+pitches,routine_source,text,CSV empty; database NULL; R NA,"Observed, Calculated or Missing. Observed based on user declaration 2026-09-29."
+pitches,tics_source,text,CSV empty; database NULL; R NA,Observed or Missing per user confirmation and original blanks.
+pitches,disruption_source,text,CSV empty; database NULL; R NA,Observed per user confirmation.
+pitches,routine_model_eligible,integer,CSV empty; database NULL; R NA,1 for present directly observed duration. Excludes calculated K162 and missing values.
+pitches,tics_model_eligible,integer,CSV empty; database NULL; R NA,1 for all three observed tic components.
+pitches,prediction_eligible,integer,CSV empty; database NULL; R NA,"Valid PA, non-inferred outcome, observed complete routine/tics and known pre-count."
+project1_pitches,pitch_id,text,CSV empty; database NULL; R NA,Stable pitch ID in preserved source order.
+project1_pitches,pa_id,text,CSV empty; database NULL; R NA,"Stable PA ID. Join/grouping key, not predictor."
+project1_pitches,game_id,text,CSV empty; database NULL; R NA,"Stable source game ID. Join key, not model predictor."
+project1_pitches,batter_id,text,CSV empty; database NULL; R NA,"Dataset-local batter ID, not an MLB identifier."
+project1_pitches,batter_name,text,CSV empty; database NULL; R NA,"Recorded batter name, Unicode preserved."
+project1_pitches,game_date,text,CSV empty; database NULL; R NA,ISO calendar date. Does not uniquely identify doubleheaders.
+project1_pitches,split,text,CSV empty; database NULL; R NA,Train through Sep 13; Validation Sep 14–20; Test Sep 21–27. Metadata only.
+project1_pitches,home,integer,CSV empty; database NULL; R NA,"1 home, 0 road."
+project1_pitches,opponent,text,CSV empty; database NULL; R NA,Recorded opposing franchise.
+project1_pitches,inning,integer,CSV empty; database NULL; R NA,Offensive inning number.
+project1_pitches,pitch_number_pa,integer,CSV empty; database NULL; R NA,1-based pitch position in PA.
+project1_pitches,pre_balls,integer,CSV empty; database NULL; R NA,Count before pitch; NULL after unresolved count contradiction.
+project1_pitches,pre_strikes,integer,CSV empty; database NULL; R NA,Strikes before pitch; NULL after unresolved contradiction.
+project1_pitches,risp,integer,CSV empty; database NULL; R NA,1 when second or third occupied. Not a full leverage or psychological stress measure.
+project1_pitches,runners_on,integer,CSV empty; database NULL; R NA,Sum of three base occupancy indicators.
+project1_pitches,pitcher_disruption,integer,CSV empty; database NULL; R NA,Recorded 0/1 disruption. User confirms observation.
+project1_pitches,routine_time_secs,real,CSV empty; database NULL; R NA,"Recorded duration in seconds. Calculated at source K162, otherwise observed when present."
+project1_pitches,total_tics,integer,CSV empty; database NULL; R NA,Sum of the three tic counts; NULL if any component missing.
+project1_pitches,routine_source,text,CSV empty; database NULL; R NA,"Observed, Calculated or Missing. Observed based on user declaration 2026-09-29."
+project1_pitches,routine_model_eligible,integer,CSV empty; database NULL; R NA,1 for present directly observed duration. Excludes calculated K162 and missing values.
+project1_pitches,tics_model_eligible,integer,CSV empty; database NULL; R NA,1 for all three observed tic components.
+project1_pitches,pa_sequence_valid,integer,CSV empty; database NULL; R NA,1 when internal sequence checks pass. Not source authentication.
+project2_pas,pa_id,text,CSV empty; database NULL; R NA,"Stable PA ID. Join/grouping key, not predictor."
+project2_pas,game_id,text,CSV empty; database NULL; R NA,"Stable source game ID. Join key, not model predictor."
+project2_pas,batter_id,text,CSV empty; database NULL; R NA,"Dataset-local batter ID, not an MLB identifier."
+project2_pas,batter_name,text,CSV empty; database NULL; R NA,"Recorded batter name, Unicode preserved."
+project2_pas,game_date,text,CSV empty; database NULL; R NA,ISO calendar date. Does not uniquely identify doubleheaders.
+project2_pas,split,text,CSV empty; database NULL; R NA,Train through Sep 13; Validation Sep 14–20; Test Sep 21–27. Metadata only.
+project2_pas,home,integer,CSV empty; database NULL; R NA,"1 home, 0 road."
+project2_pas,opponent,text,CSV empty; database NULL; R NA,Recorded opposing franchise.
+project2_pas,inning,integer,CSV empty; database NULL; R NA,Offensive inning number.
+project2_pas,risp_start,integer,CSV empty; database NULL; R NA,RISP before first pitch of PA.
+project2_pas,disrupted_first_pitch,integer,CSV empty; database NULL; R NA,Disruption on first pitch; primary exploratory PA-level exposure.
+project2_pas,disrupted_any,integer,CSV empty; database NULL; R NA,"Any disruption during PA; retrospective, depends on PA length/opportunity."
+project2_pas,disrupted_pitches,integer,CSV empty; database NULL; R NA,Number of disrupted pitches in PA.
+project2_pas,pitch_count,integer,CSV empty; database NULL; R NA,Number of pitch rows for the table record (PA or game).
+project2_pas,strikeout,integer,CSV empty; database NULL; R NA,1 if recorded outcome Strikeout.
+project2_pas,pa_result,text,CSV empty; database NULL; R NA,"Recorded terminal category, generic Hit not reinterpreted as Single."
+project2_pas,outcome_comment_corrected,integer,CSV empty; database NULL; R NA,1 for the PA with comment-supported HR at Q120.
+project3_snapshots,pitch_id,text,CSV empty; database NULL; R NA,Stable pitch ID in preserved source order.
+project3_snapshots,pa_id,text,CSV empty; database NULL; R NA,"Stable PA ID. Join/grouping key, not predictor."
+project3_snapshots,game_id,text,CSV empty; database NULL; R NA,"Stable source game ID. Join key, not model predictor."
+project3_snapshots,game_date,text,CSV empty; database NULL; R NA,ISO calendar date. Does not uniquely identify doubleheaders.
+project3_snapshots,split,text,CSV empty; database NULL; R NA,Train through Sep 13; Validation Sep 14–20; Test Sep 21–27. Metadata only.
+project3_snapshots,pitch_number_pa,integer,CSV empty; database NULL; R NA,1-based pitch position in PA.
+project3_snapshots,pre_balls,integer,CSV empty; database NULL; R NA,Count before pitch; NULL after unresolved count contradiction.
+project3_snapshots,pre_strikes,integer,CSV empty; database NULL; R NA,Strikes before pitch; NULL after unresolved contradiction.
+project3_snapshots,routine_time_secs,real,CSV empty; database NULL; R NA,"Recorded duration in seconds. Calculated at source K162, otherwise observed when present."
+project3_snapshots,total_tics,integer,CSV empty; database NULL; R NA,Sum of the three tic counts; NULL if any component missing.
+project3_snapshots,target_pa_group,text,CSV empty; database NULL; R NA,"Multiclass response only, same mapping as pa_group."
+project3_snapshots,target_strikeout,integer,CSV empty; database NULL; R NA,Binary response only: 1 Strikeout. Never a feature for another target.
+project4_games,game_id,text,CSV empty; database NULL; R NA,"Stable source game ID. Join key, not model predictor."
+project4_games,game_order,integer,CSV empty; database NULL; R NA,Chronological order among 39 logged games.
+project4_games,game_timestamp,text,CSV empty; database NULL; R NA,ISO source timestamp; 12:00 offsets distinguish doubleheaders and are not actual start times.
+project4_games,game_date,text,CSV empty; database NULL; R NA,ISO calendar date. Does not uniquely identify doubleheaders.
+project4_games,game_on_date,integer,CSV empty; database NULL; R NA,Ordinal game slot on the date.
+project4_games,home,integer,CSV empty; database NULL; R NA,"1 home, 0 road."
+project4_games,opponent,text,CSV empty; database NULL; R NA,Recorded opposing franchise.
+project4_games,result,text,CSV empty; database NULL; R NA,W or L.
+project4_games,win,integer,CSV empty; database NULL; R NA,"1 win, 0 loss."
+project4_games,runs_for,integer,CSV empty; database NULL; R NA,Blue Jays final game score.
+project4_games,runs_against,integer,CSV empty; database NULL; R NA,Opponent final game score.
+project4_games,run_differential,integer,CSV empty; database NULL; R NA,runs_for minus runs_against.
+project4_games,split,text,CSV empty; database NULL; R NA,Train through Sep 13; Validation Sep 14–20; Test Sep 21–27. Metadata only.
+project4_games,pitch_count,integer,CSV empty; database NULL; R NA,Number of pitch rows for the table record (PA or game).
+project4_games,pa_count,integer,CSV empty; database NULL; R NA,Number of PA records including flagged records.
+project4_games,routine_n,integer,CSV empty; database NULL; R NA,Number of available durations including calculated value.
+project4_games,routine_mean_secs,real,CSV empty; database NULL; R NA,Mean available durations including calculated value.
+project4_games,routine_sd_secs,real,CSV empty; database NULL; R NA,Sample SD of available durations; NULL for n<2.
+project4_games,routine_cv,real,CSV empty; database NULL; R NA,Sample SD divided by mean duration.
+project4_games,tic_n,integer,CSV empty; database NULL; R NA,Number of fully measured tic records.
+project4_games,tics_mean,real,CSV empty; database NULL; R NA,Mean total tics per fully measured pitch.
+project4_games,disruption_count,integer,CSV empty; database NULL; R NA,Count of disrupted pitches in game.
+project4_games,disruption_rate,real,CSV empty; database NULL; R NA,Disrupted pitches divided by logged pitches.
+project4_games,risp_rate,real,CSV empty; database NULL; R NA,Share of pitches with RISP.
+project4_games,logged_offensive_innings,integer,CSV empty; database NULL; R NA,Highest offensive inning logged; not full game length.
+project4_games,prior_5_win_rate,real,CSV empty; database NULL; R NA,Win proportion of five preceding logged games; NULL for first five.
+project4_games,window_win_streak_before,integer,CSV empty; database NULL; R NA,"Consecutive wins before current game, left-truncated at study start."
+project4_games,disruption_coverage,text,CSV empty; database NULL; R NA,Observed_User_Confirmed; no external authentication implied.

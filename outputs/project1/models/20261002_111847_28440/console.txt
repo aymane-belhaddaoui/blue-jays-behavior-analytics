@@ -1,0 +1,43 @@
+
+MODEL: M0_pooled 
+routine_time_secs ~ risp
+<environment: 0x000001a1d06c1498>
+Alternative hypothesis: two-sided 
+ Coef. Estimate    SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.776 0.256          0   3.02        23.7      0.00591   **
+ Coef. Estimate    SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.776 0.256 23.7        0.246         1.31
+
+MODEL: M1_batter 
+routine_time_secs ~ risp + batter_id
+<environment: 0x000001a1d06c1498>
+Alternative hypothesis: two-sided 
+ Coef. Estimate    SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.831 0.262          0   3.18        23.7      0.00409   **
+ Coef. Estimate    SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.831 0.262 23.7        0.291         1.37
+
+MODEL: M2_batter_game 
+routine_time_secs ~ risp + batter_id + game_id
+<environment: 0x000001a1d06c1498>
+Alternative hypothesis: two-sided 
+ Coef. Estimate    SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.698 0.202          0   3.46        23.4      0.00211   **
+ Coef. Estimate    SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.698 0.202 23.4        0.281         1.12
+
+MODEL: S1_all_adjusted 
+routine_time_secs ~ risp + pitcher_disruption + batter_id + game_id
+<environment: 0x000001a1d06c1498>
+Alternative hypothesis: two-sided 
+ Coef. Estimate    SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.764 0.242          0   3.16        23.4      0.00434   **
+ Coef. Estimate    SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.764 0.242 23.4        0.264         1.26
+                          model pitches  pas games batters risp_coefficient_secs
+M0_pooled             M0_pooled    3889 1027    27      16             0.7755014
+M1_batter             M1_batter    3889 1027    27      16             0.8310540
+M2_batter_game   M2_batter_game    3889 1027    27      16             0.6984386
+S1_all_adjusted S1_all_adjusted    3942 1028    27      16             0.7643346
+
+Outputs saved in: outputs/project1/models/20261002_111847_28440 

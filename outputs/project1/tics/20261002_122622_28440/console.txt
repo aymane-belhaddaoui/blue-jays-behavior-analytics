@@ -1,0 +1,52 @@
+                                 stage pitches
+1             Observed tics, all dates    5631
+2                 Observed tics, Train    3950
+3 Valid PA and complete context, Train    3943
+4                 Primary: undisrupted    3890
+  risp    n     mean variance zero_fraction median maximum
+1    0 2853 1.388013 1.508229     0.2856642      1       6
+2    1 1037 1.476374 1.340416     0.2140791      1       5
+     batter_id n_no_risp n_risp mean_no_risp mean_risp difference_tics all_zero constant_count
+B001      B001       279    108    2.5842294 2.8611111     0.276881720    FALSE          FALSE
+B002      B002       211     71    1.3601896 1.4366197     0.076430145    FALSE          FALSE
+B003      B003       124     32    1.2822581 1.8125000     0.530241935    FALSE          FALSE
+B004      B004       353     99    0.3371105 0.2525253    -0.084585229    FALSE          FALSE
+B005      B005       130     70    1.1538462 1.4714286     0.317582418    FALSE          FALSE
+B007      B007        70     24    2.0142857 2.0833333     0.069047619    FALSE          FALSE
+B008      B008       202     95    1.1831683 1.0947368    -0.088431475    FALSE          FALSE
+B009      B009       229     73    0.7161572 0.8493151     0.133157863    FALSE          FALSE
+B010      B010       115     34    1.3304348 1.6764706     0.346035806    FALSE          FALSE
+B011      B011       121     14    2.7520661 2.2857143    -0.466351830    FALSE          FALSE
+B012      B012       322    121    0.9813665 0.9834711     0.002104615    FALSE          FALSE
+B013      B013       139    109    0.7410072 1.0917431     0.350735925    FALSE          FALSE
+B014      B014       263     98    2.9847909 2.9489796    -0.035811283    FALSE          FALSE
+B015      B015        12      7    1.0000000 1.0000000     0.000000000    FALSE           TRUE
+B016      B016        36      3    0.0000000 0.0000000     0.000000000     TRUE           TRUE
+B017      B017       247     79    1.1255061 1.2025316     0.077025573    FALSE          FALSE
+
+MODEL: T1_primary 
+Alternative hypothesis: two-sided 
+ Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.111 0.0399          0   2.78        23.4       0.0105    *
+ Coef. Estimate     SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.111 0.0399 23.4       0.0285        0.193
+
+MODEL: T2_count_inning 
+Alternative hypothesis: two-sided 
+ Coef. Estimate    SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.116 0.041          0   2.84        23.4       0.0092   **
+ Coef. Estimate    SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.116 0.041 23.4       0.0317        0.201
+
+MODEL: T3_disruption_adjusted 
+Alternative hypothesis: two-sided 
+ Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.107 0.0384          0    2.8        23.4       0.0101    *
+ Coef. Estimate     SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.107 0.0384 23.4       0.0281        0.187
+                                        model pitches  pas games batters  fitted_min fitted_max fitted_negative
+T1_primary                         T1_primary    3890 1027    27      16 -0.02571462   3.326837              24
+T2_count_inning               T2_count_inning    3890 1027    27      16 -0.14505426   3.430787              26
+T3_disruption_adjusted T3_disruption_adjusted    3943 1028    27      16 -0.03227628   3.309414              34
+
+Tic-count outputs saved in: outputs/project1/tics/20261002_122622_28440 

@@ -1,0 +1,7 @@
+CREATE INDEX ix_pitches_pa_id ON [pitches]([pa_id]);
+CREATE INDEX ix_plate_appearances_batter_id ON [plate_appearances]([batter_id]);
+CREATE INDEX ix_plate_appearances_game_id ON [plate_appearances]([game_id]);
+CREATE VIEW project1_pitches AS SELECT p.pitch_id,a.pa_id,a.game_id,a.batter_id,b.batter_name,g.game_date,g.split,g.home,g.opponent,a.inning,p.pitch_number_pa,p.pre_balls,p.pre_strikes,p.risp,p.runners_on,p.pitcher_disruption,p.routine_time_secs,p.total_tics,p.routine_source,p.routine_model_eligible,p.tics_model_eligible,a.pa_sequence_valid FROM pitches p JOIN plate_appearances a ON a.pa_id=p.pa_id JOIN games g ON g.game_id=a.game_id JOIN batters b ON b.batter_id=a.batter_id WHERE p.routine_model_eligible=1 OR p.tics_model_eligible=1;
+CREATE VIEW project2_pas AS SELECT a.pa_id,a.game_id,a.batter_id,b.batter_name,g.game_date,g.split,g.home,g.opponent,a.inning,a.risp_start,a.disrupted_first_pitch,a.disrupted_any,a.disrupted_pitches,a.pitch_count,a.strikeout,a.pa_result,a.outcome_comment_corrected FROM plate_appearances a JOIN games g ON g.game_id=a.game_id JOIN batters b ON b.batter_id=a.batter_id WHERE a.outcome_model_eligible=1;
+CREATE VIEW project3_snapshots AS SELECT p.pitch_id,a.pa_id,a.game_id,g.game_date,g.split,p.pitch_number_pa,p.pre_balls,p.pre_strikes,p.routine_time_secs,p.total_tics,a.pa_group AS target_pa_group,a.strikeout AS target_strikeout FROM pitches p JOIN plate_appearances a ON a.pa_id=p.pa_id JOIN games g ON g.game_id=a.game_id WHERE p.prediction_eligible=1;
+CREATE VIEW project4_games AS SELECT * FROM games;

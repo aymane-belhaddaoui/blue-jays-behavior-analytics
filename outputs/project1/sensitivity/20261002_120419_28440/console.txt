@@ -1,0 +1,50 @@
+
+MODEL: S2_count_inning 
+Alternative hypothesis: two-sided 
+ Coef. Estimate    SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp    0.729 0.196          0   3.72        23.4      0.00109   **
+ Coef. Estimate    SE d.f. Lower 95% CI Upper 95% CI
+  risp    0.729 0.196 23.4        0.324         1.13
+
+MODEL: S3_log_duration 
+Alternative hypothesis: two-sided 
+ Coef. Estimate     SE Null value t-stat d.f. (Satt) p-val (Satt) Sig.
+  risp   0.0489 0.0135          0   3.61        23.4      0.00144   **
+ Coef. Estimate     SE d.f. Lower 95% CI Upper 95% CI
+  risp   0.0489 0.0135 23.4       0.0209       0.0769
+
+LOG MODEL: geometric-mean interpretation
+  geometric_mean_ratio ratio_ci_lower ratio_ci_upper percent_difference percent_ci_lower percent_ci_upper
+1              1.05011       1.021141       1.079902           5.011009          2.11405         7.990154
+
+M2 leave-one-game-out influence, sorted by absolute change
+   omitted_game pitches games risp_coefficient_secs change_from_M2_secs
+ TOR_20260823_1    3747    26             0.5867320       -0.1117065902
+ TOR_20260815_1    3735    26             0.6289159       -0.0695227575
+ TOR_20260902_1    3739    26             0.7672805        0.0688418334
+ TOR_20260903_1    3694    26             0.7647434        0.0663047721
+ TOR_20260907_1    3746    26             0.7573839        0.0589452792
+ TOR_20260906_1    3751    26             0.7556139        0.0571752915
+ TOR_20260822_1    3725    26             0.6504865       -0.0479520899
+ TOR_20260821_1    3743    26             0.6551490       -0.0432896383
+ TOR_20260814_1    3774    26             0.6583291       -0.0401095321
+ TOR_20260830_1    3747    26             0.7334127        0.0349740699
+ TOR_20260825_1    3741    26             0.7306449        0.0322062756
+ TOR_20260905_1    3729    26             0.7271112        0.0286725221
+ TOR_20260816_1    3756    26             0.7142664        0.0158277569
+ TOR_20260820_1    3738    26             0.6832754       -0.0151632073
+ TOR_20260913_1    3738    26             0.6834886       -0.0149499877
+ TOR_20260826_1    3781    26             0.6845455       -0.0138931221
+ TOR_20260909_1    3759    26             0.6888533       -0.0095853397
+ TOR_20260911_1    3728    26             0.6892243       -0.0092143374
+ TOR_20260829_1    3741    26             0.7063940        0.0079553375
+ TOR_20260818_1    3737    26             0.6916827       -0.0067559440
+ TOR_20260904_1    3752    26             0.7049894        0.0065507690
+ TOR_20260828_1    3756    26             0.6919818       -0.0064568098
+ TOR_20260827_1    3775    26             0.7046761        0.0062374429
+ TOR_20260819_1    3743    26             0.7019572        0.0035185362
+ TOR_20260901_1    3766    26             0.6961531       -0.0022855512
+ TOR_20260908_1    3738    26             0.6969288       -0.0015098791
+ TOR_20260912_1    3735    26             0.6977887       -0.0006499492
+
+Sensitivity outputs saved in: outputs/project1/sensitivity/20261002_120419_28440 

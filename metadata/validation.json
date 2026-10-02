@@ -1,0 +1,27 @@
+{
+  "validation_date": "2026-09-29",
+  "counts": {
+    "games": 39,
+    "batters": 17,
+    "plate_appearances": 1461,
+    "pitches": 5634,
+    "project1_pitches": 5631,
+    "project2_pas": 1459,
+    "project3_snapshots": 5617,
+    "project4_games": 39,
+    "project3_first_pitch": 1458
+  },
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "missing_routines": 3,
+  "missing_tics": 3,
+  "calculated_routines": 1,
+  "unresolved_pas": 1,
+  "inferred_outcomes": 1,
+  "game_reconciliation": "39/39 passed",
+  "sql_server_execution": "Not executed in SQL Server in this environment",
+  "r_execution": "R not installed in this environment",
+  "exported_excel_cells_checked": 402938,
+  "excel_formula_count": 0,
+  "csv_sqlite_rebuild": "All core tables and views identical"
+}

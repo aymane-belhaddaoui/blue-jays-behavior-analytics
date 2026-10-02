@@ -1,0 +1,22 @@
+# R session state and local IDE caches
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Backup archives and duplicate database exports at project root
+*.zip
+/Blue_Jays_Data_Only.xlsx
+/blue_jays.sqlite
+
+# Assistant review workspace / screenshots; research reports live in deliverables
+/checkpoints/
+/PROJECT_STATUS.json
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep analytical RDS files and timestamped result CSVs: scripts 05/07 use them.

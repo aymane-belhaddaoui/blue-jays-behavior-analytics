@@ -1,0 +1,539 @@
+{
+  "games": {
+    "primary_key": "game_id",
+    "columns": [
+      {
+        "name": "game_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "game_order",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "game_timestamp",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "DATETIME2(0)"
+      },
+      {
+        "name": "game_date",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "DATE"
+      },
+      {
+        "name": "game_on_date",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "home",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "opponent",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "result",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "win",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "runs_for",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "runs_against",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "run_differential",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "split",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "pitch_count",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pa_count",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_n",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_mean_secs",
+        "type": "REAL",
+        "nullable": false,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "routine_sd_secs",
+        "type": "REAL",
+        "nullable": false,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "routine_cv",
+        "type": "REAL",
+        "nullable": false,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "tic_n",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "tics_mean",
+        "type": "REAL",
+        "nullable": false,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "disruption_count",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "disruption_rate",
+        "type": "REAL",
+        "nullable": false,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "risp_rate",
+        "type": "REAL",
+        "nullable": false,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "logged_offensive_innings",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "prior_5_win_rate",
+        "type": "REAL",
+        "nullable": true,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "window_win_streak_before",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "disruption_coverage",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      }
+    ],
+    "row_count": 39,
+    "foreign_keys": []
+  },
+  "batters": {
+    "primary_key": "batter_id",
+    "columns": [
+      {
+        "name": "batter_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "batter_name",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      }
+    ],
+    "row_count": 17,
+    "foreign_keys": []
+  },
+  "plate_appearances": {
+    "primary_key": "pa_id",
+    "columns": [
+      {
+        "name": "pa_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "game_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "batter_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "inning",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "first_source_row",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "last_source_row",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pitch_count",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pa_result",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "pa_group",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "strikeout",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "hit_any",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "walk",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "hbp",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pa_sequence_valid",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "outcome_inferred",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "outcome_comment_corrected",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "risp_start",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "disrupted_first_pitch",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "disrupted_any",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "disrupted_pitches",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_n",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_mean_secs",
+        "type": "REAL",
+        "nullable": true,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "routine_sd_secs",
+        "type": "REAL",
+        "nullable": true,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "tic_n",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "tics_mean",
+        "type": "REAL",
+        "nullable": true,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "outcome_model_eligible",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      }
+    ],
+    "row_count": 1461,
+    "foreign_keys": [
+      [
+        "game_id",
+        "games",
+        "game_id"
+      ],
+      [
+        "batter_id",
+        "batters",
+        "batter_id"
+      ]
+    ]
+  },
+  "pitches": {
+    "primary_key": "pitch_id",
+    "columns": [
+      {
+        "name": "pitch_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "pa_id",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "source_row",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pitch_number_pa",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pre_balls",
+        "type": "INTEGER",
+        "nullable": true,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pre_strikes",
+        "type": "INTEGER",
+        "nullable": true,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "runner_on_first",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "runner_on_second",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "runner_on_third",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "risp",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "runners_on",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pitcher_disruption",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_time_secs",
+        "type": "REAL",
+        "nullable": true,
+        "sqlserver_type": "FLOAT"
+      },
+      {
+        "name": "glove_straps",
+        "type": "INTEGER",
+        "nullable": true,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "helmet_touches",
+        "type": "INTEGER",
+        "nullable": true,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "plate_taps",
+        "type": "INTEGER",
+        "nullable": true,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "total_tics",
+        "type": "INTEGER",
+        "nullable": true,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "pitch_result",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "is_terminal",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_over_60_secs",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "routine_source",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "tics_source",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "disruption_source",
+        "type": "TEXT",
+        "nullable": false,
+        "sqlserver_type": "NVARCHAR(128)"
+      },
+      {
+        "name": "routine_model_eligible",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "tics_model_eligible",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      },
+      {
+        "name": "prediction_eligible",
+        "type": "INTEGER",
+        "nullable": false,
+        "sqlserver_type": "INT"
+      }
+    ],
+    "row_count": 5634,
+    "foreign_keys": [
+      [
+        "pa_id",
+        "plate_appearances",
+        "pa_id"
+      ]
+    ]
+  }
+}

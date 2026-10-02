@@ -1,0 +1,1460 @@
+pa_id,game_id,batter_id,batter_name,game_date,split,home,opponent,inning,risp_start,disrupted_first_pitch,disrupted_any,disrupted_pitches,pitch_count,strikeout,pa_result,outcome_comment_corrected
+TOR_20260814_1_PA001,TOR_20260814_1,B004,Brett Bateman,2026-08-14,Train,1,New York Yankees,1,0,0,0,0,2,0,Groundout,0
+TOR_20260814_1_PA003,TOR_20260814_1,B009,George Springer,2026-08-14,Train,1,New York Yankees,2,0,0,0,0,3,0,Groundout,0
+TOR_20260814_1_PA004,TOR_20260814_1,B001,Alejandro Kirk,2026-08-14,Train,1,New York Yankees,2,0,0,0,0,6,0,Walk,0
+TOR_20260814_1_PA005,TOR_20260814_1,B002,Andrés Giménez,2026-08-14,Train,1,New York Yankees,2,0,0,0,0,2,0,Hit,0
+TOR_20260814_1_PA006,TOR_20260814_1,B012,Kazuma Okamoto,2026-08-14,Train,1,New York Yankees,2,1,0,0,0,5,1,Strikeout,0
+TOR_20260814_1_PA007,TOR_20260814_1,B010,Jesús Sánchez,2026-08-14,Train,1,New York Yankees,2,1,0,0,0,2,0,Groundout,0
+TOR_20260814_1_PA008,TOR_20260814_1,B008,Ernie Clement,2026-08-14,Train,1,New York Yankees,3,0,0,0,0,2,0,Flyout,0
+TOR_20260814_1_PA009,TOR_20260814_1,B004,Brett Bateman,2026-08-14,Train,1,New York Yankees,3,0,0,0,0,4,1,Strikeout,0
+TOR_20260814_1_PA010,TOR_20260814_1,B014,Nathan Lukes,2026-08-14,Train,1,New York Yankees,3,0,0,0,0,1,0,Flyout,0
+TOR_20260814_1_PA011,TOR_20260814_1,B017,Vladimir Guerrero Jr.,2026-08-14,Train,1,New York Yankees,4,0,0,0,0,5,0,Flyout,0
+TOR_20260814_1_PA012,TOR_20260814_1,B009,George Springer,2026-08-14,Train,1,New York Yankees,4,0,0,0,0,4,1,Strikeout,0
+TOR_20260814_1_PA013,TOR_20260814_1,B001,Alejandro Kirk,2026-08-14,Train,1,New York Yankees,4,0,0,0,0,6,0,Groundout,0
+TOR_20260814_1_PA014,TOR_20260814_1,B002,Andrés Giménez,2026-08-14,Train,1,New York Yankees,5,0,0,0,0,2,0,Flyout,0
+TOR_20260814_1_PA015,TOR_20260814_1,B012,Kazuma Okamoto,2026-08-14,Train,1,New York Yankees,5,0,0,0,0,5,0,Hit,0
+TOR_20260814_1_PA016,TOR_20260814_1,B010,Jesús Sánchez,2026-08-14,Train,1,New York Yankees,5,0,0,1,1,4,1,Strikeout,0
+TOR_20260814_1_PA017,TOR_20260814_1,B008,Ernie Clement,2026-08-14,Train,1,New York Yankees,5,0,0,0,0,2,0,Groundout,0
+TOR_20260814_1_PA018,TOR_20260814_1,B004,Brett Bateman,2026-08-14,Train,1,New York Yankees,6,0,0,0,0,2,0,Hit,0
+TOR_20260814_1_PA019,TOR_20260814_1,B014,Nathan Lukes,2026-08-14,Train,1,New York Yankees,6,0,1,1,1,4,0,Fielder's Choice,0
+TOR_20260814_1_PA020,TOR_20260814_1,B017,Vladimir Guerrero Jr.,2026-08-14,Train,1,New York Yankees,6,0,0,1,1,6,0,Hit,0
+TOR_20260814_1_PA021,TOR_20260814_1,B009,George Springer,2026-08-14,Train,1,New York Yankees,6,1,0,0,0,5,0,Fielder's Choice,0
+TOR_20260814_1_PA022,TOR_20260814_1,B001,Alejandro Kirk,2026-08-14,Train,1,New York Yankees,6,1,0,0,0,1,0,Hit,0
+TOR_20260814_1_PA023,TOR_20260814_1,B002,Andrés Giménez,2026-08-14,Train,1,New York Yankees,6,0,0,0,0,7,1,Strikeout,0
+TOR_20260814_1_PA024,TOR_20260814_1,B012,Kazuma Okamoto,2026-08-14,Train,1,New York Yankees,7,0,0,0,0,8,0,Groundout,0
+TOR_20260814_1_PA025,TOR_20260814_1,B010,Jesús Sánchez,2026-08-14,Train,1,New York Yankees,7,0,1,1,1,4,1,Strikeout,0
+TOR_20260814_1_PA026,TOR_20260814_1,B008,Ernie Clement,2026-08-14,Train,1,New York Yankees,7,0,0,0,0,2,0,Hit,0
+TOR_20260814_1_PA027,TOR_20260814_1,B004,Brett Bateman,2026-08-14,Train,1,New York Yankees,7,0,0,0,0,2,0,Hit,0
+TOR_20260814_1_PA028,TOR_20260814_1,B014,Nathan Lukes,2026-08-14,Train,1,New York Yankees,7,1,0,1,1,6,0,Flyout,0
+TOR_20260814_1_PA029,TOR_20260814_1,B005,Charles McAdoo,2026-08-14,Train,1,New York Yankees,8,0,0,0,0,6,1,Strikeout,0
+TOR_20260814_1_PA030,TOR_20260814_1,B009,George Springer,2026-08-14,Train,1,New York Yankees,8,0,0,0,0,3,1,Strikeout,0
+TOR_20260814_1_PA031,TOR_20260814_1,B001,Alejandro Kirk,2026-08-14,Train,1,New York Yankees,8,0,0,0,0,2,0,Home Run,1
+TOR_20260814_1_PA032,TOR_20260814_1,B002,Andrés Giménez,2026-08-14,Train,1,New York Yankees,8,0,0,0,0,1,0,Groundout,0
+TOR_20260815_1_PA001,TOR_20260815_1,B004,Brett Bateman,2026-08-15,Train,1,New York Yankees,1,0,0,0,0,4,0,Hit,0
+TOR_20260815_1_PA002,TOR_20260815_1,B014,Nathan Lukes,2026-08-15,Train,1,New York Yankees,1,0,0,0,0,2,0,Groundout,0
+TOR_20260815_1_PA003,TOR_20260815_1,B001,Alejandro Kirk,2026-08-15,Train,1,New York Yankees,1,1,0,1,1,4,0,Groundout,0
+TOR_20260815_1_PA004,TOR_20260815_1,B010,Jesús Sánchez,2026-08-15,Train,1,New York Yankees,1,1,0,0,0,5,0,Walk,0
+TOR_20260815_1_PA005,TOR_20260815_1,B012,Kazuma Okamoto,2026-08-15,Train,1,New York Yankees,1,1,0,0,0,4,1,Strikeout,0
+TOR_20260815_1_PA006,TOR_20260815_1,B002,Andrés Giménez,2026-08-15,Train,1,New York Yankees,2,0,0,0,0,4,0,Flyout,0
+TOR_20260815_1_PA007,TOR_20260815_1,B003,Brandon Valenzuela,2026-08-15,Train,1,New York Yankees,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260815_1_PA008,TOR_20260815_1,B011,Josh H. Smith,2026-08-15,Train,1,New York Yankees,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260815_1_PA009,TOR_20260815_1,B005,Charles McAdoo,2026-08-15,Train,1,New York Yankees,3,0,0,0,0,2,0,Flyout,0
+TOR_20260815_1_PA010,TOR_20260815_1,B004,Brett Bateman,2026-08-15,Train,1,New York Yankees,3,0,0,0,0,6,0,Walk,0
+TOR_20260815_1_PA011,TOR_20260815_1,B014,Nathan Lukes,2026-08-15,Train,1,New York Yankees,3,0,1,1,1,5,0,Hit,0
+TOR_20260815_1_PA012,TOR_20260815_1,B001,Alejandro Kirk,2026-08-15,Train,1,New York Yankees,3,1,0,0,0,4,0,Hit,0
+TOR_20260815_1_PA013,TOR_20260815_1,B010,Jesús Sánchez,2026-08-15,Train,1,New York Yankees,3,1,0,0,0,4,1,Strikeout,0
+TOR_20260815_1_PA014,TOR_20260815_1,B012,Kazuma Okamoto,2026-08-15,Train,1,New York Yankees,3,1,0,0,0,5,0,Flyout,0
+TOR_20260815_1_PA015,TOR_20260815_1,B002,Andrés Giménez,2026-08-15,Train,1,New York Yankees,4,0,0,0,0,4,0,Flyout,0
+TOR_20260815_1_PA016,TOR_20260815_1,B003,Brandon Valenzuela,2026-08-15,Train,1,New York Yankees,4,0,0,0,0,6,1,Strikeout,0
+TOR_20260815_1_PA017,TOR_20260815_1,B011,Josh H. Smith,2026-08-15,Train,1,New York Yankees,4,0,0,1,1,6,1,Strikeout,0
+TOR_20260815_1_PA018,TOR_20260815_1,B005,Charles McAdoo,2026-08-15,Train,1,New York Yankees,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260815_1_PA019,TOR_20260815_1,B004,Brett Bateman,2026-08-15,Train,1,New York Yankees,5,0,0,0,0,3,0,Groundout,0
+TOR_20260815_1_PA020,TOR_20260815_1,B014,Nathan Lukes,2026-08-15,Train,1,New York Yankees,5,0,0,0,0,1,0,Groundout,0
+TOR_20260815_1_PA021,TOR_20260815_1,B001,Alejandro Kirk,2026-08-15,Train,1,New York Yankees,6,0,0,0,0,5,0,Groundout,0
+TOR_20260815_1_PA022,TOR_20260815_1,B010,Jesús Sánchez,2026-08-15,Train,1,New York Yankees,6,0,0,0,0,6,0,Walk,0
+TOR_20260815_1_PA023,TOR_20260815_1,B012,Kazuma Okamoto,2026-08-15,Train,1,New York Yankees,6,0,0,0,0,4,0,Hit,0
+TOR_20260815_1_PA024,TOR_20260815_1,B002,Andrés Giménez,2026-08-15,Train,1,New York Yankees,6,1,0,0,0,4,1,Strikeout,0
+TOR_20260815_1_PA025,TOR_20260815_1,B003,Brandon Valenzuela,2026-08-15,Train,1,New York Yankees,6,1,0,0,0,8,0,Groundout,0
+TOR_20260815_1_PA026,TOR_20260815_1,B008,Ernie Clement,2026-08-15,Train,1,New York Yankees,7,0,0,0,0,1,0,Hit,0
+TOR_20260815_1_PA027,TOR_20260815_1,B005,Charles McAdoo,2026-08-15,Train,1,New York Yankees,7,0,0,0,0,4,0,Hit,0
+TOR_20260815_1_PA028,TOR_20260815_1,B004,Brett Bateman,2026-08-15,Train,1,New York Yankees,7,1,0,0,0,2,0,Hit,0
+TOR_20260815_1_PA029,TOR_20260815_1,B014,Nathan Lukes,2026-08-15,Train,1,New York Yankees,7,1,0,0,0,1,0,Groundout,0
+TOR_20260815_1_PA030,TOR_20260815_1,B013,Myles Straw,2026-08-15,Train,1,New York Yankees,7,1,0,0,0,8,1,Strikeout,0
+TOR_20260815_1_PA031,TOR_20260815_1,B012,Kazuma Okamoto,2026-08-15,Train,1,New York Yankees,7,1,0,0,0,4,0,Flyout,0
+TOR_20260815_1_PA032,TOR_20260815_1,B002,Andrés Giménez,2026-08-15,Train,1,New York Yankees,8,0,0,0,0,3,0,Hit,0
+TOR_20260815_1_PA033,TOR_20260815_1,B003,Brandon Valenzuela,2026-08-15,Train,1,New York Yankees,8,0,0,0,0,9,0,HBP,0
+TOR_20260815_1_PA034,TOR_20260815_1,B008,Ernie Clement,2026-08-15,Train,1,New York Yankees,8,1,0,0,0,4,0,Hit,0
+TOR_20260815_1_PA035,TOR_20260815_1,B005,Charles McAdoo,2026-08-15,Train,1,New York Yankees,8,1,0,0,0,6,0,Hit,0
+TOR_20260815_1_PA036,TOR_20260815_1,B004,Brett Bateman,2026-08-15,Train,1,New York Yankees,8,1,0,0,0,4,0,Flyout,0
+TOR_20260815_1_PA037,TOR_20260815_1,B014,Nathan Lukes,2026-08-15,Train,1,New York Yankees,8,1,0,0,0,1,0,Groundout,0
+TOR_20260815_1_PA038,TOR_20260815_1,B013,Myles Straw,2026-08-15,Train,1,New York Yankees,8,1,0,0,0,1,0,Groundout,0
+TOR_20260816_1_PA001,TOR_20260816_1,B004,Brett Bateman,2026-08-16,Train,1,New York Yankees,1,0,0,0,0,2,0,Groundout,0
+TOR_20260816_1_PA002,TOR_20260816_1,B005,Charles McAdoo,2026-08-16,Train,1,New York Yankees,1,0,0,0,0,2,0,Flyout,0
+TOR_20260816_1_PA003,TOR_20260816_1,B001,Alejandro Kirk,2026-08-16,Train,1,New York Yankees,1,0,0,0,0,5,0,Flyout,0
+TOR_20260816_1_PA004,TOR_20260816_1,B009,George Springer,2026-08-16,Train,1,New York Yankees,2,0,0,0,0,2,0,Groundout,0
+TOR_20260816_1_PA005,TOR_20260816_1,B008,Ernie Clement,2026-08-16,Train,1,New York Yankees,2,0,0,0,0,5,0,Flyout,0
+TOR_20260816_1_PA006,TOR_20260816_1,B012,Kazuma Okamoto,2026-08-16,Train,1,New York Yankees,2,0,0,0,0,6,0,Flyout,0
+TOR_20260816_1_PA007,TOR_20260816_1,B007,Daz Cameron,2026-08-16,Train,1,New York Yankees,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260816_1_PA008,TOR_20260816_1,B002,Andrés Giménez,2026-08-16,Train,1,New York Yankees,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260816_1_PA009,TOR_20260816_1,B013,Myles Straw,2026-08-16,Train,1,New York Yankees,3,0,0,0,0,1,0,Flyout,0
+TOR_20260816_1_PA010,TOR_20260816_1,B004,Brett Bateman,2026-08-16,Train,1,New York Yankees,4,0,0,0,0,5,1,Strikeout,0
+TOR_20260816_1_PA011,TOR_20260816_1,B005,Charles McAdoo,2026-08-16,Train,1,New York Yankees,4,0,0,0,0,2,0,Hit,0
+TOR_20260816_1_PA012,TOR_20260816_1,B001,Alejandro Kirk,2026-08-16,Train,1,New York Yankees,4,0,0,0,0,2,0,Hit,0
+TOR_20260816_1_PA013,TOR_20260816_1,B009,George Springer,2026-08-16,Train,1,New York Yankees,4,1,0,0,0,2,0,Groundout,0
+TOR_20260816_1_PA014,TOR_20260816_1,B008,Ernie Clement,2026-08-16,Train,1,New York Yankees,5,0,0,0,0,3,0,Groundout,0
+TOR_20260816_1_PA015,TOR_20260816_1,B012,Kazuma Okamoto,2026-08-16,Train,1,New York Yankees,5,0,0,0,0,2,0,Hit,0
+TOR_20260816_1_PA016,TOR_20260816_1,B007,Daz Cameron,2026-08-16,Train,1,New York Yankees,5,1,0,0,0,3,0,Hit,0
+TOR_20260816_1_PA017,TOR_20260816_1,B002,Andrés Giménez,2026-08-16,Train,1,New York Yankees,5,1,0,0,0,6,0,Groundout,0
+TOR_20260816_1_PA018,TOR_20260816_1,B013,Myles Straw,2026-08-16,Train,1,New York Yankees,6,0,0,0,0,7,0,Walk,0
+TOR_20260816_1_PA019,TOR_20260816_1,B004,Brett Bateman,2026-08-16,Train,1,New York Yankees,6,0,0,0,0,2,0,Fielder's Choice,0
+TOR_20260816_1_PA020,TOR_20260816_1,B005,Charles McAdoo,2026-08-16,Train,1,New York Yankees,6,0,0,1,1,3,0,Hit,0
+TOR_20260816_1_PA021,TOR_20260816_1,B001,Alejandro Kirk,2026-08-16,Train,1,New York Yankees,6,1,0,0,0,5,0,Groundout,0
+TOR_20260816_1_PA022,TOR_20260816_1,B009,George Springer,2026-08-16,Train,1,New York Yankees,7,0,0,0,0,3,0,Groundout,0
+TOR_20260816_1_PA023,TOR_20260816_1,B008,Ernie Clement,2026-08-16,Train,1,New York Yankees,7,0,0,0,0,4,0,Groundout,0
+TOR_20260816_1_PA024,TOR_20260816_1,B012,Kazuma Okamoto,2026-08-16,Train,1,New York Yankees,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260816_1_PA025,TOR_20260816_1,B007,Daz Cameron,2026-08-16,Train,1,New York Yankees,8,0,0,0,0,6,0,Groundout,0
+TOR_20260816_1_PA026,TOR_20260816_1,B002,Andrés Giménez,2026-08-16,Train,1,New York Yankees,8,0,0,0,0,3,0,Hit,0
+TOR_20260816_1_PA027,TOR_20260816_1,B014,Nathan Lukes,2026-08-16,Train,1,New York Yankees,8,0,0,0,0,3,0,Flyout,0
+TOR_20260816_1_PA028,TOR_20260816_1,B004,Brett Bateman,2026-08-16,Train,1,New York Yankees,8,0,0,0,0,7,1,Strikeout,0
+TOR_20260816_1_PA029,TOR_20260816_1,B011,Josh H. Smith,2026-08-16,Train,1,New York Yankees,9,0,0,0,0,3,0,Hit,0
+TOR_20260816_1_PA030,TOR_20260816_1,B001,Alejandro Kirk,2026-08-16,Train,1,New York Yankees,9,0,0,0,0,5,0,Walk,0
+TOR_20260816_1_PA031,TOR_20260816_1,B009,George Springer,2026-08-16,Train,1,New York Yankees,9,1,0,0,0,4,0,Flyout,0
+TOR_20260816_1_PA032,TOR_20260816_1,B008,Ernie Clement,2026-08-16,Train,1,New York Yankees,9,1,0,0,0,5,0,Flyout,0
+TOR_20260816_1_PA033,TOR_20260816_1,B012,Kazuma Okamoto,2026-08-16,Train,1,New York Yankees,9,1,0,0,0,1,0,Groundout,0
+TOR_20260816_1_PA034,TOR_20260816_1,B007,Daz Cameron,2026-08-16,Train,1,New York Yankees,10,1,0,0,0,1,0,Groundout,0
+TOR_20260816_1_PA035,TOR_20260816_1,B002,Andrés Giménez,2026-08-16,Train,1,New York Yankees,10,1,0,0,0,2,0,Hit,0
+TOR_20260816_1_PA036,TOR_20260816_1,B014,Nathan Lukes,2026-08-16,Train,1,New York Yankees,10,0,0,0,0,4,0,Flyout,0
+TOR_20260816_1_PA037,TOR_20260816_1,B004,Brett Bateman,2026-08-16,Train,1,New York Yankees,10,0,0,0,0,4,0,Groundout,0
+TOR_20260818_1_PA001,TOR_20260818_1,B004,Brett Bateman,2026-08-18,Train,0,Tampa Bay Rays,1,0,0,0,0,3,1,Strikeout,0
+TOR_20260818_1_PA002,TOR_20260818_1,B014,Nathan Lukes,2026-08-18,Train,0,Tampa Bay Rays,1,0,0,0,0,2,0,Flyout,0
+TOR_20260818_1_PA003,TOR_20260818_1,B001,Alejandro Kirk,2026-08-18,Train,0,Tampa Bay Rays,1,0,0,0,0,7,0,Hit,0
+TOR_20260818_1_PA004,TOR_20260818_1,B009,George Springer,2026-08-18,Train,0,Tampa Bay Rays,1,1,0,0,0,3,0,Hit,0
+TOR_20260818_1_PA005,TOR_20260818_1,B010,Jesús Sánchez,2026-08-18,Train,0,Tampa Bay Rays,1,0,0,0,0,3,0,Hit,0
+TOR_20260818_1_PA006,TOR_20260818_1,B012,Kazuma Okamoto,2026-08-18,Train,0,Tampa Bay Rays,1,1,0,0,0,2,0,Flyout,0
+TOR_20260818_1_PA007,TOR_20260818_1,B002,Andrés Giménez,2026-08-18,Train,0,Tampa Bay Rays,2,0,0,0,0,2,0,Hit,0
+TOR_20260818_1_PA008,TOR_20260818_1,B008,Ernie Clement,2026-08-18,Train,0,Tampa Bay Rays,2,0,0,1,1,2,0,Fielder's Choice,0
+TOR_20260818_1_PA009,TOR_20260818_1,B011,Josh H. Smith,2026-08-18,Train,0,Tampa Bay Rays,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260818_1_PA010,TOR_20260818_1,B004,Brett Bateman,2026-08-18,Train,0,Tampa Bay Rays,2,0,1,1,1,4,0,Groundout,0
+TOR_20260818_1_PA011,TOR_20260818_1,B014,Nathan Lukes,2026-08-18,Train,0,Tampa Bay Rays,3,0,0,0,0,7,0,Walk,0
+TOR_20260818_1_PA012,TOR_20260818_1,B001,Alejandro Kirk,2026-08-18,Train,0,Tampa Bay Rays,3,0,0,0,0,7,0,Hit,0
+TOR_20260818_1_PA013,TOR_20260818_1,B009,George Springer,2026-08-18,Train,0,Tampa Bay Rays,3,0,0,0,0,3,0,Hit,0
+TOR_20260818_1_PA014,TOR_20260818_1,B010,Jesús Sánchez,2026-08-18,Train,0,Tampa Bay Rays,3,0,0,0,0,4,1,Strikeout,0
+TOR_20260818_1_PA015,TOR_20260818_1,B012,Kazuma Okamoto,2026-08-18,Train,0,Tampa Bay Rays,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260818_1_PA016,TOR_20260818_1,B002,Andrés Giménez,2026-08-18,Train,0,Tampa Bay Rays,3,1,0,0,0,1,0,Flyout,0
+TOR_20260818_1_PA017,TOR_20260818_1,B008,Ernie Clement,2026-08-18,Train,0,Tampa Bay Rays,4,0,0,0,0,4,0,Hit,0
+TOR_20260818_1_PA018,TOR_20260818_1,B011,Josh H. Smith,2026-08-18,Train,0,Tampa Bay Rays,4,0,0,0,0,3,0,Flyout,0
+TOR_20260818_1_PA019,TOR_20260818_1,B004,Brett Bateman,2026-08-18,Train,0,Tampa Bay Rays,4,0,1,1,1,1,0,Hit,0
+TOR_20260818_1_PA020,TOR_20260818_1,B014,Nathan Lukes,2026-08-18,Train,0,Tampa Bay Rays,4,1,0,1,1,6,1,Strikeout,0
+TOR_20260818_1_PA021,TOR_20260818_1,B001,Alejandro Kirk,2026-08-18,Train,0,Tampa Bay Rays,4,1,0,0,0,2,0,Hit,0
+TOR_20260818_1_PA022,TOR_20260818_1,B009,George Springer,2026-08-18,Train,0,Tampa Bay Rays,4,1,0,0,0,6,0,Walk,0
+TOR_20260818_1_PA023,TOR_20260818_1,B010,Jesús Sánchez,2026-08-18,Train,0,Tampa Bay Rays,4,1,0,0,0,2,0,Groundout,0
+TOR_20260818_1_PA024,TOR_20260818_1,B012,Kazuma Okamoto,2026-08-18,Train,0,Tampa Bay Rays,5,0,0,0,0,4,0,Hit,0
+TOR_20260818_1_PA025,TOR_20260818_1,B002,Andrés Giménez,2026-08-18,Train,0,Tampa Bay Rays,5,0,0,0,0,3,0,Groundout,0
+TOR_20260818_1_PA026,TOR_20260818_1,B008,Ernie Clement,2026-08-18,Train,0,Tampa Bay Rays,5,0,0,0,0,2,0,Hit,0
+TOR_20260818_1_PA027,TOR_20260818_1,B011,Josh H. Smith,2026-08-18,Train,0,Tampa Bay Rays,5,0,0,0,0,1,0,Groundout,0
+TOR_20260818_1_PA028,TOR_20260818_1,B004,Brett Bateman,2026-08-18,Train,0,Tampa Bay Rays,5,1,0,0,0,3,0,Hit,0
+TOR_20260818_1_PA029,TOR_20260818_1,B014,Nathan Lukes,2026-08-18,Train,0,Tampa Bay Rays,5,0,0,0,0,2,0,Groundout,0
+TOR_20260818_1_PA030,TOR_20260818_1,B001,Alejandro Kirk,2026-08-18,Train,0,Tampa Bay Rays,6,0,0,0,0,4,0,Groundout,0
+TOR_20260818_1_PA031,TOR_20260818_1,B009,George Springer,2026-08-18,Train,0,Tampa Bay Rays,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260818_1_PA032,TOR_20260818_1,B010,Jesús Sánchez,2026-08-18,Train,0,Tampa Bay Rays,6,0,0,0,0,7,0,Walk,0
+TOR_20260818_1_PA033,TOR_20260818_1,B012,Kazuma Okamoto,2026-08-18,Train,0,Tampa Bay Rays,6,0,0,0,0,4,0,Flyout,0
+TOR_20260818_1_PA034,TOR_20260818_1,B002,Andrés Giménez,2026-08-18,Train,0,Tampa Bay Rays,7,0,0,0,0,3,0,Flyout,0
+TOR_20260818_1_PA035,TOR_20260818_1,B008,Ernie Clement,2026-08-18,Train,0,Tampa Bay Rays,7,0,0,0,0,2,0,Hit,0
+TOR_20260818_1_PA036,TOR_20260818_1,B011,Josh H. Smith,2026-08-18,Train,0,Tampa Bay Rays,7,0,0,0,0,2,0,Hit,0
+TOR_20260818_1_PA037,TOR_20260818_1,B004,Brett Bateman,2026-08-18,Train,0,Tampa Bay Rays,7,0,0,0,0,2,0,Groundout,0
+TOR_20260818_1_PA038,TOR_20260818_1,B014,Nathan Lukes,2026-08-18,Train,0,Tampa Bay Rays,7,0,0,0,0,5,1,Strikeout,0
+TOR_20260818_1_PA039,TOR_20260818_1,B001,Alejandro Kirk,2026-08-18,Train,0,Tampa Bay Rays,8,0,0,0,0,2,0,Groundout,0
+TOR_20260818_1_PA040,TOR_20260818_1,B009,George Springer,2026-08-18,Train,0,Tampa Bay Rays,8,0,0,0,0,3,0,Hit,0
+TOR_20260818_1_PA041,TOR_20260818_1,B013,Myles Straw,2026-08-18,Train,0,Tampa Bay Rays,8,1,0,0,0,1,0,Hit,0
+TOR_20260818_1_PA042,TOR_20260818_1,B012,Kazuma Okamoto,2026-08-18,Train,0,Tampa Bay Rays,8,1,0,0,0,3,0,Fielder's Choice,0
+TOR_20260818_1_PA043,TOR_20260818_1,B002,Andrés Giménez,2026-08-18,Train,0,Tampa Bay Rays,8,1,0,0,0,2,0,Groundout,0
+TOR_20260818_1_PA044,TOR_20260818_1,B008,Ernie Clement,2026-08-18,Train,0,Tampa Bay Rays,9,0,0,0,0,3,0,Groundout,0
+TOR_20260818_1_PA045,TOR_20260818_1,B011,Josh H. Smith,2026-08-18,Train,0,Tampa Bay Rays,9,0,0,0,0,1,0,Hit,0
+TOR_20260818_1_PA046,TOR_20260818_1,B004,Brett Bateman,2026-08-18,Train,0,Tampa Bay Rays,9,0,0,0,0,2,0,Fielder's Choice,0
+TOR_20260818_1_PA047,TOR_20260818_1,B014,Nathan Lukes,2026-08-18,Train,0,Tampa Bay Rays,9,0,0,0,0,3,0,Hit,0
+TOR_20260818_1_PA048,TOR_20260818_1,B001,Alejandro Kirk,2026-08-18,Train,0,Tampa Bay Rays,9,1,0,1,1,5,0,Groundout,0
+TOR_20260819_1_PA001,TOR_20260819_1,B004,Brett Bateman,2026-08-19,Train,0,Tampa Bay Rays,1,0,0,0,0,1,0,Groundout,0
+TOR_20260819_1_PA002,TOR_20260819_1,B014,Nathan Lukes,2026-08-19,Train,0,Tampa Bay Rays,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260819_1_PA003,TOR_20260819_1,B001,Alejandro Kirk,2026-08-19,Train,0,Tampa Bay Rays,1,0,0,0,0,1,0,Groundout,0
+TOR_20260819_1_PA004,TOR_20260819_1,B012,Kazuma Okamoto,2026-08-19,Train,0,Tampa Bay Rays,2,0,0,0,0,6,0,Groundout,0
+TOR_20260819_1_PA005,TOR_20260819_1,B002,Andrés Giménez,2026-08-19,Train,0,Tampa Bay Rays,2,0,0,0,0,1,0,Flyout,0
+TOR_20260819_1_PA006,TOR_20260819_1,B010,Jesús Sánchez,2026-08-19,Train,0,Tampa Bay Rays,2,0,0,0,0,3,1,Strikeout,0
+TOR_20260819_1_PA007,TOR_20260819_1,B011,Josh H. Smith,2026-08-19,Train,0,Tampa Bay Rays,3,0,0,0,0,5,0,Flyout,0
+TOR_20260819_1_PA008,TOR_20260819_1,B003,Brandon Valenzuela,2026-08-19,Train,0,Tampa Bay Rays,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260819_1_PA009,TOR_20260819_1,B005,Charles McAdoo,2026-08-19,Train,0,Tampa Bay Rays,3,0,0,0,0,3,0,Hit,0
+TOR_20260819_1_PA010,TOR_20260819_1,B004,Brett Bateman,2026-08-19,Train,0,Tampa Bay Rays,3,0,0,0,0,4,0,Groundout,0
+TOR_20260819_1_PA011,TOR_20260819_1,B014,Nathan Lukes,2026-08-19,Train,0,Tampa Bay Rays,4,0,0,0,0,5,1,Strikeout,0
+TOR_20260819_1_PA012,TOR_20260819_1,B001,Alejandro Kirk,2026-08-19,Train,0,Tampa Bay Rays,4,0,0,1,1,7,0,Home Run,0
+TOR_20260819_1_PA013,TOR_20260819_1,B012,Kazuma Okamoto,2026-08-19,Train,0,Tampa Bay Rays,4,0,0,0,0,5,0,Walk,0
+TOR_20260819_1_PA014,TOR_20260819_1,B002,Andrés Giménez,2026-08-19,Train,0,Tampa Bay Rays,4,0,0,1,1,7,0,Groundout,0
+TOR_20260819_1_PA015,TOR_20260819_1,B010,Jesús Sánchez,2026-08-19,Train,0,Tampa Bay Rays,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260819_1_PA016,TOR_20260819_1,B011,Josh H. Smith,2026-08-19,Train,0,Tampa Bay Rays,5,0,0,0,0,3,0,Hit,0
+TOR_20260819_1_PA017,TOR_20260819_1,B003,Brandon Valenzuela,2026-08-19,Train,0,Tampa Bay Rays,5,0,0,0,0,3,0,Hit,0
+TOR_20260819_1_PA018,TOR_20260819_1,B005,Charles McAdoo,2026-08-19,Train,0,Tampa Bay Rays,5,1,0,0,0,2,0,Hit,0
+TOR_20260819_1_PA019,TOR_20260819_1,B013,Myles Straw,2026-08-19,Train,0,Tampa Bay Rays,5,1,0,0,0,4,0,Walk,0
+TOR_20260819_1_PA020,TOR_20260819_1,B014,Nathan Lukes,2026-08-19,Train,0,Tampa Bay Rays,5,1,0,0,0,1,0,Flyout,0
+TOR_20260819_1_PA021,TOR_20260819_1,B001,Alejandro Kirk,2026-08-19,Train,0,Tampa Bay Rays,5,1,0,1,1,3,0,Hit,0
+TOR_20260819_1_PA022,TOR_20260819_1,B012,Kazuma Okamoto,2026-08-19,Train,0,Tampa Bay Rays,5,1,0,0,0,2,0,Hit,0
+TOR_20260819_1_PA023,TOR_20260819_1,B002,Andrés Giménez,2026-08-19,Train,0,Tampa Bay Rays,5,1,0,0,0,6,0,Flyout,0
+TOR_20260819_1_PA024,TOR_20260819_1,B007,Daz Cameron,2026-08-19,Train,0,Tampa Bay Rays,6,0,0,0,0,1,0,Hit,0
+TOR_20260819_1_PA025,TOR_20260819_1,B011,Josh H. Smith,2026-08-19,Train,0,Tampa Bay Rays,6,0,0,0,0,3,0,Fielder's Choice,0
+TOR_20260819_1_PA026,TOR_20260819_1,B003,Brandon Valenzuela,2026-08-19,Train,0,Tampa Bay Rays,6,0,0,0,0,1,0,Flyout,0
+TOR_20260819_1_PA027,TOR_20260819_1,B005,Charles McAdoo,2026-08-19,Train,0,Tampa Bay Rays,6,0,0,0,0,2,0,Hit,0
+TOR_20260819_1_PA028,TOR_20260819_1,B013,Myles Straw,2026-08-19,Train,0,Tampa Bay Rays,6,1,0,0,0,6,0,Groundout,0
+TOR_20260819_1_PA029,TOR_20260819_1,B014,Nathan Lukes,2026-08-19,Train,0,Tampa Bay Rays,7,0,0,0,0,4,0,Flyout,0
+TOR_20260819_1_PA030,TOR_20260819_1,B001,Alejandro Kirk,2026-08-19,Train,0,Tampa Bay Rays,7,0,0,0,0,4,0,Flyout,0
+TOR_20260819_1_PA031,TOR_20260819_1,B012,Kazuma Okamoto,2026-08-19,Train,0,Tampa Bay Rays,7,0,0,0,0,5,1,Strikeout,0
+TOR_20260819_1_PA032,TOR_20260819_1,B002,Andrés Giménez,2026-08-19,Train,0,Tampa Bay Rays,8,0,0,0,0,8,0,Flyout,0
+TOR_20260819_1_PA033,TOR_20260819_1,B007,Daz Cameron,2026-08-19,Train,0,Tampa Bay Rays,8,0,0,0,0,2,0,Flyout,0
+TOR_20260819_1_PA034,TOR_20260819_1,B011,Josh H. Smith,2026-08-19,Train,0,Tampa Bay Rays,8,0,0,0,0,6,0,Walk,0
+TOR_20260819_1_PA035,TOR_20260819_1,B003,Brandon Valenzuela,2026-08-19,Train,0,Tampa Bay Rays,8,0,0,0,0,4,0,Flyout,0
+TOR_20260819_1_PA036,TOR_20260819_1,B005,Charles McAdoo,2026-08-19,Train,0,Tampa Bay Rays,9,0,0,0,0,4,0,Hit,0
+TOR_20260819_1_PA037,TOR_20260819_1,B009,George Springer,2026-08-19,Train,0,Tampa Bay Rays,9,0,0,0,0,4,0,Flyout,0
+TOR_20260819_1_PA038,TOR_20260819_1,B014,Nathan Lukes,2026-08-19,Train,0,Tampa Bay Rays,9,0,0,0,0,5,1,Strikeout,0
+TOR_20260819_1_PA039,TOR_20260819_1,B001,Alejandro Kirk,2026-08-19,Train,0,Tampa Bay Rays,9,0,0,0,0,5,0,Flyout,0
+TOR_20260820_1_PA001,TOR_20260820_1,B005,Charles McAdoo,2026-08-20,Train,0,Tampa Bay Rays,1,0,0,0,0,3,1,Strikeout,0
+TOR_20260820_1_PA002,TOR_20260820_1,B007,Daz Cameron,2026-08-20,Train,0,Tampa Bay Rays,1,0,0,0,0,3,1,Strikeout,0
+TOR_20260820_1_PA003,TOR_20260820_1,B001,Alejandro Kirk,2026-08-20,Train,0,Tampa Bay Rays,1,0,0,0,0,11,0,Hit,0
+TOR_20260820_1_PA004,TOR_20260820_1,B009,George Springer,2026-08-20,Train,0,Tampa Bay Rays,1,0,0,0,0,1,0,Flyout,0
+TOR_20260820_1_PA005,TOR_20260820_1,B012,Kazuma Okamoto,2026-08-20,Train,0,Tampa Bay Rays,2,0,0,0,0,2,0,Home Run,0
+TOR_20260820_1_PA006,TOR_20260820_1,B002,Andrés Giménez,2026-08-20,Train,0,Tampa Bay Rays,2,0,0,0,0,1,0,Hit,0
+TOR_20260820_1_PA007,TOR_20260820_1,B008,Ernie Clement,2026-08-20,Train,0,Tampa Bay Rays,2,0,0,1,1,6,1,Strikeout,0
+TOR_20260820_1_PA008,TOR_20260820_1,B013,Myles Straw,2026-08-20,Train,0,Tampa Bay Rays,2,1,0,0,0,1,0,Flyout,0
+TOR_20260820_1_PA009,TOR_20260820_1,B014,Nathan Lukes,2026-08-20,Train,0,Tampa Bay Rays,2,1,0,0,0,5,0,Groundout,0
+TOR_20260820_1_PA010,TOR_20260820_1,B005,Charles McAdoo,2026-08-20,Train,0,Tampa Bay Rays,3,0,0,0,0,4,1,Strikeout,0
+TOR_20260820_1_PA011,TOR_20260820_1,B007,Daz Cameron,2026-08-20,Train,0,Tampa Bay Rays,3,0,0,0,0,5,0,Flyout,0
+TOR_20260820_1_PA012,TOR_20260820_1,B001,Alejandro Kirk,2026-08-20,Train,0,Tampa Bay Rays,3,0,0,0,0,6,0,Flyout,0
+TOR_20260820_1_PA013,TOR_20260820_1,B009,George Springer,2026-08-20,Train,0,Tampa Bay Rays,4,0,0,0,0,3,1,Strikeout,0
+TOR_20260820_1_PA014,TOR_20260820_1,B012,Kazuma Okamoto,2026-08-20,Train,0,Tampa Bay Rays,4,0,0,0,0,1,0,Hit,0
+TOR_20260820_1_PA015,TOR_20260820_1,B002,Andrés Giménez,2026-08-20,Train,0,Tampa Bay Rays,4,1,0,0,0,4,0,Groundout,0
+TOR_20260820_1_PA016,TOR_20260820_1,B008,Ernie Clement,2026-08-20,Train,0,Tampa Bay Rays,4,1,0,0,0,6,0,Walk,0
+TOR_20260820_1_PA017,TOR_20260820_1,B013,Myles Straw,2026-08-20,Train,0,Tampa Bay Rays,4,1,0,0,0,6,1,Strikeout,0
+TOR_20260820_1_PA018,TOR_20260820_1,B014,Nathan Lukes,2026-08-20,Train,0,Tampa Bay Rays,5,0,0,0,0,2,0,Home Run,0
+TOR_20260820_1_PA019,TOR_20260820_1,B005,Charles McAdoo,2026-08-20,Train,0,Tampa Bay Rays,5,0,0,0,0,7,1,Strikeout,0
+TOR_20260820_1_PA020,TOR_20260820_1,B007,Daz Cameron,2026-08-20,Train,0,Tampa Bay Rays,5,0,0,0,0,5,0,Home Run,0
+TOR_20260820_1_PA021,TOR_20260820_1,B001,Alejandro Kirk,2026-08-20,Train,0,Tampa Bay Rays,5,0,0,0,0,3,0,Groundout,0
+TOR_20260820_1_PA022,TOR_20260820_1,B009,George Springer,2026-08-20,Train,0,Tampa Bay Rays,5,0,0,0,0,3,1,Strikeout,0
+TOR_20260820_1_PA023,TOR_20260820_1,B012,Kazuma Okamoto,2026-08-20,Train,0,Tampa Bay Rays,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260820_1_PA024,TOR_20260820_1,B003,Brandon Valenzuela,2026-08-20,Train,0,Tampa Bay Rays,6,0,0,0,0,2,0,Hit,0
+TOR_20260820_1_PA025,TOR_20260820_1,B008,Ernie Clement,2026-08-20,Train,0,Tampa Bay Rays,6,1,0,0,0,2,0,Flyout,0
+TOR_20260820_1_PA026,TOR_20260820_1,B013,Myles Straw,2026-08-20,Train,0,Tampa Bay Rays,6,1,0,0,0,7,1,Strikeout,0
+TOR_20260820_1_PA027,TOR_20260820_1,B014,Nathan Lukes,2026-08-20,Train,0,Tampa Bay Rays,7,0,0,0,0,7,1,Strikeout,0
+TOR_20260820_1_PA028,TOR_20260820_1,B005,Charles McAdoo,2026-08-20,Train,0,Tampa Bay Rays,7,0,0,0,0,1,0,Hit,0
+TOR_20260820_1_PA029,TOR_20260820_1,B007,Daz Cameron,2026-08-20,Train,0,Tampa Bay Rays,7,0,1,1,2,6,0,Hit,0
+TOR_20260820_1_PA031,TOR_20260820_1,B012,Kazuma Okamoto,2026-08-20,Train,0,Tampa Bay Rays,7,1,0,0,0,7,0,Groundout,0
+TOR_20260820_1_PA032,TOR_20260820_1,B003,Brandon Valenzuela,2026-08-20,Train,0,Tampa Bay Rays,8,0,0,1,1,4,0,Walk,0
+TOR_20260820_1_PA033,TOR_20260820_1,B008,Ernie Clement,2026-08-20,Train,0,Tampa Bay Rays,8,0,0,0,0,4,0,Hit,0
+TOR_20260820_1_PA034,TOR_20260820_1,B013,Myles Straw,2026-08-20,Train,0,Tampa Bay Rays,8,1,0,0,0,2,0,Fielder's Choice,0
+TOR_20260820_1_PA035,TOR_20260820_1,B014,Nathan Lukes,2026-08-20,Train,0,Tampa Bay Rays,8,1,0,0,0,7,0,Fielder's Choice,0
+TOR_20260820_1_PA036,TOR_20260820_1,B005,Charles McAdoo,2026-08-20,Train,0,Tampa Bay Rays,8,1,0,0,0,2,0,Groundout,0
+TOR_20260820_1_PA037,TOR_20260820_1,B007,Daz Cameron,2026-08-20,Train,0,Tampa Bay Rays,9,0,0,0,0,5,1,Strikeout,0
+TOR_20260820_1_PA038,TOR_20260820_1,B001,Alejandro Kirk,2026-08-20,Train,0,Tampa Bay Rays,9,0,0,0,0,1,0,Flyout,0
+TOR_20260820_1_PA039,TOR_20260820_1,B009,George Springer,2026-08-20,Train,0,Tampa Bay Rays,9,0,0,0,0,3,0,Hit,0
+TOR_20260820_1_PA040,TOR_20260820_1,B012,Kazuma Okamoto,2026-08-20,Train,0,Tampa Bay Rays,9,0,0,0,0,3,0,Flyout,0
+TOR_20260821_1_PA001,TOR_20260821_1,B004,Brett Bateman,2026-08-21,Train,0,New York Yankees,1,0,0,0,0,4,0,Hit,0
+TOR_20260821_1_PA002,TOR_20260821_1,B014,Nathan Lukes,2026-08-21,Train,0,New York Yankees,1,0,0,0,0,1,0,Groundout,0
+TOR_20260821_1_PA003,TOR_20260821_1,B001,Alejandro Kirk,2026-08-21,Train,0,New York Yankees,1,0,0,0,0,4,0,Walk,0
+TOR_20260821_1_PA004,TOR_20260821_1,B010,Jesús Sánchez,2026-08-21,Train,0,New York Yankees,1,0,0,0,0,1,0,Hit,0
+TOR_20260821_1_PA005,TOR_20260821_1,B008,Ernie Clement,2026-08-21,Train,0,New York Yankees,1,1,0,0,0,3,0,Groundout,0
+TOR_20260821_1_PA006,TOR_20260821_1,B012,Kazuma Okamoto,2026-08-21,Train,0,New York Yankees,2,0,0,0,0,4,0,Flyout,0
+TOR_20260821_1_PA007,TOR_20260821_1,B003,Brandon Valenzuela,2026-08-21,Train,0,New York Yankees,2,0,0,0,0,1,0,Flyout,0
+TOR_20260821_1_PA008,TOR_20260821_1,B005,Charles McAdoo,2026-08-21,Train,0,New York Yankees,2,0,0,0,0,1,0,Groundout,0
+TOR_20260821_1_PA009,TOR_20260821_1,B013,Myles Straw,2026-08-21,Train,0,New York Yankees,3,0,0,0,0,5,0,Walk,0
+TOR_20260821_1_PA010,TOR_20260821_1,B004,Brett Bateman,2026-08-21,Train,0,New York Yankees,3,0,0,0,0,6,0,Groundout,0
+TOR_20260821_1_PA011,TOR_20260821_1,B014,Nathan Lukes,2026-08-21,Train,0,New York Yankees,3,1,0,0,0,5,0,Flyout,0
+TOR_20260821_1_PA012,TOR_20260821_1,B001,Alejandro Kirk,2026-08-21,Train,0,New York Yankees,3,1,0,0,0,6,0,Walk,0
+TOR_20260821_1_PA013,TOR_20260821_1,B010,Jesús Sánchez,2026-08-21,Train,0,New York Yankees,3,1,0,0,0,4,1,Strikeout,0
+TOR_20260821_1_PA014,TOR_20260821_1,B008,Ernie Clement,2026-08-21,Train,0,New York Yankees,4,0,0,0,0,6,0,Hit,0
+TOR_20260821_1_PA015,TOR_20260821_1,B012,Kazuma Okamoto,2026-08-21,Train,0,New York Yankees,4,0,0,0,0,8,0,Hit,0
+TOR_20260821_1_PA016,TOR_20260821_1,B003,Brandon Valenzuela,2026-08-21,Train,0,New York Yankees,4,1,0,0,0,2,0,Groundout,0
+TOR_20260821_1_PA017,TOR_20260821_1,B005,Charles McAdoo,2026-08-21,Train,0,New York Yankees,4,1,0,0,0,3,1,Strikeout,0
+TOR_20260821_1_PA018,TOR_20260821_1,B013,Myles Straw,2026-08-21,Train,0,New York Yankees,4,1,0,1,1,8,0,Flyout,0
+TOR_20260821_1_PA019,TOR_20260821_1,B004,Brett Bateman,2026-08-21,Train,0,New York Yankees,5,0,0,0,0,2,0,Hit,0
+TOR_20260821_1_PA020,TOR_20260821_1,B014,Nathan Lukes,2026-08-21,Train,0,New York Yankees,5,1,0,0,0,4,0,Flyout,0
+TOR_20260821_1_PA021,TOR_20260821_1,B001,Alejandro Kirk,2026-08-21,Train,0,New York Yankees,5,1,0,0,0,4,0,Hit,0
+TOR_20260821_1_PA022,TOR_20260821_1,B010,Jesús Sánchez,2026-08-21,Train,0,New York Yankees,5,0,0,0,0,3,0,Groundout,0
+TOR_20260821_1_PA023,TOR_20260821_1,B008,Ernie Clement,2026-08-21,Train,0,New York Yankees,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260821_1_PA024,TOR_20260821_1,B012,Kazuma Okamoto,2026-08-21,Train,0,New York Yankees,6,0,0,0,0,3,0,Flyout,0
+TOR_20260821_1_PA025,TOR_20260821_1,B003,Brandon Valenzuela,2026-08-21,Train,0,New York Yankees,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260821_1_PA026,TOR_20260821_1,B005,Charles McAdoo,2026-08-21,Train,0,New York Yankees,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260821_1_PA027,TOR_20260821_1,B013,Myles Straw,2026-08-21,Train,0,New York Yankees,7,0,0,0,0,2,0,Flyout,0
+TOR_20260821_1_PA028,TOR_20260821_1,B004,Brett Bateman,2026-08-21,Train,0,New York Yankees,7,0,0,0,0,6,0,Hit,0
+TOR_20260821_1_PA029,TOR_20260821_1,B009,George Springer,2026-08-21,Train,0,New York Yankees,7,1,0,0,0,7,1,Strikeout,0
+TOR_20260821_1_PA030,TOR_20260821_1,B001,Alejandro Kirk,2026-08-21,Train,0,New York Yankees,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260821_1_PA031,TOR_20260821_1,B010,Jesús Sánchez,2026-08-21,Train,0,New York Yankees,8,0,0,0,0,1,0,Hit,0
+TOR_20260821_1_PA032,TOR_20260821_1,B008,Ernie Clement,2026-08-21,Train,0,New York Yankees,8,1,0,0,0,3,0,Flyout,0
+TOR_20260821_1_PA033,TOR_20260821_1,B012,Kazuma Okamoto,2026-08-21,Train,0,New York Yankees,8,1,0,0,0,7,0,Flyout,0
+TOR_20260821_1_PA034,TOR_20260821_1,B003,Brandon Valenzuela,2026-08-21,Train,0,New York Yankees,9,0,0,0,0,6,0,Hit,0
+TOR_20260821_1_PA035,TOR_20260821_1,B005,Charles McAdoo,2026-08-21,Train,0,New York Yankees,9,1,0,0,0,1,0,Flyout,0
+TOR_20260821_1_PA036,TOR_20260821_1,B013,Myles Straw,2026-08-21,Train,0,New York Yankees,9,1,0,0,0,5,0,Groundout,0
+TOR_20260821_1_PA037,TOR_20260821_1,B004,Brett Bateman,2026-08-21,Train,0,New York Yankees,9,1,0,0,0,4,1,Strikeout,0
+TOR_20260822_1_PA001,TOR_20260822_1,B004,Brett Bateman,2026-08-22,Train,0,New York Yankees,1,0,0,0,0,8,0,Hit,0
+TOR_20260822_1_PA002,TOR_20260822_1,B017,Vladimir Guerrero Jr.,2026-08-22,Train,0,New York Yankees,1,0,0,0,0,2,0,Fielder's Choice,0
+TOR_20260822_1_PA003,TOR_20260822_1,B001,Alejandro Kirk,2026-08-22,Train,0,New York Yankees,1,0,0,1,1,5,0,Hit,0
+TOR_20260822_1_PA004,TOR_20260822_1,B009,George Springer,2026-08-22,Train,0,New York Yankees,1,1,0,0,0,3,0,Hit,0
+TOR_20260822_1_PA005,TOR_20260822_1,B012,Kazuma Okamoto,2026-08-22,Train,0,New York Yankees,1,1,0,0,0,5,1,Strikeout,0
+TOR_20260822_1_PA006,TOR_20260822_1,B008,Ernie Clement,2026-08-22,Train,0,New York Yankees,1,1,0,0,0,2,0,Groundout,0
+TOR_20260822_1_PA007,TOR_20260822_1,B007,Daz Cameron,2026-08-22,Train,0,New York Yankees,2,0,0,0,0,7,0,Flyout,0
+TOR_20260822_1_PA008,TOR_20260822_1,B005,Charles McAdoo,2026-08-22,Train,0,New York Yankees,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260822_1_PA009,TOR_20260822_1,B013,Myles Straw,2026-08-22,Train,0,New York Yankees,2,0,0,0,0,4,0,Flyout,0
+TOR_20260822_1_PA010,TOR_20260822_1,B004,Brett Bateman,2026-08-22,Train,0,New York Yankees,3,0,0,0,0,3,0,Hit,0
+TOR_20260822_1_PA011,TOR_20260822_1,B017,Vladimir Guerrero Jr.,2026-08-22,Train,0,New York Yankees,3,0,0,1,1,4,0,Hit,0
+TOR_20260822_1_PA012,TOR_20260822_1,B001,Alejandro Kirk,2026-08-22,Train,0,New York Yankees,3,1,0,0,0,2,0,Groundout,0
+TOR_20260822_1_PA013,TOR_20260822_1,B009,George Springer,2026-08-22,Train,0,New York Yankees,3,1,0,0,0,2,0,Groundout,0
+TOR_20260822_1_PA014,TOR_20260822_1,B012,Kazuma Okamoto,2026-08-22,Train,0,New York Yankees,4,0,0,0,0,5,0,Hit,0
+TOR_20260822_1_PA015,TOR_20260822_1,B008,Ernie Clement,2026-08-22,Train,0,New York Yankees,4,1,0,0,0,2,0,Hit,0
+TOR_20260822_1_PA016,TOR_20260822_1,B007,Daz Cameron,2026-08-22,Train,0,New York Yankees,4,1,0,0,0,7,1,Strikeout,0
+TOR_20260822_1_PA017,TOR_20260822_1,B005,Charles McAdoo,2026-08-22,Train,0,New York Yankees,4,1,0,0,0,4,0,Hit,0
+TOR_20260822_1_PA018,TOR_20260822_1,B013,Myles Straw,2026-08-22,Train,0,New York Yankees,4,1,0,0,0,5,0,Flyout,0
+TOR_20260822_1_PA019,TOR_20260822_1,B004,Brett Bateman,2026-08-22,Train,0,New York Yankees,4,1,0,1,1,6,0,Walk,0
+TOR_20260822_1_PA020,TOR_20260822_1,B017,Vladimir Guerrero Jr.,2026-08-22,Train,0,New York Yankees,4,1,0,0,0,4,0,Groundout,0
+TOR_20260822_1_PA021,TOR_20260822_1,B001,Alejandro Kirk,2026-08-22,Train,0,New York Yankees,5,0,0,0,0,6,0,Walk,0
+TOR_20260822_1_PA022,TOR_20260822_1,B009,George Springer,2026-08-22,Train,0,New York Yankees,5,0,0,0,0,5,0,Hit,0
+TOR_20260822_1_PA023,TOR_20260822_1,B012,Kazuma Okamoto,2026-08-22,Train,0,New York Yankees,5,1,0,0,0,1,0,Flyout,0
+TOR_20260822_1_PA024,TOR_20260822_1,B008,Ernie Clement,2026-08-22,Train,0,New York Yankees,5,1,0,0,0,3,0,Flyout,0
+TOR_20260822_1_PA025,TOR_20260822_1,B014,Nathan Lukes,2026-08-22,Train,0,New York Yankees,5,1,0,0,0,4,0,Hit,0
+TOR_20260822_1_PA026,TOR_20260822_1,B005,Charles McAdoo,2026-08-22,Train,0,New York Yankees,5,1,0,0,0,5,0,Flyout,0
+TOR_20260822_1_PA027,TOR_20260822_1,B013,Myles Straw,2026-08-22,Train,0,New York Yankees,6,0,0,0,0,1,0,Hit,0
+TOR_20260822_1_PA028,TOR_20260822_1,B004,Brett Bateman,2026-08-22,Train,0,New York Yankees,6,1,0,0,0,1,0,Groundout,0
+TOR_20260822_1_PA029,TOR_20260822_1,B017,Vladimir Guerrero Jr.,2026-08-22,Train,0,New York Yankees,6,1,0,0,0,2,0,Flyout,0
+TOR_20260822_1_PA030,TOR_20260822_1,B001,Alejandro Kirk,2026-08-22,Train,0,New York Yankees,6,1,0,0,0,3,0,Groundout,0
+TOR_20260822_1_PA031,TOR_20260822_1,B009,George Springer,2026-08-22,Train,0,New York Yankees,7,0,0,0,0,5,0,Hit,0
+TOR_20260822_1_PA032,TOR_20260822_1,B012,Kazuma Okamoto,2026-08-22,Train,0,New York Yankees,7,0,0,0,0,4,0,Flyout,0
+TOR_20260822_1_PA033,TOR_20260822_1,B008,Ernie Clement,2026-08-22,Train,0,New York Yankees,7,0,0,1,1,6,0,Flyout,0
+TOR_20260822_1_PA034,TOR_20260822_1,B014,Nathan Lukes,2026-08-22,Train,0,New York Yankees,8,0,0,1,1,5,0,Home Run,0
+TOR_20260822_1_PA035,TOR_20260822_1,B005,Charles McAdoo,2026-08-22,Train,0,New York Yankees,8,0,0,0,0,4,1,Strikeout,0
+TOR_20260822_1_PA036,TOR_20260822_1,B013,Myles Straw,2026-08-22,Train,0,New York Yankees,8,0,0,0,0,2,0,Hit,0
+TOR_20260822_1_PA037,TOR_20260822_1,B004,Brett Bateman,2026-08-22,Train,0,New York Yankees,8,0,0,0,0,1,0,Fielder's Choice,0
+TOR_20260822_1_PA038,TOR_20260822_1,B017,Vladimir Guerrero Jr.,2026-08-22,Train,0,New York Yankees,8,0,1,1,2,7,0,Hit,0
+TOR_20260822_1_PA039,TOR_20260822_1,B001,Alejandro Kirk,2026-08-22,Train,0,New York Yankees,8,1,0,0,0,1,0,Groundout,0
+TOR_20260822_1_PA040,TOR_20260822_1,B009,George Springer,2026-08-22,Train,0,New York Yankees,9,0,0,0,0,6,0,Flyout,0
+TOR_20260822_1_PA041,TOR_20260822_1,B012,Kazuma Okamoto,2026-08-22,Train,0,New York Yankees,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260822_1_PA042,TOR_20260822_1,B008,Ernie Clement,2026-08-22,Train,0,New York Yankees,9,0,0,0,0,2,0,Hit,0
+TOR_20260822_1_PA043,TOR_20260822_1,B014,Nathan Lukes,2026-08-22,Train,0,New York Yankees,9,1,0,0,0,6,1,Strikeout,0
+TOR_20260823_1_PA001,TOR_20260823_1,B004,Brett Bateman,2026-08-23,Train,0,New York Yankees,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260823_1_PA002,TOR_20260823_1,B017,Vladimir Guerrero Jr.,2026-08-23,Train,0,New York Yankees,1,0,0,0,0,3,0,Flyout,0
+TOR_20260823_1_PA003,TOR_20260823_1,B001,Alejandro Kirk,2026-08-23,Train,0,New York Yankees,1,0,0,0,0,2,0,Groundout,0
+TOR_20260823_1_PA004,TOR_20260823_1,B009,George Springer,2026-08-23,Train,0,New York Yankees,2,0,0,0,0,7,0,Flyout,0
+TOR_20260823_1_PA005,TOR_20260823_1,B012,Kazuma Okamoto,2026-08-23,Train,0,New York Yankees,2,0,0,1,1,6,0,Flyout,0
+TOR_20260823_1_PA006,TOR_20260823_1,B008,Ernie Clement,2026-08-23,Train,0,New York Yankees,2,0,0,0,0,2,0,Flyout,0
+TOR_20260823_1_PA007,TOR_20260823_1,B007,Daz Cameron,2026-08-23,Train,0,New York Yankees,3,0,0,0,0,3,0,Lineout,0
+TOR_20260823_1_PA008,TOR_20260823_1,B005,Charles McAdoo,2026-08-23,Train,0,New York Yankees,3,0,0,0,0,4,0,Walk,0
+TOR_20260823_1_PA009,TOR_20260823_1,B013,Myles Straw,2026-08-23,Train,0,New York Yankees,3,0,0,0,0,4,0,Hit,0
+TOR_20260823_1_PA010,TOR_20260823_1,B004,Brett Bateman,2026-08-23,Train,0,New York Yankees,3,1,0,0,0,6,0,Flyout,0
+TOR_20260823_1_PA011,TOR_20260823_1,B017,Vladimir Guerrero Jr.,2026-08-23,Train,0,New York Yankees,3,1,0,0,0,4,0,Groundout,0
+TOR_20260823_1_PA012,TOR_20260823_1,B001,Alejandro Kirk,2026-08-23,Train,0,New York Yankees,4,0,0,0,0,7,1,Strikeout,0
+TOR_20260823_1_PA013,TOR_20260823_1,B009,George Springer,2026-08-23,Train,0,New York Yankees,4,0,0,0,0,4,0,Hit,0
+TOR_20260823_1_PA014,TOR_20260823_1,B012,Kazuma Okamoto,2026-08-23,Train,0,New York Yankees,4,1,0,0,0,5,0,Walk,0
+TOR_20260823_1_PA015,TOR_20260823_1,B008,Ernie Clement,2026-08-23,Train,0,New York Yankees,4,1,0,0,0,3,0,Hit,0
+TOR_20260823_1_PA016,TOR_20260823_1,B007,Daz Cameron,2026-08-23,Train,0,New York Yankees,4,1,0,0,0,7,0,Flyout,0
+TOR_20260823_1_PA017,TOR_20260823_1,B005,Charles McAdoo,2026-08-23,Train,0,New York Yankees,4,1,0,1,1,5,0,Groundout,0
+TOR_20260823_1_PA018,TOR_20260823_1,B013,Myles Straw,2026-08-23,Train,0,New York Yankees,5,0,0,0,0,3,0,Groundout,0
+TOR_20260823_1_PA019,TOR_20260823_1,B004,Brett Bateman,2026-08-23,Train,0,New York Yankees,5,0,0,0,0,3,0,Groundout,0
+TOR_20260823_1_PA020,TOR_20260823_1,B017,Vladimir Guerrero Jr.,2026-08-23,Train,0,New York Yankees,5,0,0,0,0,3,0,Groundout,0
+TOR_20260823_1_PA021,TOR_20260823_1,B001,Alejandro Kirk,2026-08-23,Train,0,New York Yankees,6,0,0,0,0,6,0,Flyout,0
+TOR_20260823_1_PA022,TOR_20260823_1,B009,George Springer,2026-08-23,Train,0,New York Yankees,6,0,0,0,0,5,0,Groundout,0
+TOR_20260823_1_PA023,TOR_20260823_1,B012,Kazuma Okamoto,2026-08-23,Train,0,New York Yankees,6,0,0,0,0,5,0,Flyout,0
+TOR_20260823_1_PA024,TOR_20260823_1,B008,Ernie Clement,2026-08-23,Train,0,New York Yankees,7,0,0,0,0,2,0,Flyout,0
+TOR_20260823_1_PA025,TOR_20260823_1,B007,Daz Cameron,2026-08-23,Train,0,New York Yankees,7,0,0,0,0,2,0,Flyout,0
+TOR_20260823_1_PA026,TOR_20260823_1,B005,Charles McAdoo,2026-08-23,Train,0,New York Yankees,7,0,0,0,0,4,0,Flyout,0
+TOR_20260823_1_PA027,TOR_20260823_1,B013,Myles Straw,2026-08-23,Train,0,New York Yankees,8,0,0,0,0,4,0,Hit,0
+TOR_20260823_1_PA028,TOR_20260823_1,B004,Brett Bateman,2026-08-23,Train,0,New York Yankees,8,1,0,0,0,5,1,Strikeout,0
+TOR_20260823_1_PA029,TOR_20260823_1,B017,Vladimir Guerrero Jr.,2026-08-23,Train,0,New York Yankees,8,1,0,0,0,5,0,Groundout,0
+TOR_20260823_1_PA030,TOR_20260823_1,B001,Alejandro Kirk,2026-08-23,Train,0,New York Yankees,8,1,0,0,0,4,0,Hit,0
+TOR_20260823_1_PA031,TOR_20260823_1,B009,George Springer,2026-08-23,Train,0,New York Yankees,8,0,0,0,0,2,0,Flyout,0
+TOR_20260823_1_PA032,TOR_20260823_1,B012,Kazuma Okamoto,2026-08-23,Train,0,New York Yankees,9,0,0,0,0,4,0,Hit,0
+TOR_20260823_1_PA033,TOR_20260823_1,B008,Ernie Clement,2026-08-23,Train,0,New York Yankees,9,1,0,0,0,2,0,Flyout,0
+TOR_20260823_1_PA034,TOR_20260823_1,B007,Daz Cameron,2026-08-23,Train,0,New York Yankees,9,1,0,0,0,4,1,Strikeout,0
+TOR_20260823_1_PA035,TOR_20260823_1,B005,Charles McAdoo,2026-08-23,Train,0,New York Yankees,9,1,0,0,0,5,1,Strikeout,0
+TOR_20260825_1_PA001,TOR_20260825_1,B004,Brett Bateman,2026-08-25,Train,1,Kansas City Royals,1,0,0,0,0,7,0,Hit,0
+TOR_20260825_1_PA002,TOR_20260825_1,B014,Nathan Lukes,2026-08-25,Train,1,Kansas City Royals,1,0,0,0,0,6,0,Hit,0
+TOR_20260825_1_PA003,TOR_20260825_1,B017,Vladimir Guerrero Jr.,2026-08-25,Train,1,Kansas City Royals,1,1,0,0,0,2,0,Flyout,0
+TOR_20260825_1_PA004,TOR_20260825_1,B012,Kazuma Okamoto,2026-08-25,Train,1,Kansas City Royals,1,1,0,0,0,6,0,Walk,0
+TOR_20260825_1_PA005,TOR_20260825_1,B010,Jesús Sánchez,2026-08-25,Train,1,Kansas City Royals,1,1,0,0,0,2,0,Flyout,0
+TOR_20260825_1_PA006,TOR_20260825_1,B008,Ernie Clement,2026-08-25,Train,1,Kansas City Royals,1,1,0,0,0,4,1,Strikeout,0
+TOR_20260825_1_PA007,TOR_20260825_1,B002,Andrés Giménez,2026-08-25,Train,1,Kansas City Royals,2,0,0,0,0,1,0,Hit,0
+TOR_20260825_1_PA008,TOR_20260825_1,B003,Brandon Valenzuela,2026-08-25,Train,1,Kansas City Royals,2,1,0,0,0,4,0,Groundout,0
+TOR_20260825_1_PA009,TOR_20260825_1,B013,Myles Straw,2026-08-25,Train,1,Kansas City Royals,2,1,0,0,0,6,1,Strikeout,0
+TOR_20260825_1_PA010,TOR_20260825_1,B004,Brett Bateman,2026-08-25,Train,1,Kansas City Royals,2,1,0,0,0,5,1,Strikeout,0
+TOR_20260825_1_PA011,TOR_20260825_1,B014,Nathan Lukes,2026-08-25,Train,1,Kansas City Royals,3,1,0,0,0,2,0,Groundout,0
+TOR_20260825_1_PA012,TOR_20260825_1,B017,Vladimir Guerrero Jr.,2026-08-25,Train,1,Kansas City Royals,3,0,0,0,0,2,0,Flyout,0
+TOR_20260825_1_PA013,TOR_20260825_1,B012,Kazuma Okamoto,2026-08-25,Train,1,Kansas City Royals,3,0,0,0,0,6,1,Strikeout,0
+TOR_20260825_1_PA014,TOR_20260825_1,B010,Jesús Sánchez,2026-08-25,Train,1,Kansas City Royals,4,0,0,0,0,6,1,Strikeout,0
+TOR_20260825_1_PA015,TOR_20260825_1,B008,Ernie Clement,2026-08-25,Train,1,Kansas City Royals,4,0,0,0,0,5,0,Hit,0
+TOR_20260825_1_PA016,TOR_20260825_1,B002,Andrés Giménez,2026-08-25,Train,1,Kansas City Royals,4,0,0,0,0,2,0,Hit,0
+TOR_20260825_1_PA017,TOR_20260825_1,B003,Brandon Valenzuela,2026-08-25,Train,1,Kansas City Royals,4,1,0,0,0,5,0,Groundout,0
+TOR_20260825_1_PA018,TOR_20260825_1,B013,Myles Straw,2026-08-25,Train,1,Kansas City Royals,5,0,0,0,0,6,0,Flyout,0
+TOR_20260825_1_PA019,TOR_20260825_1,B004,Brett Bateman,2026-08-25,Train,1,Kansas City Royals,5,0,0,0,0,4,0,Hit,0
+TOR_20260825_1_PA020,TOR_20260825_1,B014,Nathan Lukes,2026-08-25,Train,1,Kansas City Royals,5,1,0,0,0,6,0,Groundout,0
+TOR_20260825_1_PA021,TOR_20260825_1,B017,Vladimir Guerrero Jr.,2026-08-25,Train,1,Kansas City Royals,5,1,0,0,0,1,0,Flyout,0
+TOR_20260825_1_PA022,TOR_20260825_1,B012,Kazuma Okamoto,2026-08-25,Train,1,Kansas City Royals,6,0,0,0,0,6,1,Strikeout,0
+TOR_20260825_1_PA023,TOR_20260825_1,B010,Jesús Sánchez,2026-08-25,Train,1,Kansas City Royals,6,0,0,0,0,5,0,Groundout,0
+TOR_20260825_1_PA024,TOR_20260825_1,B008,Ernie Clement,2026-08-25,Train,1,Kansas City Royals,6,0,0,0,0,2,0,Flyout,0
+TOR_20260825_1_PA025,TOR_20260825_1,B002,Andrés Giménez,2026-08-25,Train,1,Kansas City Royals,7,0,0,0,0,5,0,HBP,0
+TOR_20260825_1_PA026,TOR_20260825_1,B001,Alejandro Kirk,2026-08-25,Train,1,Kansas City Royals,7,0,0,0,0,4,0,Groundout,0
+TOR_20260825_1_PA027,TOR_20260825_1,B009,George Springer,2026-08-25,Train,1,Kansas City Royals,7,0,0,0,0,1,0,Groundout,0
+TOR_20260825_1_PA028,TOR_20260825_1,B004,Brett Bateman,2026-08-25,Train,1,Kansas City Royals,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260825_1_PA029,TOR_20260825_1,B014,Nathan Lukes,2026-08-25,Train,1,Kansas City Royals,8,0,0,0,0,5,0,Walk,0
+TOR_20260825_1_PA030,TOR_20260825_1,B017,Vladimir Guerrero Jr.,2026-08-25,Train,1,Kansas City Royals,8,0,0,0,0,5,0,Hit,0
+TOR_20260825_1_PA031,TOR_20260825_1,B012,Kazuma Okamoto,2026-08-25,Train,1,Kansas City Royals,8,1,0,0,0,2,0,Flyout,0
+TOR_20260825_1_PA032,TOR_20260825_1,B010,Jesús Sánchez,2026-08-25,Train,1,Kansas City Royals,8,1,0,0,0,2,0,HBP,0
+TOR_20260825_1_PA033,TOR_20260825_1,B008,Ernie Clement,2026-08-25,Train,1,Kansas City Royals,8,1,0,0,0,6,0,Flyout,0
+TOR_20260825_1_PA034,TOR_20260825_1,B002,Andrés Giménez,2026-08-25,Train,1,Kansas City Royals,9,0,0,0,0,1,0,Groundout,0
+TOR_20260825_1_PA035,TOR_20260825_1,B001,Alejandro Kirk,2026-08-25,Train,1,Kansas City Royals,9,0,0,0,0,5,0,Groundout,0
+TOR_20260825_1_PA036,TOR_20260825_1,B007,Daz Cameron,2026-08-25,Train,1,Kansas City Royals,9,0,0,0,0,2,0,Hit,0
+TOR_20260825_1_PA037,TOR_20260825_1,B004,Brett Bateman,2026-08-25,Train,1,Kansas City Royals,9,0,0,0,0,2,0,Hit,0
+TOR_20260825_1_PA038,TOR_20260825_1,B014,Nathan Lukes,2026-08-25,Train,1,Kansas City Royals,9,1,0,0,0,2,0,Hit,0
+TOR_20260826_1_PA001,TOR_20260826_1,B004,Brett Bateman,2026-08-26,Train,1,Kansas City Royals,1,0,0,0,0,6,1,Strikeout,0
+TOR_20260826_1_PA002,TOR_20260826_1,B017,Vladimir Guerrero Jr.,2026-08-26,Train,1,Kansas City Royals,1,0,0,0,0,5,0,Hit,0
+TOR_20260826_1_PA003,TOR_20260826_1,B001,Alejandro Kirk,2026-08-26,Train,1,Kansas City Royals,1,0,0,0,0,6,0,Flyout,0
+TOR_20260826_1_PA004,TOR_20260826_1,B009,George Springer,2026-08-26,Train,1,Kansas City Royals,1,0,0,0,0,3,1,Strikeout,0
+TOR_20260826_1_PA005,TOR_20260826_1,B010,Jesús Sánchez,2026-08-26,Train,1,Kansas City Royals,2,0,0,0,0,2,0,Hit,0
+TOR_20260826_1_PA006,TOR_20260826_1,B012,Kazuma Okamoto,2026-08-26,Train,1,Kansas City Royals,2,1,0,0,0,3,0,Groundout,0
+TOR_20260826_1_PA007,TOR_20260826_1,B014,Nathan Lukes,2026-08-26,Train,1,Kansas City Royals,2,1,0,0,0,2,0,Flyout,0
+TOR_20260826_1_PA008,TOR_20260826_1,B008,Ernie Clement,2026-08-26,Train,1,Kansas City Royals,2,1,0,0,0,6,1,Strikeout,0
+TOR_20260826_1_PA009,TOR_20260826_1,B002,Andrés Giménez,2026-08-26,Train,1,Kansas City Royals,3,0,0,0,0,4,0,Groundout,0
+TOR_20260826_1_PA010,TOR_20260826_1,B004,Brett Bateman,2026-08-26,Train,1,Kansas City Royals,3,0,0,0,0,2,0,Hit,0
+TOR_20260826_1_PA011,TOR_20260826_1,B017,Vladimir Guerrero Jr.,2026-08-26,Train,1,Kansas City Royals,3,0,0,0,0,2,0,Flyout,0
+TOR_20260826_1_PA012,TOR_20260826_1,B001,Alejandro Kirk,2026-08-26,Train,1,Kansas City Royals,3,0,0,0,0,2,0,Flyout,0
+TOR_20260826_1_PA013,TOR_20260826_1,B009,George Springer,2026-08-26,Train,1,Kansas City Royals,4,0,0,0,0,3,0,Hit,0
+TOR_20260826_1_PA014,TOR_20260826_1,B010,Jesús Sánchez,2026-08-26,Train,1,Kansas City Royals,4,0,0,0,0,5,0,Hit,0
+TOR_20260826_1_PA015,TOR_20260826_1,B012,Kazuma Okamoto,2026-08-26,Train,1,Kansas City Royals,4,1,0,0,0,6,0,Fielder's Choice,0
+TOR_20260826_1_PA016,TOR_20260826_1,B014,Nathan Lukes,2026-08-26,Train,1,Kansas City Royals,4,1,0,0,0,2,0,Home Run,0
+TOR_20260826_1_PA017,TOR_20260826_1,B008,Ernie Clement,2026-08-26,Train,1,Kansas City Royals,4,0,0,0,0,1,0,Flyout,0
+TOR_20260826_1_PA018,TOR_20260826_1,B002,Andrés Giménez,2026-08-26,Train,1,Kansas City Royals,4,0,0,0,0,4,0,Flyout,0
+TOR_20260826_1_PA019,TOR_20260826_1,B004,Brett Bateman,2026-08-26,Train,1,Kansas City Royals,5,0,0,0,0,4,0,Groundout,0
+TOR_20260826_1_PA020,TOR_20260826_1,B017,Vladimir Guerrero Jr.,2026-08-26,Train,1,Kansas City Royals,5,0,0,0,0,5,0,Groundout,0
+TOR_20260826_1_PA021,TOR_20260826_1,B001,Alejandro Kirk,2026-08-26,Train,1,Kansas City Royals,5,0,0,0,0,2,0,Groundout,0
+TOR_20260826_1_PA022,TOR_20260826_1,B009,George Springer,2026-08-26,Train,1,Kansas City Royals,6,0,0,0,0,2,0,Groundout,0
+TOR_20260826_1_PA023,TOR_20260826_1,B010,Jesús Sánchez,2026-08-26,Train,1,Kansas City Royals,6,0,0,0,0,3,1,Strikeout,0
+TOR_20260826_1_PA024,TOR_20260826_1,B012,Kazuma Okamoto,2026-08-26,Train,1,Kansas City Royals,6,0,0,0,0,6,0,Walk,0
+TOR_20260826_1_PA025,TOR_20260826_1,B014,Nathan Lukes,2026-08-26,Train,1,Kansas City Royals,6,0,0,0,0,6,1,Strikeout,0
+TOR_20260826_1_PA026,TOR_20260826_1,B008,Ernie Clement,2026-08-26,Train,1,Kansas City Royals,7,0,0,0,0,3,0,Groundout,0
+TOR_20260826_1_PA027,TOR_20260826_1,B002,Andrés Giménez,2026-08-26,Train,1,Kansas City Royals,7,0,0,0,0,2,0,Groundout,0
+TOR_20260826_1_PA028,TOR_20260826_1,B004,Brett Bateman,2026-08-26,Train,1,Kansas City Royals,7,0,0,1,1,6,0,Flyout,0
+TOR_20260826_1_PA029,TOR_20260826_1,B017,Vladimir Guerrero Jr.,2026-08-26,Train,1,Kansas City Royals,8,0,0,0,0,1,0,Groundout,0
+TOR_20260826_1_PA030,TOR_20260826_1,B001,Alejandro Kirk,2026-08-26,Train,1,Kansas City Royals,8,0,0,0,0,3,0,Flyout,0
+TOR_20260826_1_PA031,TOR_20260826_1,B009,George Springer,2026-08-26,Train,1,Kansas City Royals,8,0,0,0,0,2,0,Flyout,0
+TOR_20260827_1_PA001,TOR_20260827_1,B005,Charles McAdoo,2026-08-27,Train,1,Kansas City Royals,1,0,0,0,0,3,0,Hit,0
+TOR_20260827_1_PA002,TOR_20260827_1,B017,Vladimir Guerrero Jr.,2026-08-27,Train,1,Kansas City Royals,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260827_1_PA003,TOR_20260827_1,B001,Alejandro Kirk,2026-08-27,Train,1,Kansas City Royals,1,0,0,0,0,4,0,Flyout,0
+TOR_20260827_1_PA004,TOR_20260827_1,B009,George Springer,2026-08-27,Train,1,Kansas City Royals,1,0,0,1,1,7,0,Walk,0
+TOR_20260827_1_PA005,TOR_20260827_1,B012,Kazuma Okamoto,2026-08-27,Train,1,Kansas City Royals,1,1,0,0,0,1,0,Flyout,0
+TOR_20260827_1_PA006,TOR_20260827_1,B008,Ernie Clement,2026-08-27,Train,1,Kansas City Royals,2,0,0,0,0,3,0,Flyout,0
+TOR_20260827_1_PA007,TOR_20260827_1,B007,Daz Cameron,2026-08-27,Train,1,Kansas City Royals,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260827_1_PA008,TOR_20260827_1,B013,Myles Straw,2026-08-27,Train,1,Kansas City Royals,2,0,0,0,0,6,0,Double,0
+TOR_20260827_1_PA009,TOR_20260827_1,B014,Nathan Lukes,2026-08-27,Train,1,Kansas City Royals,2,1,0,0,0,2,0,Flyout,0
+TOR_20260827_1_PA010,TOR_20260827_1,B005,Charles McAdoo,2026-08-27,Train,1,Kansas City Royals,3,0,0,0,0,4,0,Groundout,0
+TOR_20260827_1_PA011,TOR_20260827_1,B017,Vladimir Guerrero Jr.,2026-08-27,Train,1,Kansas City Royals,3,0,0,0,0,6,0,Walk,0
+TOR_20260827_1_PA012,TOR_20260827_1,B001,Alejandro Kirk,2026-08-27,Train,1,Kansas City Royals,3,0,0,0,0,2,0,Lineout,0
+TOR_20260827_1_PA013,TOR_20260827_1,B009,George Springer,2026-08-27,Train,1,Kansas City Royals,4,0,0,0,0,1,0,Groundout,0
+TOR_20260827_1_PA014,TOR_20260827_1,B001,Alejandro Kirk,2026-08-27,Train,1,Kansas City Royals,4,0,0,0,0,2,0,Groundout,0
+TOR_20260827_1_PA015,TOR_20260827_1,B008,Ernie Clement,2026-08-27,Train,1,Kansas City Royals,4,0,0,0,0,3,0,Groundout,0
+TOR_20260827_1_PA016,TOR_20260827_1,B007,Daz Cameron,2026-08-27,Train,1,Kansas City Royals,5,0,0,0,0,1,0,Flyout,0
+TOR_20260827_1_PA017,TOR_20260827_1,B013,Myles Straw,2026-08-27,Train,1,Kansas City Royals,5,0,0,0,0,3,1,Strikeout,0
+TOR_20260827_1_PA018,TOR_20260827_1,B014,Nathan Lukes,2026-08-27,Train,1,Kansas City Royals,5,0,0,0,0,4,0,Groundout,0
+TOR_20260827_1_PA019,TOR_20260827_1,B005,Charles McAdoo,2026-08-27,Train,1,Kansas City Royals,6,0,0,0,0,4,0,Flyout,0
+TOR_20260827_1_PA020,TOR_20260827_1,B017,Vladimir Guerrero Jr.,2026-08-27,Train,1,Kansas City Royals,6,0,0,0,0,3,0,Groundout,0
+TOR_20260827_1_PA021,TOR_20260827_1,B001,Alejandro Kirk,2026-08-27,Train,1,Kansas City Royals,6,0,0,0,0,3,0,Hit,0
+TOR_20260827_1_PA022,TOR_20260827_1,B009,George Springer,2026-08-27,Train,1,Kansas City Royals,6,0,0,0,0,1,0,Home Run,0
+TOR_20260827_1_PA023,TOR_20260827_1,B012,Kazuma Okamoto,2026-08-27,Train,1,Kansas City Royals,6,0,0,0,0,4,0,Double,0
+TOR_20260827_1_PA024,TOR_20260827_1,B008,Ernie Clement,2026-08-27,Train,1,Kansas City Royals,6,1,0,0,0,3,0,Hit,0
+TOR_20260827_1_PA025,TOR_20260827_1,B007,Daz Cameron,2026-08-27,Train,1,Kansas City Royals,6,1,0,0,0,2,0,Groundout,0
+TOR_20260827_1_PA026,TOR_20260827_1,B013,Myles Straw,2026-08-27,Train,1,Kansas City Royals,7,0,0,1,1,7,0,Walk,0
+TOR_20260827_1_PA027,TOR_20260827_1,B014,Nathan Lukes,2026-08-27,Train,1,Kansas City Royals,7,0,0,0,0,3,0,Hit,0
+TOR_20260827_1_PA028,TOR_20260827_1,B005,Charles McAdoo,2026-08-27,Train,1,Kansas City Royals,7,1,0,0,0,2,0,Groundout,0
+TOR_20260827_1_PA029,TOR_20260827_1,B017,Vladimir Guerrero Jr.,2026-08-27,Train,1,Kansas City Royals,7,1,0,0,0,3,0,Groundout,0
+TOR_20260827_1_PA030,TOR_20260827_1,B001,Alejandro Kirk,2026-08-27,Train,1,Kansas City Royals,9,0,0,0,0,4,0,Groundout,0
+TOR_20260827_1_PA031,TOR_20260827_1,B009,George Springer,2026-08-27,Train,1,Kansas City Royals,9,0,0,0,0,2,0,Hit,0
+TOR_20260827_1_PA032,TOR_20260827_1,B012,Kazuma Okamoto,2026-08-27,Train,1,Kansas City Royals,9,0,0,0,0,3,0,Groundout,0
+TOR_20260827_1_PA033,TOR_20260827_1,B008,Ernie Clement,2026-08-27,Train,1,Kansas City Royals,9,0,0,0,0,3,0,Groundout,0
+TOR_20260827_1_PA034,TOR_20260827_1,B007,Daz Cameron,2026-08-27,Train,1,Kansas City Royals,9,0,0,0,0,5,0,Flyout,0
+TOR_20260827_1_PA035,TOR_20260827_1,B013,Myles Straw,2026-08-27,Train,1,Kansas City Royals,9,0,0,1,1,4,0,Groundout,0
+TOR_20260828_1_PA001,TOR_20260828_1,B004,Brett Bateman,2026-08-28,Train,1,Seattle Mariners,1,0,0,0,0,2,0,Hit,0
+TOR_20260828_1_PA002,TOR_20260828_1,B014,Nathan Lukes,2026-08-28,Train,1,Seattle Mariners,1,0,0,0,0,3,0,Groundout,0
+TOR_20260828_1_PA003,TOR_20260828_1,B017,Vladimir Guerrero Jr.,2026-08-28,Train,1,Seattle Mariners,1,1,0,0,0,1,0,Hit,0
+TOR_20260828_1_PA004,TOR_20260828_1,B009,George Springer,2026-08-28,Train,1,Seattle Mariners,1,1,0,0,0,3,0,Hit,0
+TOR_20260828_1_PA005,TOR_20260828_1,B010,Jesús Sánchez,2026-08-28,Train,1,Seattle Mariners,1,1,0,0,0,5,0,HBP,0
+TOR_20260828_1_PA006,TOR_20260828_1,B012,Kazuma Okamoto,2026-08-28,Train,1,Seattle Mariners,1,1,0,0,0,4,0,Flyout,0
+TOR_20260828_1_PA007,TOR_20260828_1,B002,Andrés Giménez,2026-08-28,Train,1,Seattle Mariners,1,1,0,0,0,1,0,Hit,0
+TOR_20260828_1_PA008,TOR_20260828_1,B008,Ernie Clement,2026-08-28,Train,1,Seattle Mariners,1,1,0,0,0,1,0,Groundout,0
+TOR_20260828_1_PA009,TOR_20260828_1,B003,Brandon Valenzuela,2026-08-28,Train,1,Seattle Mariners,2,0,0,0,0,3,0,Flyout,0
+TOR_20260828_1_PA010,TOR_20260828_1,B004,Brett Bateman,2026-08-28,Train,1,Seattle Mariners,2,0,0,0,0,3,0,Hit,0
+TOR_20260828_1_PA011,TOR_20260828_1,B014,Nathan Lukes,2026-08-28,Train,1,Seattle Mariners,2,0,0,0,0,1,0,Groundout,0
+TOR_20260828_1_PA012,TOR_20260828_1,B017,Vladimir Guerrero Jr.,2026-08-28,Train,1,Seattle Mariners,3,0,0,0,0,1,0,Flyout,0
+TOR_20260828_1_PA013,TOR_20260828_1,B009,George Springer,2026-08-28,Train,1,Seattle Mariners,3,0,0,0,0,2,0,Hit,0
+TOR_20260828_1_PA014,TOR_20260828_1,B010,Jesús Sánchez,2026-08-28,Train,1,Seattle Mariners,3,1,0,0,0,3,0,Flyout,0
+TOR_20260828_1_PA015,TOR_20260828_1,B012,Kazuma Okamoto,2026-08-28,Train,1,Seattle Mariners,3,1,0,0,0,3,0,Flyout,0
+TOR_20260828_1_PA016,TOR_20260828_1,B002,Andrés Giménez,2026-08-28,Train,1,Seattle Mariners,4,0,0,0,0,2,0,Flyout,0
+TOR_20260828_1_PA017,TOR_20260828_1,B008,Ernie Clement,2026-08-28,Train,1,Seattle Mariners,4,0,0,0,0,2,0,Groundout,0
+TOR_20260828_1_PA018,TOR_20260828_1,B003,Brandon Valenzuela,2026-08-28,Train,1,Seattle Mariners,4,0,0,0,0,4,0,Groundout,0
+TOR_20260828_1_PA019,TOR_20260828_1,B004,Brett Bateman,2026-08-28,Train,1,Seattle Mariners,5,0,0,0,0,3,1,Strikeout,0
+TOR_20260828_1_PA020,TOR_20260828_1,B014,Nathan Lukes,2026-08-28,Train,1,Seattle Mariners,5,0,0,0,0,3,0,Home Run,0
+TOR_20260828_1_PA021,TOR_20260828_1,B017,Vladimir Guerrero Jr.,2026-08-28,Train,1,Seattle Mariners,5,0,0,0,0,5,0,Groundout,0
+TOR_20260828_1_PA022,TOR_20260828_1,B009,George Springer,2026-08-28,Train,1,Seattle Mariners,5,0,0,0,0,5,0,Home Run,0
+TOR_20260828_1_PA023,TOR_20260828_1,B010,Jesús Sánchez,2026-08-28,Train,1,Seattle Mariners,5,0,0,0,0,5,0,Groundout,0
+TOR_20260828_1_PA024,TOR_20260828_1,B012,Kazuma Okamoto,2026-08-28,Train,1,Seattle Mariners,6,0,0,0,0,5,0,Home Run,0
+TOR_20260828_1_PA025,TOR_20260828_1,B002,Andrés Giménez,2026-08-28,Train,1,Seattle Mariners,6,0,0,0,0,2,0,Groundout,0
+TOR_20260828_1_PA026,TOR_20260828_1,B008,Ernie Clement,2026-08-28,Train,1,Seattle Mariners,6,0,0,0,0,7,0,Flyout,0
+TOR_20260828_1_PA027,TOR_20260828_1,B003,Brandon Valenzuela,2026-08-28,Train,1,Seattle Mariners,6,0,0,0,0,9,0,Walk,0
+TOR_20260828_1_PA028,TOR_20260828_1,B004,Brett Bateman,2026-08-28,Train,1,Seattle Mariners,6,0,0,0,0,1,0,Groundout,0
+TOR_20260828_1_PA029,TOR_20260828_1,B014,Nathan Lukes,2026-08-28,Train,1,Seattle Mariners,8,0,0,0,0,8,0,Walk,0
+TOR_20260828_1_PA030,TOR_20260828_1,B017,Vladimir Guerrero Jr.,2026-08-28,Train,1,Seattle Mariners,8,0,0,0,0,3,0,Flyout,0
+TOR_20260828_1_PA031,TOR_20260828_1,B009,George Springer,2026-08-28,Train,1,Seattle Mariners,8,0,0,1,1,4,0,Hit,0
+TOR_20260828_1_PA032,TOR_20260828_1,B013,Myles Straw,2026-08-28,Train,1,Seattle Mariners,8,1,0,0,0,3,0,Hit,0
+TOR_20260828_1_PA033,TOR_20260828_1,B012,Kazuma Okamoto,2026-08-28,Train,1,Seattle Mariners,8,1,0,0,0,1,0,Hit,0
+TOR_20260828_1_PA034,TOR_20260828_1,B002,Andrés Giménez,2026-08-28,Train,1,Seattle Mariners,8,1,0,0,0,5,1,Strikeout,0
+TOR_20260828_1_PA035,TOR_20260828_1,B008,Ernie Clement,2026-08-28,Train,1,Seattle Mariners,8,1,0,0,0,6,1,Strikeout,0
+TOR_20260828_1_PA036,TOR_20260828_1,B003,Brandon Valenzuela,2026-08-28,Train,1,Seattle Mariners,8,0,0,0,0,1,0,Groundout,0
+TOR_20260828_1_PA037,TOR_20260828_1,B004,Brett Bateman,2026-08-28,Train,1,Seattle Mariners,8,0,0,0,0,7,0,Groundout,0
+TOR_20260828_1_PA038,TOR_20260828_1,B014,Nathan Lukes,2026-08-28,Train,1,Seattle Mariners,8,0,0,0,0,7,0,Groundout,0
+TOR_20260829_1_PA001,TOR_20260829_1,B004,Brett Bateman,2026-08-29,Train,1,Seattle Mariners,1,0,0,0,0,5,1,Strikeout,0
+TOR_20260829_1_PA002,TOR_20260829_1,B001,Alejandro Kirk,2026-08-29,Train,1,Seattle Mariners,1,0,0,0,0,4,0,Groundout,0
+TOR_20260829_1_PA003,TOR_20260829_1,B017,Vladimir Guerrero Jr.,2026-08-29,Train,1,Seattle Mariners,1,0,0,0,0,4,0,Flyout,0
+TOR_20260829_1_PA004,TOR_20260829_1,B009,George Springer,2026-08-29,Train,1,Seattle Mariners,2,0,0,0,0,3,0,Flyout,0
+TOR_20260829_1_PA005,TOR_20260829_1,B012,Kazuma Okamoto,2026-08-29,Train,1,Seattle Mariners,2,0,0,0,0,6,0,Walk,0
+TOR_20260829_1_PA006,TOR_20260829_1,B005,Charles McAdoo,2026-08-29,Train,1,Seattle Mariners,2,0,0,0,0,5,0,Flyout,0
+TOR_20260829_1_PA007,TOR_20260829_1,B008,Ernie Clement,2026-08-29,Train,1,Seattle Mariners,2,0,0,0,0,9,0,Flyout,0
+TOR_20260829_1_PA008,TOR_20260829_1,B007,Daz Cameron,2026-08-29,Train,1,Seattle Mariners,3,0,0,0,0,4,0,Groundout,0
+TOR_20260829_1_PA009,TOR_20260829_1,B013,Myles Straw,2026-08-29,Train,1,Seattle Mariners,3,0,0,0,0,1,0,Hit,0
+TOR_20260829_1_PA010,TOR_20260829_1,B004,Brett Bateman,2026-08-29,Train,1,Seattle Mariners,3,0,0,1,2,6,0,Flyout,0
+TOR_20260829_1_PA011,TOR_20260829_1,B001,Alejandro Kirk,2026-08-29,Train,1,Seattle Mariners,3,0,0,1,1,6,1,Strikeout,0
+TOR_20260829_1_PA012,TOR_20260829_1,B017,Vladimir Guerrero Jr.,2026-08-29,Train,1,Seattle Mariners,4,0,0,0,0,3,0,Groundout,0
+TOR_20260829_1_PA013,TOR_20260829_1,B009,George Springer,2026-08-29,Train,1,Seattle Mariners,4,0,0,0,0,1,0,Hit,0
+TOR_20260829_1_PA014,TOR_20260829_1,B012,Kazuma Okamoto,2026-08-29,Train,1,Seattle Mariners,4,1,0,0,0,7,0,Walk,0
+TOR_20260829_1_PA015,TOR_20260829_1,B005,Charles McAdoo,2026-08-29,Train,1,Seattle Mariners,4,1,0,0,0,3,0,Flyout,0
+TOR_20260829_1_PA016,TOR_20260829_1,B008,Ernie Clement,2026-08-29,Train,1,Seattle Mariners,4,1,0,0,0,3,0,Flyout,0
+TOR_20260829_1_PA017,TOR_20260829_1,B007,Daz Cameron,2026-08-29,Train,1,Seattle Mariners,5,0,0,0,0,3,1,Strikeout,0
+TOR_20260829_1_PA018,TOR_20260829_1,B013,Myles Straw,2026-08-29,Train,1,Seattle Mariners,5,0,0,0,0,7,0,Hit,0
+TOR_20260829_1_PA019,TOR_20260829_1,B004,Brett Bateman,2026-08-29,Train,1,Seattle Mariners,5,0,0,0,0,5,0,Walk,0
+TOR_20260829_1_PA020,TOR_20260829_1,B001,Alejandro Kirk,2026-08-29,Train,1,Seattle Mariners,5,1,0,0,0,6,1,Strikeout,0
+TOR_20260829_1_PA021,TOR_20260829_1,B017,Vladimir Guerrero Jr.,2026-08-29,Train,1,Seattle Mariners,5,1,0,0,0,6,0,Walk,0
+TOR_20260829_1_PA022,TOR_20260829_1,B009,George Springer,2026-08-29,Train,1,Seattle Mariners,5,1,0,1,1,6,0,Walk,0
+TOR_20260829_1_PA023,TOR_20260829_1,B012,Kazuma Okamoto,2026-08-29,Train,1,Seattle Mariners,5,1,1,1,1,5,0,Flyout,0
+TOR_20260829_1_PA024,TOR_20260829_1,B005,Charles McAdoo,2026-08-29,Train,1,Seattle Mariners,6,0,0,0,0,6,0,Walk,0
+TOR_20260829_1_PA025,TOR_20260829_1,B008,Ernie Clement,2026-08-29,Train,1,Seattle Mariners,6,0,0,0,0,1,0,Flyout,0
+TOR_20260829_1_PA026,TOR_20260829_1,B007,Daz Cameron,2026-08-29,Train,1,Seattle Mariners,6,0,0,0,0,2,0,Groundout,0
+TOR_20260829_1_PA027,TOR_20260829_1,B013,Myles Straw,2026-08-29,Train,1,Seattle Mariners,6,1,0,1,1,8,0,Walk,0
+TOR_20260829_1_PA028,TOR_20260829_1,B004,Brett Bateman,2026-08-29,Train,1,Seattle Mariners,6,1,0,0,0,4,0,Hit,0
+TOR_20260829_1_PA029,TOR_20260829_1,B001,Alejandro Kirk,2026-08-29,Train,1,Seattle Mariners,6,1,0,0,0,5,0,Hit,0
+TOR_20260829_1_PA030,TOR_20260829_1,B017,Vladimir Guerrero Jr.,2026-08-29,Train,1,Seattle Mariners,6,1,1,1,1,3,0,Lineout,0
+TOR_20260829_1_PA031,TOR_20260829_1,B009,George Springer,2026-08-29,Train,1,Seattle Mariners,7,0,0,0,0,2,0,Groundout,0
+TOR_20260829_1_PA032,TOR_20260829_1,B012,Kazuma Okamoto,2026-08-29,Train,1,Seattle Mariners,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260829_1_PA033,TOR_20260829_1,B010,Jesús Sánchez,2026-08-29,Train,1,Seattle Mariners,7,0,0,0,0,4,0,Groundout,0
+TOR_20260829_1_PA034,TOR_20260829_1,B008,Ernie Clement,2026-08-29,Train,1,Seattle Mariners,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260829_1_PA035,TOR_20260829_1,B014,Nathan Lukes,2026-08-29,Train,1,Seattle Mariners,8,0,0,0,0,2,0,Groundout,0
+TOR_20260829_1_PA036,TOR_20260829_1,B013,Myles Straw,2026-08-29,Train,1,Seattle Mariners,8,0,0,0,0,1,0,Groundout,0
+TOR_20260830_1_PA001,TOR_20260830_1,B004,Brett Bateman,2026-08-30,Train,1,Seattle Mariners,1,0,0,0,0,6,0,Walk,0
+TOR_20260830_1_PA002,TOR_20260830_1,B017,Vladimir Guerrero Jr.,2026-08-30,Train,1,Seattle Mariners,1,0,1,1,1,3,0,Flyout,0
+TOR_20260830_1_PA003,TOR_20260830_1,B001,Alejandro Kirk,2026-08-30,Train,1,Seattle Mariners,1,0,0,0,0,3,0,Home Run,0
+TOR_20260830_1_PA004,TOR_20260830_1,B009,George Springer,2026-08-30,Train,1,Seattle Mariners,1,0,0,0,0,5,1,Strikeout,0
+TOR_20260830_1_PA005,TOR_20260830_1,B014,Nathan Lukes,2026-08-30,Train,1,Seattle Mariners,1,0,0,0,0,8,0,Hit,0
+TOR_20260830_1_PA006,TOR_20260830_1,B012,Kazuma Okamoto,2026-08-30,Train,1,Seattle Mariners,1,0,1,1,1,7,0,Groundout,0
+TOR_20260830_1_PA007,TOR_20260830_1,B002,Andrés Giménez,2026-08-30,Train,1,Seattle Mariners,2,0,0,0,0,6,1,Strikeout,0
+TOR_20260830_1_PA008,TOR_20260830_1,B005,Charles McAdoo,2026-08-30,Train,1,Seattle Mariners,2,0,0,0,0,2,0,Groundout,0
+TOR_20260830_1_PA009,TOR_20260830_1,B013,Myles Straw,2026-08-30,Train,1,Seattle Mariners,2,0,0,0,0,2,0,Flyout,0
+TOR_20260830_1_PA010,TOR_20260830_1,B004,Brett Bateman,2026-08-30,Train,1,Seattle Mariners,3,0,0,0,0,4,1,Strikeout,0
+TOR_20260830_1_PA011,TOR_20260830_1,B017,Vladimir Guerrero Jr.,2026-08-30,Train,1,Seattle Mariners,3,0,0,0,0,5,0,Flyout,0
+TOR_20260830_1_PA012,TOR_20260830_1,B001,Alejandro Kirk,2026-08-30,Train,1,Seattle Mariners,3,0,0,0,0,4,0,Hit,0
+TOR_20260830_1_PA013,TOR_20260830_1,B009,George Springer,2026-08-30,Train,1,Seattle Mariners,3,0,0,0,0,1,0,Hit,0
+TOR_20260830_1_PA014,TOR_20260830_1,B014,Nathan Lukes,2026-08-30,Train,1,Seattle Mariners,3,1,0,1,1,6,0,Groundout,0
+TOR_20260830_1_PA015,TOR_20260830_1,B012,Kazuma Okamoto,2026-08-30,Train,1,Seattle Mariners,4,0,0,0,0,1,0,Groundout,0
+TOR_20260830_1_PA016,TOR_20260830_1,B002,Andrés Giménez,2026-08-30,Train,1,Seattle Mariners,4,0,0,0,0,3,0,Groundout,0
+TOR_20260830_1_PA017,TOR_20260830_1,B005,Charles McAdoo,2026-08-30,Train,1,Seattle Mariners,4,0,0,0,0,3,0,Flyout,0
+TOR_20260830_1_PA018,TOR_20260830_1,B013,Myles Straw,2026-08-30,Train,1,Seattle Mariners,5,0,0,0,0,3,0,Hit,0
+TOR_20260830_1_PA019,TOR_20260830_1,B004,Brett Bateman,2026-08-30,Train,1,Seattle Mariners,5,0,0,0,0,1,0,Groundout,0
+TOR_20260830_1_PA020,TOR_20260830_1,B017,Vladimir Guerrero Jr.,2026-08-30,Train,1,Seattle Mariners,5,1,0,1,1,7,0,Hit,0
+TOR_20260830_1_PA021,TOR_20260830_1,B001,Alejandro Kirk,2026-08-30,Train,1,Seattle Mariners,5,1,0,0,0,3,0,Flyout,0
+TOR_20260830_1_PA022,TOR_20260830_1,B009,George Springer,2026-08-30,Train,1,Seattle Mariners,5,1,0,0,0,4,1,Strikeout,0
+TOR_20260830_1_PA023,TOR_20260830_1,B014,Nathan Lukes,2026-08-30,Train,1,Seattle Mariners,6,0,0,0,0,5,1,Strikeout,0
+TOR_20260830_1_PA024,TOR_20260830_1,B012,Kazuma Okamoto,2026-08-30,Train,1,Seattle Mariners,6,0,0,0,0,1,0,Home Run,0
+TOR_20260830_1_PA025,TOR_20260830_1,B002,Andrés Giménez,2026-08-30,Train,1,Seattle Mariners,6,0,0,0,0,4,0,Flyout,0
+TOR_20260830_1_PA026,TOR_20260830_1,B005,Charles McAdoo,2026-08-30,Train,1,Seattle Mariners,6,0,0,0,0,4,0,Flyout,0
+TOR_20260830_1_PA027,TOR_20260830_1,B013,Myles Straw,2026-08-30,Train,1,Seattle Mariners,7,0,0,0,0,2,0,Flyout,0
+TOR_20260830_1_PA028,TOR_20260830_1,B004,Brett Bateman,2026-08-30,Train,1,Seattle Mariners,7,0,0,0,0,5,0,Walk,0
+TOR_20260830_1_PA029,TOR_20260830_1,B017,Vladimir Guerrero Jr.,2026-08-30,Train,1,Seattle Mariners,7,0,0,0,0,5,0,Groundout,0
+TOR_20260830_1_PA030,TOR_20260830_1,B001,Alejandro Kirk,2026-08-30,Train,1,Seattle Mariners,7,1,0,0,0,4,0,Flyout,0
+TOR_20260830_1_PA031,TOR_20260830_1,B009,George Springer,2026-08-30,Train,1,Seattle Mariners,8,0,0,0,0,5,0,Hit,0
+TOR_20260830_1_PA032,TOR_20260830_1,B014,Nathan Lukes,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,2,0,HBP,0
+TOR_20260830_1_PA033,TOR_20260830_1,B012,Kazuma Okamoto,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,4,0,Walk,0
+TOR_20260830_1_PA034,TOR_20260830_1,B002,Andrés Giménez,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,1,0,Hit,0
+TOR_20260830_1_PA035,TOR_20260830_1,B008,Ernie Clement,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,2,0,Groundout,0
+TOR_20260830_1_PA036,TOR_20260830_1,B013,Myles Straw,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,5,0,Walk,0
+TOR_20260830_1_PA037,TOR_20260830_1,B004,Brett Bateman,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,5,0,Hit,0
+TOR_20260830_1_PA038,TOR_20260830_1,B017,Vladimir Guerrero Jr.,2026-08-30,Train,1,Seattle Mariners,8,1,0,0,0,5,0,Flyout,0
+TOR_20260901_1_PA001,TOR_20260901_1,B004,Brett Bateman,2026-09-01,Train,0,Cleveland Guardians,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260901_1_PA002,TOR_20260901_1,B001,Alejandro Kirk,2026-09-01,Train,0,Cleveland Guardians,1,0,0,0,0,6,1,Strikeout,0
+TOR_20260901_1_PA003,TOR_20260901_1,B017,Vladimir Guerrero Jr.,2026-09-01,Train,0,Cleveland Guardians,1,0,0,0,0,2,0,Lineout,0
+TOR_20260901_1_PA004,TOR_20260901_1,B009,George Springer,2026-09-01,Train,0,Cleveland Guardians,2,0,0,0,0,4,0,Groundout,0
+TOR_20260901_1_PA005,TOR_20260901_1,B014,Nathan Lukes,2026-09-01,Train,0,Cleveland Guardians,2,0,0,0,0,3,1,Strikeout,0
+TOR_20260901_1_PA006,TOR_20260901_1,B012,Kazuma Okamoto,2026-09-01,Train,0,Cleveland Guardians,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260901_1_PA007,TOR_20260901_1,B002,Andrés Giménez,2026-09-01,Train,0,Cleveland Guardians,3,0,0,0,0,3,0,HBP,0
+TOR_20260901_1_PA008,TOR_20260901_1,B008,Ernie Clement,2026-09-01,Train,0,Cleveland Guardians,3,0,0,0,0,3,0,Lineout,0
+TOR_20260901_1_PA009,TOR_20260901_1,B013,Myles Straw,2026-09-01,Train,0,Cleveland Guardians,3,0,0,0,0,3,0,Flyout,0
+TOR_20260901_1_PA010,TOR_20260901_1,B004,Brett Bateman,2026-09-01,Train,0,Cleveland Guardians,3,0,0,0,0,7,1,Strikeout,0
+TOR_20260901_1_PA011,TOR_20260901_1,B001,Alejandro Kirk,2026-09-01,Train,0,Cleveland Guardians,4,0,0,0,0,1,0,Hit,0
+TOR_20260901_1_PA012,TOR_20260901_1,B017,Vladimir Guerrero Jr.,2026-09-01,Train,0,Cleveland Guardians,4,0,0,0,0,6,0,Fielder's Choice,0
+TOR_20260901_1_PA013,TOR_20260901_1,B009,George Springer,2026-09-01,Train,0,Cleveland Guardians,4,0,0,0,0,4,1,Strikeout,0
+TOR_20260901_1_PA014,TOR_20260901_1,B014,Nathan Lukes,2026-09-01,Train,0,Cleveland Guardians,4,0,0,0,0,1,0,Groundout,0
+TOR_20260901_1_PA015,TOR_20260901_1,B012,Kazuma Okamoto,2026-09-01,Train,0,Cleveland Guardians,5,0,0,0,0,1,0,Hit,0
+TOR_20260901_1_PA016,TOR_20260901_1,B002,Andrés Giménez,2026-09-01,Train,0,Cleveland Guardians,5,0,0,0,0,3,1,Strikeout,0
+TOR_20260901_1_PA017,TOR_20260901_1,B008,Ernie Clement,2026-09-01,Train,0,Cleveland Guardians,5,0,0,0,0,6,0,Walk,0
+TOR_20260901_1_PA018,TOR_20260901_1,B013,Myles Straw,2026-09-01,Train,0,Cleveland Guardians,5,1,0,0,0,5,1,Strikeout,0
+TOR_20260901_1_PA019,TOR_20260901_1,B004,Brett Bateman,2026-09-01,Train,0,Cleveland Guardians,5,1,0,0,0,4,0,Groundout,0
+TOR_20260901_1_PA020,TOR_20260901_1,B001,Alejandro Kirk,2026-09-01,Train,0,Cleveland Guardians,6,0,0,0,0,5,1,Strikeout,0
+TOR_20260901_1_PA021,TOR_20260901_1,B017,Vladimir Guerrero Jr.,2026-09-01,Train,0,Cleveland Guardians,6,0,0,0,0,4,0,Flyout,0
+TOR_20260901_1_PA022,TOR_20260901_1,B009,George Springer,2026-09-01,Train,0,Cleveland Guardians,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260901_1_PA023,TOR_20260901_1,B014,Nathan Lukes,2026-09-01,Train,0,Cleveland Guardians,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260901_1_PA024,TOR_20260901_1,B012,Kazuma Okamoto,2026-09-01,Train,0,Cleveland Guardians,7,0,0,0,0,5,1,Strikeout,0
+TOR_20260901_1_PA025,TOR_20260901_1,B002,Andrés Giménez,2026-09-01,Train,0,Cleveland Guardians,7,0,0,0,0,3,1,Strikeout,0
+TOR_20260901_1_PA026,TOR_20260901_1,B008,Ernie Clement,2026-09-01,Train,0,Cleveland Guardians,8,0,0,0,0,3,0,Flyout,0
+TOR_20260901_1_PA027,TOR_20260901_1,B010,Jesús Sánchez,2026-09-01,Train,0,Cleveland Guardians,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260901_1_PA028,TOR_20260901_1,B004,Brett Bateman,2026-09-01,Train,0,Cleveland Guardians,8,0,0,0,0,1,0,Groundout,0
+TOR_20260901_1_PA029,TOR_20260901_1,B001,Alejandro Kirk,2026-09-01,Train,0,Cleveland Guardians,9,0,0,0,0,8,0,Groundout,0
+TOR_20260901_1_PA030,TOR_20260901_1,B017,Vladimir Guerrero Jr.,2026-09-01,Train,0,Cleveland Guardians,9,0,0,0,0,3,0,Hit,0
+TOR_20260901_1_PA031,TOR_20260901_1,B009,George Springer,2026-09-01,Train,0,Cleveland Guardians,9,0,0,0,0,5,0,Flyout,0
+TOR_20260901_1_PA032,TOR_20260901_1,B014,Nathan Lukes,2026-09-01,Train,0,Cleveland Guardians,9,0,0,0,0,2,0,Flyout,0
+TOR_20260902_1_PA001,TOR_20260902_1,B004,Brett Bateman,2026-09-02,Train,0,Cleveland Guardians,1,0,0,0,0,1,0,Hit,0
+TOR_20260902_1_PA002,TOR_20260902_1,B009,George Springer,2026-09-02,Train,0,Cleveland Guardians,1,0,0,0,0,1,0,Flyout,0
+TOR_20260902_1_PA003,TOR_20260902_1,B017,Vladimir Guerrero Jr.,2026-09-02,Train,0,Cleveland Guardians,1,0,0,0,0,2,0,Double,0
+TOR_20260902_1_PA004,TOR_20260902_1,B001,Alejandro Kirk,2026-09-02,Train,0,Cleveland Guardians,1,1,0,0,0,6,1,Strikeout,0
+TOR_20260902_1_PA005,TOR_20260902_1,B012,Kazuma Okamoto,2026-09-02,Train,0,Cleveland Guardians,1,1,0,0,0,3,0,Lineout,0
+TOR_20260902_1_PA006,TOR_20260902_1,B014,Nathan Lukes,2026-09-02,Train,0,Cleveland Guardians,2,0,0,0,0,3,0,Groundout,0
+TOR_20260902_1_PA007,TOR_20260902_1,B008,Ernie Clement,2026-09-02,Train,0,Cleveland Guardians,2,0,0,0,0,1,0,Hit,0
+TOR_20260902_1_PA008,TOR_20260902_1,B002,Andrés Giménez,2026-09-02,Train,0,Cleveland Guardians,2,0,0,0,0,5,0,Hit,0
+TOR_20260902_1_PA009,TOR_20260902_1,B013,Myles Straw,2026-09-02,Train,0,Cleveland Guardians,2,1,0,0,0,7,0,Walk,0
+TOR_20260902_1_PA010,TOR_20260902_1,B004,Brett Bateman,2026-09-02,Train,0,Cleveland Guardians,2,1,0,0,0,3,0,Fielder's Choice,0
+TOR_20260902_1_PA011,TOR_20260902_1,B009,George Springer,2026-09-02,Train,0,Cleveland Guardians,2,1,0,0,0,4,0,Fielder's Choice,0
+TOR_20260902_1_PA012,TOR_20260902_1,B017,Vladimir Guerrero Jr.,2026-09-02,Train,0,Cleveland Guardians,2,1,0,0,0,2,0,Home Run,0
+TOR_20260902_1_PA013,TOR_20260902_1,B001,Alejandro Kirk,2026-09-02,Train,0,Cleveland Guardians,2,0,0,0,0,5,0,Groundout,0
+TOR_20260902_1_PA014,TOR_20260902_1,B012,Kazuma Okamoto,2026-09-02,Train,0,Cleveland Guardians,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260902_1_PA015,TOR_20260902_1,B014,Nathan Lukes,2026-09-02,Train,0,Cleveland Guardians,3,0,0,0,0,3,0,Hit,0
+TOR_20260902_1_PA016,TOR_20260902_1,B008,Ernie Clement,2026-09-02,Train,0,Cleveland Guardians,3,0,0,0,0,4,0,Fielder's Choice,0
+TOR_20260902_1_PA017,TOR_20260902_1,B002,Andrés Giménez,2026-09-02,Train,0,Cleveland Guardians,3,0,0,0,0,7,0,Hit,0
+TOR_20260902_1_PA018,TOR_20260902_1,B013,Myles Straw,2026-09-02,Train,0,Cleveland Guardians,3,1,0,0,0,3,0,Double,0
+TOR_20260902_1_PA019,TOR_20260902_1,B004,Brett Bateman,2026-09-02,Train,0,Cleveland Guardians,3,1,0,0,0,6,0,Flyout,0
+TOR_20260902_1_PA020,TOR_20260902_1,B009,George Springer,2026-09-02,Train,0,Cleveland Guardians,4,0,0,0,0,3,1,Strikeout,0
+TOR_20260902_1_PA021,TOR_20260902_1,B017,Vladimir Guerrero Jr.,2026-09-02,Train,0,Cleveland Guardians,4,0,0,0,0,2,0,Flyout,0
+TOR_20260902_1_PA022,TOR_20260902_1,B001,Alejandro Kirk,2026-09-02,Train,0,Cleveland Guardians,4,0,0,0,0,5,1,Strikeout,0
+TOR_20260902_1_PA023,TOR_20260902_1,B012,Kazuma Okamoto,2026-09-02,Train,0,Cleveland Guardians,5,0,0,0,0,6,1,Strikeout,0
+TOR_20260902_1_PA024,TOR_20260902_1,B014,Nathan Lukes,2026-09-02,Train,0,Cleveland Guardians,5,0,0,0,0,1,0,Groundout,0
+TOR_20260902_1_PA025,TOR_20260902_1,B008,Ernie Clement,2026-09-02,Train,0,Cleveland Guardians,5,0,0,0,0,3,0,Groundout,0
+TOR_20260902_1_PA026,TOR_20260902_1,B002,Andrés Giménez,2026-09-02,Train,0,Cleveland Guardians,6,0,0,0,0,6,1,Strikeout,0
+TOR_20260902_1_PA027,TOR_20260902_1,B013,Myles Straw,2026-09-02,Train,0,Cleveland Guardians,6,0,0,0,0,1,0,Hit,0
+TOR_20260902_1_PA028,TOR_20260902_1,B004,Brett Bateman,2026-09-02,Train,0,Cleveland Guardians,6,0,0,0,0,5,0,Walk,0
+TOR_20260902_1_PA029,TOR_20260902_1,B009,George Springer,2026-09-02,Train,0,Cleveland Guardians,6,1,0,0,0,4,0,Double,0
+TOR_20260902_1_PA030,TOR_20260902_1,B017,Vladimir Guerrero Jr.,2026-09-02,Train,0,Cleveland Guardians,6,1,0,0,0,3,0,Hit,0
+TOR_20260902_1_PA031,TOR_20260902_1,B001,Alejandro Kirk,2026-09-02,Train,0,Cleveland Guardians,6,1,0,0,0,1,0,Groundout,0
+TOR_20260902_1_PA032,TOR_20260902_1,B012,Kazuma Okamoto,2026-09-02,Train,0,Cleveland Guardians,7,0,0,0,0,3,1,Strikeout,0
+TOR_20260902_1_PA033,TOR_20260902_1,B014,Nathan Lukes,2026-09-02,Train,0,Cleveland Guardians,7,0,0,0,0,5,1,Strikeout,0
+TOR_20260902_1_PA034,TOR_20260902_1,B008,Ernie Clement,2026-09-02,Train,0,Cleveland Guardians,7,0,0,0,0,2,0,Lineout,0
+TOR_20260902_1_PA035,TOR_20260902_1,B011,Josh H. Smith,2026-09-02,Train,0,Cleveland Guardians,8,0,0,0,0,2,0,Home Run,0
+TOR_20260902_1_PA036,TOR_20260902_1,B013,Myles Straw,2026-09-02,Train,0,Cleveland Guardians,8,0,0,0,0,5,0,Lineout,0
+TOR_20260902_1_PA037,TOR_20260902_1,B004,Brett Bateman,2026-09-02,Train,0,Cleveland Guardians,8,0,0,0,0,3,0,Flyout,0
+TOR_20260902_1_PA038,TOR_20260902_1,B010,Jesús Sánchez,2026-09-02,Train,0,Cleveland Guardians,8,0,0,0,0,2,0,Flyout,0
+TOR_20260902_1_PA039,TOR_20260902_1,B016,Sean Keys,2026-09-02,Train,0,Cleveland Guardians,9,0,0,0,0,3,0,Hit,0
+TOR_20260902_1_PA040,TOR_20260902_1,B001,Alejandro Kirk,2026-09-02,Train,0,Cleveland Guardians,9,0,0,0,0,6,0,Groundout,0
+TOR_20260902_1_PA041,TOR_20260902_1,B005,Charles McAdoo,2026-09-02,Train,0,Cleveland Guardians,9,1,0,0,0,4,0,Hit,0
+TOR_20260902_1_PA042,TOR_20260902_1,B014,Nathan Lukes,2026-09-02,Train,0,Cleveland Guardians,9,1,0,0,0,3,0,Hit,0
+TOR_20260902_1_PA043,TOR_20260902_1,B008,Ernie Clement,2026-09-02,Train,0,Cleveland Guardians,9,1,0,0,0,2,0,Flyout,0
+TOR_20260902_1_PA044,TOR_20260902_1,B011,Josh H. Smith,2026-09-02,Train,0,Cleveland Guardians,9,1,0,0,0,2,0,Flyout,0
+TOR_20260903_1_PA001,TOR_20260903_1,B004,Brett Bateman,2026-09-03,Train,0,Cleveland Guardians,1,0,0,0,0,5,0,Hit,0
+TOR_20260903_1_PA002,TOR_20260903_1,B014,Nathan Lukes,2026-09-03,Train,0,Cleveland Guardians,1,0,0,0,0,4,0,Groundout,0
+TOR_20260903_1_PA003,TOR_20260903_1,B017,Vladimir Guerrero Jr.,2026-09-03,Train,0,Cleveland Guardians,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260903_1_PA004,TOR_20260903_1,B010,Jesús Sánchez,2026-09-03,Train,0,Cleveland Guardians,2,0,0,0,0,8,1,Strikeout,0
+TOR_20260903_1_PA005,TOR_20260903_1,B016,Sean Keys,2026-09-03,Train,0,Cleveland Guardians,2,0,0,0,0,7,0,Walk,0
+TOR_20260903_1_PA006,TOR_20260903_1,B002,Andrés Giménez,2026-09-03,Train,0,Cleveland Guardians,2,0,0,0,0,4,0,Flyout,0
+TOR_20260903_1_PA007,TOR_20260903_1,B008,Ernie Clement,2026-09-03,Train,0,Cleveland Guardians,2,0,0,0,0,3,1,Strikeout,0
+TOR_20260903_1_PA008,TOR_20260903_1,B003,Brandon Valenzuela,2026-09-03,Train,0,Cleveland Guardians,3,0,0,0,0,6,0,Flyout,0
+TOR_20260903_1_PA009,TOR_20260903_1,B004,Brett Bateman,2026-09-03,Train,0,Cleveland Guardians,3,0,0,0,0,2,0,Groundout,0
+TOR_20260903_1_PA010,TOR_20260903_1,B014,Nathan Lukes,2026-09-03,Train,0,Cleveland Guardians,3,0,0,0,0,4,0,Groundout,0
+TOR_20260903_1_PA011,TOR_20260903_1,B017,Vladimir Guerrero Jr.,2026-09-03,Train,0,Cleveland Guardians,4,0,0,0,0,8,0,Walk,0
+TOR_20260903_1_PA012,TOR_20260903_1,B010,Jesús Sánchez,2026-09-03,Train,0,Cleveland Guardians,4,0,0,0,0,1,0,Groundout,0
+TOR_20260903_1_PA013,TOR_20260903_1,B016,Sean Keys,2026-09-03,Train,0,Cleveland Guardians,4,1,0,0,0,3,0,Hit,0
+TOR_20260903_1_PA014,TOR_20260903_1,B011,Josh H. Smith,2026-09-03,Train,0,Cleveland Guardians,4,0,0,0,0,6,1,Strikeout,0
+TOR_20260903_1_PA015,TOR_20260903_1,B002,Andrés Giménez,2026-09-03,Train,0,Cleveland Guardians,4,0,0,0,0,5,0,Groundout,0
+TOR_20260903_1_PA016,TOR_20260903_1,B008,Ernie Clement,2026-09-03,Train,0,Cleveland Guardians,5,0,0,0,0,4,0,Walk,0
+TOR_20260903_1_PA017,TOR_20260903_1,B003,Brandon Valenzuela,2026-09-03,Train,0,Cleveland Guardians,5,0,0,0,0,7,0,Walk,0
+TOR_20260903_1_PA018,TOR_20260903_1,B004,Brett Bateman,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,1,0,Hit,0
+TOR_20260903_1_PA019,TOR_20260903_1,B014,Nathan Lukes,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,2,0,Double,0
+TOR_20260903_1_PA020,TOR_20260903_1,B017,Vladimir Guerrero Jr.,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,4,0,Flyout,0
+TOR_20260903_1_PA021,TOR_20260903_1,B010,Jesús Sánchez,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,5,0,Hit,0
+TOR_20260903_1_PA022,TOR_20260903_1,B016,Sean Keys,2026-09-03,Train,0,Cleveland Guardians,5,0,0,0,0,5,0,Hit,0
+TOR_20260903_1_PA023,TOR_20260903_1,B011,Josh H. Smith,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,8,0,Walk,0
+TOR_20260903_1_PA024,TOR_20260903_1,B002,Andrés Giménez,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,4,1,Strikeout,0
+TOR_20260903_1_PA025,TOR_20260903_1,B008,Ernie Clement,2026-09-03,Train,0,Cleveland Guardians,5,1,0,0,0,2,0,Flyout,0
+TOR_20260903_1_PA026,TOR_20260903_1,B003,Brandon Valenzuela,2026-09-03,Train,0,Cleveland Guardians,6,0,0,0,0,3,0,Groundout,0
+TOR_20260903_1_PA027,TOR_20260903_1,B004,Brett Bateman,2026-09-03,Train,0,Cleveland Guardians,6,0,0,0,0,2,0,Hit,0
+TOR_20260903_1_PA028,TOR_20260903_1,B014,Nathan Lukes,2026-09-03,Train,0,Cleveland Guardians,6,0,0,0,0,5,0,Lineout,0
+TOR_20260903_1_PA029,TOR_20260903_1,B017,Vladimir Guerrero Jr.,2026-09-03,Train,0,Cleveland Guardians,6,0,0,0,0,2,0,Groundout,0
+TOR_20260903_1_PA030,TOR_20260903_1,B013,Myles Straw,2026-09-03,Train,0,Cleveland Guardians,7,0,0,0,0,6,0,Walk,0
+TOR_20260903_1_PA031,TOR_20260903_1,B016,Sean Keys,2026-09-03,Train,0,Cleveland Guardians,7,0,0,0,0,6,1,Strikeout,0
+TOR_20260903_1_PA032,TOR_20260903_1,B011,Josh H. Smith,2026-09-03,Train,0,Cleveland Guardians,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260903_1_PA033,TOR_20260903_1,B002,Andrés Giménez,2026-09-03,Train,0,Cleveland Guardians,7,0,0,0,0,5,0,Groundout,0
+TOR_20260903_1_PA034,TOR_20260903_1,B008,Ernie Clement,2026-09-03,Train,0,Cleveland Guardians,8,0,0,0,0,4,0,Groundout,0
+TOR_20260903_1_PA035,TOR_20260903_1,B003,Brandon Valenzuela,2026-09-03,Train,0,Cleveland Guardians,8,0,0,0,0,5,0,Walk,0
+TOR_20260903_1_PA036,TOR_20260903_1,B004,Brett Bateman,2026-09-03,Train,0,Cleveland Guardians,8,0,0,0,0,7,1,Strikeout,0
+TOR_20260903_1_PA037,TOR_20260903_1,B014,Nathan Lukes,2026-09-03,Train,0,Cleveland Guardians,8,0,0,0,0,4,0,Double,0
+TOR_20260903_1_PA038,TOR_20260903_1,B017,Vladimir Guerrero Jr.,2026-09-03,Train,0,Cleveland Guardians,8,1,0,0,0,4,0,Groundout,0
+TOR_20260903_1_PA039,TOR_20260903_1,B013,Myles Straw,2026-09-03,Train,0,Cleveland Guardians,9,0,0,0,0,4,0,Groundout,0
+TOR_20260903_1_PA040,TOR_20260903_1,B016,Sean Keys,2026-09-03,Train,0,Cleveland Guardians,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260903_1_PA041,TOR_20260903_1,B011,Josh H. Smith,2026-09-03,Train,0,Cleveland Guardians,9,0,0,0,0,4,0,Walk,0
+TOR_20260903_1_PA042,TOR_20260903_1,B002,Andrés Giménez,2026-09-03,Train,0,Cleveland Guardians,9,0,0,0,0,2,0,Hit,0
+TOR_20260903_1_PA043,TOR_20260903_1,B008,Ernie Clement,2026-09-03,Train,0,Cleveland Guardians,9,1,0,0,0,5,0,Hit,0
+TOR_20260903_1_PA044,TOR_20260903_1,B003,Brandon Valenzuela,2026-09-03,Train,0,Cleveland Guardians,9,1,0,0,0,5,1,Strikeout,0
+TOR_20260904_1_PA001,TOR_20260904_1,B004,Brett Bateman,2026-09-04,Train,0,Kansas City Royals,1,0,0,0,0,1,0,HBP,0
+TOR_20260904_1_PA002,TOR_20260904_1,B009,George Springer,2026-09-04,Train,0,Kansas City Royals,1,0,0,0,0,4,0,Flyout,0
+TOR_20260904_1_PA003,TOR_20260904_1,B017,Vladimir Guerrero Jr.,2026-09-04,Train,0,Kansas City Royals,1,0,0,0,0,3,0,Hit,0
+TOR_20260904_1_PA004,TOR_20260904_1,B001,Alejandro Kirk,2026-09-04,Train,0,Kansas City Royals,1,0,0,0,0,2,0,Hit,0
+TOR_20260904_1_PA005,TOR_20260904_1,B012,Kazuma Okamoto,2026-09-04,Train,0,Kansas City Royals,1,1,0,0,0,4,0,Hit,0
+TOR_20260904_1_PA006,TOR_20260904_1,B005,Charles McAdoo,2026-09-04,Train,0,Kansas City Royals,1,1,0,0,0,5,0,Fielder's Choice,0
+TOR_20260904_1_PA007,TOR_20260904_1,B008,Ernie Clement,2026-09-04,Train,0,Kansas City Royals,1,1,0,0,0,1,0,Double,0
+TOR_20260904_1_PA008,TOR_20260904_1,B014,Nathan Lukes,2026-09-04,Train,0,Kansas City Royals,1,1,0,0,0,3,0,Groundout,0
+TOR_20260904_1_PA009,TOR_20260904_1,B013,Myles Straw,2026-09-04,Train,0,Kansas City Royals,2,0,0,0,0,6,0,Hit,0
+TOR_20260904_1_PA010,TOR_20260904_1,B004,Brett Bateman,2026-09-04,Train,0,Kansas City Royals,2,0,0,0,0,4,0,Groundout,0
+TOR_20260904_1_PA011,TOR_20260904_1,B009,George Springer,2026-09-04,Train,0,Kansas City Royals,2,1,0,0,0,2,0,Groundout,0
+TOR_20260904_1_PA012,TOR_20260904_1,B017,Vladimir Guerrero Jr.,2026-09-04,Train,0,Kansas City Royals,2,1,0,0,0,1,0,Hit,0
+TOR_20260904_1_PA013,TOR_20260904_1,B001,Alejandro Kirk,2026-09-04,Train,0,Kansas City Royals,2,1,0,0,0,3,0,Double,0
+TOR_20260904_1_PA014,TOR_20260904_1,B012,Kazuma Okamoto,2026-09-04,Train,0,Kansas City Royals,2,1,0,0,0,5,0,Groundout,0
+TOR_20260904_1_PA015,TOR_20260904_1,B005,Charles McAdoo,2026-09-04,Train,0,Kansas City Royals,3,0,0,0,0,5,0,Walk,0
+TOR_20260904_1_PA016,TOR_20260904_1,B008,Ernie Clement,2026-09-04,Train,0,Kansas City Royals,3,0,0,0,0,2,0,Flyout,0
+TOR_20260904_1_PA017,TOR_20260904_1,B014,Nathan Lukes,2026-09-04,Train,0,Kansas City Royals,3,0,0,0,0,2,0,Fielder's Choice,0
+TOR_20260904_1_PA018,TOR_20260904_1,B013,Myles Straw,2026-09-04,Train,0,Kansas City Royals,3,0,0,0,0,1,0,Flyout,0
+TOR_20260904_1_PA019,TOR_20260904_1,B004,Brett Bateman,2026-09-04,Train,0,Kansas City Royals,4,0,0,0,0,3,0,Groundout,0
+TOR_20260904_1_PA020,TOR_20260904_1,B009,George Springer,2026-09-04,Train,0,Kansas City Royals,4,0,0,0,0,2,0,Groundout,0
+TOR_20260904_1_PA021,TOR_20260904_1,B017,Vladimir Guerrero Jr.,2026-09-04,Train,0,Kansas City Royals,4,0,0,0,0,5,0,Flyout,0
+TOR_20260904_1_PA022,TOR_20260904_1,B001,Alejandro Kirk,2026-09-04,Train,0,Kansas City Royals,5,0,0,0,0,4,0,Lineout,0
+TOR_20260904_1_PA023,TOR_20260904_1,B012,Kazuma Okamoto,2026-09-04,Train,0,Kansas City Royals,5,0,0,0,0,1,0,Flyout,0
+TOR_20260904_1_PA024,TOR_20260904_1,B005,Charles McAdoo,2026-09-04,Train,0,Kansas City Royals,5,0,0,0,0,4,0,Flyout,0
+TOR_20260904_1_PA025,TOR_20260904_1,B008,Ernie Clement,2026-09-04,Train,0,Kansas City Royals,6,0,0,0,0,2,0,Hit,0
+TOR_20260904_1_PA026,TOR_20260904_1,B014,Nathan Lukes,2026-09-04,Train,0,Kansas City Royals,6,0,0,0,0,8,0,Hit,0
+TOR_20260904_1_PA027,TOR_20260904_1,B013,Myles Straw,2026-09-04,Train,0,Kansas City Royals,6,1,0,0,0,1,0,Groundout,0
+TOR_20260904_1_PA028,TOR_20260904_1,B004,Brett Bateman,2026-09-04,Train,0,Kansas City Royals,6,1,0,0,0,5,0,Walk,0
+TOR_20260904_1_PA029,TOR_20260904_1,B009,George Springer,2026-09-04,Train,0,Kansas City Royals,6,1,0,0,0,3,0,Double,0
+TOR_20260904_1_PA030,TOR_20260904_1,B017,Vladimir Guerrero Jr.,2026-09-04,Train,0,Kansas City Royals,6,1,0,0,0,2,0,Lineout,0
+TOR_20260904_1_PA031,TOR_20260904_1,B001,Alejandro Kirk,2026-09-04,Train,0,Kansas City Royals,6,1,0,0,0,2,0,Groundout,0
+TOR_20260904_1_PA032,TOR_20260904_1,B012,Kazuma Okamoto,2026-09-04,Train,0,Kansas City Royals,7,0,0,0,0,3,1,Strikeout,0
+TOR_20260904_1_PA033,TOR_20260904_1,B011,Josh H. Smith,2026-09-04,Train,0,Kansas City Royals,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260904_1_PA034,TOR_20260904_1,B005,Charles McAdoo,2026-09-04,Train,0,Kansas City Royals,7,0,0,0,0,1,0,Flyout,0
+TOR_20260904_1_PA035,TOR_20260904_1,B014,Nathan Lukes,2026-09-04,Train,0,Kansas City Royals,8,0,0,0,0,2,0,Flyout,0
+TOR_20260904_1_PA036,TOR_20260904_1,B013,Myles Straw,2026-09-04,Train,0,Kansas City Royals,8,0,0,0,0,5,0,Hit,0
+TOR_20260904_1_PA037,TOR_20260904_1,B004,Brett Bateman,2026-09-04,Train,0,Kansas City Royals,8,0,0,0,0,7,1,Strikeout,0
+TOR_20260904_1_PA038,TOR_20260904_1,B009,George Springer,2026-09-04,Train,0,Kansas City Royals,8,1,0,0,0,2,0,Lineout,0
+TOR_20260904_1_PA039,TOR_20260904_1,B016,Sean Keys,2026-09-04,Train,0,Kansas City Royals,9,0,0,0,0,2,0,Home Run,0
+TOR_20260904_1_PA040,TOR_20260904_1,B001,Alejandro Kirk,2026-09-04,Train,0,Kansas City Royals,9,0,0,0,0,3,0,Flyout,0
+TOR_20260904_1_PA041,TOR_20260904_1,B012,Kazuma Okamoto,2026-09-04,Train,0,Kansas City Royals,9,0,0,0,0,5,1,Strikeout,0
+TOR_20260904_1_PA042,TOR_20260904_1,B011,Josh H. Smith,2026-09-04,Train,0,Kansas City Royals,9,0,0,0,0,4,0,Walk,0
+TOR_20260904_1_PA043,TOR_20260904_1,B008,Ernie Clement,2026-09-04,Train,0,Kansas City Royals,9,0,0,0,0,3,0,Lineout,0
+TOR_20260905_1_PA001,TOR_20260905_1,B004,Brett Bateman,2026-09-05,Train,0,Kansas City Royals,1,0,0,0,0,6,0,Hit,0
+TOR_20260905_1_PA002,TOR_20260905_1,B009,George Springer,2026-09-05,Train,0,Kansas City Royals,1,0,0,0,0,6,0,Flyout,0
+TOR_20260905_1_PA003,TOR_20260905_1,B017,Vladimir Guerrero Jr.,2026-09-05,Train,0,Kansas City Royals,1,0,0,0,0,2,0,Hit,0
+TOR_20260905_1_PA004,TOR_20260905_1,B001,Alejandro Kirk,2026-09-05,Train,0,Kansas City Royals,1,0,0,0,0,4,0,Hit,0
+TOR_20260905_1_PA005,TOR_20260905_1,B014,Nathan Lukes,2026-09-05,Train,0,Kansas City Royals,1,1,0,0,0,5,0,Hit,0
+TOR_20260905_1_PA006,TOR_20260905_1,B012,Kazuma Okamoto,2026-09-05,Train,0,Kansas City Royals,1,0,0,0,0,8,0,Double,0
+TOR_20260905_1_PA007,TOR_20260905_1,B002,Andrés Giménez,2026-09-05,Train,0,Kansas City Royals,1,1,0,0,0,4,0,Groundout,0
+TOR_20260905_1_PA008,TOR_20260905_1,B008,Ernie Clement,2026-09-05,Train,0,Kansas City Royals,2,0,0,0,0,6,0,Hit,0
+TOR_20260905_1_PA009,TOR_20260905_1,B013,Myles Straw,2026-09-05,Train,0,Kansas City Royals,2,0,0,0,0,5,0,Flyout,0
+TOR_20260905_1_PA010,TOR_20260905_1,B004,Brett Bateman,2026-09-05,Train,0,Kansas City Royals,2,0,0,0,0,5,0,Walk,0
+TOR_20260905_1_PA011,TOR_20260905_1,B009,George Springer,2026-09-05,Train,0,Kansas City Royals,2,1,0,0,0,2,0,Flyout,0
+TOR_20260905_1_PA012,TOR_20260905_1,B017,Vladimir Guerrero Jr.,2026-09-05,Train,0,Kansas City Royals,2,1,0,0,0,4,0,Flyout,0
+TOR_20260905_1_PA013,TOR_20260905_1,B001,Alejandro Kirk,2026-09-05,Train,0,Kansas City Royals,3,0,0,0,0,1,0,Groundout,0
+TOR_20260905_1_PA014,TOR_20260905_1,B014,Nathan Lukes,2026-09-05,Train,0,Kansas City Royals,3,0,0,0,0,3,0,Hit,0
+TOR_20260905_1_PA015,TOR_20260905_1,B012,Kazuma Okamoto,2026-09-05,Train,0,Kansas City Royals,3,0,0,0,0,3,0,Double,0
+TOR_20260905_1_PA016,TOR_20260905_1,B002,Andrés Giménez,2026-09-05,Train,0,Kansas City Royals,3,0,0,0,0,7,0,Walk,0
+TOR_20260905_1_PA017,TOR_20260905_1,B008,Ernie Clement,2026-09-05,Train,0,Kansas City Royals,3,0,0,0,0,2,0,Flyout,0
+TOR_20260905_1_PA018,TOR_20260905_1,B013,Myles Straw,2026-09-05,Train,0,Kansas City Royals,4,0,0,0,0,2,0,Flyout,0
+TOR_20260905_1_PA019,TOR_20260905_1,B004,Brett Bateman,2026-09-05,Train,0,Kansas City Royals,4,0,0,0,0,4,1,Strikeout,0
+TOR_20260905_1_PA020,TOR_20260905_1,B009,George Springer,2026-09-05,Train,0,Kansas City Royals,4,0,0,0,0,1,0,Groundout,0
+TOR_20260905_1_PA021,TOR_20260905_1,B017,Vladimir Guerrero Jr.,2026-09-05,Train,0,Kansas City Royals,5,0,0,0,0,7,0,Lineout,0
+TOR_20260905_1_PA022,TOR_20260905_1,B001,Alejandro Kirk,2026-09-05,Train,0,Kansas City Royals,5,0,0,0,0,5,0,Groundout,0
+TOR_20260905_1_PA023,TOR_20260905_1,B014,Nathan Lukes,2026-09-05,Train,0,Kansas City Royals,5,0,0,0,0,4,0,Flyout,0
+TOR_20260905_1_PA024,TOR_20260905_1,B012,Kazuma Okamoto,2026-09-05,Train,0,Kansas City Royals,6,0,0,0,0,4,0,Hit,0
+TOR_20260905_1_PA025,TOR_20260905_1,B002,Andrés Giménez,2026-09-05,Train,0,Kansas City Royals,6,0,0,0,0,5,0,Hit,0
+TOR_20260905_1_PA026,TOR_20260905_1,B008,Ernie Clement,2026-09-05,Train,0,Kansas City Royals,6,1,0,0,0,3,1,Strikeout,0
+TOR_20260905_1_PA027,TOR_20260905_1,B013,Myles Straw,2026-09-05,Train,0,Kansas City Royals,6,1,0,0,0,5,1,Strikeout,0
+TOR_20260905_1_PA028,TOR_20260905_1,B004,Brett Bateman,2026-09-05,Train,0,Kansas City Royals,6,1,0,0,0,2,0,Groundout,0
+TOR_20260905_1_PA029,TOR_20260905_1,B009,George Springer,2026-09-05,Train,0,Kansas City Royals,7,0,0,0,0,6,0,Walk,0
+TOR_20260905_1_PA030,TOR_20260905_1,B017,Vladimir Guerrero Jr.,2026-09-05,Train,0,Kansas City Royals,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260905_1_PA031,TOR_20260905_1,B001,Alejandro Kirk,2026-09-05,Train,0,Kansas City Royals,7,1,0,0,0,3,0,Groundout,0
+TOR_20260905_1_PA032,TOR_20260905_1,B014,Nathan Lukes,2026-09-05,Train,0,Kansas City Royals,7,1,0,0,0,3,0,Hit,0
+TOR_20260905_1_PA033,TOR_20260905_1,B012,Kazuma Okamoto,2026-09-05,Train,0,Kansas City Royals,7,1,0,0,0,1,0,Hit,0
+TOR_20260905_1_PA034,TOR_20260905_1,B002,Andrés Giménez,2026-09-05,Train,0,Kansas City Royals,7,1,0,0,0,5,0,Flyout,0
+TOR_20260905_1_PA035,TOR_20260905_1,B008,Ernie Clement,2026-09-05,Train,0,Kansas City Royals,8,0,0,0,0,4,0,Groundout,0
+TOR_20260905_1_PA036,TOR_20260905_1,B013,Myles Straw,2026-09-05,Train,0,Kansas City Royals,8,0,0,0,0,5,0,Hit,0
+TOR_20260905_1_PA037,TOR_20260905_1,B004,Brett Bateman,2026-09-05,Train,0,Kansas City Royals,8,0,0,0,0,3,0,Lineout,0
+TOR_20260905_1_PA038,TOR_20260905_1,B009,George Springer,2026-09-05,Train,0,Kansas City Royals,8,0,0,0,0,2,0,Flyout,0
+TOR_20260905_1_PA039,TOR_20260905_1,B017,Vladimir Guerrero Jr.,2026-09-05,Train,0,Kansas City Royals,9,0,0,0,0,2,0,Groundout,0
+TOR_20260905_1_PA040,TOR_20260905_1,B001,Alejandro Kirk,2026-09-05,Train,0,Kansas City Royals,9,0,0,0,0,2,0,Groundout,0
+TOR_20260905_1_PA041,TOR_20260905_1,B014,Nathan Lukes,2026-09-05,Train,0,Kansas City Royals,9,0,0,0,0,2,0,Hit,0
+TOR_20260905_1_PA042,TOR_20260905_1,B012,Kazuma Okamoto,2026-09-05,Train,0,Kansas City Royals,9,0,0,0,0,3,0,Groundout,0
+TOR_20260906_1_PA001,TOR_20260906_1,B004,Brett Bateman,2026-09-06,Train,0,Kansas City Royals,1,0,0,0,0,4,0,HBP,0
+TOR_20260906_1_PA002,TOR_20260906_1,B014,Nathan Lukes,2026-09-06,Train,0,Kansas City Royals,1,0,0,0,0,2,0,Groundout,0
+TOR_20260906_1_PA003,TOR_20260906_1,B017,Vladimir Guerrero Jr.,2026-09-06,Train,0,Kansas City Royals,1,0,0,0,0,3,0,Groundout,0
+TOR_20260906_1_PA004,TOR_20260906_1,B010,Jesús Sánchez,2026-09-06,Train,0,Kansas City Royals,2,0,0,0,0,5,0,Groundout,0
+TOR_20260906_1_PA005,TOR_20260906_1,B012,Kazuma Okamoto,2026-09-06,Train,0,Kansas City Royals,2,0,0,0,0,6,1,Strikeout,0
+TOR_20260906_1_PA006,TOR_20260906_1,B016,Sean Keys,2026-09-06,Train,0,Kansas City Royals,2,0,0,0,0,6,1,Strikeout,0
+TOR_20260906_1_PA007,TOR_20260906_1,B011,Josh H. Smith,2026-09-06,Train,0,Kansas City Royals,3,0,0,0,0,3,0,Flyout,0
+TOR_20260906_1_PA008,TOR_20260906_1,B002,Andrés Giménez,2026-09-06,Train,0,Kansas City Royals,3,0,0,0,0,6,0,Lineout,0
+TOR_20260906_1_PA009,TOR_20260906_1,B003,Brandon Valenzuela,2026-09-06,Train,0,Kansas City Royals,3,0,0,0,0,4,0,Groundout,0
+TOR_20260906_1_PA010,TOR_20260906_1,B004,Brett Bateman,2026-09-06,Train,0,Kansas City Royals,4,0,0,0,0,1,0,Hit,0
+TOR_20260906_1_PA011,TOR_20260906_1,B014,Nathan Lukes,2026-09-06,Train,0,Kansas City Royals,4,0,0,0,0,5,0,Flyout,0
+TOR_20260906_1_PA012,TOR_20260906_1,B017,Vladimir Guerrero Jr.,2026-09-06,Train,0,Kansas City Royals,4,0,0,0,0,2,0,Groundout,0
+TOR_20260906_1_PA013,TOR_20260906_1,B010,Jesús Sánchez,2026-09-06,Train,0,Kansas City Royals,5,0,0,0,0,4,0,Flyout,0
+TOR_20260906_1_PA014,TOR_20260906_1,B012,Kazuma Okamoto,2026-09-06,Train,0,Kansas City Royals,5,0,0,0,0,4,0,Flyout,0
+TOR_20260906_1_PA015,TOR_20260906_1,B016,Sean Keys,2026-09-06,Train,0,Kansas City Royals,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260906_1_PA016,TOR_20260906_1,B011,Josh H. Smith,2026-09-06,Train,0,Kansas City Royals,6,0,0,0,0,8,0,Home Run,0
+TOR_20260906_1_PA017,TOR_20260906_1,B002,Andrés Giménez,2026-09-06,Train,0,Kansas City Royals,6,0,0,0,0,1,0,Groundout,0
+TOR_20260906_1_PA018,TOR_20260906_1,B003,Brandon Valenzuela,2026-09-06,Train,0,Kansas City Royals,6,0,0,0,0,5,0,Groundout,0
+TOR_20260906_1_PA019,TOR_20260906_1,B004,Brett Bateman,2026-09-06,Train,0,Kansas City Royals,6,0,0,0,0,4,0,Hit,0
+TOR_20260906_1_PA020,TOR_20260906_1,B014,Nathan Lukes,2026-09-06,Train,0,Kansas City Royals,6,0,0,0,0,2,0,Hit,0
+TOR_20260906_1_PA021,TOR_20260906_1,B017,Vladimir Guerrero Jr.,2026-09-06,Train,0,Kansas City Royals,6,1,0,0,0,5,0,Groundout,0
+TOR_20260906_1_PA022,TOR_20260906_1,B013,Myles Straw,2026-09-06,Train,0,Kansas City Royals,7,0,0,0,0,6,0,Walk,0
+TOR_20260906_1_PA023,TOR_20260906_1,B012,Kazuma Okamoto,2026-09-06,Train,0,Kansas City Royals,7,0,0,0,0,4,0,Groundout,0
+TOR_20260906_1_PA024,TOR_20260906_1,B005,Charles McAdoo,2026-09-06,Train,0,Kansas City Royals,7,1,0,0,0,5,0,Hit,0
+TOR_20260906_1_PA025,TOR_20260906_1,B009,George Springer,2026-09-06,Train,0,Kansas City Royals,7,1,0,0,0,5,0,Hit,0
+TOR_20260906_1_PA026,TOR_20260906_1,B002,Andrés Giménez,2026-09-06,Train,0,Kansas City Royals,7,1,0,0,0,2,0,Flyout,0
+TOR_20260906_1_PA027,TOR_20260906_1,B003,Brandon Valenzuela,2026-09-06,Train,0,Kansas City Royals,8,0,0,0,0,3,0,Groundout,0
+TOR_20260906_1_PA028,TOR_20260906_1,B004,Brett Bateman,2026-09-06,Train,0,Kansas City Royals,8,0,0,0,0,2,0,Hit,0
+TOR_20260906_1_PA029,TOR_20260906_1,B014,Nathan Lukes,2026-09-06,Train,0,Kansas City Royals,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260906_1_PA030,TOR_20260906_1,B017,Vladimir Guerrero Jr.,2026-09-06,Train,0,Kansas City Royals,8,0,0,0,0,7,1,Strikeout,0
+TOR_20260906_1_PA031,TOR_20260906_1,B013,Myles Straw,2026-09-06,Train,0,Kansas City Royals,9,0,0,0,0,1,0,Hit,0
+TOR_20260906_1_PA032,TOR_20260906_1,B012,Kazuma Okamoto,2026-09-06,Train,0,Kansas City Royals,9,0,0,0,0,7,0,Groundout,0
+TOR_20260906_1_PA033,TOR_20260906_1,B005,Charles McAdoo,2026-09-06,Train,0,Kansas City Royals,9,1,0,0,0,5,0,Groundout,0
+TOR_20260906_1_PA034,TOR_20260906_1,B008,Ernie Clement,2026-09-06,Train,0,Kansas City Royals,9,1,0,0,0,2,0,Flyout,0
+TOR_20260907_1_PA001,TOR_20260907_1,B004,Brett Bateman,2026-09-07,Train,0,Athletics,1,0,0,0,0,4,0,Groundout,0
+TOR_20260907_1_PA002,TOR_20260907_1,B009,George Springer,2026-09-07,Train,0,Athletics,1,0,0,0,0,4,0,Flyout,0
+TOR_20260907_1_PA003,TOR_20260907_1,B017,Vladimir Guerrero Jr.,2026-09-07,Train,0,Athletics,1,0,0,0,0,6,1,Strikeout,0
+TOR_20260907_1_PA004,TOR_20260907_1,B001,Alejandro Kirk,2026-09-07,Train,0,Athletics,2,0,0,0,0,2,0,Home Run,0
+TOR_20260907_1_PA005,TOR_20260907_1,B012,Kazuma Okamoto,2026-09-07,Train,0,Athletics,2,0,0,0,0,4,0,Walk,0
+TOR_20260907_1_PA006,TOR_20260907_1,B014,Nathan Lukes,2026-09-07,Train,0,Athletics,2,0,0,0,0,3,0,Hit,0
+TOR_20260907_1_PA007,TOR_20260907_1,B008,Ernie Clement,2026-09-07,Train,0,Athletics,2,1,0,0,0,3,0,Flyout,0
+TOR_20260907_1_PA008,TOR_20260907_1,B002,Andrés Giménez,2026-09-07,Train,0,Athletics,2,1,0,0,0,2,0,Groundout,0
+TOR_20260907_1_PA009,TOR_20260907_1,B013,Myles Straw,2026-09-07,Train,0,Athletics,2,1,0,0,0,5,0,Flyout,0
+TOR_20260907_1_PA010,TOR_20260907_1,B004,Brett Bateman,2026-09-07,Train,0,Athletics,3,0,0,0,0,2,0,Flyout,0
+TOR_20260907_1_PA011,TOR_20260907_1,B009,George Springer,2026-09-07,Train,0,Athletics,3,0,0,0,0,6,0,Flyout,0
+TOR_20260907_1_PA012,TOR_20260907_1,B017,Vladimir Guerrero Jr.,2026-09-07,Train,0,Athletics,3,0,0,0,0,4,0,Groundout,0
+TOR_20260907_1_PA013,TOR_20260907_1,B001,Alejandro Kirk,2026-09-07,Train,0,Athletics,4,0,0,0,0,3,0,Flyout,0
+TOR_20260907_1_PA014,TOR_20260907_1,B012,Kazuma Okamoto,2026-09-07,Train,0,Athletics,4,0,0,0,0,3,0,Flyout,0
+TOR_20260907_1_PA015,TOR_20260907_1,B014,Nathan Lukes,2026-09-07,Train,0,Athletics,4,0,0,0,0,5,0,Groundout,0
+TOR_20260907_1_PA016,TOR_20260907_1,B008,Ernie Clement,2026-09-07,Train,0,Athletics,5,0,0,0,0,4,0,Flyout,0
+TOR_20260907_1_PA017,TOR_20260907_1,B002,Andrés Giménez,2026-09-07,Train,0,Athletics,5,0,0,0,0,4,0,Groundout,0
+TOR_20260907_1_PA018,TOR_20260907_1,B013,Myles Straw,2026-09-07,Train,0,Athletics,5,0,0,0,0,3,0,Flyout,0
+TOR_20260907_1_PA019,TOR_20260907_1,B004,Brett Bateman,2026-09-07,Train,0,Athletics,6,0,0,0,0,4,0,Flyout,0
+TOR_20260907_1_PA020,TOR_20260907_1,B009,George Springer,2026-09-07,Train,0,Athletics,6,0,0,0,0,1,0,Groundout,0
+TOR_20260907_1_PA021,TOR_20260907_1,B017,Vladimir Guerrero Jr.,2026-09-07,Train,0,Athletics,6,0,0,0,0,2,0,Hit,0
+TOR_20260907_1_PA022,TOR_20260907_1,B001,Alejandro Kirk,2026-09-07,Train,0,Athletics,6,0,0,0,0,5,0,Flyout,0
+TOR_20260907_1_PA023,TOR_20260907_1,B012,Kazuma Okamoto,2026-09-07,Train,0,Athletics,7,0,0,0,0,2,0,Home Run,0
+TOR_20260907_1_PA024,TOR_20260907_1,B014,Nathan Lukes,2026-09-07,Train,0,Athletics,7,0,0,0,0,4,0,Hit,0
+TOR_20260907_1_PA025,TOR_20260907_1,B008,Ernie Clement,2026-09-07,Train,0,Athletics,7,0,0,0,0,5,0,Hit,0
+TOR_20260907_1_PA026,TOR_20260907_1,B002,Andrés Giménez,2026-09-07,Train,0,Athletics,7,1,0,0,0,3,0,Double,0
+TOR_20260907_1_PA027,TOR_20260907_1,B011,Josh H. Smith,2026-09-07,Train,0,Athletics,7,1,0,0,0,3,0,Flyout,0
+TOR_20260907_1_PA028,TOR_20260907_1,B004,Brett Bateman,2026-09-07,Train,0,Athletics,7,1,0,0,0,5,1,Strikeout,0
+TOR_20260907_1_PA029,TOR_20260907_1,B009,George Springer,2026-09-07,Train,0,Athletics,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260907_1_PA030,TOR_20260907_1,B017,Vladimir Guerrero Jr.,2026-09-07,Train,0,Athletics,8,0,0,0,0,4,0,Groundout,0
+TOR_20260907_1_PA031,TOR_20260907_1,B001,Alejandro Kirk,2026-09-07,Train,0,Athletics,8,0,0,0,0,2,0,Hit,0
+TOR_20260907_1_PA032,TOR_20260907_1,B012,Kazuma Okamoto,2026-09-07,Train,0,Athletics,8,0,0,0,0,6,0,Walk,0
+TOR_20260907_1_PA033,TOR_20260907_1,B014,Nathan Lukes,2026-09-07,Train,0,Athletics,8,1,0,0,0,3,0,Fielder's Choice,0
+TOR_20260907_1_PA034,TOR_20260907_1,B008,Ernie Clement,2026-09-07,Train,0,Athletics,9,0,0,0,0,3,0,Flyout,0
+TOR_20260907_1_PA035,TOR_20260907_1,B002,Andrés Giménez,2026-09-07,Train,0,Athletics,9,0,0,0,0,3,0,Home Run,0
+TOR_20260907_1_PA036,TOR_20260907_1,B011,Josh H. Smith,2026-09-07,Train,0,Athletics,9,0,0,0,0,4,0,Groundout,0
+TOR_20260907_1_PA037,TOR_20260907_1,B004,Brett Bateman,2026-09-07,Train,0,Athletics,9,0,0,0,0,8,0,Walk,0
+TOR_20260907_1_PA038,TOR_20260907_1,B009,George Springer,2026-09-07,Train,0,Athletics,9,0,0,0,0,4,1,Strikeout,0
+TOR_20260908_1_PA001,TOR_20260908_1,B004,Brett Bateman,2026-09-08,Train,0,Athletics,1,0,0,0,0,3,0,Hit,0
+TOR_20260908_1_PA002,TOR_20260908_1,B014,Nathan Lukes,2026-09-08,Train,0,Athletics,1,0,0,0,0,4,0,Fielder's Choice,0
+TOR_20260908_1_PA003,TOR_20260908_1,B017,Vladimir Guerrero Jr.,2026-09-08,Train,0,Athletics,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260908_1_PA004,TOR_20260908_1,B001,Alejandro Kirk,2026-09-08,Train,0,Athletics,1,0,0,0,0,5,1,Strikeout,0
+TOR_20260908_1_PA005,TOR_20260908_1,B011,Josh H. Smith,2026-09-08,Train,0,Athletics,2,0,0,0,0,5,0,Home Run,0
+TOR_20260908_1_PA006,TOR_20260908_1,B012,Kazuma Okamoto,2026-09-08,Train,0,Athletics,2,0,0,0,0,4,0,Home Run,0
+TOR_20260908_1_PA007,TOR_20260908_1,B002,Andrés Giménez,2026-09-08,Train,0,Athletics,2,0,0,0,0,4,0,Hit,0
+TOR_20260908_1_PA008,TOR_20260908_1,B010,Jesús Sánchez,2026-09-08,Train,0,Athletics,2,0,0,0,0,3,0,Groundout,0
+TOR_20260908_1_PA009,TOR_20260908_1,B008,Ernie Clement,2026-09-08,Train,0,Athletics,2,0,0,0,0,3,0,Flyout,0
+TOR_20260908_1_PA010,TOR_20260908_1,B004,Brett Bateman,2026-09-08,Train,0,Athletics,3,0,0,0,0,5,0,Lineout,0
+TOR_20260908_1_PA011,TOR_20260908_1,B014,Nathan Lukes,2026-09-08,Train,0,Athletics,3,0,0,0,0,2,0,Groundout,0
+TOR_20260908_1_PA012,TOR_20260908_1,B017,Vladimir Guerrero Jr.,2026-09-08,Train,0,Athletics,3,0,0,0,0,2,0,Lineout,0
+TOR_20260908_1_PA013,TOR_20260908_1,B001,Alejandro Kirk,2026-09-08,Train,0,Athletics,4,0,0,0,0,2,0,Flyout,0
+TOR_20260908_1_PA014,TOR_20260908_1,B011,Josh H. Smith,2026-09-08,Train,0,Athletics,4,0,0,0,0,4,0,Hit,0
+TOR_20260908_1_PA015,TOR_20260908_1,B012,Kazuma Okamoto,2026-09-08,Train,0,Athletics,4,0,0,0,0,4,0,Groundout,0
+TOR_20260908_1_PA016,TOR_20260908_1,B002,Andrés Giménez,2026-09-08,Train,0,Athletics,4,1,0,0,0,6,0,Groundout,0
+TOR_20260908_1_PA017,TOR_20260908_1,B010,Jesús Sánchez,2026-09-08,Train,0,Athletics,5,0,0,0,0,8,1,Strikeout,0
+TOR_20260908_1_PA018,TOR_20260908_1,B008,Ernie Clement,2026-09-08,Train,0,Athletics,5,0,0,0,0,2,0,Flyout,0
+TOR_20260908_1_PA019,TOR_20260908_1,B004,Brett Bateman,2026-09-08,Train,0,Athletics,5,0,0,0,0,6,0,Groundout,0
+TOR_20260908_1_PA020,TOR_20260908_1,B014,Nathan Lukes,2026-09-08,Train,0,Athletics,6,0,0,0,0,6,0,Hit,0
+TOR_20260908_1_PA021,TOR_20260908_1,B017,Vladimir Guerrero Jr.,2026-09-08,Train,0,Athletics,6,0,0,0,0,4,0,Hit,0
+TOR_20260908_1_PA022,TOR_20260908_1,B001,Alejandro Kirk,2026-09-08,Train,0,Athletics,6,1,0,0,0,7,0,Hit,0
+TOR_20260908_1_PA023,TOR_20260908_1,B011,Josh H. Smith,2026-09-08,Train,0,Athletics,6,1,0,0,0,1,0,Groundout,0
+TOR_20260908_1_PA024,TOR_20260908_1,B012,Kazuma Okamoto,2026-09-08,Train,0,Athletics,6,0,0,0,0,5,0,Hit,0
+TOR_20260908_1_PA025,TOR_20260908_1,B002,Andrés Giménez,2026-09-08,Train,0,Athletics,6,0,0,0,0,3,0,Groundout,0
+TOR_20260908_1_PA026,TOR_20260908_1,B010,Jesús Sánchez,2026-09-08,Train,0,Athletics,7,0,0,0,0,8,0,Hit,0
+TOR_20260908_1_PA027,TOR_20260908_1,B008,Ernie Clement,2026-09-08,Train,0,Athletics,7,0,0,0,0,6,0,Flyout,0
+TOR_20260908_1_PA028,TOR_20260908_1,B004,Brett Bateman,2026-09-08,Train,0,Athletics,7,1,0,0,0,4,1,Strikeout,0
+TOR_20260908_1_PA029,TOR_20260908_1,B014,Nathan Lukes,2026-09-08,Train,0,Athletics,7,1,0,0,0,1,0,Groundout,0
+TOR_20260908_1_PA030,TOR_20260908_1,B017,Vladimir Guerrero Jr.,2026-09-08,Train,0,Athletics,8,0,0,0,0,3,0,Hit,0
+TOR_20260908_1_PA031,TOR_20260908_1,B001,Alejandro Kirk,2026-09-08,Train,0,Athletics,8,0,0,0,0,4,0,Lineout,0
+TOR_20260908_1_PA032,TOR_20260908_1,B011,Josh H. Smith,2026-09-08,Train,0,Athletics,8,0,0,0,0,9,1,Strikeout,0
+TOR_20260908_1_PA033,TOR_20260908_1,B012,Kazuma Okamoto,2026-09-08,Train,0,Athletics,9,0,0,0,0,5,0,Flyout,0
+TOR_20260908_1_PA034,TOR_20260908_1,B002,Andrés Giménez,2026-09-08,Train,0,Athletics,9,0,0,0,0,5,0,Walk,0
+TOR_20260908_1_PA035,TOR_20260908_1,B010,Jesús Sánchez,2026-09-08,Train,0,Athletics,9,0,0,0,0,3,1,Strikeout,0
+TOR_20260908_1_PA036,TOR_20260908_1,B008,Ernie Clement,2026-09-08,Train,0,Athletics,9,0,0,0,0,1,0,Fielder's Choice,0
+TOR_20260909_1_PA001,TOR_20260909_1,B004,Brett Bateman,2026-09-09,Train,0,Athletics,1,0,0,0,0,4,0,Groundout,0
+TOR_20260909_1_PA002,TOR_20260909_1,B005,Charles McAdoo,2026-09-09,Train,0,Athletics,1,0,0,0,0,6,1,Strikeout,0
+TOR_20260909_1_PA003,TOR_20260909_1,B017,Vladimir Guerrero Jr.,2026-09-09,Train,0,Athletics,1,0,0,0,0,7,0,Walk,0
+TOR_20260909_1_PA004,TOR_20260909_1,B001,Alejandro Kirk,2026-09-09,Train,0,Athletics,1,0,0,0,0,2,0,Lineout,0
+TOR_20260909_1_PA005,TOR_20260909_1,B012,Kazuma Okamoto,2026-09-09,Train,0,Athletics,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260909_1_PA006,TOR_20260909_1,B002,Andrés Giménez,2026-09-09,Train,0,Athletics,2,0,0,0,0,4,0,Groundout,0
+TOR_20260909_1_PA007,TOR_20260909_1,B008,Ernie Clement,2026-09-09,Train,0,Athletics,2,0,0,0,0,7,0,Walk,0
+TOR_20260909_1_PA008,TOR_20260909_1,B003,Brandon Valenzuela,2026-09-09,Train,0,Athletics,2,0,0,0,0,5,0,Flyout,0
+TOR_20260909_1_PA009,TOR_20260909_1,B013,Myles Straw,2026-09-09,Train,0,Athletics,3,0,0,0,0,3,0,Flyout,0
+TOR_20260909_1_PA010,TOR_20260909_1,B004,Brett Bateman,2026-09-09,Train,0,Athletics,3,0,0,0,0,2,0,Lineout,0
+TOR_20260909_1_PA011,TOR_20260909_1,B005,Charles McAdoo,2026-09-09,Train,0,Athletics,3,0,0,0,0,4,0,Hit,0
+TOR_20260909_1_PA012,TOR_20260909_1,B017,Vladimir Guerrero Jr.,2026-09-09,Train,0,Athletics,3,0,0,0,0,2,0,Groundout,0
+TOR_20260909_1_PA013,TOR_20260909_1,B001,Alejandro Kirk,2026-09-09,Train,0,Athletics,4,0,0,0,0,5,0,Hit,0
+TOR_20260909_1_PA014,TOR_20260909_1,B012,Kazuma Okamoto,2026-09-09,Train,0,Athletics,4,0,0,0,0,6,1,Strikeout,0
+TOR_20260909_1_PA015,TOR_20260909_1,B002,Andrés Giménez,2026-09-09,Train,0,Athletics,4,0,0,0,0,1,0,Groundout,0
+TOR_20260909_1_PA016,TOR_20260909_1,B008,Ernie Clement,2026-09-09,Train,0,Athletics,4,1,0,0,0,1,0,Hit,0
+TOR_20260909_1_PA017,TOR_20260909_1,B003,Brandon Valenzuela,2026-09-09,Train,0,Athletics,4,1,0,0,0,4,1,Strikeout,0
+TOR_20260909_1_PA018,TOR_20260909_1,B013,Myles Straw,2026-09-09,Train,0,Athletics,5,0,0,0,0,5,1,Strikeout,0
+TOR_20260909_1_PA019,TOR_20260909_1,B004,Brett Bateman,2026-09-09,Train,0,Athletics,5,0,0,0,0,3,0,Double,0
+TOR_20260909_1_PA020,TOR_20260909_1,B014,Nathan Lukes,2026-09-09,Train,0,Athletics,5,1,0,0,0,3,0,Hit,0
+TOR_20260909_1_PA021,TOR_20260909_1,B017,Vladimir Guerrero Jr.,2026-09-09,Train,0,Athletics,5,1,0,0,0,1,0,Groundout,0
+TOR_20260909_1_PA022,TOR_20260909_1,B001,Alejandro Kirk,2026-09-09,Train,0,Athletics,6,0,0,0,0,5,0,Walk,0
+TOR_20260909_1_PA023,TOR_20260909_1,B012,Kazuma Okamoto,2026-09-09,Train,0,Athletics,6,0,0,0,0,3,0,Groundout,0
+TOR_20260909_1_PA024,TOR_20260909_1,B002,Andrés Giménez,2026-09-09,Train,0,Athletics,6,0,0,0,0,3,0,Groundout,0
+TOR_20260909_1_PA025,TOR_20260909_1,B008,Ernie Clement,2026-09-09,Train,0,Athletics,7,0,0,0,0,2,0,Groundout,0
+TOR_20260909_1_PA026,TOR_20260909_1,B003,Brandon Valenzuela,2026-09-09,Train,0,Athletics,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260909_1_PA027,TOR_20260909_1,B011,Josh H. Smith,2026-09-09,Train,0,Athletics,7,0,0,0,0,7,1,Strikeout,0
+TOR_20260909_1_PA028,TOR_20260909_1,B004,Brett Bateman,2026-09-09,Train,0,Athletics,8,0,0,0,0,1,0,Groundout,0
+TOR_20260909_1_PA029,TOR_20260909_1,B009,George Springer,2026-09-09,Train,0,Athletics,8,0,0,0,0,3,0,Flyout,0
+TOR_20260909_1_PA030,TOR_20260909_1,B017,Vladimir Guerrero Jr.,2026-09-09,Train,0,Athletics,8,0,0,0,0,6,0,Flyout,0
+TOR_20260909_1_PA031,TOR_20260909_1,B001,Alejandro Kirk,2026-09-09,Train,0,Athletics,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260909_1_PA032,TOR_20260909_1,B012,Kazuma Okamoto,2026-09-09,Train,0,Athletics,9,0,0,0,0,7,1,Strikeout,0
+TOR_20260909_1_PA033,TOR_20260909_1,B002,Andrés Giménez,2026-09-09,Train,0,Athletics,9,0,0,0,0,2,0,Hit,0
+TOR_20260909_1_PA034,TOR_20260909_1,B008,Ernie Clement,2026-09-09,Train,0,Athletics,9,0,0,0,0,1,0,Flyout,0
+TOR_20260911_1_PA001,TOR_20260911_1,B004,Brett Bateman,2026-09-11,Train,1,Baltimore Orioles,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260911_1_PA002,TOR_20260911_1,B009,George Springer,2026-09-11,Train,1,Baltimore Orioles,1,0,0,0,0,1,0,Hit,0
+TOR_20260911_1_PA003,TOR_20260911_1,B017,Vladimir Guerrero Jr.,2026-09-11,Train,1,Baltimore Orioles,1,0,1,1,1,7,0,Walk,0
+TOR_20260911_1_PA004,TOR_20260911_1,B001,Alejandro Kirk,2026-09-11,Train,1,Baltimore Orioles,1,1,0,0,0,5,0,Walk,0
+TOR_20260911_1_PA005,TOR_20260911_1,B014,Nathan Lukes,2026-09-11,Train,1,Baltimore Orioles,1,1,0,0,0,4,1,Strikeout,0
+TOR_20260911_1_PA006,TOR_20260911_1,B012,Kazuma Okamoto,2026-09-11,Train,1,Baltimore Orioles,2,0,0,0,0,4,0,Groundout,0
+TOR_20260911_1_PA007,TOR_20260911_1,B011,Josh H. Smith,2026-09-11,Train,1,Baltimore Orioles,2,0,0,0,0,3,0,Groundout,0
+TOR_20260911_1_PA008,TOR_20260911_1,B002,Andrés Giménez,2026-09-11,Train,1,Baltimore Orioles,2,0,0,0,0,6,0,Lineout,0
+TOR_20260911_1_PA009,TOR_20260911_1,B008,Ernie Clement,2026-09-11,Train,1,Baltimore Orioles,3,0,0,0,0,4,0,Flyout,0
+TOR_20260911_1_PA010,TOR_20260911_1,B004,Brett Bateman,2026-09-11,Train,1,Baltimore Orioles,3,0,0,0,0,6,0,Hit,0
+TOR_20260911_1_PA011,TOR_20260911_1,B009,George Springer,2026-09-11,Train,1,Baltimore Orioles,3,0,0,0,0,6,0,Hit,0
+TOR_20260911_1_PA012,TOR_20260911_1,B017,Vladimir Guerrero Jr.,2026-09-11,Train,1,Baltimore Orioles,3,1,0,0,0,4,1,Strikeout,0
+TOR_20260911_1_PA013,TOR_20260911_1,B001,Alejandro Kirk,2026-09-11,Train,1,Baltimore Orioles,3,1,0,1,1,5,0,Walk,0
+TOR_20260911_1_PA014,TOR_20260911_1,B014,Nathan Lukes,2026-09-11,Train,1,Baltimore Orioles,3,1,0,0,0,2,0,Flyout,0
+TOR_20260911_1_PA015,TOR_20260911_1,B012,Kazuma Okamoto,2026-09-11,Train,1,Baltimore Orioles,4,0,0,0,0,2,0,Home Run,0
+TOR_20260911_1_PA016,TOR_20260911_1,B011,Josh H. Smith,2026-09-11,Train,1,Baltimore Orioles,4,0,0,0,0,3,1,Strikeout,0
+TOR_20260911_1_PA017,TOR_20260911_1,B002,Andrés Giménez,2026-09-11,Train,1,Baltimore Orioles,4,0,0,0,0,5,0,Flyout,0
+TOR_20260911_1_PA018,TOR_20260911_1,B008,Ernie Clement,2026-09-11,Train,1,Baltimore Orioles,4,0,0,0,0,2,0,Flyout,0
+TOR_20260911_1_PA019,TOR_20260911_1,B004,Brett Bateman,2026-09-11,Train,1,Baltimore Orioles,6,0,0,0,0,8,0,Hit,0
+TOR_20260911_1_PA020,TOR_20260911_1,B009,George Springer,2026-09-11,Train,1,Baltimore Orioles,6,0,0,0,0,1,0,Lineout,0
+TOR_20260911_1_PA021,TOR_20260911_1,B017,Vladimir Guerrero Jr.,2026-09-11,Train,1,Baltimore Orioles,6,0,0,0,0,3,0,Groundout,0
+TOR_20260911_1_PA022,TOR_20260911_1,B001,Alejandro Kirk,2026-09-11,Train,1,Baltimore Orioles,6,1,0,0,0,5,1,Strikeout,0
+TOR_20260911_1_PA023,TOR_20260911_1,B014,Nathan Lukes,2026-09-11,Train,1,Baltimore Orioles,6,0,0,0,0,1,0,Hit,0
+TOR_20260911_1_PA024,TOR_20260911_1,B012,Kazuma Okamoto,2026-09-11,Train,1,Baltimore Orioles,6,0,0,0,0,5,0,Hit,0
+TOR_20260911_1_PA025,TOR_20260911_1,B005,Charles McAdoo,2026-09-11,Train,1,Baltimore Orioles,6,1,0,0,0,8,1,Strikeout,0
+TOR_20260911_1_PA026,TOR_20260911_1,B002,Andrés Giménez,2026-09-11,Train,1,Baltimore Orioles,6,1,0,0,0,3,0,Groundout,0
+TOR_20260911_1_PA027,TOR_20260911_1,B008,Ernie Clement,2026-09-11,Train,1,Baltimore Orioles,6,1,0,0,0,2,0,Lineout,0
+TOR_20260911_1_PA028,TOR_20260911_1,B004,Brett Bateman,2026-09-11,Train,1,Baltimore Orioles,7,0,0,0,0,2,0,Groundout,0
+TOR_20260911_1_PA029,TOR_20260911_1,B009,George Springer,2026-09-11,Train,1,Baltimore Orioles,7,0,0,0,0,1,0,Groundout,0
+TOR_20260911_1_PA030,TOR_20260911_1,B017,Vladimir Guerrero Jr.,2026-09-11,Train,1,Baltimore Orioles,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260911_1_PA031,TOR_20260911_1,B001,Alejandro Kirk,2026-09-11,Train,1,Baltimore Orioles,8,0,0,0,0,3,0,Groundout,0
+TOR_20260911_1_PA032,TOR_20260911_1,B014,Nathan Lukes,2026-09-11,Train,1,Baltimore Orioles,8,0,0,0,0,2,0,Lineout,0
+TOR_20260911_1_PA033,TOR_20260911_1,B012,Kazuma Okamoto,2026-09-11,Train,1,Baltimore Orioles,8,0,0,0,0,4,1,Strikeout,0
+TOR_20260911_1_PA034,TOR_20260911_1,B005,Charles McAdoo,2026-09-11,Train,1,Baltimore Orioles,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260911_1_PA035,TOR_20260911_1,B002,Andrés Giménez,2026-09-11,Train,1,Baltimore Orioles,9,0,0,0,0,6,0,Lineout,0
+TOR_20260911_1_PA036,TOR_20260911_1,B008,Ernie Clement,2026-09-11,Train,1,Baltimore Orioles,9,0,0,0,0,2,0,Hit,0
+TOR_20260911_1_PA037,TOR_20260911_1,B004,Brett Bateman,2026-09-11,Train,1,Baltimore Orioles,9,1,0,0,0,4,0,Home Run,0
+TOR_20260911_1_PA038,TOR_20260911_1,B009,George Springer,2026-09-11,Train,1,Baltimore Orioles,9,0,0,0,0,6,0,Hit,0
+TOR_20260911_1_PA039,TOR_20260911_1,B017,Vladimir Guerrero Jr.,2026-09-11,Train,1,Baltimore Orioles,9,0,0,0,0,8,0,Hit,0
+TOR_20260911_1_PA040,TOR_20260911_1,B001,Alejandro Kirk,2026-09-11,Train,1,Baltimore Orioles,9,1,0,0,0,6,0,Fielder's Choice,0
+TOR_20260912_1_PA001,TOR_20260912_1,B004,Brett Bateman,2026-09-12,Train,1,Baltimore Orioles,1,0,0,0,0,5,0,Walk,0
+TOR_20260912_1_PA002,TOR_20260912_1,B009,George Springer,2026-09-12,Train,1,Baltimore Orioles,1,0,0,0,0,2,0,Groundout,0
+TOR_20260912_1_PA003,TOR_20260912_1,B017,Vladimir Guerrero Jr.,2026-09-12,Train,1,Baltimore Orioles,1,1,0,0,0,2,0,Hit,0
+TOR_20260912_1_PA004,TOR_20260912_1,B001,Alejandro Kirk,2026-09-12,Train,1,Baltimore Orioles,1,1,0,0,0,2,0,Hit,0
+TOR_20260912_1_PA005,TOR_20260912_1,B014,Nathan Lukes,2026-09-12,Train,1,Baltimore Orioles,1,0,0,0,0,1,0,Groundout,0
+TOR_20260912_1_PA006,TOR_20260912_1,B012,Kazuma Okamoto,2026-09-12,Train,1,Baltimore Orioles,2,0,0,0,0,6,0,Walk,0
+TOR_20260912_1_PA007,TOR_20260912_1,B011,Josh H. Smith,2026-09-12,Train,1,Baltimore Orioles,2,0,0,0,0,3,1,Strikeout,0
+TOR_20260912_1_PA008,TOR_20260912_1,B002,Andrés Giménez,2026-09-12,Train,1,Baltimore Orioles,2,0,0,0,0,1,0,Hit,0
+TOR_20260912_1_PA009,TOR_20260912_1,B015,Rudy Martin Jr.,2026-09-12,Train,1,Baltimore Orioles,2,1,0,0,0,2,0,Groundout,0
+TOR_20260912_1_PA010,TOR_20260912_1,B004,Brett Bateman,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,3,0,Home Run,0
+TOR_20260912_1_PA011,TOR_20260912_1,B009,George Springer,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,5,0,Hit,0
+TOR_20260912_1_PA012,TOR_20260912_1,B017,Vladimir Guerrero Jr.,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260912_1_PA013,TOR_20260912_1,B001,Alejandro Kirk,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,1,0,Home Run,0
+TOR_20260912_1_PA014,TOR_20260912_1,B014,Nathan Lukes,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,6,0,Lineout,0
+TOR_20260912_1_PA015,TOR_20260912_1,B012,Kazuma Okamoto,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,6,0,Hit,0
+TOR_20260912_1_PA016,TOR_20260912_1,B011,Josh H. Smith,2026-09-12,Train,1,Baltimore Orioles,3,0,0,0,0,3,0,Hit,0
+TOR_20260912_1_PA017,TOR_20260912_1,B002,Andrés Giménez,2026-09-12,Train,1,Baltimore Orioles,3,1,0,0,0,3,0,Lineout,0
+TOR_20260912_1_PA018,TOR_20260912_1,B015,Rudy Martin Jr.,2026-09-12,Train,1,Baltimore Orioles,4,0,0,0,0,3,1,Strikeout,0
+TOR_20260912_1_PA019,TOR_20260912_1,B004,Brett Bateman,2026-09-12,Train,1,Baltimore Orioles,4,0,0,0,0,11,0,Flyout,0
+TOR_20260912_1_PA020,TOR_20260912_1,B009,George Springer,2026-09-12,Train,1,Baltimore Orioles,4,0,0,0,0,6,1,Strikeout,0
+TOR_20260912_1_PA021,TOR_20260912_1,B017,Vladimir Guerrero Jr.,2026-09-12,Train,1,Baltimore Orioles,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260912_1_PA022,TOR_20260912_1,B001,Alejandro Kirk,2026-09-12,Train,1,Baltimore Orioles,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260912_1_PA023,TOR_20260912_1,B014,Nathan Lukes,2026-09-12,Train,1,Baltimore Orioles,5,0,0,0,0,9,1,Strikeout,0
+TOR_20260912_1_PA024,TOR_20260912_1,B012,Kazuma Okamoto,2026-09-12,Train,1,Baltimore Orioles,6,0,0,0,0,1,0,Flyout,0
+TOR_20260912_1_PA025,TOR_20260912_1,B011,Josh H. Smith,2026-09-12,Train,1,Baltimore Orioles,6,0,0,0,0,3,0,HBP,0
+TOR_20260912_1_PA026,TOR_20260912_1,B002,Andrés Giménez,2026-09-12,Train,1,Baltimore Orioles,6,0,0,0,0,3,0,Hit,0
+TOR_20260912_1_PA027,TOR_20260912_1,B015,Rudy Martin Jr.,2026-09-12,Train,1,Baltimore Orioles,6,1,0,0,0,5,0,Walk,0
+TOR_20260912_1_PA028,TOR_20260912_1,B004,Brett Bateman,2026-09-12,Train,1,Baltimore Orioles,6,1,0,0,0,6,1,Strikeout,0
+TOR_20260912_1_PA029,TOR_20260912_1,B009,George Springer,2026-09-12,Train,1,Baltimore Orioles,6,1,0,0,0,4,0,Hit,0
+TOR_20260912_1_PA030,TOR_20260912_1,B017,Vladimir Guerrero Jr.,2026-09-12,Train,1,Baltimore Orioles,7,0,0,0,0,4,0,HBP,0
+TOR_20260912_1_PA031,TOR_20260912_1,B001,Alejandro Kirk,2026-09-12,Train,1,Baltimore Orioles,7,0,0,0,0,3,0,Flyout,0
+TOR_20260912_1_PA032,TOR_20260912_1,B014,Nathan Lukes,2026-09-12,Train,1,Baltimore Orioles,7,0,0,0,0,7,0,Hit,0
+TOR_20260912_1_PA033,TOR_20260912_1,B012,Kazuma Okamoto,2026-09-12,Train,1,Baltimore Orioles,7,1,0,0,0,5,0,Walk,0
+TOR_20260912_1_PA034,TOR_20260912_1,B008,Ernie Clement,2026-09-12,Train,1,Baltimore Orioles,7,1,0,0,0,2,0,Flyout,0
+TOR_20260912_1_PA035,TOR_20260912_1,B002,Andrés Giménez,2026-09-12,Train,1,Baltimore Orioles,7,1,0,0,0,3,1,Strikeout,0
+TOR_20260912_1_PA036,TOR_20260912_1,B015,Rudy Martin Jr.,2026-09-12,Train,1,Baltimore Orioles,8,0,0,0,0,9,0,Walk,0
+TOR_20260912_1_PA037,TOR_20260912_1,B004,Brett Bateman,2026-09-12,Train,1,Baltimore Orioles,8,0,0,0,0,3,1,Strikeout,0
+TOR_20260912_1_PA038,TOR_20260912_1,B009,George Springer,2026-09-12,Train,1,Baltimore Orioles,8,0,0,0,0,1,0,Flyout,0
+TOR_20260912_1_PA039,TOR_20260912_1,B017,Vladimir Guerrero Jr.,2026-09-12,Train,1,Baltimore Orioles,8,0,0,0,0,2,0,Groundout,0
+TOR_20260913_1_PA001,TOR_20260913_1,B004,Brett Bateman,2026-09-13,Train,1,Baltimore Orioles,1,0,0,0,0,4,0,Groundout,0
+TOR_20260913_1_PA002,TOR_20260913_1,B009,George Springer,2026-09-13,Train,1,Baltimore Orioles,1,0,0,0,0,3,0,Lineout,0
+TOR_20260913_1_PA003,TOR_20260913_1,B017,Vladimir Guerrero Jr.,2026-09-13,Train,1,Baltimore Orioles,1,0,0,0,0,3,0,Hit,0
+TOR_20260913_1_PA004,TOR_20260913_1,B012,Kazuma Okamoto,2026-09-13,Train,1,Baltimore Orioles,1,0,1,1,1,2,0,Flyout,0
+TOR_20260913_1_PA005,TOR_20260913_1,B005,Charles McAdoo,2026-09-13,Train,1,Baltimore Orioles,2,0,0,0,0,2,0,Hit,0
+TOR_20260913_1_PA006,TOR_20260913_1,B008,Ernie Clement,2026-09-13,Train,1,Baltimore Orioles,2,0,0,1,1,2,0,Flyout,0
+TOR_20260913_1_PA007,TOR_20260913_1,B002,Andrés Giménez,2026-09-13,Train,1,Baltimore Orioles,2,0,0,1,1,6,0,Hit,0
+TOR_20260913_1_PA008,TOR_20260913_1,B003,Brandon Valenzuela,2026-09-13,Train,1,Baltimore Orioles,2,1,0,0,0,4,1,Strikeout,0
+TOR_20260913_1_PA009,TOR_20260913_1,B013,Myles Straw,2026-09-13,Train,1,Baltimore Orioles,2,1,0,0,0,3,0,Lineout,0
+TOR_20260913_1_PA010,TOR_20260913_1,B004,Brett Bateman,2026-09-13,Train,1,Baltimore Orioles,3,0,0,0,0,3,0,Lineout,0
+TOR_20260913_1_PA011,TOR_20260913_1,B009,George Springer,2026-09-13,Train,1,Baltimore Orioles,3,0,0,0,0,5,1,Strikeout,0
+TOR_20260913_1_PA012,TOR_20260913_1,B017,Vladimir Guerrero Jr.,2026-09-13,Train,1,Baltimore Orioles,3,0,0,0,0,2,0,Hit,0
+TOR_20260913_1_PA013,TOR_20260913_1,B012,Kazuma Okamoto,2026-09-13,Train,1,Baltimore Orioles,3,1,0,0,0,6,0,Walk,0
+TOR_20260913_1_PA014,TOR_20260913_1,B005,Charles McAdoo,2026-09-13,Train,1,Baltimore Orioles,3,1,0,0,0,6,1,Strikeout,0
+TOR_20260913_1_PA015,TOR_20260913_1,B008,Ernie Clement,2026-09-13,Train,1,Baltimore Orioles,4,0,0,0,0,4,0,Lineout,0
+TOR_20260913_1_PA016,TOR_20260913_1,B002,Andrés Giménez,2026-09-13,Train,1,Baltimore Orioles,4,0,0,0,0,3,0,Flyout,0
+TOR_20260913_1_PA017,TOR_20260913_1,B003,Brandon Valenzuela,2026-09-13,Train,1,Baltimore Orioles,4,0,0,0,0,3,1,Strikeout,0
+TOR_20260913_1_PA018,TOR_20260913_1,B013,Myles Straw,2026-09-13,Train,1,Baltimore Orioles,5,0,0,0,0,2,0,Flyout,0
+TOR_20260913_1_PA019,TOR_20260913_1,B004,Brett Bateman,2026-09-13,Train,1,Baltimore Orioles,5,0,0,0,0,5,1,Strikeout,0
+TOR_20260913_1_PA020,TOR_20260913_1,B009,George Springer,2026-09-13,Train,1,Baltimore Orioles,5,0,0,0,0,2,0,Home Run,0
+TOR_20260913_1_PA021,TOR_20260913_1,B017,Vladimir Guerrero Jr.,2026-09-13,Train,1,Baltimore Orioles,5,0,0,0,0,6,0,Home Run,0
+TOR_20260913_1_PA022,TOR_20260913_1,B012,Kazuma Okamoto,2026-09-13,Train,1,Baltimore Orioles,5,0,0,0,0,9,0,Home Run,0
+TOR_20260913_1_PA023,TOR_20260913_1,B005,Charles McAdoo,2026-09-13,Train,1,Baltimore Orioles,5,0,0,0,0,3,0,Groundout,0
+TOR_20260913_1_PA024,TOR_20260913_1,B008,Ernie Clement,2026-09-13,Train,1,Baltimore Orioles,6,0,0,0,0,1,0,Flyout,0
+TOR_20260913_1_PA025,TOR_20260913_1,B002,Andrés Giménez,2026-09-13,Train,1,Baltimore Orioles,6,0,0,0,0,2,0,Flyout,0
+TOR_20260913_1_PA026,TOR_20260913_1,B003,Brandon Valenzuela,2026-09-13,Train,1,Baltimore Orioles,6,0,0,0,0,5,0,Groundout,0
+TOR_20260913_1_PA027,TOR_20260913_1,B013,Myles Straw,2026-09-13,Train,1,Baltimore Orioles,7,0,0,0,0,3,0,Flyout,0
+TOR_20260913_1_PA028,TOR_20260913_1,B004,Brett Bateman,2026-09-13,Train,1,Baltimore Orioles,7,0,0,0,0,10,0,Walk,0
+TOR_20260913_1_PA029,TOR_20260913_1,B009,George Springer,2026-09-13,Train,1,Baltimore Orioles,7,0,0,0,0,4,0,Flyout,0
+TOR_20260913_1_PA030,TOR_20260913_1,B017,Vladimir Guerrero Jr.,2026-09-13,Train,1,Baltimore Orioles,7,0,0,0,0,2,0,Hit,0
+TOR_20260913_1_PA031,TOR_20260913_1,B012,Kazuma Okamoto,2026-09-13,Train,1,Baltimore Orioles,7,1,0,0,0,2,0,Flyout,0
+TOR_20260913_1_PA032,TOR_20260913_1,B014,Nathan Lukes,2026-09-13,Train,1,Baltimore Orioles,8,0,0,0,0,5,0,Walk,0
+TOR_20260913_1_PA033,TOR_20260913_1,B008,Ernie Clement,2026-09-13,Train,1,Baltimore Orioles,8,0,0,0,0,3,0,Flyout,0
+TOR_20260913_1_PA034,TOR_20260913_1,B002,Andrés Giménez,2026-09-13,Train,1,Baltimore Orioles,8,0,0,0,0,2,0,Flyout,0
+TOR_20260913_1_PA035,TOR_20260913_1,B003,Brandon Valenzuela,2026-09-13,Train,1,Baltimore Orioles,8,0,0,0,0,8,0,Hit,0
+TOR_20260913_1_PA036,TOR_20260913_1,B013,Myles Straw,2026-09-13,Train,1,Baltimore Orioles,8,1,0,0,0,6,0,Walk,0
+TOR_20260913_1_PA037,TOR_20260913_1,B004,Brett Bateman,2026-09-13,Train,1,Baltimore Orioles,8,1,0,1,1,6,0,Walk,0
+TOR_20260913_1_PA038,TOR_20260913_1,B009,George Springer,2026-09-13,Train,1,Baltimore Orioles,8,1,0,0,0,3,0,Hit,0
+TOR_20260913_1_PA039,TOR_20260913_1,B017,Vladimir Guerrero Jr.,2026-09-13,Train,1,Baltimore Orioles,8,1,0,0,0,5,1,Strikeout,0
+TOR_20260914_1_PA001,TOR_20260914_1,B004,Brett Bateman,2026-09-14,Validation,1,Detroit Tigers,1,0,0,0,0,4,0,Hit,0
+TOR_20260914_1_PA002,TOR_20260914_1,B009,George Springer,2026-09-14,Validation,1,Detroit Tigers,1,0,0,0,0,6,0,Walk,0
+TOR_20260914_1_PA003,TOR_20260914_1,B017,Vladimir Guerrero Jr.,2026-09-14,Validation,1,Detroit Tigers,1,1,0,0,0,6,0,Groundout,0
+TOR_20260914_1_PA004,TOR_20260914_1,B001,Alejandro Kirk,2026-09-14,Validation,1,Detroit Tigers,1,1,0,0,0,6,0,Hit,0
+TOR_20260914_1_PA005,TOR_20260914_1,B014,Nathan Lukes,2026-09-14,Validation,1,Detroit Tigers,1,1,0,0,0,4,0,Groundout,0
+TOR_20260914_1_PA006,TOR_20260914_1,B012,Kazuma Okamoto,2026-09-14,Validation,1,Detroit Tigers,1,1,0,0,0,2,0,Flyout,0
+TOR_20260914_1_PA007,TOR_20260914_1,B002,Andrés Giménez,2026-09-14,Validation,1,Detroit Tigers,2,0,0,0,0,2,0,Hit,0
+TOR_20260914_1_PA008,TOR_20260914_1,B011,Josh H. Smith,2026-09-14,Validation,1,Detroit Tigers,2,0,0,0,0,7,1,Strikeout,0
+TOR_20260914_1_PA009,TOR_20260914_1,B008,Ernie Clement,2026-09-14,Validation,1,Detroit Tigers,2,0,1,1,1,1,0,Hit,0
+TOR_20260914_1_PA010,TOR_20260914_1,B004,Brett Bateman,2026-09-14,Validation,1,Detroit Tigers,2,1,0,0,0,4,1,Strikeout,0
+TOR_20260914_1_PA011,TOR_20260914_1,B009,George Springer,2026-09-14,Validation,1,Detroit Tigers,2,1,0,0,0,7,0,Walk,0
+TOR_20260914_1_PA012,TOR_20260914_1,B017,Vladimir Guerrero Jr.,2026-09-14,Validation,1,Detroit Tigers,2,1,0,0,0,3,0,Groundout,0
+TOR_20260914_1_PA013,TOR_20260914_1,B001,Alejandro Kirk,2026-09-14,Validation,1,Detroit Tigers,3,0,0,0,0,7,0,Walk,0
+TOR_20260914_1_PA014,TOR_20260914_1,B014,Nathan Lukes,2026-09-14,Validation,1,Detroit Tigers,3,0,0,0,0,1,0,Hit,0
+TOR_20260914_1_PA015,TOR_20260914_1,B012,Kazuma Okamoto,2026-09-14,Validation,1,Detroit Tigers,3,1,0,0,0,3,0,Groundout,0
+TOR_20260914_1_PA016,TOR_20260914_1,B002,Andrés Giménez,2026-09-14,Validation,1,Detroit Tigers,3,1,0,0,0,6,1,Strikeout,0
+TOR_20260914_1_PA017,TOR_20260914_1,B011,Josh H. Smith,2026-09-14,Validation,1,Detroit Tigers,3,1,0,0,0,8,0,Walk,0
+TOR_20260914_1_PA018,TOR_20260914_1,B008,Ernie Clement,2026-09-14,Validation,1,Detroit Tigers,3,1,0,0,0,2,0,Fielder's Choice,0
+TOR_20260914_1_PA019,TOR_20260914_1,B004,Brett Bateman,2026-09-14,Validation,1,Detroit Tigers,4,0,0,0,0,4,0,Groundout,0
+TOR_20260914_1_PA020,TOR_20260914_1,B009,George Springer,2026-09-14,Validation,1,Detroit Tigers,4,0,0,0,0,9,0,Flyout,0
+TOR_20260914_1_PA021,TOR_20260914_1,B017,Vladimir Guerrero Jr.,2026-09-14,Validation,1,Detroit Tigers,4,0,0,0,0,6,0,Walk,0
+TOR_20260914_1_PA022,TOR_20260914_1,B001,Alejandro Kirk,2026-09-14,Validation,1,Detroit Tigers,4,0,0,0,0,5,0,Fielder's Choice,0
+TOR_20260914_1_PA023,TOR_20260914_1,B014,Nathan Lukes,2026-09-14,Validation,1,Detroit Tigers,5,0,0,0,0,8,1,Strikeout,0
+TOR_20260914_1_PA024,TOR_20260914_1,B012,Kazuma Okamoto,2026-09-14,Validation,1,Detroit Tigers,5,0,0,0,0,6,1,Strikeout,0
+TOR_20260914_1_PA025,TOR_20260914_1,B002,Andrés Giménez,2026-09-14,Validation,1,Detroit Tigers,5,0,0,0,0,4,0,Groundout,0
+TOR_20260914_1_PA026,TOR_20260914_1,B013,Myles Straw,2026-09-14,Validation,1,Detroit Tigers,6,0,0,0,0,7,0,Lineout,0
+TOR_20260914_1_PA027,TOR_20260914_1,B008,Ernie Clement,2026-09-14,Validation,1,Detroit Tigers,6,0,0,0,0,3,0,Flyout,0
+TOR_20260914_1_PA028,TOR_20260914_1,B004,Brett Bateman,2026-09-14,Validation,1,Detroit Tigers,6,0,0,0,0,1,0,Groundout,0
+TOR_20260914_1_PA029,TOR_20260914_1,B009,George Springer,2026-09-14,Validation,1,Detroit Tigers,7,0,0,0,0,6,0,Hit,0
+TOR_20260914_1_PA030,TOR_20260914_1,B017,Vladimir Guerrero Jr.,2026-09-14,Validation,1,Detroit Tigers,7,0,0,0,0,1,0,Flyout,0
+TOR_20260914_1_PA031,TOR_20260914_1,B001,Alejandro Kirk,2026-09-14,Validation,1,Detroit Tigers,7,0,0,0,0,5,0,Hit,0
+TOR_20260914_1_PA032,TOR_20260914_1,B014,Nathan Lukes,2026-09-14,Validation,1,Detroit Tigers,7,1,0,1,1,8,0,Flyout,0
+TOR_20260914_1_PA033,TOR_20260914_1,B012,Kazuma Okamoto,2026-09-14,Validation,1,Detroit Tigers,7,1,0,0,0,4,0,Home Run,0
+TOR_20260914_1_PA034,TOR_20260914_1,B002,Andrés Giménez,2026-09-14,Validation,1,Detroit Tigers,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260914_1_PA035,TOR_20260914_1,B013,Myles Straw,2026-09-14,Validation,1,Detroit Tigers,8,0,0,0,0,5,0,Groundout,0
+TOR_20260914_1_PA036,TOR_20260914_1,B008,Ernie Clement,2026-09-14,Validation,1,Detroit Tigers,8,0,0,0,0,2,0,Flyout,0
+TOR_20260914_1_PA037,TOR_20260914_1,B004,Brett Bateman,2026-09-14,Validation,1,Detroit Tigers,8,0,0,0,0,4,0,Groundout,0
+TOR_20260914_1_PA038,TOR_20260914_1,B009,George Springer,2026-09-14,Validation,1,Detroit Tigers,9,0,0,0,0,5,0,Walk,0
+TOR_20260914_1_PA039,TOR_20260914_1,B017,Vladimir Guerrero Jr.,2026-09-14,Validation,1,Detroit Tigers,9,0,0,0,0,4,1,Strikeout,0
+TOR_20260914_1_PA040,TOR_20260914_1,B001,Alejandro Kirk,2026-09-14,Validation,1,Detroit Tigers,9,0,0,0,0,4,0,Groundout,0
+TOR_20260915_1_PA001,TOR_20260915_1,B004,Brett Bateman,2026-09-15,Validation,1,Detroit Tigers,1,0,0,0,0,3,0,Flyout,0
+TOR_20260915_1_PA002,TOR_20260915_1,B009,George Springer,2026-09-15,Validation,1,Detroit Tigers,1,0,0,0,0,5,0,Groundout,0
+TOR_20260915_1_PA003,TOR_20260915_1,B017,Vladimir Guerrero Jr.,2026-09-15,Validation,1,Detroit Tigers,1,0,0,0,0,1,0,Flyout,0
+TOR_20260915_1_PA004,TOR_20260915_1,B001,Alejandro Kirk,2026-09-15,Validation,1,Detroit Tigers,2,0,0,0,0,2,0,Groundout,0
+TOR_20260915_1_PA005,TOR_20260915_1,B014,Nathan Lukes,2026-09-15,Validation,1,Detroit Tigers,2,0,0,0,0,4,1,Strikeout,0
+TOR_20260915_1_PA006,TOR_20260915_1,B012,Kazuma Okamoto,2026-09-15,Validation,1,Detroit Tigers,2,0,0,0,0,3,0,Hit,0
+TOR_20260915_1_PA007,TOR_20260915_1,B002,Andrés Giménez,2026-09-15,Validation,1,Detroit Tigers,2,0,0,1,1,6,0,Flyout,0
+TOR_20260915_1_PA008,TOR_20260915_1,B011,Josh H. Smith,2026-09-15,Validation,1,Detroit Tigers,3,0,0,0,0,6,1,Strikeout,0
+TOR_20260915_1_PA009,TOR_20260915_1,B008,Ernie Clement,2026-09-15,Validation,1,Detroit Tigers,3,0,0,0,0,4,0,Walk,0
+TOR_20260915_1_PA010,TOR_20260915_1,B004,Brett Bateman,2026-09-15,Validation,1,Detroit Tigers,3,0,0,0,0,4,1,Strikeout,0
+TOR_20260915_1_PA011,TOR_20260915_1,B009,George Springer,2026-09-15,Validation,1,Detroit Tigers,3,0,0,0,0,5,0,Walk,0
+TOR_20260915_1_PA012,TOR_20260915_1,B017,Vladimir Guerrero Jr.,2026-09-15,Validation,1,Detroit Tigers,3,1,0,0,0,6,0,Walk,0
+TOR_20260915_1_PA013,TOR_20260915_1,B001,Alejandro Kirk,2026-09-15,Validation,1,Detroit Tigers,3,1,0,0,0,3,0,Groundout,0
+TOR_20260915_1_PA014,TOR_20260915_1,B014,Nathan Lukes,2026-09-15,Validation,1,Detroit Tigers,4,0,0,0,0,2,0,Groundout,0
+TOR_20260915_1_PA015,TOR_20260915_1,B012,Kazuma Okamoto,2026-09-15,Validation,1,Detroit Tigers,4,0,0,0,0,8,1,Strikeout,0
+TOR_20260915_1_PA016,TOR_20260915_1,B002,Andrés Giménez,2026-09-15,Validation,1,Detroit Tigers,4,0,0,0,0,5,0,Flyout,0
+TOR_20260915_1_PA017,TOR_20260915_1,B011,Josh H. Smith,2026-09-15,Validation,1,Detroit Tigers,5,0,0,0,0,5,0,Groundout,0
+TOR_20260915_1_PA018,TOR_20260915_1,B008,Ernie Clement,2026-09-15,Validation,1,Detroit Tigers,5,0,0,0,0,3,0,Flyout,0
+TOR_20260915_1_PA019,TOR_20260915_1,B004,Brett Bateman,2026-09-15,Validation,1,Detroit Tigers,5,0,0,0,0,11,0,Hit,0
+TOR_20260915_1_PA020,TOR_20260915_1,B009,George Springer,2026-09-15,Validation,1,Detroit Tigers,5,0,0,0,0,2,0,Groundout,0
+TOR_20260915_1_PA021,TOR_20260915_1,B017,Vladimir Guerrero Jr.,2026-09-15,Validation,1,Detroit Tigers,6,0,0,0,0,5,0,Groundout,0
+TOR_20260915_1_PA022,TOR_20260915_1,B001,Alejandro Kirk,2026-09-15,Validation,1,Detroit Tigers,6,0,0,0,0,1,0,Groundout,0
+TOR_20260915_1_PA023,TOR_20260915_1,B014,Nathan Lukes,2026-09-15,Validation,1,Detroit Tigers,6,0,0,0,0,3,0,Hit,0
+TOR_20260915_1_PA024,TOR_20260915_1,B012,Kazuma Okamoto,2026-09-15,Validation,1,Detroit Tigers,6,0,0,0,0,4,0,Flyout,0
+TOR_20260915_1_PA025,TOR_20260915_1,B002,Andrés Giménez,2026-09-15,Validation,1,Detroit Tigers,7,0,0,0,0,4,1,Strikeout,0
+TOR_20260915_1_PA026,TOR_20260915_1,B011,Josh H. Smith,2026-09-15,Validation,1,Detroit Tigers,7,0,0,0,0,3,0,Lineout,0
+TOR_20260915_1_PA027,TOR_20260915_1,B008,Ernie Clement,2026-09-15,Validation,1,Detroit Tigers,7,0,0,0,0,2,0,Groundout,0
+TOR_20260915_1_PA028,TOR_20260915_1,B004,Brett Bateman,2026-09-15,Validation,1,Detroit Tigers,8,0,0,0,0,5,0,Hit,0
+TOR_20260915_1_PA029,TOR_20260915_1,B009,George Springer,2026-09-15,Validation,1,Detroit Tigers,8,0,0,1,1,5,0,Hit,0
+TOR_20260915_1_PA030,TOR_20260915_1,B017,Vladimir Guerrero Jr.,2026-09-15,Validation,1,Detroit Tigers,8,1,0,0,0,3,0,Lineout,0
+TOR_20260915_1_PA031,TOR_20260915_1,B001,Alejandro Kirk,2026-09-15,Validation,1,Detroit Tigers,8,1,0,0,0,5,0,Hit,0
+TOR_20260915_1_PA032,TOR_20260915_1,B013,Myles Straw,2026-09-15,Validation,1,Detroit Tigers,8,1,0,0,0,4,0,Groundout,0
+TOR_20260915_1_PA033,TOR_20260915_1,B012,Kazuma Okamoto,2026-09-15,Validation,1,Detroit Tigers,9,0,0,0,0,4,0,Groundout,0
+TOR_20260915_1_PA034,TOR_20260915_1,B006,Davis Schneider,2026-09-15,Validation,1,Detroit Tigers,9,0,0,0,0,8,1,Strikeout,0
+TOR_20260915_1_PA035,TOR_20260915_1,B005,Charles McAdoo,2026-09-15,Validation,1,Detroit Tigers,9,0,0,0,0,1,0,Hit,0
+TOR_20260915_1_PA036,TOR_20260915_1,B008,Ernie Clement,2026-09-15,Validation,1,Detroit Tigers,9,0,0,0,0,2,0,Flyout,0
+TOR_20260916_1_PA001,TOR_20260916_1,B004,Brett Bateman,2026-09-16,Validation,1,Detroit Tigers,1,0,0,0,0,2,0,Hit,0
+TOR_20260916_1_PA002,TOR_20260916_1,B014,Nathan Lukes,2026-09-16,Validation,1,Detroit Tigers,1,0,0,0,0,7,0,Flyout,0
+TOR_20260916_1_PA003,TOR_20260916_1,B017,Vladimir Guerrero Jr.,2026-09-16,Validation,1,Detroit Tigers,1,0,0,0,0,3,0,Hit,0
+TOR_20260916_1_PA004,TOR_20260916_1,B009,George Springer,2026-09-16,Validation,1,Detroit Tigers,1,1,0,0,0,5,1,Strikeout,0
+TOR_20260916_1_PA005,TOR_20260916_1,B012,Kazuma Okamoto,2026-09-16,Validation,1,Detroit Tigers,1,1,0,0,0,5,1,Strikeout,0
+TOR_20260916_1_PA006,TOR_20260916_1,B011,Josh H. Smith,2026-09-16,Validation,1,Detroit Tigers,2,0,0,0,0,5,0,Lineout,0
+TOR_20260916_1_PA007,TOR_20260916_1,B008,Ernie Clement,2026-09-16,Validation,1,Detroit Tigers,2,0,0,0,0,4,0,Flyout,0
+TOR_20260916_1_PA008,TOR_20260916_1,B003,Brandon Valenzuela,2026-09-16,Validation,1,Detroit Tigers,2,0,0,0,0,1,0,Hit,0
+TOR_20260916_1_PA009,TOR_20260916_1,B013,Myles Straw,2026-09-16,Validation,1,Detroit Tigers,2,0,0,0,0,6,0,Hit,0
+TOR_20260916_1_PA010,TOR_20260916_1,B004,Brett Bateman,2026-09-16,Validation,1,Detroit Tigers,2,1,0,0,0,9,1,Strikeout,0
+TOR_20260916_1_PA011,TOR_20260916_1,B014,Nathan Lukes,2026-09-16,Validation,1,Detroit Tigers,3,0,0,0,0,4,1,Strikeout,0
+TOR_20260916_1_PA012,TOR_20260916_1,B017,Vladimir Guerrero Jr.,2026-09-16,Validation,1,Detroit Tigers,3,0,0,0,0,4,0,Walk,0
+TOR_20260916_1_PA013,TOR_20260916_1,B009,George Springer,2026-09-16,Validation,1,Detroit Tigers,3,0,0,0,0,4,0,Groundout,0
+TOR_20260916_1_PA014,TOR_20260916_1,B012,Kazuma Okamoto,2026-09-16,Validation,1,Detroit Tigers,4,0,0,0,0,8,0,Walk,0
+TOR_20260916_1_PA015,TOR_20260916_1,B011,Josh H. Smith,2026-09-16,Validation,1,Detroit Tigers,4,0,0,0,0,5,0,Hit,0
+TOR_20260916_1_PA016,TOR_20260916_1,B008,Ernie Clement,2026-09-16,Validation,1,Detroit Tigers,4,1,0,0,0,3,0,Flyout,0
+TOR_20260916_1_PA017,TOR_20260916_1,B003,Brandon Valenzuela,2026-09-16,Validation,1,Detroit Tigers,4,1,0,0,0,6,0,Groundout,0
+TOR_20260916_1_PA018,TOR_20260916_1,B013,Myles Straw,2026-09-16,Validation,1,Detroit Tigers,4,1,0,0,0,5,0,Hit,0
+TOR_20260916_1_PA019,TOR_20260916_1,B004,Brett Bateman,2026-09-16,Validation,1,Detroit Tigers,5,0,0,0,0,4,0,Hit,0
+TOR_20260916_1_PA020,TOR_20260916_1,B014,Nathan Lukes,2026-09-16,Validation,1,Detroit Tigers,5,0,0,0,0,1,0,Hit,0
+TOR_20260916_1_PA021,TOR_20260916_1,B017,Vladimir Guerrero Jr.,2026-09-16,Validation,1,Detroit Tigers,5,1,0,0,0,4,0,Fielder's Choice,0
+TOR_20260916_1_PA022,TOR_20260916_1,B009,George Springer,2026-09-16,Validation,1,Detroit Tigers,5,1,0,0,0,1,0,Hit,0
+TOR_20260916_1_PA023,TOR_20260916_1,B012,Kazuma Okamoto,2026-09-16,Validation,1,Detroit Tigers,5,1,0,0,0,2,0,Groundout,0
+TOR_20260916_1_PA024,TOR_20260916_1,B011,Josh H. Smith,2026-09-16,Validation,1,Detroit Tigers,6,0,0,0,0,1,0,Groundout,0
+TOR_20260916_1_PA025,TOR_20260916_1,B008,Ernie Clement,2026-09-16,Validation,1,Detroit Tigers,6,0,0,0,0,5,0,Hit,0
+TOR_20260916_1_PA026,TOR_20260916_1,B003,Brandon Valenzuela,2026-09-16,Validation,1,Detroit Tigers,6,0,0,0,0,1,0,Hit,0
+TOR_20260916_1_PA027,TOR_20260916_1,B013,Myles Straw,2026-09-16,Validation,1,Detroit Tigers,6,1,0,0,0,2,0,Hit,0
+TOR_20260916_1_PA028,TOR_20260916_1,B004,Brett Bateman,2026-09-16,Validation,1,Detroit Tigers,6,1,0,0,0,2,0,Fielder's Choice,0
+TOR_20260916_1_PA029,TOR_20260916_1,B014,Nathan Lukes,2026-09-16,Validation,1,Detroit Tigers,6,1,0,0,0,2,0,Hit,0
+TOR_20260916_1_PA030,TOR_20260916_1,B017,Vladimir Guerrero Jr.,2026-09-16,Validation,1,Detroit Tigers,6,1,0,0,0,3,0,Lineout,0
+TOR_20260916_1_PA031,TOR_20260916_1,B009,George Springer,2026-09-16,Validation,1,Detroit Tigers,7,0,0,0,0,2,0,Groundout,0
+TOR_20260916_1_PA032,TOR_20260916_1,B012,Kazuma Okamoto,2026-09-16,Validation,1,Detroit Tigers,7,0,0,0,0,5,0,Flyout,0
+TOR_20260916_1_PA033,TOR_20260916_1,B011,Josh H. Smith,2026-09-16,Validation,1,Detroit Tigers,7,0,0,0,0,4,0,Flyout,0
+TOR_20260916_1_PA034,TOR_20260916_1,B008,Ernie Clement,2026-09-16,Validation,1,Detroit Tigers,8,0,0,0,0,2,0,Groundout,0
+TOR_20260916_1_PA035,TOR_20260916_1,B003,Brandon Valenzuela,2026-09-16,Validation,1,Detroit Tigers,8,0,0,0,0,6,0,Walk,0
+TOR_20260916_1_PA036,TOR_20260916_1,B013,Myles Straw,2026-09-16,Validation,1,Detroit Tigers,8,0,0,0,0,5,0,Groundout,0
+TOR_20260918_1_PA001,TOR_20260918_1,B004,Brett Bateman,2026-09-18,Validation,0,Texas Rangers,1,0,0,0,0,4,0,Groundout,0
+TOR_20260918_1_PA002,TOR_20260918_1,B014,Nathan Lukes,2026-09-18,Validation,0,Texas Rangers,1,0,0,0,0,5,0,Groundout,0
+TOR_20260918_1_PA003,TOR_20260918_1,B017,Vladimir Guerrero Jr.,2026-09-18,Validation,0,Texas Rangers,1,0,0,0,0,3,1,Strikeout,0
+TOR_20260918_1_PA004,TOR_20260918_1,B009,George Springer,2026-09-18,Validation,0,Texas Rangers,2,0,0,0,0,2,0,Groundout,0
+TOR_20260918_1_PA005,TOR_20260918_1,B001,Alejandro Kirk,2026-09-18,Validation,0,Texas Rangers,2,0,0,0,0,4,0,Hit,0
+TOR_20260918_1_PA006,TOR_20260918_1,B012,Kazuma Okamoto,2026-09-18,Validation,0,Texas Rangers,2,0,0,0,0,1,0,Hit,0
+TOR_20260918_1_PA007,TOR_20260918_1,B011,Josh H. Smith,2026-09-18,Validation,0,Texas Rangers,2,1,0,0,0,6,0,Flyout,0
+TOR_20260918_1_PA008,TOR_20260918_1,B008,Ernie Clement,2026-09-18,Validation,0,Texas Rangers,2,1,0,0,0,3,1,Strikeout,0
+TOR_20260918_1_PA009,TOR_20260918_1,B013,Myles Straw,2026-09-18,Validation,0,Texas Rangers,3,0,0,0,0,6,0,Flyout,0
+TOR_20260918_1_PA010,TOR_20260918_1,B004,Brett Bateman,2026-09-18,Validation,0,Texas Rangers,3,0,0,0,0,3,0,Groundout,0
+TOR_20260918_1_PA011,TOR_20260918_1,B014,Nathan Lukes,2026-09-18,Validation,0,Texas Rangers,3,0,0,0,0,5,0,Flyout,0
+TOR_20260918_1_PA012,TOR_20260918_1,B017,Vladimir Guerrero Jr.,2026-09-18,Validation,0,Texas Rangers,4,0,0,0,0,2,0,Groundout,0
+TOR_20260918_1_PA013,TOR_20260918_1,B009,George Springer,2026-09-18,Validation,0,Texas Rangers,4,0,0,0,0,4,0,Groundout,0
+TOR_20260918_1_PA014,TOR_20260918_1,B001,Alejandro Kirk,2026-09-18,Validation,0,Texas Rangers,4,0,0,0,0,8,0,Groundout,0
+TOR_20260918_1_PA015,TOR_20260918_1,B012,Kazuma Okamoto,2026-09-18,Validation,0,Texas Rangers,5,0,0,0,0,8,0,Walk,0
+TOR_20260918_1_PA016,TOR_20260918_1,B011,Josh H. Smith,2026-09-18,Validation,0,Texas Rangers,5,0,0,0,0,6,0,Walk,0
+TOR_20260918_1_PA017,TOR_20260918_1,B008,Ernie Clement,2026-09-18,Validation,0,Texas Rangers,5,1,0,0,0,5,0,Fielder's Choice,0
+TOR_20260918_1_PA018,TOR_20260918_1,B013,Myles Straw,2026-09-18,Validation,0,Texas Rangers,5,1,0,0,0,2,0,Hit,0
+TOR_20260918_1_PA019,TOR_20260918_1,B004,Brett Bateman,2026-09-18,Validation,0,Texas Rangers,5,1,0,0,0,3,1,Strikeout,0
+TOR_20260918_1_PA020,TOR_20260918_1,B006,Davis Schneider,2026-09-18,Validation,0,Texas Rangers,5,1,0,0,0,7,0,Flyout,0
+TOR_20260918_1_PA021,TOR_20260918_1,B017,Vladimir Guerrero Jr.,2026-09-18,Validation,0,Texas Rangers,6,0,0,0,0,3,0,Hit,0
+TOR_20260918_1_PA022,TOR_20260918_1,B009,George Springer,2026-09-18,Validation,0,Texas Rangers,6,0,0,0,0,2,0,Flyout,0
+TOR_20260918_1_PA023,TOR_20260918_1,B001,Alejandro Kirk,2026-09-18,Validation,0,Texas Rangers,6,0,0,0,0,8,1,Strikeout,0
+TOR_20260918_1_PA024,TOR_20260918_1,B012,Kazuma Okamoto,2026-09-18,Validation,0,Texas Rangers,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260918_1_PA025,TOR_20260918_1,B011,Josh H. Smith,2026-09-18,Validation,0,Texas Rangers,7,0,0,0,0,3,1,Strikeout,0
+TOR_20260918_1_PA026,TOR_20260918_1,B008,Ernie Clement,2026-09-18,Validation,0,Texas Rangers,7,0,0,0,0,3,0,Flyout,0
+TOR_20260918_1_PA027,TOR_20260918_1,B013,Myles Straw,2026-09-18,Validation,0,Texas Rangers,7,0,0,0,0,1,0,Hit,0
+TOR_20260918_1_PA028,TOR_20260918_1,B004,Brett Bateman,2026-09-18,Validation,0,Texas Rangers,7,0,0,0,0,3,0,Groundout,0
+TOR_20260918_1_PA029,TOR_20260918_1,B016,Sean Keys,2026-09-18,Validation,0,Texas Rangers,8,0,0,0,0,2,0,Groundout,0
+TOR_20260918_1_PA030,TOR_20260918_1,B017,Vladimir Guerrero Jr.,2026-09-18,Validation,0,Texas Rangers,8,0,0,0,0,2,0,Groundout,0
+TOR_20260918_1_PA031,TOR_20260918_1,B009,George Springer,2026-09-18,Validation,0,Texas Rangers,8,0,0,0,0,5,1,Strikeout,0
+TOR_20260918_1_PA032,TOR_20260918_1,B001,Alejandro Kirk,2026-09-18,Validation,0,Texas Rangers,9,0,0,0,0,3,0,Groundout,0
+TOR_20260918_1_PA033,TOR_20260918_1,B012,Kazuma Okamoto,2026-09-18,Validation,0,Texas Rangers,9,0,0,0,0,4,0,Flyout,0
+TOR_20260918_1_PA034,TOR_20260918_1,B011,Josh H. Smith,2026-09-18,Validation,0,Texas Rangers,9,0,0,0,0,6,0,Lineout,0
+TOR_20260919_1_PA001,TOR_20260919_1,B004,Brett Bateman,2026-09-19,Validation,0,Texas Rangers,1,0,0,0,0,7,0,Flyout,0
+TOR_20260919_1_PA002,TOR_20260919_1,B017,Vladimir Guerrero Jr.,2026-09-19,Validation,0,Texas Rangers,1,0,0,0,0,2,0,Flyout,0
+TOR_20260919_1_PA003,TOR_20260919_1,B001,Alejandro Kirk,2026-09-19,Validation,0,Texas Rangers,1,0,0,0,0,2,0,Flyout,0
+TOR_20260919_1_PA004,TOR_20260919_1,B009,George Springer,2026-09-19,Validation,0,Texas Rangers,2,0,0,0,0,1,0,Groundout,0
+TOR_20260919_1_PA005,TOR_20260919_1,B014,Nathan Lukes,2026-09-19,Validation,0,Texas Rangers,2,0,0,0,0,4,0,Groundout,0
+TOR_20260919_1_PA006,TOR_20260919_1,B012,Kazuma Okamoto,2026-09-19,Validation,0,Texas Rangers,2,0,0,0,0,6,0,Flyout,0
+TOR_20260919_1_PA007,TOR_20260919_1,B011,Josh H. Smith,2026-09-19,Validation,0,Texas Rangers,3,0,0,1,1,7,1,Strikeout,0
+TOR_20260919_1_PA008,TOR_20260919_1,B002,Andrés Giménez,2026-09-19,Validation,0,Texas Rangers,3,0,0,0,0,4,0,Groundout,0
+TOR_20260919_1_PA009,TOR_20260919_1,B013,Myles Straw,2026-09-19,Validation,0,Texas Rangers,3,0,0,0,0,2,0,Flyout,0
+TOR_20260919_1_PA010,TOR_20260919_1,B004,Brett Bateman,2026-09-19,Validation,0,Texas Rangers,4,0,0,0,0,2,0,Groundout,0
+TOR_20260919_1_PA011,TOR_20260919_1,B017,Vladimir Guerrero Jr.,2026-09-19,Validation,0,Texas Rangers,4,0,0,0,0,7,0,Walk,0
+TOR_20260919_1_PA012,TOR_20260919_1,B001,Alejandro Kirk,2026-09-19,Validation,0,Texas Rangers,4,0,0,0,0,3,0,Fielder's Choice,0
+TOR_20260919_1_PA013,TOR_20260919_1,B009,George Springer,2026-09-19,Validation,0,Texas Rangers,4,0,0,0,0,6,0,Lineout,0
+TOR_20260919_1_PA014,TOR_20260919_1,B014,Nathan Lukes,2026-09-19,Validation,0,Texas Rangers,5,0,0,0,0,5,0,Flyout,0
+TOR_20260919_1_PA015,TOR_20260919_1,B012,Kazuma Okamoto,2026-09-19,Validation,0,Texas Rangers,5,0,0,0,0,5,0,Groundout,0
+TOR_20260919_1_PA016,TOR_20260919_1,B008,Ernie Clement,2026-09-19,Validation,0,Texas Rangers,5,0,0,0,0,1,0,Groundout,0
+TOR_20260919_1_PA017,TOR_20260919_1,B002,Andrés Giménez,2026-09-19,Validation,0,Texas Rangers,6,0,0,0,0,4,0,HBP,0
+TOR_20260919_1_PA018,TOR_20260919_1,B013,Myles Straw,2026-09-19,Validation,0,Texas Rangers,6,0,0,0,0,3,0,Lineout,0
+TOR_20260919_1_PA019,TOR_20260919_1,B004,Brett Bateman,2026-09-19,Validation,0,Texas Rangers,6,0,0,0,0,5,0,Hit,0
+TOR_20260919_1_PA020,TOR_20260919_1,B017,Vladimir Guerrero Jr.,2026-09-19,Validation,0,Texas Rangers,6,1,0,0,0,3,0,Flyout,0
+TOR_20260919_1_PA021,TOR_20260919_1,B001,Alejandro Kirk,2026-09-19,Validation,0,Texas Rangers,6,1,0,0,0,2,0,Hit,0
+TOR_20260919_1_PA022,TOR_20260919_1,B009,George Springer,2026-09-19,Validation,0,Texas Rangers,6,1,0,0,0,5,1,Strikeout,0
+TOR_20260919_1_PA023,TOR_20260919_1,B006,Davis Schneider,2026-09-19,Validation,0,Texas Rangers,7,0,0,0,0,1,0,Home Run,0
+TOR_20260919_1_PA024,TOR_20260919_1,B012,Kazuma Okamoto,2026-09-19,Validation,0,Texas Rangers,7,0,0,0,0,4,0,Hit,0
+TOR_20260919_1_PA025,TOR_20260919_1,B008,Ernie Clement,2026-09-19,Validation,0,Texas Rangers,7,0,0,0,0,3,0,Groundout,0
+TOR_20260919_1_PA026,TOR_20260919_1,B002,Andrés Giménez,2026-09-19,Validation,0,Texas Rangers,7,0,0,0,0,4,0,Groundout,0
+TOR_20260919_1_PA027,TOR_20260919_1,B013,Myles Straw,2026-09-19,Validation,0,Texas Rangers,8,0,0,0,0,8,1,Strikeout,0
+TOR_20260919_1_PA028,TOR_20260919_1,B004,Brett Bateman,2026-09-19,Validation,0,Texas Rangers,8,0,0,0,0,3,0,Groundout,0
+TOR_20260919_1_PA029,TOR_20260919_1,B017,Vladimir Guerrero Jr.,2026-09-19,Validation,0,Texas Rangers,8,0,0,0,0,1,0,Hit,0
+TOR_20260919_1_PA030,TOR_20260919_1,B001,Alejandro Kirk,2026-09-19,Validation,0,Texas Rangers,8,0,0,0,0,5,0,Hit,0
+TOR_20260919_1_PA031,TOR_20260919_1,B009,George Springer,2026-09-19,Validation,0,Texas Rangers,8,1,0,0,0,2,0,Flyout,0
+TOR_20260919_1_PA032,TOR_20260919_1,B006,Davis Schneider,2026-09-19,Validation,0,Texas Rangers,9,0,0,0,0,5,1,Strikeout,0
+TOR_20260919_1_PA033,TOR_20260919_1,B012,Kazuma Okamoto,2026-09-19,Validation,0,Texas Rangers,9,0,0,0,0,2,0,Groundout,0
+TOR_20260919_1_PA034,TOR_20260919_1,B008,Ernie Clement,2026-09-19,Validation,0,Texas Rangers,9,0,1,1,1,2,0,Flyout,0
+TOR_20260920_1_PA001,TOR_20260920_1,B004,Brett Bateman,2026-09-20,Validation,0,Texas Rangers,1,0,0,0,0,6,0,Walk,0
+TOR_20260920_1_PA002,TOR_20260920_1,B017,Vladimir Guerrero Jr.,2026-09-20,Validation,0,Texas Rangers,1,0,0,0,0,2,0,Hit,0
+TOR_20260920_1_PA003,TOR_20260920_1,B014,Nathan Lukes,2026-09-20,Validation,0,Texas Rangers,1,1,0,0,0,2,0,Flyout,0
+TOR_20260920_1_PA004,TOR_20260920_1,B012,Kazuma Okamoto,2026-09-20,Validation,0,Texas Rangers,1,0,0,0,0,3,0,Fielder's Choice,0
+TOR_20260920_1_PA005,TOR_20260920_1,B016,Sean Keys,2026-09-20,Validation,0,Texas Rangers,1,0,0,0,0,3,0,HBP,0
+TOR_20260920_1_PA006,TOR_20260920_1,B011,Josh H. Smith,2026-09-20,Validation,0,Texas Rangers,1,1,0,0,0,3,1,Strikeout,0
+TOR_20260920_1_PA007,TOR_20260920_1,B002,Andrés Giménez,2026-09-20,Validation,0,Texas Rangers,2,0,0,0,0,1,0,Groundout,0
+TOR_20260920_1_PA008,TOR_20260920_1,B003,Brandon Valenzuela,2026-09-20,Validation,0,Texas Rangers,2,0,0,0,0,6,0,Walk,0
+TOR_20260920_1_PA009,TOR_20260920_1,B008,Ernie Clement,2026-09-20,Validation,0,Texas Rangers,2,0,0,0,0,3,0,Flyout,0
+TOR_20260920_1_PA010,TOR_20260920_1,B004,Brett Bateman,2026-09-20,Validation,0,Texas Rangers,2,0,0,0,0,3,0,Groundout,0
+TOR_20260920_1_PA011,TOR_20260920_1,B017,Vladimir Guerrero Jr.,2026-09-20,Validation,0,Texas Rangers,3,0,0,0,0,5,0,Groundout,0
+TOR_20260920_1_PA012,TOR_20260920_1,B014,Nathan Lukes,2026-09-20,Validation,0,Texas Rangers,3,0,0,0,0,5,0,Hit,0
+TOR_20260920_1_PA013,TOR_20260920_1,B012,Kazuma Okamoto,2026-09-20,Validation,0,Texas Rangers,3,0,0,0,0,1,0,Flyout,0
+TOR_20260920_1_PA014,TOR_20260920_1,B016,Sean Keys,2026-09-20,Validation,0,Texas Rangers,3,0,0,0,0,5,0,Hit,0
+TOR_20260920_1_PA015,TOR_20260920_1,B011,Josh H. Smith,2026-09-20,Validation,0,Texas Rangers,3,1,0,0,0,3,0,Flyout,0
+TOR_20260920_1_PA016,TOR_20260920_1,B002,Andrés Giménez,2026-09-20,Validation,0,Texas Rangers,4,0,0,0,0,4,1,Strikeout,0
+TOR_20260920_1_PA017,TOR_20260920_1,B003,Brandon Valenzuela,2026-09-20,Validation,0,Texas Rangers,4,0,0,0,0,2,0,Flyout,0
+TOR_20260920_1_PA018,TOR_20260920_1,B008,Ernie Clement,2026-09-20,Validation,0,Texas Rangers,4,0,0,0,0,1,0,Groundout,0
+TOR_20260920_1_PA019,TOR_20260920_1,B004,Brett Bateman,2026-09-20,Validation,0,Texas Rangers,5,0,0,0,0,10,0,Walk,0
+TOR_20260920_1_PA020,TOR_20260920_1,B013,Myles Straw,2026-09-20,Validation,0,Texas Rangers,5,0,0,0,0,4,0,Hit,0
+TOR_20260920_1_PA021,TOR_20260920_1,B014,Nathan Lukes,2026-09-20,Validation,0,Texas Rangers,5,1,0,0,0,2,0,Lineout,0
+TOR_20260920_1_PA022,TOR_20260920_1,B012,Kazuma Okamoto,2026-09-20,Validation,0,Texas Rangers,5,1,0,0,0,2,0,Hit,0
+TOR_20260920_1_PA023,TOR_20260920_1,B016,Sean Keys,2026-09-20,Validation,0,Texas Rangers,5,1,0,0,0,6,0,Walk,0
+TOR_20260920_1_PA024,TOR_20260920_1,B005,Charles McAdoo,2026-09-20,Validation,0,Texas Rangers,5,1,0,0,0,1,0,Groundout,0
+TOR_20260920_1_PA025,TOR_20260920_1,B002,Andrés Giménez,2026-09-20,Validation,0,Texas Rangers,6,0,0,0,0,2,0,Flyout,0
+TOR_20260920_1_PA026,TOR_20260920_1,B003,Brandon Valenzuela,2026-09-20,Validation,0,Texas Rangers,6,0,0,0,0,7,0,Hit,0
+TOR_20260920_1_PA027,TOR_20260920_1,B008,Ernie Clement,2026-09-20,Validation,0,Texas Rangers,6,0,0,0,0,1,0,Groundout,0
+TOR_20260920_1_PA028,TOR_20260920_1,B004,Brett Bateman,2026-09-20,Validation,0,Texas Rangers,7,0,0,0,0,5,0,Hit,0
+TOR_20260920_1_PA029,TOR_20260920_1,B013,Myles Straw,2026-09-20,Validation,0,Texas Rangers,7,1,0,0,0,5,0,Walk,0
+TOR_20260920_1_PA030,TOR_20260920_1,B014,Nathan Lukes,2026-09-20,Validation,0,Texas Rangers,7,1,0,0,0,3,0,Hit,0
+TOR_20260920_1_PA031,TOR_20260920_1,B012,Kazuma Okamoto,2026-09-20,Validation,0,Texas Rangers,7,1,0,0,0,4,1,Strikeout,0
+TOR_20260920_1_PA032,TOR_20260920_1,B016,Sean Keys,2026-09-20,Validation,0,Texas Rangers,7,1,0,0,0,1,0,Groundout,0
+TOR_20260920_1_PA033,TOR_20260920_1,B005,Charles McAdoo,2026-09-20,Validation,0,Texas Rangers,7,1,0,1,1,4,0,Hit,0
+TOR_20260920_1_PA034,TOR_20260920_1,B002,Andrés Giménez,2026-09-20,Validation,0,Texas Rangers,7,1,0,0,0,2,0,Hit,0
+TOR_20260920_1_PA035,TOR_20260920_1,B003,Brandon Valenzuela,2026-09-20,Validation,0,Texas Rangers,7,0,0,0,0,1,0,Fielder's Choice,0
+TOR_20260920_1_PA036,TOR_20260920_1,B008,Ernie Clement,2026-09-20,Validation,0,Texas Rangers,8,0,1,1,1,2,0,Hit,0
+TOR_20260920_1_PA037,TOR_20260920_1,B004,Brett Bateman,2026-09-20,Validation,0,Texas Rangers,8,1,0,0,0,6,1,Strikeout,0
+TOR_20260920_1_PA038,TOR_20260920_1,B013,Myles Straw,2026-09-20,Validation,0,Texas Rangers,8,1,0,0,0,2,0,Flyout,0
+TOR_20260920_1_PA039,TOR_20260920_1,B014,Nathan Lukes,2026-09-20,Validation,0,Texas Rangers,8,1,0,0,0,5,0,Walk,0
+TOR_20260920_1_PA040,TOR_20260920_1,B012,Kazuma Okamoto,2026-09-20,Validation,0,Texas Rangers,8,1,0,0,0,3,0,Flyout,0
+TOR_20260920_1_PA041,TOR_20260920_1,B009,George Springer,2026-09-20,Validation,0,Texas Rangers,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260920_1_PA042,TOR_20260920_1,B005,Charles McAdoo,2026-09-20,Validation,0,Texas Rangers,9,0,0,0,0,5,0,Flyout,0
+TOR_20260920_1_PA043,TOR_20260920_1,B002,Andrés Giménez,2026-09-20,Validation,0,Texas Rangers,9,0,0,0,0,2,0,Flyout,0
+TOR_20260921_1_PA001,TOR_20260921_1,B004,Brett Bateman,2026-09-21,Test,0,Baltimore Orioles,1,0,0,0,0,8,0,Walk,0
+TOR_20260921_1_PA002,TOR_20260921_1,B001,Alejandro Kirk,2026-09-21,Test,0,Baltimore Orioles,1,0,0,0,0,6,0,Walk,0
+TOR_20260921_1_PA003,TOR_20260921_1,B014,Nathan Lukes,2026-09-21,Test,0,Baltimore Orioles,1,1,0,0,0,2,0,Hit,0
+TOR_20260921_1_PA004,TOR_20260921_1,B009,George Springer,2026-09-21,Test,0,Baltimore Orioles,1,1,0,0,0,1,0,Hit,0
+TOR_20260921_1_PA005,TOR_20260921_1,B016,Sean Keys,2026-09-21,Test,0,Baltimore Orioles,1,1,0,0,0,1,0,Flyout,0
+TOR_20260921_1_PA006,TOR_20260921_1,B012,Kazuma Okamoto,2026-09-21,Test,0,Baltimore Orioles,1,0,0,0,0,6,0,Hit,0
+TOR_20260921_1_PA007,TOR_20260921_1,B011,Josh H. Smith,2026-09-21,Test,0,Baltimore Orioles,1,1,1,1,1,4,0,Lineout,0
+TOR_20260921_1_PA008,TOR_20260921_1,B002,Andrés Giménez,2026-09-21,Test,0,Baltimore Orioles,1,1,0,0,0,1,0,Groundout,0
+TOR_20260921_1_PA009,TOR_20260921_1,B008,Ernie Clement,2026-09-21,Test,0,Baltimore Orioles,2,0,0,0,0,3,0,Groundout,0
+TOR_20260921_1_PA010,TOR_20260921_1,B004,Brett Bateman,2026-09-21,Test,0,Baltimore Orioles,2,0,0,0,0,9,0,Lineout,0
+TOR_20260921_1_PA011,TOR_20260921_1,B001,Alejandro Kirk,2026-09-21,Test,0,Baltimore Orioles,2,0,0,0,0,1,0,Groundout,0
+TOR_20260921_1_PA012,TOR_20260921_1,B014,Nathan Lukes,2026-09-21,Test,0,Baltimore Orioles,3,0,0,0,0,5,0,Walk,0
+TOR_20260921_1_PA013,TOR_20260921_1,B009,George Springer,2026-09-21,Test,0,Baltimore Orioles,3,0,0,0,0,2,0,Hit,0
+TOR_20260921_1_PA014,TOR_20260921_1,B016,Sean Keys,2026-09-21,Test,0,Baltimore Orioles,3,1,0,0,0,3,0,Flyout,0
+TOR_20260921_1_PA015,TOR_20260921_1,B012,Kazuma Okamoto,2026-09-21,Test,0,Baltimore Orioles,3,1,0,0,0,1,0,Groundout,0
+TOR_20260921_1_PA016,TOR_20260921_1,B011,Josh H. Smith,2026-09-21,Test,0,Baltimore Orioles,4,0,0,0,0,5,0,Groundout,0
+TOR_20260921_1_PA017,TOR_20260921_1,B002,Andrés Giménez,2026-09-21,Test,0,Baltimore Orioles,4,0,0,0,0,3,0,Groundout,0
+TOR_20260921_1_PA018,TOR_20260921_1,B008,Ernie Clement,2026-09-21,Test,0,Baltimore Orioles,4,0,0,0,0,4,0,Flyout,0
+TOR_20260921_1_PA019,TOR_20260921_1,B013,Myles Straw,2026-09-21,Test,0,Baltimore Orioles,5,0,0,0,0,3,0,Flyout,0
+TOR_20260921_1_PA020,TOR_20260921_1,B001,Alejandro Kirk,2026-09-21,Test,0,Baltimore Orioles,5,0,0,0,0,5,0,Groundout,0
+TOR_20260921_1_PA021,TOR_20260921_1,B014,Nathan Lukes,2026-09-21,Test,0,Baltimore Orioles,5,0,0,0,0,1,0,Groundout,0
+TOR_20260921_1_PA022,TOR_20260921_1,B009,George Springer,2026-09-21,Test,0,Baltimore Orioles,6,0,0,0,0,3,0,Groundout,0
+TOR_20260921_1_PA023,TOR_20260921_1,B016,Sean Keys,2026-09-21,Test,0,Baltimore Orioles,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260921_1_PA024,TOR_20260921_1,B012,Kazuma Okamoto,2026-09-21,Test,0,Baltimore Orioles,6,0,0,0,0,3,0,Groundout,0
+TOR_20260921_1_PA025,TOR_20260921_1,B011,Josh H. Smith,2026-09-21,Test,0,Baltimore Orioles,7,0,0,0,0,6,1,Strikeout,0
+TOR_20260921_1_PA026,TOR_20260921_1,B002,Andrés Giménez,2026-09-21,Test,0,Baltimore Orioles,7,0,0,0,0,1,0,Hit,0
+TOR_20260921_1_PA027,TOR_20260921_1,B008,Ernie Clement,2026-09-21,Test,0,Baltimore Orioles,7,0,0,0,0,2,0,Groundout,0
+TOR_20260921_1_PA028,TOR_20260921_1,B013,Myles Straw,2026-09-21,Test,0,Baltimore Orioles,7,1,0,0,0,1,0,Lineout,0
+TOR_20260921_1_PA029,TOR_20260921_1,B001,Alejandro Kirk,2026-09-21,Test,0,Baltimore Orioles,8,0,0,0,0,9,0,Hit,0
+TOR_20260921_1_PA030,TOR_20260921_1,B014,Nathan Lukes,2026-09-21,Test,0,Baltimore Orioles,8,0,0,0,0,2,0,Groundout,0
+TOR_20260921_1_PA031,TOR_20260921_1,B009,George Springer,2026-09-21,Test,0,Baltimore Orioles,8,1,0,0,0,6,1,Strikeout,0
+TOR_20260921_1_PA032,TOR_20260921_1,B016,Sean Keys,2026-09-21,Test,0,Baltimore Orioles,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260921_1_PA033,TOR_20260921_1,B012,Kazuma Okamoto,2026-09-21,Test,0,Baltimore Orioles,9,0,0,0,0,4,1,Strikeout,0
+TOR_20260921_1_PA034,TOR_20260921_1,B011,Josh H. Smith,2026-09-21,Test,0,Baltimore Orioles,9,0,0,0,0,7,0,Flyout,0
+TOR_20260923_1_PA001,TOR_20260923_1,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,1,0,0,0,0,5,0,Flyout,0
+TOR_20260923_1_PA002,TOR_20260923_1,B017,Vladimir Guerrero Jr.,2026-09-23,Test,0,Baltimore Orioles,1,0,0,0,0,6,0,Hit,0
+TOR_20260923_1_PA003,TOR_20260923_1,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,1,1,0,0,0,5,0,Flyout,0
+TOR_20260923_1_PA004,TOR_20260923_1,B009,George Springer,2026-09-23,Test,0,Baltimore Orioles,1,1,0,1,1,7,0,Lineout,0
+TOR_20260923_1_PA005,TOR_20260923_1,B011,Josh H. Smith,2026-09-23,Test,0,Baltimore Orioles,2,0,0,1,1,7,1,Strikeout,0
+TOR_20260923_1_PA006,TOR_20260923_1,B002,Andrés Giménez,2026-09-23,Test,0,Baltimore Orioles,2,0,0,0,0,1,0,Hit,0
+TOR_20260923_1_PA007,TOR_20260923_1,B003,Brandon Valenzuela,2026-09-23,Test,0,Baltimore Orioles,2,1,0,0,0,1,0,Groundout,0
+TOR_20260923_1_PA008,TOR_20260923_1,B013,Myles Straw,2026-09-23,Test,0,Baltimore Orioles,2,1,0,0,0,8,0,Flyout,0
+TOR_20260923_1_PA009,TOR_20260923_1,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,3,0,Hit,0
+TOR_20260923_1_PA010,TOR_20260923_1,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,3,1,0,0,0,1,0,Fielder's Choice,0
+TOR_20260923_1_PA011,TOR_20260923_1,B017,Vladimir Guerrero Jr.,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,4,0,Lineout,0
+TOR_20260923_1_PA012,TOR_20260923_1,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,2,0,Flyout,0
+TOR_20260923_1_PA013,TOR_20260923_1,B009,George Springer,2026-09-23,Test,0,Baltimore Orioles,4,0,0,0,0,8,1,Strikeout,0
+TOR_20260923_1_PA014,TOR_20260923_1,B011,Josh H. Smith,2026-09-23,Test,0,Baltimore Orioles,4,0,0,0,0,5,0,Groundout,0
+TOR_20260923_1_PA015,TOR_20260923_1,B002,Andrés Giménez,2026-09-23,Test,0,Baltimore Orioles,4,0,0,0,0,4,0,Flyout,0
+TOR_20260923_1_PA016,TOR_20260923_1,B013,Myles Straw,2026-09-23,Test,0,Baltimore Orioles,5,0,0,0,0,4,0,Lineout,0
+TOR_20260923_1_PA017,TOR_20260923_1,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,5,0,0,0,0,3,0,Hit,0
+TOR_20260923_1_PA018,TOR_20260923_1,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,5,0,0,0,0,2,0,Hit,0
+TOR_20260923_1_PA019,TOR_20260923_1,B017,Vladimir Guerrero Jr.,2026-09-23,Test,0,Baltimore Orioles,5,1,0,0,0,4,0,Groundout,0
+TOR_20260923_1_PA020,TOR_20260923_1,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,6,0,0,0,0,6,0,Walk,0
+TOR_20260923_1_PA021,TOR_20260923_1,B009,George Springer,2026-09-23,Test,0,Baltimore Orioles,6,0,0,0,0,2,0,Hit,0
+TOR_20260923_1_PA022,TOR_20260923_1,B006,Davis Schneider,2026-09-23,Test,0,Baltimore Orioles,6,1,0,0,0,1,0,Groundout,0
+TOR_20260923_1_PA023,TOR_20260923_1,B002,Andrés Giménez,2026-09-23,Test,0,Baltimore Orioles,6,1,0,0,0,5,1,Strikeout,0
+TOR_20260923_1_PA024,TOR_20260923_1,B003,Brandon Valenzuela,2026-09-23,Test,0,Baltimore Orioles,6,1,0,0,0,1,0,Hit,0
+TOR_20260923_1_PA025,TOR_20260923_1,B013,Myles Straw,2026-09-23,Test,0,Baltimore Orioles,6,0,0,0,0,5,0,Hit,0
+TOR_20260923_1_PA026,TOR_20260923_1,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,6,1,0,0,0,2,0,Flyout,0
+TOR_20260923_1_PA027,TOR_20260923_1,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,7,0,0,0,0,5,0,Groundout,0
+TOR_20260923_1_PA028,TOR_20260923_1,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,7,0,0,0,0,2,0,Flyout,0
+TOR_20260923_1_PA029,TOR_20260923_1,B009,George Springer,2026-09-23,Test,0,Baltimore Orioles,8,0,0,0,0,4,0,Groundout,0
+TOR_20260923_1_PA030,TOR_20260923_1,B016,Sean Keys,2026-09-23,Test,0,Baltimore Orioles,8,0,0,0,0,2,0,Groundout,0
+TOR_20260923_1_PA031,TOR_20260923_1,B003,Brandon Valenzuela,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,4,0,Hit,0
+TOR_20260923_1_PA032,TOR_20260923_1,B001,Alejandro Kirk,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,1,0,Flyout,0
+TOR_20260923_1_PA033,TOR_20260923_1,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,2,0,Flyout,0
+TOR_20260923_1_PA034,TOR_20260923_1,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,6,1,Strikeout,0
+TOR_20260923_2_PA001,TOR_20260923_2,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,1,0,0,0,0,6,0,Lineout,0
+TOR_20260923_2_PA002,TOR_20260923_2,B011,Josh H. Smith,2026-09-23,Test,0,Baltimore Orioles,1,0,0,1,1,7,0,Groundout,0
+TOR_20260923_2_PA003,TOR_20260923_2,B001,Alejandro Kirk,2026-09-23,Test,0,Baltimore Orioles,1,0,0,0,0,5,1,Strikeout,0
+TOR_20260923_2_PA004,TOR_20260923_2,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,2,0,0,0,0,5,1,Strikeout,0
+TOR_20260923_2_PA005,TOR_20260923_2,B016,Sean Keys,2026-09-23,Test,0,Baltimore Orioles,2,0,0,0,0,4,0,Groundout,0
+TOR_20260923_2_PA006,TOR_20260923_2,B006,Davis Schneider,2026-09-23,Test,0,Baltimore Orioles,2,0,0,0,0,5,0,Walk,0
+TOR_20260923_2_PA007,TOR_20260923_2,B005,Charles McAdoo,2026-09-23,Test,0,Baltimore Orioles,2,0,0,0,0,4,1,Strikeout,0
+TOR_20260923_2_PA008,TOR_20260923_2,B013,Myles Straw,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,2,0,Hit,0
+TOR_20260923_2_PA009,TOR_20260923_2,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,6,0,Groundout,0
+TOR_20260923_2_PA010,TOR_20260923_2,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,3,0,Hit,0
+TOR_20260923_2_PA011,TOR_20260923_2,B011,Josh H. Smith,2026-09-23,Test,0,Baltimore Orioles,3,0,0,0,0,6,0,Flyout,0
+TOR_20260923_2_PA012,TOR_20260923_2,B001,Alejandro Kirk,2026-09-23,Test,0,Baltimore Orioles,4,0,0,0,0,5,1,Strikeout,0
+TOR_20260923_2_PA013,TOR_20260923_2,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,4,0,0,0,0,2,0,Groundout,0
+TOR_20260923_2_PA014,TOR_20260923_2,B016,Sean Keys,2026-09-23,Test,0,Baltimore Orioles,4,0,0,0,0,2,0,Groundout,0
+TOR_20260923_2_PA015,TOR_20260923_2,B006,Davis Schneider,2026-09-23,Test,0,Baltimore Orioles,5,0,0,0,0,1,0,Groundout,0
+TOR_20260923_2_PA016,TOR_20260923_2,B005,Charles McAdoo,2026-09-23,Test,0,Baltimore Orioles,5,0,0,1,1,3,0,Groundout,0
+TOR_20260923_2_PA017,TOR_20260923_2,B013,Myles Straw,2026-09-23,Test,0,Baltimore Orioles,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260923_2_PA018,TOR_20260923_2,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,6,0,0,0,0,3,1,Strikeout,0
+TOR_20260923_2_PA019,TOR_20260923_2,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,6,0,0,0,0,2,0,Lineout,0
+TOR_20260923_2_PA020,TOR_20260923_2,B011,Josh H. Smith,2026-09-23,Test,0,Baltimore Orioles,6,0,0,0,0,3,1,Strikeout,0
+TOR_20260923_2_PA021,TOR_20260923_2,B001,Alejandro Kirk,2026-09-23,Test,0,Baltimore Orioles,7,0,0,0,0,5,0,Hit,0
+TOR_20260923_2_PA022,TOR_20260923_2,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,7,0,0,0,0,2,0,Groundout,0
+TOR_20260923_2_PA023,TOR_20260923_2,B016,Sean Keys,2026-09-23,Test,0,Baltimore Orioles,7,0,0,0,0,4,0,Hit,0
+TOR_20260923_2_PA024,TOR_20260923_2,B006,Davis Schneider,2026-09-23,Test,0,Baltimore Orioles,7,0,0,0,0,4,0,Walk,0
+TOR_20260923_2_PA025,TOR_20260923_2,B005,Charles McAdoo,2026-09-23,Test,0,Baltimore Orioles,7,1,0,0,0,5,0,Walk,0
+TOR_20260923_2_PA026,TOR_20260923_2,B013,Myles Straw,2026-09-23,Test,0,Baltimore Orioles,7,1,0,0,0,5,1,Strikeout,0
+TOR_20260923_2_PA027,TOR_20260923_2,B008,Ernie Clement,2026-09-23,Test,0,Baltimore Orioles,8,0,0,0,0,2,0,Flyout,0
+TOR_20260923_2_PA028,TOR_20260923_2,B014,Nathan Lukes,2026-09-23,Test,0,Baltimore Orioles,8,0,0,0,0,5,0,Hit,0
+TOR_20260923_2_PA029,TOR_20260923_2,B011,Josh H. Smith,2026-09-23,Test,0,Baltimore Orioles,8,0,0,0,0,2,0,Groundout,0
+TOR_20260923_2_PA030,TOR_20260923_2,B001,Alejandro Kirk,2026-09-23,Test,0,Baltimore Orioles,8,1,0,0,0,7,0,Groundout,0
+TOR_20260923_2_PA031,TOR_20260923_2,B012,Kazuma Okamoto,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,3,1,Strikeout,0
+TOR_20260923_2_PA032,TOR_20260923_2,B016,Sean Keys,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,4,0,Hit,0
+TOR_20260923_2_PA033,TOR_20260923_2,B006,Davis Schneider,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,5,0,Home Run,0
+TOR_20260923_2_PA034,TOR_20260923_2,B005,Charles McAdoo,2026-09-23,Test,0,Baltimore Orioles,9,0,0,0,0,3,0,Groundout,0
+TOR_20260925_1_PA001,TOR_20260925_1,B005,Charles McAdoo,2026-09-25,Test,1,Cincinnati Reds,1,0,0,0,0,5,0,Hit,0
+TOR_20260925_1_PA002,TOR_20260925_1,B001,Alejandro Kirk,2026-09-25,Test,1,Cincinnati Reds,1,1,0,0,0,2,0,Hit,0
+TOR_20260925_1_PA003,TOR_20260925_1,B017,Vladimir Guerrero Jr.,2026-09-25,Test,1,Cincinnati Reds,1,1,0,0,0,3,0,Groundout,0
+TOR_20260925_1_PA004,TOR_20260925_1,B009,George Springer,2026-09-25,Test,1,Cincinnati Reds,1,1,0,0,0,5,0,Lineout,0
+TOR_20260925_1_PA005,TOR_20260925_1,B012,Kazuma Okamoto,2026-09-25,Test,1,Cincinnati Reds,1,1,0,0,0,3,0,Hit,0
+TOR_20260925_1_PA006,TOR_20260925_1,B014,Nathan Lukes,2026-09-25,Test,1,Cincinnati Reds,1,1,0,0,0,4,0,Groundout,0
+TOR_20260925_1_PA007,TOR_20260925_1,B006,Davis Schneider,2026-09-25,Test,1,Cincinnati Reds,2,0,0,0,0,3,0,HBP,0
+TOR_20260925_1_PA008,TOR_20260925_1,B008,Ernie Clement,2026-09-25,Test,1,Cincinnati Reds,2,0,0,0,0,1,0,Flyout,0
+TOR_20260925_1_PA009,TOR_20260925_1,B013,Myles Straw,2026-09-25,Test,1,Cincinnati Reds,2,0,0,0,0,5,0,Hit,0
+TOR_20260925_1_PA010,TOR_20260925_1,B005,Charles McAdoo,2026-09-25,Test,1,Cincinnati Reds,2,1,0,0,0,5,0,Hit,0
+TOR_20260925_1_PA011,TOR_20260925_1,B001,Alejandro Kirk,2026-09-25,Test,1,Cincinnati Reds,2,1,0,0,0,2,0,Groundout,0
+TOR_20260925_1_PA012,TOR_20260925_1,B017,Vladimir Guerrero Jr.,2026-09-25,Test,1,Cincinnati Reds,3,0,0,0,0,3,0,Flyout,0
+TOR_20260925_1_PA013,TOR_20260925_1,B009,George Springer,2026-09-25,Test,1,Cincinnati Reds,3,0,0,0,0,3,1,Strikeout,0
+TOR_20260925_1_PA014,TOR_20260925_1,B012,Kazuma Okamoto,2026-09-25,Test,1,Cincinnati Reds,3,0,0,0,0,7,0,Walk,0
+TOR_20260925_1_PA015,TOR_20260925_1,B014,Nathan Lukes,2026-09-25,Test,1,Cincinnati Reds,3,0,0,0,0,5,0,Hit,0
+TOR_20260925_1_PA016,TOR_20260925_1,B006,Davis Schneider,2026-09-25,Test,1,Cincinnati Reds,3,1,0,0,0,8,0,HBP,0
+TOR_20260925_1_PA017,TOR_20260925_1,B008,Ernie Clement,2026-09-25,Test,1,Cincinnati Reds,3,1,0,0,0,2,0,Groundout,0
+TOR_20260925_1_PA018,TOR_20260925_1,B013,Myles Straw,2026-09-25,Test,1,Cincinnati Reds,4,0,0,0,0,2,0,Hit,0
+TOR_20260925_1_PA019,TOR_20260925_1,B005,Charles McAdoo,2026-09-25,Test,1,Cincinnati Reds,4,0,0,0,0,5,1,Strikeout,0
+TOR_20260925_1_PA020,TOR_20260925_1,B001,Alejandro Kirk,2026-09-25,Test,1,Cincinnati Reds,4,0,0,0,0,5,0,Groundout,0
+TOR_20260925_1_PA021,TOR_20260925_1,B017,Vladimir Guerrero Jr.,2026-09-25,Test,1,Cincinnati Reds,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260925_1_PA022,TOR_20260925_1,B009,George Springer,2026-09-25,Test,1,Cincinnati Reds,5,0,0,0,0,4,0,Groundout,0
+TOR_20260925_1_PA023,TOR_20260925_1,B012,Kazuma Okamoto,2026-09-25,Test,1,Cincinnati Reds,5,0,0,0,0,4,0,Groundout,0
+TOR_20260925_1_PA024,TOR_20260925_1,B014,Nathan Lukes,2026-09-25,Test,1,Cincinnati Reds,6,0,0,0,0,1,0,HBP,0
+TOR_20260925_1_PA025,TOR_20260925_1,B006,Davis Schneider,2026-09-25,Test,1,Cincinnati Reds,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260925_1_PA026,TOR_20260925_1,B008,Ernie Clement,2026-09-25,Test,1,Cincinnati Reds,6,0,0,0,0,2,0,Lineout,0
+TOR_20260925_1_PA027,TOR_20260925_1,B011,Josh H. Smith,2026-09-25,Test,1,Cincinnati Reds,6,0,0,0,0,5,0,Flyout,0
+TOR_20260925_1_PA028,TOR_20260925_1,B002,Andrés Giménez,2026-09-25,Test,1,Cincinnati Reds,7,0,0,0,0,4,0,Walk,0
+TOR_20260925_1_PA029,TOR_20260925_1,B001,Alejandro Kirk,2026-09-25,Test,1,Cincinnati Reds,7,0,0,0,0,7,0,Walk,0
+TOR_20260925_1_PA030,TOR_20260925_1,B017,Vladimir Guerrero Jr.,2026-09-25,Test,1,Cincinnati Reds,7,1,0,0,0,3,0,Hit,0
+TOR_20260925_1_PA031,TOR_20260925_1,B009,George Springer,2026-09-25,Test,1,Cincinnati Reds,7,1,0,0,0,2,0,Fielder's Choice,0
+TOR_20260925_1_PA032,TOR_20260925_1,B012,Kazuma Okamoto,2026-09-25,Test,1,Cincinnati Reds,7,1,0,0,0,1,0,Hit,0
+TOR_20260925_1_PA033,TOR_20260925_1,B014,Nathan Lukes,2026-09-25,Test,1,Cincinnati Reds,7,1,0,0,0,6,0,Hit,0
+TOR_20260925_1_PA034,TOR_20260925_1,B004,Brett Bateman,2026-09-25,Test,1,Cincinnati Reds,7,1,0,0,0,4,0,Flyout,0
+TOR_20260925_1_PA035,TOR_20260925_1,B008,Ernie Clement,2026-09-25,Test,1,Cincinnati Reds,7,1,0,0,0,3,0,Fielder's Choice,0
+TOR_20260925_1_PA036,TOR_20260925_1,B011,Josh H. Smith,2026-09-25,Test,1,Cincinnati Reds,7,1,0,1,1,5,1,Strikeout,0
+TOR_20260925_1_PA037,TOR_20260925_1,B002,Andrés Giménez,2026-09-25,Test,1,Cincinnati Reds,8,0,0,1,1,4,1,Strikeout,0
+TOR_20260925_1_PA038,TOR_20260925_1,B001,Alejandro Kirk,2026-09-25,Test,1,Cincinnati Reds,8,0,0,0,0,7,0,Walk,0
+TOR_20260925_1_PA039,TOR_20260925_1,B017,Vladimir Guerrero Jr.,2026-09-25,Test,1,Cincinnati Reds,8,0,0,0,0,2,0,Groundout,0
+TOR_20260925_1_PA040,TOR_20260925_1,B009,George Springer,2026-09-25,Test,1,Cincinnati Reds,8,1,0,0,0,2,0,Flyout,0
+TOR_20260927_1_PA001,TOR_20260927_1,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,1,0,0,0,0,4,0,Walk,0
+TOR_20260927_1_PA002,TOR_20260927_1,B014,Nathan Lukes,2026-09-27,Test,1,Cincinnati Reds,1,0,0,0,0,4,0,Walk,0
+TOR_20260927_1_PA003,TOR_20260927_1,B017,Vladimir Guerrero Jr.,2026-09-27,Test,1,Cincinnati Reds,1,1,0,0,0,3,1,Strikeout,0
+TOR_20260927_1_PA004,TOR_20260927_1,B001,Alejandro Kirk,2026-09-27,Test,1,Cincinnati Reds,1,1,0,0,0,5,0,Groundout,0
+TOR_20260927_1_PA005,TOR_20260927_1,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,8,0,Lineout,0
+TOR_20260927_1_PA006,TOR_20260927_1,B016,Sean Keys,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,1,0,Hit,0
+TOR_20260927_1_PA007,TOR_20260927_1,B011,Josh H. Smith,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,3,0,Flyout,0
+TOR_20260927_1_PA008,TOR_20260927_1,B002,Andrés Giménez,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,1,0,Lineout,0
+TOR_20260927_1_PA009,TOR_20260927_1,B008,Ernie Clement,2026-09-27,Test,1,Cincinnati Reds,3,0,0,0,0,6,1,Strikeout,0
+TOR_20260927_1_PA010,TOR_20260927_1,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,3,0,1,1,1,1,0,Hit,0
+TOR_20260927_1_PA011,TOR_20260927_1,B014,Nathan Lukes,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,1,0,Groundout,0
+TOR_20260927_1_PA012,TOR_20260927_1,B017,Vladimir Guerrero Jr.,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,1,0,Flyout,0
+TOR_20260927_1_PA013,TOR_20260927_1,B001,Alejandro Kirk,2026-09-27,Test,1,Cincinnati Reds,4,0,0,0,0,1,0,Lineout,0
+TOR_20260927_1_PA014,TOR_20260927_1,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,4,0,0,0,0,7,0,Flyout,0
+TOR_20260927_1_PA015,TOR_20260927_1,B016,Sean Keys,2026-09-27,Test,1,Cincinnati Reds,4,0,0,0,0,8,0,Flyout,0
+TOR_20260927_1_PA016,TOR_20260927_1,B011,Josh H. Smith,2026-09-27,Test,1,Cincinnati Reds,5,0,0,0,0,6,0,Lineout,0
+TOR_20260927_1_PA017,TOR_20260927_1,B002,Andrés Giménez,2026-09-27,Test,1,Cincinnati Reds,5,0,0,0,0,3,0,Hit,0
+TOR_20260927_1_PA018,TOR_20260927_1,B008,Ernie Clement,2026-09-27,Test,1,Cincinnati Reds,5,0,0,0,0,6,0,Walk,0
+TOR_20260927_1_PA019,TOR_20260927_1,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,5,1,0,0,0,4,0,Lineout,0
+TOR_20260927_1_PA020,TOR_20260927_1,B014,Nathan Lukes,2026-09-27,Test,1,Cincinnati Reds,6,0,0,0,0,3,0,Groundout,0
+TOR_20260927_1_PA021,TOR_20260927_1,B017,Vladimir Guerrero Jr.,2026-09-27,Test,1,Cincinnati Reds,6,0,0,0,0,1,0,Groundout,0
+TOR_20260927_1_PA022,TOR_20260927_1,B001,Alejandro Kirk,2026-09-27,Test,1,Cincinnati Reds,6,0,0,0,0,4,0,Groundout,0
+TOR_20260927_1_PA023,TOR_20260927_1,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,7,0,0,0,0,4,0,Walk,0
+TOR_20260927_1_PA024,TOR_20260927_1,B016,Sean Keys,2026-09-27,Test,1,Cincinnati Reds,7,0,0,0,0,5,1,Strikeout,0
+TOR_20260927_1_PA025,TOR_20260927_1,B011,Josh H. Smith,2026-09-27,Test,1,Cincinnati Reds,7,0,0,0,0,4,0,Hit,0
+TOR_20260927_1_PA026,TOR_20260927_1,B002,Andrés Giménez,2026-09-27,Test,1,Cincinnati Reds,7,1,0,0,0,6,0,Groundout,0
+TOR_20260927_1_PA027,TOR_20260927_1,B008,Ernie Clement,2026-09-27,Test,1,Cincinnati Reds,7,1,0,0,0,2,0,Flyout,0
+TOR_20260927_1_PA028,TOR_20260927_1,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,8,0,0,0,0,5,0,Hit,0
+TOR_20260927_1_PA029,TOR_20260927_1,B014,Nathan Lukes,2026-09-27,Test,1,Cincinnati Reds,8,0,0,0,0,1,0,Groundout,0
+TOR_20260927_1_PA030,TOR_20260927_1,B017,Vladimir Guerrero Jr.,2026-09-27,Test,1,Cincinnati Reds,8,1,0,0,0,3,1,Strikeout,0
+TOR_20260927_1_PA031,TOR_20260927_1,B001,Alejandro Kirk,2026-09-27,Test,1,Cincinnati Reds,8,1,0,0,0,2,0,Groundout,0
+TOR_20260927_1_PA032,TOR_20260927_1,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,9,0,0,0,0,5,1,Strikeout,0
+TOR_20260927_1_PA033,TOR_20260927_1,B016,Sean Keys,2026-09-27,Test,1,Cincinnati Reds,9,0,0,0,0,3,0,Flyout,0
+TOR_20260927_1_PA034,TOR_20260927_1,B011,Josh H. Smith,2026-09-27,Test,1,Cincinnati Reds,9,0,0,0,0,2,0,Lineout,0
+TOR_20260927_2_PA001,TOR_20260927_2,B009,George Springer,2026-09-27,Test,1,Cincinnati Reds,1,0,0,0,0,4,1,Strikeout,0
+TOR_20260927_2_PA002,TOR_20260927_2,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,1,0,0,0,0,7,0,Hit,0
+TOR_20260927_2_PA003,TOR_20260927_2,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,1,0,0,0,0,7,1,Strikeout,0
+TOR_20260927_2_PA004,TOR_20260927_2,B005,Charles McAdoo,2026-09-27,Test,1,Cincinnati Reds,1,0,0,0,0,4,0,Flyout,0
+TOR_20260927_2_PA005,TOR_20260927_2,B006,Davis Schneider,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,7,0,Walk,0
+TOR_20260927_2_PA006,TOR_20260927_2,B003,Brandon Valenzuela,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,3,0,Home Run,0
+TOR_20260927_2_PA007,TOR_20260927_2,B013,Myles Straw,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,6,0,Groundout,0
+TOR_20260927_2_PA008,TOR_20260927_2,B002,Andrés Giménez,2026-09-27,Test,1,Cincinnati Reds,2,0,0,1,1,4,0,Lineout,0
+TOR_20260927_2_PA009,TOR_20260927_2,B008,Ernie Clement,2026-09-27,Test,1,Cincinnati Reds,2,0,0,0,0,2,0,Flyout,0
+TOR_20260927_2_PA010,TOR_20260927_2,B009,George Springer,2026-09-27,Test,1,Cincinnati Reds,3,0,0,0,0,6,0,Hit,0
+TOR_20260927_2_PA011,TOR_20260927_2,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,2,0,Hit,0
+TOR_20260927_2_PA012,TOR_20260927_2,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,4,0,Walk,0
+TOR_20260927_2_PA013,TOR_20260927_2,B005,Charles McAdoo,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,3,0,Flyout,0
+TOR_20260927_2_PA014,TOR_20260927_2,B006,Davis Schneider,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,8,0,Groundout,0
+TOR_20260927_2_PA015,TOR_20260927_2,B003,Brandon Valenzuela,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,4,0,Walk,0
+TOR_20260927_2_PA016,TOR_20260927_2,B013,Myles Straw,2026-09-27,Test,1,Cincinnati Reds,3,1,0,0,0,5,1,Strikeout,0
+TOR_20260927_2_PA017,TOR_20260927_2,B002,Andrés Giménez,2026-09-27,Test,1,Cincinnati Reds,4,0,0,0,0,3,0,HBP,0
+TOR_20260927_2_PA018,TOR_20260927_2,B008,Ernie Clement,2026-09-27,Test,1,Cincinnati Reds,4,0,0,0,0,1,0,Groundout,0
+TOR_20260927_2_PA019,TOR_20260927_2,B016,Sean Keys,2026-09-27,Test,1,Cincinnati Reds,4,0,0,0,0,6,1,Strikeout,0
+TOR_20260927_2_PA020,TOR_20260927_2,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,5,0,0,0,0,4,1,Strikeout,0
+TOR_20260927_2_PA021,TOR_20260927_2,B012,Kazuma Okamoto,2026-09-27,Test,1,Cincinnati Reds,5,0,0,0,0,7,1,Strikeout,0
+TOR_20260927_2_PA022,TOR_20260927_2,B005,Charles McAdoo,2026-09-27,Test,1,Cincinnati Reds,5,0,0,0,0,3,0,Flyout,0
+TOR_20260927_2_PA023,TOR_20260927_2,B006,Davis Schneider,2026-09-27,Test,1,Cincinnati Reds,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260927_2_PA024,TOR_20260927_2,B003,Brandon Valenzuela,2026-09-27,Test,1,Cincinnati Reds,6,0,0,0,0,4,1,Strikeout,0
+TOR_20260927_2_PA025,TOR_20260927_2,B013,Myles Straw,2026-09-27,Test,1,Cincinnati Reds,6,0,0,0,0,5,0,Flyout,0
+TOR_20260927_2_PA026,TOR_20260927_2,B002,Andrés Giménez,2026-09-27,Test,1,Cincinnati Reds,7,0,0,0,0,3,0,Groundout,0
+TOR_20260927_2_PA027,TOR_20260927_2,B008,Ernie Clement,2026-09-27,Test,1,Cincinnati Reds,7,0,0,0,0,3,0,Flyout,0
+TOR_20260927_2_PA028,TOR_20260927_2,B016,Sean Keys,2026-09-27,Test,1,Cincinnati Reds,7,0,0,0,0,3,1,Strikeout,0
+TOR_20260927_2_PA029,TOR_20260927_2,B004,Brett Bateman,2026-09-27,Test,1,Cincinnati Reds,8,0,0,0,0,1,0,Lineout,0
+TOR_20260927_2_PA030,TOR_20260927_2,B011,Josh H. Smith,2026-09-27,Test,1,Cincinnati Reds,8,0,0,0,0,8,0,Groundout,0
+TOR_20260927_2_PA031,TOR_20260927_2,B005,Charles McAdoo,2026-09-27,Test,1,Cincinnati Reds,8,0,0,0,0,2,0,Home Run,0
+TOR_20260927_2_PA032,TOR_20260927_2,B006,Davis Schneider,2026-09-27,Test,1,Cincinnati Reds,8,0,0,0,0,3,0,Lineout,0

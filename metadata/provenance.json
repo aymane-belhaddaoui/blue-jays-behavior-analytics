@@ -1,0 +1,10 @@
+{
+  "confirmed_by": "User",
+  "confirmed_on": "2026-09-29",
+  "declaration": "All available data observed or calculated; none extrapolated.",
+  "routine_cell_K162": "Calculated as AVERAGE(K157:K161), retained as Calculated.",
+  "missing": "Three originally blank measurements remain missing.",
+  "earlier_assistant_corrections": "Inferred walk and unresolved PA remain flagged; user declaration is not a verification of assistant-inferred corrections.",
+  "zero_disruptions": "Accepted as observed per user declaration; earlier blanket September 1\u20139 exclusion removed.",
+  "source_sha256": "9b48ac15870340856355f173f1cb73d3a8a21e50ecc7a9bfece046462d8f442e"
+}

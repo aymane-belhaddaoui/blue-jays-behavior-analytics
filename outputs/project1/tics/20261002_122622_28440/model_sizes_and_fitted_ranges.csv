@@ -1,0 +1,4 @@
+"model","pitches","pas","games","batters","fitted_min","fitted_max","fitted_negative"
+"T1_primary",3890,1027,27,16,-0.0257146185498757,3.32683715908477,24
+"T2_count_inning",3890,1027,27,16,-0.145054259397173,3.43078710862698,26
+"T3_disruption_adjusted",3943,1028,27,16,-0.0322762798855536,3.30941431010986,34
