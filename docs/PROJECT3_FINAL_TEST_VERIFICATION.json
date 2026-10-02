@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "verification_environment": "Python / NumPy / pandas; R unavailable",
+  "input_hashes_verified": [
+    {
+      "file": "scripts/13_project3_final_test.R",
+      "md5": "5abd2e70769b0d4eb9bef9ecb2337f61",
+      "matched": true
+    },
+    {
+      "file": "outputs/project3/validation/20261002_202247_23628/project3_validation.rds",
+      "md5": "580e9bb78a4f1966caed543dee43764f",
+      "matched": true
+    },
+    {
+      "file": "outputs/project3/validation/20261002_202247_23628/model_selection.csv",
+      "md5": "a40cf83895ba79656b6b825e2523ec7d",
+      "matched": true
+    },
+    {
+      "file": "scripts/12_project3_validation.R",
+      "md5": "e3acb8bff8b7cb9cb6b43e6f38906d15",
+      "matched": true
+    },
+    {
+      "file": "outputs/project3/candidates/20261002_164056_23628/input_hashes.csv",
+      "md5": "c840933e1d6b85be4e04356502e49227",
+      "matched": true
+    },
+    {
+      "file": "outputs/project3/candidates/20261002_164056_23628/pooled_metrics.csv",
+      "md5": "be7df80b02dd955863a7bd05586d5f28",
+      "matched": true
+    },
+    {
+      "file": "scripts/11_project3_candidates.R",
+      "md5": "d2d1ec7e12f9552fa464687dd1420e3c",
+      "matched": true
+    },
+    {
+      "file": "outputs/project3/baselines/20261002_161931_23628/project3_baselines.rds",
+      "md5": "9edb000e080aef42b9f56a9b23c805a3",
+      "matched": true
+    },
+    {
+      "file": "scripts/10_project3_baselines.R",
+      "md5": "dd9968de9c35c47272cdd842b414579c",
+      "matched": true
+    },
+    {
+      "file": "scripts/01_import_R.R",
+      "md5": "8dfc85d300be53142282623e7a9704c3",
+      "matched": true
+    },
+    {
+      "file": "data/batters.csv",
+      "md5": "564d23989e092310f280afbfbfff06bc",
+      "matched": true
+    },
+    {
+      "file": "data/games.csv",
+      "md5": "8a535d115af3040424bb89ab79001a52",
+      "matched": true
+    },
+    {
+      "file": "data/pitches.csv",
+      "md5": "a217c4396d03ca741842b675f83489f7",
+      "matched": true
+    },
+    {
+      "file": "data/plate_appearances.csv",
+      "md5": "47ce5059036b9fcd56db9a8bda80f060",
+      "matched": true
+    },
+    {
+      "file": "data/project1_pitches.csv",
+      "md5": "bc574d07d741c0c2b795d78b8c758b83",
+      "matched": true
+    },
+    {
+      "file": "data/project2_pas.csv",
+      "md5": "0c23fb4aababac30c7fcee30ddb054aa",
+      "matched": true
+    },
+    {
+      "file": "data/project3_snapshots.csv",
+      "md5": "1545a83379542f803d331554b87be56e",
+      "matched": true
+    },
+    {
+      "file": "data/project4_games.csv",
+      "md5": "06346f5ba65993e519fa543a4c68b053",
+      "matched": true
+    }
+  ],
+  "uploaded_files_archived": 20,
+  "predictions_verified": 416,
+  "per_game_metric_rows_verified": 12,
+  "calibration_rows_verified": 2,
+  "refit_n": 1250,
+  "refit_games": 33,
+  "refit_events": 218,
+  "test_n": 208,
+  "test_games": 6,
+  "test_events": 38,
+  "independent_coefficients": [
+    -3.0847215373200005,
+    0.6458971142703032,
+    -0.0989100045665469
+  ],
+  "max_prediction_absolute_error": 5.0487392044828994e-14,
+  "cohort_ids_verified": 1458,
+  "roc_auc_verified": true,
+  "script_matches_prepared_version": true,
+  "rds_limitation": "RDS objects preserved byte-for-byte, not deserialized in this environment.",
+  "outcome": "Selected M2 has worse test log loss and Brier than M0; no post-test selection.",
+  "archive_manifest": [
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/13_project3_final_test.R",
+      "sha256": "bf75ecf49a3603ab8b313097ecca656804185d38f288503ae93c819170915034"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/FINAL_MODEL_PLAN.txt",
+      "sha256": "f9608dc86b40b8881f325367f993ca1490f935f1ae6172d282c7078c5874d264"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/INTERPRETATION_LIMITS.txt",
+      "sha256": "f706af026b71aa8b47aabb17d485ba6b8c943f5bc2cb0f4f4aed7fda5d35f918"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/M0_prevalence_roc_points.csv",
+      "sha256": "b5f19647a9bd23da9bd010728be592e82eb879cd0b6d8ee36ffcedd3ac86493c"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/M2_behavior_roc_points.csv",
+      "sha256": "7d1f2d6695b7071e2ee5703993fde34be1c7d8a9c221ddf8e69ceaa485a5a0c7"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/RUN_COMPLETE.txt",
+      "sha256": "050f65ac105b7e4581ccc18f29994849118b14c65eab2a040fb9d4b899672f6b"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/TEST_RESULT_SUMMARY.md",
+      "sha256": "eea11a8b79aa7f4a0c3ae5861a087b198dd99098dfd65ac1dbefb4ab355eb34b"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/cohort_ids.csv",
+      "sha256": "448b62b4718cc5e0d53d090016afd780be1dc03b93f5862aff3c9fa9fe1aff6d"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/console.txt",
+      "sha256": "caf7abae18fe1c41689f7af8a80859abfa85ed44291f7260c9f3962dd0b40174"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/final_behavior_coefficients.csv",
+      "sha256": "5c81d71274c0afd0ea3a981dc614e6b7701e701eb9d8a39d1f939f48bdfa6515"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/final_test_diagnostics.png",
+      "sha256": "6f06a40079d00027bb89adbf885c9b670a5f098974fc4fff357b4c8d03936970"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/frozen_final_model.rds",
+      "sha256": "957e0d828214b76344d64e59af0f82ff8bf1c29cf969143be17354876623f2a8"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/input_hashes.csv",
+      "sha256": "0cfea82eedf9bc8730c9ddf3ba353de4c518c6ac24e7d4bbf0ed605958f2fa3a"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/project3_final_test.rds",
+      "sha256": "d5bd2cfbe1ba6be708b1a16e2e578c2a01807b9dd644a8e69e960814ef1a9aaa"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/sessionInfo.txt",
+      "sha256": "010024dd5b8260f345613d9da0c817849c99fc1db9f488764a10baa2e4633031"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/test_by_game.csv",
+      "sha256": "f3d66cd98f4f51e93a7318a3f6f6936730c1b3f7c476f64f22a29942660d2f55"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/test_calibration_bins.csv",
+      "sha256": "e4112fe2515fa713dcc19fa1305e2b4a5bd9dd89634928fe0f3c34675fdc99e2"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/test_comparison.csv",
+      "sha256": "5d5e52918b12911862eff97213f5a9a5348988e370ba035efcc29e1caf5e2c6c"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/test_metrics.csv",
+      "sha256": "aa960230e3d214c54397643a91c065a766dad1391fc5b64d40c1d314fb6374a0"
+    },
+    {
+      "file": "outputs/project3/final_test/20261002_205859_23628/test_predictions.csv",
+      "sha256": "eb45bf126e202b504a2af8c8f7622a28d2695486839c474d3fa5ef0f38bb2065"
+    }
+  ]
+}

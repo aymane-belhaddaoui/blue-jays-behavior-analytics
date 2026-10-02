@@ -1,0 +1,21 @@
+Workstream 4 uses all 39 games as a separate descriptive analysis. Project 3 model selection is closed.
+FactPitch: one row per pitch; all 5,634 source rows retained. DimGame: one row per game. DimBatter: one row per batter.
+Primary duration: observed routine, valid PA sequence, no pitcher disruption. No duration truncation or winsorization.
+Primary tics: observed tics, valid PA sequence, no pitcher disruption. A calculated routine can have observed eligible tics.
+Observed duration/tic KPIs without 'undisrupted' include disruptions, but still require valid PA and observed measurement.
+Valid disruption and RISP rates use all valid-PA pitches as denominator, regardless of routine/tic availability.
+Calculated and missing measurements are preserved and flagged; missing values are exported as blanks, never replaced by zero.
+source_game_aggregates_reference.csv preserves original broader source aggregates; it is not a Power BI import table.
+Per-game primary means weight eligible pitches equally within that game; group and rolling summaries weight games equally.
+prior5 means use five preceding logged games and exclude current game. First five rows are blank.
+trailing5 means use current and four preceding logged games. First four rows are blank. These are retrospective.
+Windows follow game_order, not calendar-day spacing, and remain fixed to the full logged timeline under BI slicers.
+window_win_streak_before resets at the start of this data window; season history before the first game is unknown.
+game_timestamp is omitted from the BI export: its artificial doubleheader offset is not an observed start time.
+logged_offensive_innings is the logged offensive coverage, not total game duration or total innings played.
+Same-game behavior is measured during the game and is not a pregame predictor. Momentum associations do not establish causality.
+The independent observational units for game-outcome comparisons are 39 games, not 5,634 pitches; serial/team dependence remains possible.
+No hypothesis-test p-values, model fitting, threshold tuning or post-test model changes are performed here.
+Use only the three files in powerbi/ as import tables; join each dimension 1:* to FactPitch with single-direction filtering.
+DimBatter filters FactPitch only. It does not alter DimGame win counts or precomputed game KPIs/rolling history.
+GitHub remains private until all four workstreams are finished.

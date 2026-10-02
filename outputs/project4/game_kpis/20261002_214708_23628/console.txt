@@ -1,0 +1,43 @@
+  games wins losses home_games road_games opponents pitches plate_appearances batters primary_routine_pitches
+1    39   20     19         18         21        10    5634              1461      17                    5553
+  primary_tic_pitches
+1                5554
+                                      stage pitches
+1                        All logged pitches    5634
+2                         Valid PA sequence    5627
+3                Valid PA, observed routine    5623
+4 Valid PA, observed routine, no disruption    5553
+5                   Valid PA, observed tics    5624
+6    Valid PA, observed tics, no disruption    5554
+                    grouping               level games wins  win_rate mean_runs_for mean_runs_against
+L                     result                   L    19    0 0.0000000      2.421053          5.947368
+W                     result                   W    20   20 1.0000000      6.000000          1.900000
+Home                   venue                Home    18   11 0.6111111      4.388889          3.722222
+Road                   venue                Road    21    9 0.4285714      4.142857          4.000000
+Athletics           opponent           Athletics     3    1 0.3333333      3.000000          3.333333
+Baltimore Orioles   opponent   Baltimore Orioles     6    2 0.3333333      4.333333          3.833333
+Cincinnati Reds     opponent     Cincinnati Reds     3    2 0.6666667      4.000000          3.666667
+Cleveland Guardians opponent Cleveland Guardians     3    2 0.6666667      6.000000          3.000000
+Detroit Tigers      opponent      Detroit Tigers     3    1 0.3333333      3.666667          5.666667
+Kansas City Royals  opponent  Kansas City Royals     6    3 0.5000000      3.666667          4.833333
+New York Yankees    opponent    New York Yankees     6    3 0.5000000      3.000000          3.333333
+Seattle Mariners    opponent    Seattle Mariners     3    3 1.0000000      6.333333          1.333333
+Tampa Bay Rays      opponent      Tampa Bay Rays     3    2 0.6666667      7.000000          4.333333
+Texas Rangers       opponent       Texas Rangers     3    1 0.3333333      3.333333          5.000000
+                    mean_run_differential mean_game_routine_secs mean_game_tics mean_game_disruption_rate
+L                              -3.5263158               14.32692       1.494054               0.009107393
+W                               4.1000000               14.06143       1.367634               0.015408946
+Home                            0.6666667               13.76646       1.402742               0.015230310
+Road                            0.1428571               14.55446       1.451922               0.009860657
+Athletics                      -0.3333333               15.21618       1.522601               0.000000000
+Baltimore Orioles               0.5000000               13.78177       1.456284               0.012739877
+Cincinnati Reds                 0.3333333               13.13645       1.395839               0.009546972
+Cleveland Guardians             3.0000000               14.19583       1.469268               0.000000000
+Detroit Tigers                 -2.0000000               14.75826       1.483002               0.008158336
+Kansas City Royals             -1.1666667               13.77925       1.397320               0.005802556
+New York Yankees               -0.3333333               14.90004       1.329450               0.021623996
+Seattle Mariners                5.0000000               13.44164       1.423564               0.026673746
+Tampa Bay Rays                  2.6666667               14.64791       1.590303               0.025929271
+Texas Rangers                  -1.6666667               14.16161       1.329216               0.009765278
+
+Workstream 4 outputs saved in: outputs/project4/game_kpis/20261002_214708_23628 

@@ -1,0 +1,27 @@
+{
+  "status": "Source-data cross-checks passed; local R execution pending",
+  "counts": {
+    "games": 39,
+    "wins": 20,
+    "losses": 19,
+    "home_games": 18,
+    "road_games": 21,
+    "opponents": 10,
+    "pitches": 5634,
+    "plate_appearances": 1461,
+    "batters": 17,
+    "valid_pa_pitches": 5627,
+    "observed_routine_pitches": 5623,
+    "primary_routine_pitches": 5553,
+    "observed_tic_pitches": 5624,
+    "primary_tic_pitches": 5554,
+    "valid_disruption_pitches": 70
+  },
+  "join_cardinality": "one source row per exported pitch",
+  "source_game_totals_reconciled": true,
+  "game_order_valid": true,
+  "prior_five_win_rates_reconciled": true,
+  "window_win_streaks_reconciled": true,
+  "all_games_have_primary_routine_and_tic_support": true,
+  "runtime_limitation": "R is not installed here; Python source-data checks are not an execution of script 14."
+}
