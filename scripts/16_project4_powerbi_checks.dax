@@ -1,0 +1,148 @@
+// Run AFTER script 15 measures have been saved into the model.
+// This query has no DEFINE block: it verifies the persisted measures.
+// Result sets 1-6 map to the corresponding expected_*.csv reference files.
+
+EVALUATE
+ROW(
+    "Games", [Games],
+    "Wins", [Wins],
+    "Losses", [Losses],
+    "Win Rate", [Win Rate],
+    "Runs For", [Runs For],
+    "Runs Against", [Runs Against],
+    "Run Differential", [Run Differential],
+    "Pitch Count", [Pitch Count],
+    "Valid Pitch Count", [Valid Pitch Count],
+    "Disrupted Valid Pitches", [Disrupted Valid Pitches],
+    "Valid Disruption Rate", [Valid Disruption Rate],
+    "Routine Eligible Pitches", [Routine Eligible Pitches],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Tic Eligible Pitches", [Tic Eligible Pitches],
+    "Mean Tics", [Mean Tics],
+    "Mean Game Routine Seconds", [Mean Game Routine Seconds],
+    "Mean Game Tics", [Mean Game Tics]
+)
+
+EVALUATE
+SUMMARIZECOLUMNS(DimGame[venue],
+    "Games", [Games],
+    "Wins", [Wins],
+    "Losses", [Losses],
+    "Win Rate", [Win Rate],
+    "Runs For", [Runs For],
+    "Runs Against", [Runs Against],
+    "Run Differential", [Run Differential],
+    "Pitch Count", [Pitch Count],
+    "Valid Pitch Count", [Valid Pitch Count],
+    "Disrupted Valid Pitches", [Disrupted Valid Pitches],
+    "Valid Disruption Rate", [Valid Disruption Rate],
+    "Routine Eligible Pitches", [Routine Eligible Pitches],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Tic Eligible Pitches", [Tic Eligible Pitches],
+    "Mean Tics", [Mean Tics],
+    "Mean Game Routine Seconds", [Mean Game Routine Seconds],
+    "Mean Game Tics", [Mean Game Tics]
+)
+ORDER BY DimGame[venue]
+
+EVALUATE
+SUMMARIZECOLUMNS(DimGame[opponent],
+    "Games", [Games],
+    "Wins", [Wins],
+    "Losses", [Losses],
+    "Win Rate", [Win Rate],
+    "Runs For", [Runs For],
+    "Runs Against", [Runs Against],
+    "Run Differential", [Run Differential],
+    "Pitch Count", [Pitch Count],
+    "Valid Pitch Count", [Valid Pitch Count],
+    "Disrupted Valid Pitches", [Disrupted Valid Pitches],
+    "Valid Disruption Rate", [Valid Disruption Rate],
+    "Routine Eligible Pitches", [Routine Eligible Pitches],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Tic Eligible Pitches", [Tic Eligible Pitches],
+    "Mean Tics", [Mean Tics],
+    "Mean Game Routine Seconds", [Mean Game Routine Seconds],
+    "Mean Game Tics", [Mean Game Tics]
+)
+ORDER BY DimGame[opponent]
+
+EVALUATE
+SUMMARIZECOLUMNS(DimGame[result],
+    "Games", [Games],
+    "Wins", [Wins],
+    "Losses", [Losses],
+    "Win Rate", [Win Rate],
+    "Runs For", [Runs For],
+    "Runs Against", [Runs Against],
+    "Run Differential", [Run Differential],
+    "Pitch Count", [Pitch Count],
+    "Valid Pitch Count", [Valid Pitch Count],
+    "Disrupted Valid Pitches", [Disrupted Valid Pitches],
+    "Valid Disruption Rate", [Valid Disruption Rate],
+    "Routine Eligible Pitches", [Routine Eligible Pitches],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Tic Eligible Pitches", [Tic Eligible Pitches],
+    "Mean Tics", [Mean Tics],
+    "Mean Game Routine Seconds", [Mean Game Routine Seconds],
+    "Mean Game Tics", [Mean Game Tics]
+)
+ORDER BY DimGame[result]
+
+EVALUATE
+SUMMARIZECOLUMNS(DimGame[game_order], DimGame[game_id], DimGame[game_date],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Prior 5 Win Rate", [Prior 5 Win Rate],
+    "Prior 5 Mean Routine Seconds", [Prior 5 Mean Routine Seconds],
+    "Trailing 5 Win Rate", [Trailing 5 Win Rate],
+    "Trailing 5 Mean Routine Seconds", [Trailing 5 Mean Routine Seconds],
+    "Prior Logged Win Streak", [Prior Logged Win Streak]
+)
+ORDER BY DimGame[game_order]
+
+EVALUATE
+SUMMARIZECOLUMNS(DimBatter[batter_id],
+    "Games", [Games],
+    "Wins", [Wins],
+    "Losses", [Losses],
+    "Win Rate", [Win Rate],
+    "Runs For", [Runs For],
+    "Runs Against", [Runs Against],
+    "Run Differential", [Run Differential],
+    "Pitch Count", [Pitch Count],
+    "Valid Pitch Count", [Valid Pitch Count],
+    "Disrupted Valid Pitches", [Disrupted Valid Pitches],
+    "Valid Disruption Rate", [Valid Disruption Rate],
+    "Routine Eligible Pitches", [Routine Eligible Pitches],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Tic Eligible Pitches", [Tic Eligible Pitches],
+    "Mean Tics", [Mean Tics],
+    "Mean Game Routine Seconds", [Mean Game Routine Seconds],
+    "Mean Game Tics", [Mean Game Tics]
+)
+ORDER BY DimBatter[batter_id]
+
+// Result 7: original history remains fixed under an opponent filter.
+EVALUATE
+CALCULATETABLE(
+    SUMMARIZECOLUMNS(DimGame[game_order], DimGame[game_id], DimGame[game_date],
+    "Mean Routine Seconds", [Mean Routine Seconds],
+    "Prior 5 Win Rate", [Prior 5 Win Rate],
+    "Prior 5 Mean Routine Seconds", [Prior 5 Mean Routine Seconds],
+    "Trailing 5 Win Rate", [Trailing 5 Win Rate],
+    "Trailing 5 Mean Routine Seconds", [Trailing 5 Mean Routine Seconds],
+    "Prior Logged Win Streak", [Prior Logged Win Streak]
+),
+    DimGame[opponent] = "New York Yankees"
+)
+ORDER BY DimGame[game_order]
+
+// Result 8: all five values should be BLANK with no individual game context.
+EVALUATE
+ROW(
+    "Prior 5 Win Rate", [Prior 5 Win Rate],
+    "Prior 5 Mean Routine Seconds", [Prior 5 Mean Routine Seconds],
+    "Trailing 5 Win Rate", [Trailing 5 Win Rate],
+    "Trailing 5 Mean Routine Seconds", [Trailing 5 Mean Routine Seconds],
+    "Prior Logged Win Streak", [Prior Logged Win Streak]
+)

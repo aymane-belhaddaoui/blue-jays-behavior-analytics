@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "input_hashes_verified": [
+    "scripts/14_project4_game_kpis.R",
+    "scripts/01_import_R.R",
+    "data/batters.csv",
+    "data/games.csv",
+    "data/pitches.csv",
+    "data/plate_appearances.csv",
+    "data/project1_pitches.csv",
+    "data/project2_pas.csv",
+    "data/project3_snapshots.csv",
+    "data/project4_games.csv"
+  ],
+  "original_files_preserved": 19,
+  "fact_rows_verified": 5634,
+  "fact_columns_verified": 35,
+  "game_rows_verified": 39,
+  "game_columns_verified": 41,
+  "descriptive_group_rows_verified": 14,
+  "exclusion_audit_rows_verified": 81,
+  "provenance_tables_verified": 2,
+  "join_cardinality_verified": true,
+  "rolling_windows_verified": true,
+  "doubleheaders_preserved": true,
+  "missing_values_preserved": true,
+  "figure_visually_reviewed": true,
+  "overview": {
+    "games": 39,
+    "wins": 20,
+    "losses": 19,
+    "home_games": 18,
+    "road_games": 21,
+    "opponents": 10,
+    "pitches": 5634,
+    "plate_appearances": 1461,
+    "batters": 17,
+    "primary_routine_pitches": 5553,
+    "primary_tic_pitches": 5554
+  },
+  "mean_routine_pitch_weighted": 14.241851251575724,
+  "mean_routine_game_weighted": 14.190767907680119,
+  "runtime": "Independent Python/NumPy/pandas reconstruction; user executed the archived R script.",
+  "limitations": "RDS preserved unchanged, not deserialized here. DAX and PBIX execution require the user Power BI session.",
+  "archive_manifest": [
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/14_project4_game_kpis.R",
+      "sha256": "5d1bee1c2005efd8fa2ca6c56b5ae04ba20d1244cf17964aeaece5fe5f391bd9"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/DEFINITIONS.txt",
+      "sha256": "0cfc588b86eaad8d563af595fd54292dc73ab6a3f6adb6003e2f0f655ef8b3c6"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/RUN_COMPLETE.txt",
+      "sha256": "866df04ad17c5d774b73f31189faac64fb231013a019162d901a6b010c772d81"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/cohort_flow.csv",
+      "sha256": "0811288a03b0bd33552bdeff98113dca105becbd3c6c0ee80734acb005d5b1f7"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/console.txt",
+      "sha256": "64cae68ad572f8b8a95694cd84dc17123d48272a20377e230b6ea2a880c484af"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/dataset_overview.csv",
+      "sha256": "cd6723c739148fa2b3474530a8293e180e8b54d3f8b02a90160904512cffe189"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/descriptive_group_summaries.csv",
+      "sha256": "d1141e1e1353b03e38543f1bc2b3dd8f0036184b9ee51ecbc8322d6571e218b1"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/game_kpis.csv",
+      "sha256": "bf7d21f0ec55b2b42d3828cba99f05ae192a916905425ea1c8165beebbb203b5"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/game_timeline.png",
+      "sha256": "f11e8a9cb3755fdd2c21fc948488ccb2bd7a1a784a2517224d25ab4de2d3c2e0"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/input_hashes.csv",
+      "sha256": "2da46614a115f0c44fad0ba2239d64c2f0b063554d53d3a3865cddc63396c3eb"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/powerbi/dim_batter.csv",
+      "sha256": "a07d4cd61217111899baa298e358afed3ec2df89c73adaab1f6bb47647ef878d"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/powerbi/dim_game.csv",
+      "sha256": "bf7d21f0ec55b2b42d3828cba99f05ae192a916905425ea1c8165beebbb203b5"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/powerbi/fact_pitch.csv",
+      "sha256": "614f50c271899da2fa66bc27490ee527f3586ae5def8d41ad79f8c240370db0b"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/primary_exclusion_audit.csv",
+      "sha256": "a28f7b4fac398b62046171b2a70fe95817c03f7aca30d24f06ad950bb7ccd091"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/project4_game_kpis.rds",
+      "sha256": "f14f8443593050588021ba829e89e39e205098f18833473bc6566c35108c4938"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/routine_provenance_counts.csv",
+      "sha256": "07288bddde61cfbde876b760690a1f8828fccfd5f3a1513f17899756a72d7e96"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/sessionInfo.txt",
+      "sha256": "874698eff08e518f2ba60fbb71b8f85c46300a6021cc3434b948b8e88a137769"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/source_game_aggregates_reference.csv",
+      "sha256": "f3198fea4eb0ce76a698c102e80d5b21f290cea540371de63b91de33dcb1c029"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/tics_provenance_counts.csv",
+      "sha256": "a886908cc307e599efe6da4a45723819062e3ff82eeb3ea6a989326193edf6ec"
+    }
+  ]
+}

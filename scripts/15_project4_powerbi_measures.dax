@@ -1,0 +1,87 @@
+// Power BI Desktop > DAX query view. Required table names: DimGame, DimBatter, FactPitch.
+// Run this whole query, compare the result with expected_overall.csv, then use
+// Update model with changes to persist the measures. Run alone does not persist them.
+// Independent numerical references were verified in Python; execute DAX in Power BI.
+
+DEFINE
+    MEASURE DimGame[Games] = COALESCE(COUNTROWS(DimGame), 0)
+    MEASURE DimGame[Wins] = COALESCE(SUM(DimGame[win]), 0)
+    MEASURE DimGame[Losses] = [Games] - [Wins]
+    MEASURE DimGame[Win Rate] = DIVIDE([Wins], [Games])
+    MEASURE DimGame[Runs For] = COALESCE(SUM(DimGame[runs_for]), 0)
+    MEASURE DimGame[Runs Against] = COALESCE(SUM(DimGame[runs_against]), 0)
+    MEASURE DimGame[Run Differential] = [Runs For] - [Runs Against]
+
+    MEASURE FactPitch[Pitch Count] = COALESCE(COUNTROWS(FactPitch), 0)
+    MEASURE FactPitch[Valid Pitch Count] =
+        COALESCE(CALCULATE(COUNTROWS(FactPitch),
+            KEEPFILTERS(FactPitch[valid_pa_eligible] = 1)), 0)
+    MEASURE FactPitch[Disrupted Valid Pitches] =
+        COALESCE(CALCULATE(COUNTROWS(FactPitch),
+            KEEPFILTERS(FactPitch[valid_pa_eligible] = 1),
+            KEEPFILTERS(FactPitch[pitcher_disruption] = 1)), 0)
+    MEASURE FactPitch[Valid Disruption Rate] =
+        DIVIDE([Disrupted Valid Pitches], [Valid Pitch Count])
+    MEASURE FactPitch[Routine Eligible Pitches] =
+        COALESCE(CALCULATE(COUNTROWS(FactPitch),
+            KEEPFILTERS(FactPitch[routine_primary_eligible] = 1)), 0)
+    MEASURE FactPitch[Mean Routine Seconds] =
+        CALCULATE(AVERAGE(FactPitch[routine_time_secs]),
+            KEEPFILTERS(FactPitch[routine_primary_eligible] = 1))
+    MEASURE FactPitch[Tic Eligible Pitches] =
+        COALESCE(CALCULATE(COUNTROWS(FactPitch),
+            KEEPFILTERS(FactPitch[tics_primary_eligible] = 1)), 0)
+    MEASURE FactPitch[Mean Tics] =
+        CALCULATE(AVERAGE(FactPitch[total_tics]),
+            KEEPFILTERS(FactPitch[tics_primary_eligible] = 1))
+
+    // Equal weight per game. These two measures do not respond to batter filters.
+    MEASURE DimGame[Mean Game Routine Seconds] =
+        AVERAGE(DimGame[routine_undisrupted_mean_secs])
+    MEASURE DimGame[Mean Game Tics] =
+        AVERAGE(DimGame[tics_undisrupted_mean])
+
+    // One current game is required. Totals over multiple games intentionally return blank.
+    // ALL(DimGame) retains the original full logged history when venue/opponent/date is sliced.
+    MEASURE DimGame[Prior 5 Win Rate] =
+        VAR CurrentGame = SELECTEDVALUE(DimGame[game_order])
+        VAR WindowRows = FILTER(ALL(DimGame),
+            DimGame[game_order] >= CurrentGame - 5 && DimGame[game_order] < CurrentGame)
+        RETURN IF(NOT ISBLANK(CurrentGame) && COUNTROWS(WindowRows) = 5,
+            AVERAGEX(WindowRows, DimGame[win]), BLANK())
+
+    MEASURE DimGame[Prior 5 Mean Routine Seconds] =
+        VAR CurrentGame = SELECTEDVALUE(DimGame[game_order])
+        VAR WindowRows = FILTER(ALL(DimGame),
+            DimGame[game_order] >= CurrentGame - 5 && DimGame[game_order] < CurrentGame)
+        RETURN IF(NOT ISBLANK(CurrentGame) && COUNTROWS(WindowRows) = 5,
+            AVERAGEX(WindowRows, DimGame[routine_undisrupted_mean_secs]), BLANK())
+
+    MEASURE DimGame[Trailing 5 Win Rate] =
+        VAR CurrentGame = SELECTEDVALUE(DimGame[game_order])
+        VAR WindowRows = FILTER(ALL(DimGame),
+            DimGame[game_order] >= CurrentGame - 4 && DimGame[game_order] <= CurrentGame)
+        RETURN IF(NOT ISBLANK(CurrentGame) && COUNTROWS(WindowRows) = 5,
+            AVERAGEX(WindowRows, DimGame[win]), BLANK())
+
+    MEASURE DimGame[Trailing 5 Mean Routine Seconds] =
+        VAR CurrentGame = SELECTEDVALUE(DimGame[game_order])
+        VAR WindowRows = FILTER(ALL(DimGame),
+            DimGame[game_order] >= CurrentGame - 4 && DimGame[game_order] <= CurrentGame)
+        RETURN IF(NOT ISBLANK(CurrentGame) && COUNTROWS(WindowRows) = 5,
+            AVERAGEX(WindowRows, DimGame[routine_undisrupted_mean_secs]), BLANK())
+
+    MEASURE DimGame[Prior Logged Win Streak] =
+        IF(HASONEVALUE(DimGame[game_order]),
+            SELECTEDVALUE(DimGame[window_win_streak_before]), BLANK())
+
+EVALUATE
+ROW(
+    "Games", [Games], "Wins", [Wins], "Losses", [Losses], "Win Rate", [Win Rate],
+    "Runs For", [Runs For], "Runs Against", [Runs Against], "Run Differential", [Run Differential],
+    "Pitch Count", [Pitch Count], "Valid Pitch Count", [Valid Pitch Count],
+    "Disrupted Valid Pitches", [Disrupted Valid Pitches], "Valid Disruption Rate", [Valid Disruption Rate],
+    "Routine Eligible Pitches", [Routine Eligible Pitches], "Mean Routine Seconds", [Mean Routine Seconds],
+    "Tic Eligible Pitches", [Tic Eligible Pitches], "Mean Tics", [Mean Tics],
+    "Mean Game Routine Seconds", [Mean Game Routine Seconds], "Mean Game Tics", [Mean Game Tics]
+)
