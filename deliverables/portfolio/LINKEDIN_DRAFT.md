@@ -1,7 +1,5 @@
 # LinkedIn launch draft
 
-Draft only. Replace `[PUBLIC_REPOSITORY_URL]` after the repository is public. Attach the final overview screenshot. The text below is the proposed post.
-
 ---
 
 Can the routines before a pitch tell us something about what happens next?
@@ -23,7 +21,7 @@ That distinction matters: an association can be informative without producing a 
 
 The repository includes the data dictionary, eligibility rules, SQL and R scripts, archived outputs, research summaries and Power BI report. It also documents the limits of a short observational window and the decisions made along the way.
 
-Project and findings: [PUBLIC_REPOSITORY_URL]
+Project and findings: https://github.com/aymane-belhaddaoui/blue-jays-behavior-analytics
 
 I would welcome feedback on the evaluation design and the transition from statistical findings to decision support.
 
