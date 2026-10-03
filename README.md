@@ -84,6 +84,7 @@ Open `blue-jays-behavior-analytics.Rproj` and use the repository root as the wor
 ```r
 source("scripts/01_import_R.R")
 source("scripts/07_project1_summary.R")
+```
 
 The first command loads and checks the eight tables; the second regenerates the Workstream 1 summary from its archived estimates without refitting. See the [reproduction guide](docs/REPRODUCING.md) for every stage, package versions, SQL setup, the Power BI refresh path, and input-hash checks. Package versions are also recorded in each run's `sessionInfo.txt`.
 
