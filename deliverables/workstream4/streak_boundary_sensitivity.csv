@@ -1,0 +1,5 @@
+"feature","cohort","n","pearson_r","spearman_rho"
+"routine_undisrupted_mean_secs","Primary: observed prior loss",36,0.151522045578812,0.15011561978305
+"routine_undisrupted_mean_secs","All 39: window-truncated streak",39,0.189281427436195,0.209857656842573
+"tics_undisrupted_mean","Primary: observed prior loss",36,0.027446997926117,0.0603864532838331
+"tics_undisrupted_mean","All 39: window-truncated streak",39,0.0557576001378666,0.117941110573794

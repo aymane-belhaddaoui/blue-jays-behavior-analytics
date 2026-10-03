@@ -1,0 +1,219 @@
+"pair_id","game_id","game_order","game_date","opponent","venue","win","context","feature","x","y"
+"A1","TOR_20260814_1",1,"2026-08-14","New York Yankees","Home",1,"win","routine_undisrupted_mean_secs",1,12.7565217391304
+"A1","TOR_20260815_1",2,"2026-08-15","New York Yankees","Home",1,"win","routine_undisrupted_mean_secs",1,16.0064935064935
+"A1","TOR_20260816_1",3,"2026-08-16","New York Yankees","Home",0,"win","routine_undisrupted_mean_secs",0,14.609022556391
+"A1","TOR_20260818_1",4,"2026-08-18","Tampa Bay Rays","Road",1,"win","routine_undisrupted_mean_secs",1,15.2039473684211
+"A1","TOR_20260819_1",5,"2026-08-19","Tampa Bay Rays","Road",0,"win","routine_undisrupted_mean_secs",0,14.541095890411
+"A1","TOR_20260820_1",6,"2026-08-20","Tampa Bay Rays","Road",1,"win","routine_undisrupted_mean_secs",1,14.1986754966887
+"A1","TOR_20260821_1",7,"2026-08-21","New York Yankees","Road",0,"win","routine_undisrupted_mean_secs",0,15.2328767123288
+"A1","TOR_20260822_1",8,"2026-08-22","New York Yankees","Road",1,"win","routine_undisrupted_mean_secs",1,15.4573170731707
+"A1","TOR_20260823_1",9,"2026-08-23","New York Yankees","Road",0,"win","routine_undisrupted_mean_secs",0,15.3380281690141
+"A1","TOR_20260825_1",10,"2026-08-25","Kansas City Royals","Home",0,"win","routine_undisrupted_mean_secs",0,14.1013513513514
+"A1","TOR_20260826_1",11,"2026-08-26","Kansas City Royals","Home",1,"win","routine_undisrupted_mean_secs",1,12.5185185185185
+"A1","TOR_20260827_1",12,"2026-08-27","Kansas City Royals","Home",0,"win","routine_undisrupted_mean_secs",0,12.2982456140351
+"A1","TOR_20260828_1",13,"2026-08-28","Seattle Mariners","Home",1,"win","routine_undisrupted_mean_secs",1,13.2556390977444
+"A1","TOR_20260829_1",14,"2026-08-29","Seattle Mariners","Home",1,"win","routine_undisrupted_mean_secs",1,12.027027027027
+"A1","TOR_20260830_1",15,"2026-08-30","Seattle Mariners","Home",1,"win","routine_undisrupted_mean_secs",1,15.0422535211268
+"A1","TOR_20260901_1",16,"2026-09-01","Cleveland Guardians","Road",0,"win","routine_undisrupted_mean_secs",0,14.3008130081301
+"A1","TOR_20260902_1",17,"2026-09-02","Cleveland Guardians","Road",1,"win","routine_undisrupted_mean_secs",1,14.02
+"A1","TOR_20260903_1",18,"2026-09-03","Cleveland Guardians","Road",1,"win","routine_undisrupted_mean_secs",1,14.2666666666667
+"A1","TOR_20260904_1",19,"2026-09-04","Kansas City Royals","Road",1,"win","routine_undisrupted_mean_secs",1,14.5547445255474
+"A1","TOR_20260905_1",20,"2026-09-05","Kansas City Royals","Road",1,"win","routine_undisrupted_mean_secs",1,14.45625
+"A1","TOR_20260906_1",21,"2026-09-06","Kansas City Royals","Road",0,"win","routine_undisrupted_mean_secs",0,14.7463768115942
+"A1","TOR_20260907_1",22,"2026-09-07","Athletics","Road",0,"win","routine_undisrupted_mean_secs",0,14.3496503496504
+"A1","TOR_20260908_1",23,"2026-09-08","Athletics","Road",1,"win","routine_undisrupted_mean_secs",1,16.2450331125828
+"A1","TOR_20260909_1",24,"2026-09-09","Athletics","Road",0,"win","routine_undisrupted_mean_secs",0,15.0538461538462
+"A1","TOR_20260911_1",25,"2026-09-11","Baltimore Orioles","Home",0,"win","routine_undisrupted_mean_secs",0,14.8571428571429
+"A1","TOR_20260912_1",26,"2026-09-12","Baltimore Orioles","Home",1,"win","routine_undisrupted_mean_secs",1,13.1233766233766
+"A1","TOR_20260913_1",27,"2026-09-13","Baltimore Orioles","Home",1,"win","routine_undisrupted_mean_secs",1,13.5165562913907
+"A1","TOR_20260914_1",28,"2026-09-14","Detroit Tigers","Home",0,"win","routine_undisrupted_mean_secs",0,15.1648351648352
+"A1","TOR_20260915_1",29,"2026-09-15","Detroit Tigers","Home",0,"win","routine_undisrupted_mean_secs",0,14.6896551724138
+"A1","TOR_20260916_1",30,"2026-09-16","Detroit Tigers","Home",1,"win","routine_undisrupted_mean_secs",1,14.4202898550725
+"A1","TOR_20260918_1",31,"2026-09-18","Texas Rangers","Road",0,"win","routine_undisrupted_mean_secs",0,14.1470588235294
+"A1","TOR_20260919_1",32,"2026-09-19","Texas Rangers","Road",0,"win","routine_undisrupted_mean_secs",0,14.6370967741935
+"A1","TOR_20260920_1",33,"2026-09-20","Texas Rangers","Road",1,"win","routine_undisrupted_mean_secs",1,13.7006802721088
+"A1","TOR_20260921_1",34,"2026-09-21","Baltimore Orioles","Road",0,"win","routine_undisrupted_mean_secs",0,13.6614173228346
+"A1","TOR_20260923_1",35,"2026-09-23","Baltimore Orioles","Road",0,"win","routine_undisrupted_mean_secs",0,14.5396825396825
+"A1","TOR_20260923_2",36,"2026-09-23","Baltimore Orioles","Road",0,"win","routine_undisrupted_mean_secs",0,12.9924242424242
+"A1","TOR_20260925_1",37,"2026-09-25","Cincinnati Reds","Home",1,"win","routine_undisrupted_mean_secs",1,13.74
+"A1","TOR_20260927_1",38,"2026-09-27","Cincinnati Reds","Home",0,"win","routine_undisrupted_mean_secs",0,12.9508196721311
+"A1","TOR_20260927_2",39,"2026-09-27","Cincinnati Reds","Home",1,"win","routine_undisrupted_mean_secs",1,12.7185185185185
+"A2","TOR_20260814_1",1,"2026-08-14","New York Yankees","Home",1,"win","tics_undisrupted_mean",1,1.19130434782609
+"A2","TOR_20260815_1",2,"2026-08-15","New York Yankees","Home",1,"win","tics_undisrupted_mean",1,1.6
+"A2","TOR_20260816_1",3,"2026-08-16","New York Yankees","Home",0,"win","tics_undisrupted_mean",0,1.44360902255639
+"A2","TOR_20260818_1",4,"2026-08-18","Tampa Bay Rays","Road",1,"win","tics_undisrupted_mean",1,1.74342105263158
+"A2","TOR_20260819_1",5,"2026-08-19","Tampa Bay Rays","Road",0,"win","tics_undisrupted_mean",0,1.63013698630137
+"A2","TOR_20260820_1",6,"2026-08-20","Tampa Bay Rays","Road",1,"win","tics_undisrupted_mean",1,1.39735099337748
+"A2","TOR_20260821_1",7,"2026-08-21","New York Yankees","Road",0,"win","tics_undisrupted_mean",0,1.29452054794521
+"A2","TOR_20260822_1",8,"2026-08-22","New York Yankees","Road",1,"win","tics_undisrupted_mean",1,1.15853658536585
+"A2","TOR_20260823_1",9,"2026-08-23","New York Yankees","Road",0,"win","tics_undisrupted_mean",0,1.2887323943662
+"A2","TOR_20260825_1",10,"2026-08-25","Kansas City Royals","Home",0,"win","tics_undisrupted_mean",0,1.32432432432432
+"A2","TOR_20260826_1",11,"2026-08-26","Kansas City Royals","Home",1,"win","tics_undisrupted_mean",1,1.22222222222222
+"A2","TOR_20260827_1",12,"2026-08-27","Kansas City Royals","Home",0,"win","tics_undisrupted_mean",0,1.76315789473684
+"A2","TOR_20260828_1",13,"2026-08-28","Seattle Mariners","Home",1,"win","tics_undisrupted_mean",1,1.42857142857143
+"A2","TOR_20260829_1",14,"2026-08-29","Seattle Mariners","Home",1,"win","tics_undisrupted_mean",1,1.23648648648649
+"A2","TOR_20260830_1",15,"2026-08-30","Seattle Mariners","Home",1,"win","tics_undisrupted_mean",1,1.6056338028169
+"A2","TOR_20260901_1",16,"2026-09-01","Cleveland Guardians","Road",0,"win","tics_undisrupted_mean",0,1.48780487804878
+"A2","TOR_20260902_1",17,"2026-09-02","Cleveland Guardians","Road",1,"win","tics_undisrupted_mean",1,1.58666666666667
+"A2","TOR_20260903_1",18,"2026-09-03","Cleveland Guardians","Road",1,"win","tics_undisrupted_mean",1,1.33333333333333
+"A2","TOR_20260904_1",19,"2026-09-04","Kansas City Royals","Road",1,"win","tics_undisrupted_mean",1,1.46715328467153
+"A2","TOR_20260905_1",20,"2026-09-05","Kansas City Royals","Road",1,"win","tics_undisrupted_mean",1,1.2375
+"A2","TOR_20260906_1",21,"2026-09-06","Kansas City Royals","Road",0,"win","tics_undisrupted_mean",0,1.3695652173913
+"A2","TOR_20260907_1",22,"2026-09-07","Athletics","Road",0,"win","tics_undisrupted_mean",0,1.38461538461538
+"A2","TOR_20260908_1",23,"2026-09-08","Athletics","Road",1,"win","tics_undisrupted_mean",1,1.67549668874172
+"A2","TOR_20260909_1",24,"2026-09-09","Athletics","Road",0,"win","tics_undisrupted_mean",0,1.50769230769231
+"A2","TOR_20260911_1",25,"2026-09-11","Baltimore Orioles","Home",0,"win","tics_undisrupted_mean",0,1.46583850931677
+"A2","TOR_20260912_1",26,"2026-09-12","Baltimore Orioles","Home",1,"win","tics_undisrupted_mean",1,1.30519480519481
+"A2","TOR_20260913_1",27,"2026-09-13","Baltimore Orioles","Home",1,"win","tics_undisrupted_mean",1,1.02649006622517
+"A2","TOR_20260914_1",28,"2026-09-14","Detroit Tigers","Home",0,"win","tics_undisrupted_mean",0,1.63736263736264
+"A2","TOR_20260915_1",29,"2026-09-15","Detroit Tigers","Home",0,"win","tics_undisrupted_mean",0,1.42758620689655
+"A2","TOR_20260916_1",30,"2026-09-16","Detroit Tigers","Home",1,"win","tics_undisrupted_mean",1,1.38405797101449
+"A2","TOR_20260918_1",31,"2026-09-18","Texas Rangers","Road",0,"win","tics_undisrupted_mean",0,1.70588235294118
+"A2","TOR_20260919_1",32,"2026-09-19","Texas Rangers","Road",0,"win","tics_undisrupted_mean",0,1.32258064516129
+"A2","TOR_20260920_1",33,"2026-09-20","Texas Rangers","Road",1,"win","tics_undisrupted_mean",1,0.959183673469388
+"A2","TOR_20260921_1",34,"2026-09-21","Baltimore Orioles","Road",0,"win","tics_undisrupted_mean",0,1.58267716535433
+"A2","TOR_20260923_1",35,"2026-09-23","Baltimore Orioles","Road",0,"win","tics_undisrupted_mean",0,1.53174603174603
+"A2","TOR_20260923_2",36,"2026-09-23","Baltimore Orioles","Road",0,"win","tics_undisrupted_mean",0,1.82575757575758
+"A2","TOR_20260925_1",37,"2026-09-25","Cincinnati Reds","Home",1,"win","tics_undisrupted_mean",1,1.72
+"A2","TOR_20260927_1",38,"2026-09-27","Cincinnati Reds","Home",0,"win","tics_undisrupted_mean",0,1.39344262295082
+"A2","TOR_20260927_2",39,"2026-09-27","Cincinnati Reds","Home",1,"win","tics_undisrupted_mean",1,1.07407407407407
+"A3","TOR_20260820_1",6,"2026-08-20","Tampa Bay Rays","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,14.1986754966887
+"A3","TOR_20260821_1",7,"2026-08-21","New York Yankees","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,15.2328767123288
+"A3","TOR_20260822_1",8,"2026-08-22","New York Yankees","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,15.4573170731707
+"A3","TOR_20260823_1",9,"2026-08-23","New York Yankees","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,15.3380281690141
+"A3","TOR_20260825_1",10,"2026-08-25","Kansas City Royals","Home",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,14.1013513513514
+"A3","TOR_20260826_1",11,"2026-08-26","Kansas City Royals","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,12.5185185185185
+"A3","TOR_20260827_1",12,"2026-08-27","Kansas City Royals","Home",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,12.2982456140351
+"A3","TOR_20260828_1",13,"2026-08-28","Seattle Mariners","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,13.2556390977444
+"A3","TOR_20260829_1",14,"2026-08-29","Seattle Mariners","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,12.027027027027
+"A3","TOR_20260830_1",15,"2026-08-30","Seattle Mariners","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,15.0422535211268
+"A3","TOR_20260901_1",16,"2026-09-01","Cleveland Guardians","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.8,14.3008130081301
+"A3","TOR_20260902_1",17,"2026-09-02","Cleveland Guardians","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,14.02
+"A3","TOR_20260903_1",18,"2026-09-03","Cleveland Guardians","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.8,14.2666666666667
+"A3","TOR_20260904_1",19,"2026-09-04","Kansas City Royals","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.8,14.5547445255474
+"A3","TOR_20260905_1",20,"2026-09-05","Kansas City Royals","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.8,14.45625
+"A3","TOR_20260906_1",21,"2026-09-06","Kansas City Royals","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.8,14.7463768115942
+"A3","TOR_20260907_1",22,"2026-09-07","Athletics","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.8,14.3496503496504
+"A3","TOR_20260908_1",23,"2026-09-08","Athletics","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,16.2450331125828
+"A3","TOR_20260909_1",24,"2026-09-09","Athletics","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,15.0538461538462
+"A3","TOR_20260911_1",25,"2026-09-11","Baltimore Orioles","Home",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,14.8571428571429
+"A3","TOR_20260912_1",26,"2026-09-12","Baltimore Orioles","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.2,13.1233766233766
+"A3","TOR_20260913_1",27,"2026-09-13","Baltimore Orioles","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,13.5165562913907
+"A3","TOR_20260914_1",28,"2026-09-14","Detroit Tigers","Home",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,15.1648351648352
+"A3","TOR_20260915_1",29,"2026-09-15","Detroit Tigers","Home",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,14.6896551724138
+"A3","TOR_20260916_1",30,"2026-09-16","Detroit Tigers","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,14.4202898550725
+"A3","TOR_20260918_1",31,"2026-09-18","Texas Rangers","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.6,14.1470588235294
+"A3","TOR_20260919_1",32,"2026-09-19","Texas Rangers","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,14.6370967741935
+"A3","TOR_20260920_1",33,"2026-09-20","Texas Rangers","Road",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.2,13.7006802721088
+"A3","TOR_20260921_1",34,"2026-09-21","Baltimore Orioles","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,13.6614173228346
+"A3","TOR_20260923_1",35,"2026-09-23","Baltimore Orioles","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,14.5396825396825
+"A3","TOR_20260923_2",36,"2026-09-23","Baltimore Orioles","Road",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.2,12.9924242424242
+"A3","TOR_20260925_1",37,"2026-09-25","Cincinnati Reds","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.2,13.74
+"A3","TOR_20260927_1",38,"2026-09-27","Cincinnati Reds","Home",0,"prior5_win_rate","routine_undisrupted_mean_secs",0.4,12.9508196721311
+"A3","TOR_20260927_2",39,"2026-09-27","Cincinnati Reds","Home",1,"prior5_win_rate","routine_undisrupted_mean_secs",0.2,12.7185185185185
+"A4","TOR_20260820_1",6,"2026-08-20","Tampa Bay Rays","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.6,1.39735099337748
+"A4","TOR_20260821_1",7,"2026-08-21","New York Yankees","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.6,1.29452054794521
+"A4","TOR_20260822_1",8,"2026-08-22","New York Yankees","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.4,1.15853658536585
+"A4","TOR_20260823_1",9,"2026-08-23","New York Yankees","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.6,1.2887323943662
+"A4","TOR_20260825_1",10,"2026-08-25","Kansas City Royals","Home",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.32432432432432
+"A4","TOR_20260826_1",11,"2026-08-26","Kansas City Royals","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.4,1.22222222222222
+"A4","TOR_20260827_1",12,"2026-08-27","Kansas City Royals","Home",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.76315789473684
+"A4","TOR_20260828_1",13,"2026-08-28","Seattle Mariners","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.4,1.42857142857143
+"A4","TOR_20260829_1",14,"2026-08-29","Seattle Mariners","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.4,1.23648648648649
+"A4","TOR_20260830_1",15,"2026-08-30","Seattle Mariners","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.6,1.6056338028169
+"A4","TOR_20260901_1",16,"2026-09-01","Cleveland Guardians","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.8,1.48780487804878
+"A4","TOR_20260902_1",17,"2026-09-02","Cleveland Guardians","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.6,1.58666666666667
+"A4","TOR_20260903_1",18,"2026-09-03","Cleveland Guardians","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.8,1.33333333333333
+"A4","TOR_20260904_1",19,"2026-09-04","Kansas City Royals","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.8,1.46715328467153
+"A4","TOR_20260905_1",20,"2026-09-05","Kansas City Royals","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.8,1.2375
+"A4","TOR_20260906_1",21,"2026-09-06","Kansas City Royals","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.8,1.3695652173913
+"A4","TOR_20260907_1",22,"2026-09-07","Athletics","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.8,1.38461538461538
+"A4","TOR_20260908_1",23,"2026-09-08","Athletics","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.6,1.67549668874172
+"A4","TOR_20260909_1",24,"2026-09-09","Athletics","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.6,1.50769230769231
+"A4","TOR_20260911_1",25,"2026-09-11","Baltimore Orioles","Home",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.46583850931677
+"A4","TOR_20260912_1",26,"2026-09-12","Baltimore Orioles","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.2,1.30519480519481
+"A4","TOR_20260913_1",27,"2026-09-13","Baltimore Orioles","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.4,1.02649006622517
+"A4","TOR_20260914_1",28,"2026-09-14","Detroit Tigers","Home",0,"prior5_win_rate","tics_undisrupted_mean",0.6,1.63736263736264
+"A4","TOR_20260915_1",29,"2026-09-15","Detroit Tigers","Home",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.42758620689655
+"A4","TOR_20260916_1",30,"2026-09-16","Detroit Tigers","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.4,1.38405797101449
+"A4","TOR_20260918_1",31,"2026-09-18","Texas Rangers","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.6,1.70588235294118
+"A4","TOR_20260919_1",32,"2026-09-19","Texas Rangers","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.32258064516129
+"A4","TOR_20260920_1",33,"2026-09-20","Texas Rangers","Road",1,"prior5_win_rate","tics_undisrupted_mean",0.2,0.959183673469388
+"A4","TOR_20260921_1",34,"2026-09-21","Baltimore Orioles","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.58267716535433
+"A4","TOR_20260923_1",35,"2026-09-23","Baltimore Orioles","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.53174603174603
+"A4","TOR_20260923_2",36,"2026-09-23","Baltimore Orioles","Road",0,"prior5_win_rate","tics_undisrupted_mean",0.2,1.82575757575758
+"A4","TOR_20260925_1",37,"2026-09-25","Cincinnati Reds","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.2,1.72
+"A4","TOR_20260927_1",38,"2026-09-27","Cincinnati Reds","Home",0,"prior5_win_rate","tics_undisrupted_mean",0.4,1.39344262295082
+"A4","TOR_20260927_2",39,"2026-09-27","Cincinnati Reds","Home",1,"prior5_win_rate","tics_undisrupted_mean",0.2,1.07407407407407
+"A5","TOR_20260818_1",4,"2026-08-18","Tampa Bay Rays","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,15.2039473684211
+"A5","TOR_20260819_1",5,"2026-08-19","Tampa Bay Rays","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,14.541095890411
+"A5","TOR_20260820_1",6,"2026-08-20","Tampa Bay Rays","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.1986754966887
+"A5","TOR_20260821_1",7,"2026-08-21","New York Yankees","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,15.2328767123288
+"A5","TOR_20260822_1",8,"2026-08-22","New York Yankees","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,15.4573170731707
+"A5","TOR_20260823_1",9,"2026-08-23","New York Yankees","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,15.3380281690141
+"A5","TOR_20260825_1",10,"2026-08-25","Kansas City Royals","Home",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.1013513513514
+"A5","TOR_20260826_1",11,"2026-08-26","Kansas City Royals","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,12.5185185185185
+"A5","TOR_20260827_1",12,"2026-08-27","Kansas City Royals","Home",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,12.2982456140351
+"A5","TOR_20260828_1",13,"2026-08-28","Seattle Mariners","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,13.2556390977444
+"A5","TOR_20260829_1",14,"2026-08-29","Seattle Mariners","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",1,12.027027027027
+"A5","TOR_20260830_1",15,"2026-08-30","Seattle Mariners","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",2,15.0422535211268
+"A5","TOR_20260901_1",16,"2026-09-01","Cleveland Guardians","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",3,14.3008130081301
+"A5","TOR_20260902_1",17,"2026-09-02","Cleveland Guardians","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.02
+"A5","TOR_20260903_1",18,"2026-09-03","Cleveland Guardians","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",1,14.2666666666667
+"A5","TOR_20260904_1",19,"2026-09-04","Kansas City Royals","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",2,14.5547445255474
+"A5","TOR_20260905_1",20,"2026-09-05","Kansas City Royals","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",3,14.45625
+"A5","TOR_20260906_1",21,"2026-09-06","Kansas City Royals","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",4,14.7463768115942
+"A5","TOR_20260907_1",22,"2026-09-07","Athletics","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.3496503496504
+"A5","TOR_20260908_1",23,"2026-09-08","Athletics","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,16.2450331125828
+"A5","TOR_20260909_1",24,"2026-09-09","Athletics","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,15.0538461538462
+"A5","TOR_20260911_1",25,"2026-09-11","Baltimore Orioles","Home",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.8571428571429
+"A5","TOR_20260912_1",26,"2026-09-12","Baltimore Orioles","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,13.1233766233766
+"A5","TOR_20260913_1",27,"2026-09-13","Baltimore Orioles","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",1,13.5165562913907
+"A5","TOR_20260914_1",28,"2026-09-14","Detroit Tigers","Home",0,"window_win_streak_before","routine_undisrupted_mean_secs",2,15.1648351648352
+"A5","TOR_20260915_1",29,"2026-09-15","Detroit Tigers","Home",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.6896551724138
+"A5","TOR_20260916_1",30,"2026-09-16","Detroit Tigers","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.4202898550725
+"A5","TOR_20260918_1",31,"2026-09-18","Texas Rangers","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,14.1470588235294
+"A5","TOR_20260919_1",32,"2026-09-19","Texas Rangers","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.6370967741935
+"A5","TOR_20260920_1",33,"2026-09-20","Texas Rangers","Road",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,13.7006802721088
+"A5","TOR_20260921_1",34,"2026-09-21","Baltimore Orioles","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,13.6614173228346
+"A5","TOR_20260923_1",35,"2026-09-23","Baltimore Orioles","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,14.5396825396825
+"A5","TOR_20260923_2",36,"2026-09-23","Baltimore Orioles","Road",0,"window_win_streak_before","routine_undisrupted_mean_secs",0,12.9924242424242
+"A5","TOR_20260925_1",37,"2026-09-25","Cincinnati Reds","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,13.74
+"A5","TOR_20260927_1",38,"2026-09-27","Cincinnati Reds","Home",0,"window_win_streak_before","routine_undisrupted_mean_secs",1,12.9508196721311
+"A5","TOR_20260927_2",39,"2026-09-27","Cincinnati Reds","Home",1,"window_win_streak_before","routine_undisrupted_mean_secs",0,12.7185185185185
+"A6","TOR_20260818_1",4,"2026-08-18","Tampa Bay Rays","Road",1,"window_win_streak_before","tics_undisrupted_mean",0,1.74342105263158
+"A6","TOR_20260819_1",5,"2026-08-19","Tampa Bay Rays","Road",0,"window_win_streak_before","tics_undisrupted_mean",1,1.63013698630137
+"A6","TOR_20260820_1",6,"2026-08-20","Tampa Bay Rays","Road",1,"window_win_streak_before","tics_undisrupted_mean",0,1.39735099337748
+"A6","TOR_20260821_1",7,"2026-08-21","New York Yankees","Road",0,"window_win_streak_before","tics_undisrupted_mean",1,1.29452054794521
+"A6","TOR_20260822_1",8,"2026-08-22","New York Yankees","Road",1,"window_win_streak_before","tics_undisrupted_mean",0,1.15853658536585
+"A6","TOR_20260823_1",9,"2026-08-23","New York Yankees","Road",0,"window_win_streak_before","tics_undisrupted_mean",1,1.2887323943662
+"A6","TOR_20260825_1",10,"2026-08-25","Kansas City Royals","Home",0,"window_win_streak_before","tics_undisrupted_mean",0,1.32432432432432
+"A6","TOR_20260826_1",11,"2026-08-26","Kansas City Royals","Home",1,"window_win_streak_before","tics_undisrupted_mean",0,1.22222222222222
+"A6","TOR_20260827_1",12,"2026-08-27","Kansas City Royals","Home",0,"window_win_streak_before","tics_undisrupted_mean",1,1.76315789473684
+"A6","TOR_20260828_1",13,"2026-08-28","Seattle Mariners","Home",1,"window_win_streak_before","tics_undisrupted_mean",0,1.42857142857143
+"A6","TOR_20260829_1",14,"2026-08-29","Seattle Mariners","Home",1,"window_win_streak_before","tics_undisrupted_mean",1,1.23648648648649
+"A6","TOR_20260830_1",15,"2026-08-30","Seattle Mariners","Home",1,"window_win_streak_before","tics_undisrupted_mean",2,1.6056338028169
+"A6","TOR_20260901_1",16,"2026-09-01","Cleveland Guardians","Road",0,"window_win_streak_before","tics_undisrupted_mean",3,1.48780487804878
+"A6","TOR_20260902_1",17,"2026-09-02","Cleveland Guardians","Road",1,"window_win_streak_before","tics_undisrupted_mean",0,1.58666666666667
+"A6","TOR_20260903_1",18,"2026-09-03","Cleveland Guardians","Road",1,"window_win_streak_before","tics_undisrupted_mean",1,1.33333333333333
+"A6","TOR_20260904_1",19,"2026-09-04","Kansas City Royals","Road",1,"window_win_streak_before","tics_undisrupted_mean",2,1.46715328467153
+"A6","TOR_20260905_1",20,"2026-09-05","Kansas City Royals","Road",1,"window_win_streak_before","tics_undisrupted_mean",3,1.2375
+"A6","TOR_20260906_1",21,"2026-09-06","Kansas City Royals","Road",0,"window_win_streak_before","tics_undisrupted_mean",4,1.3695652173913
+"A6","TOR_20260907_1",22,"2026-09-07","Athletics","Road",0,"window_win_streak_before","tics_undisrupted_mean",0,1.38461538461538
+"A6","TOR_20260908_1",23,"2026-09-08","Athletics","Road",1,"window_win_streak_before","tics_undisrupted_mean",0,1.67549668874172
+"A6","TOR_20260909_1",24,"2026-09-09","Athletics","Road",0,"window_win_streak_before","tics_undisrupted_mean",1,1.50769230769231
+"A6","TOR_20260911_1",25,"2026-09-11","Baltimore Orioles","Home",0,"window_win_streak_before","tics_undisrupted_mean",0,1.46583850931677
+"A6","TOR_20260912_1",26,"2026-09-12","Baltimore Orioles","Home",1,"window_win_streak_before","tics_undisrupted_mean",0,1.30519480519481
+"A6","TOR_20260913_1",27,"2026-09-13","Baltimore Orioles","Home",1,"window_win_streak_before","tics_undisrupted_mean",1,1.02649006622517
+"A6","TOR_20260914_1",28,"2026-09-14","Detroit Tigers","Home",0,"window_win_streak_before","tics_undisrupted_mean",2,1.63736263736264
+"A6","TOR_20260915_1",29,"2026-09-15","Detroit Tigers","Home",0,"window_win_streak_before","tics_undisrupted_mean",0,1.42758620689655
+"A6","TOR_20260916_1",30,"2026-09-16","Detroit Tigers","Home",1,"window_win_streak_before","tics_undisrupted_mean",0,1.38405797101449
+"A6","TOR_20260918_1",31,"2026-09-18","Texas Rangers","Road",0,"window_win_streak_before","tics_undisrupted_mean",1,1.70588235294118
+"A6","TOR_20260919_1",32,"2026-09-19","Texas Rangers","Road",0,"window_win_streak_before","tics_undisrupted_mean",0,1.32258064516129
+"A6","TOR_20260920_1",33,"2026-09-20","Texas Rangers","Road",1,"window_win_streak_before","tics_undisrupted_mean",0,0.959183673469388
+"A6","TOR_20260921_1",34,"2026-09-21","Baltimore Orioles","Road",0,"window_win_streak_before","tics_undisrupted_mean",1,1.58267716535433
+"A6","TOR_20260923_1",35,"2026-09-23","Baltimore Orioles","Road",0,"window_win_streak_before","tics_undisrupted_mean",0,1.53174603174603
+"A6","TOR_20260923_2",36,"2026-09-23","Baltimore Orioles","Road",0,"window_win_streak_before","tics_undisrupted_mean",0,1.82575757575758
+"A6","TOR_20260925_1",37,"2026-09-25","Cincinnati Reds","Home",1,"window_win_streak_before","tics_undisrupted_mean",0,1.72
+"A6","TOR_20260927_1",38,"2026-09-27","Cincinnati Reds","Home",0,"window_win_streak_before","tics_undisrupted_mean",1,1.39344262295082
+"A6","TOR_20260927_2",39,"2026-09-27","Cincinnati Reds","Home",1,"window_win_streak_before","tics_undisrupted_mean",0,1.07407407407407

@@ -1,0 +1,7 @@
+"pair_id","context","context_label","feature","feature_label","cohort","expected_n"
+"A1","win","Same-game result","routine_undisrupted_mean_secs","Mean routine duration (seconds)","All logged games",39
+"A2","win","Same-game result","tics_undisrupted_mean","Mean tic count","All logged games",39
+"A3","prior5_win_rate","Prior-five-game win rate","routine_undisrupted_mean_secs","Mean routine duration (seconds)","Complete prior-five-game history",34
+"A4","prior5_win_rate","Prior-five-game win rate","tics_undisrupted_mean","Mean tic count","Complete prior-five-game history",34
+"A5","window_win_streak_before","Prior logged win streak","routine_undisrupted_mean_secs","Mean routine duration (seconds)","Observed prior loss resets streak",36
+"A6","window_win_streak_before","Prior logged win streak","tics_undisrupted_mean","Mean tic count","Observed prior loss resets streak",36

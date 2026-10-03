@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "input_hashes_verified": [
+    {
+      "file": "scripts/17_project4_game_associations.R",
+      "md5": "3e08c6ef9f1bc95dd0d4c723de22b1f9"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/game_kpis.csv",
+      "md5": "9ac38262d5b4693ebbe7d85b8d0bfdc5"
+    },
+    {
+      "file": "outputs/project4/game_kpis/20261002_214708_23628/input_hashes.csv",
+      "md5": "4d5c13fd14284a68d574caafedf5c80c"
+    },
+    {
+      "file": "scripts/14_project4_game_kpis.R",
+      "md5": "5dce7d01105a827cc49a0d0e5cf36a47"
+    },
+    {
+      "file": "scripts/01_import_R.R",
+      "md5": "8dfc85d300be53142282623e7a9704c3"
+    },
+    {
+      "file": "data/batters.csv",
+      "md5": "564d23989e092310f280afbfbfff06bc"
+    },
+    {
+      "file": "data/games.csv",
+      "md5": "8a535d115af3040424bb89ab79001a52"
+    },
+    {
+      "file": "data/pitches.csv",
+      "md5": "a217c4396d03ca741842b675f83489f7"
+    },
+    {
+      "file": "data/plate_appearances.csv",
+      "md5": "47ce5059036b9fcd56db9a8bda80f060"
+    },
+    {
+      "file": "data/project1_pitches.csv",
+      "md5": "bc574d07d741c0c2b795d78b8c758b83"
+    },
+    {
+      "file": "data/project2_pas.csv",
+      "md5": "0c23fb4aababac30c7fcee30ddb054aa"
+    },
+    {
+      "file": "data/project3_snapshots.csv",
+      "md5": "1545a83379542f803d331554b87be56e"
+    },
+    {
+      "file": "data/project4_games.csv",
+      "md5": "06346f5ba65993e519fa543a4c68b053"
+    }
+  ],
+  "association_files_archived": 18,
+  "updated_screenshots_archived": 2,
+  "exact_source_script_matches": true,
+  "correlation_rows_verified": 6,
+  "pair_data_rows_verified": 218,
+  "leave_one_game_out_rows_verified": 218,
+  "support_rows_verified": 22,
+  "history_eligibility_rows_verified": 39,
+  "streak_sensitivity_rows_verified": 4,
+  "win_loss_contrast_rows_verified": 2,
+  "figures_visually_reviewed": [
+    "game_associations.png",
+    "overview.png",
+    "game details.png"
+  ],
+  "dashboard_status": "Overview presentation improvements confirmed; detail table still sums game_order (780), has small text, and omits routine duration in the visible columns.",
+  "engine_limitation": "User ran R. Python independently reconstructed all tabular results; RDS preserved unchanged, not deserialized. No PBIX provided.",
+  "archive_manifest": [
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/17_project4_game_associations.R",
+      "sha256": "eb514139a8dffde4cf48696190e6b70aae2b3bb73725bd2089583722a41680e4"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/INTERPRETATION_LIMITS.txt",
+      "sha256": "8655f4dfeb9412809bf2f5b74c8b772888a2168c7ac73820ae92745795f4afb8"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/RUN_COMPLETE.txt",
+      "sha256": "08bfcaa2645a607d79f4950ef58b3a7d1e2f6661be7dbd5b1df35288d09c22f4"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/WORKSTREAM4_RESEARCH_SUMMARY.md",
+      "sha256": "e811be1aae89734f8487f85127336ed738a4c1093ba2e5f0be8f31a1bf745eb6"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/analysis_pair_data.csv",
+      "sha256": "949fca871e56896bc8317096acda8b1887b753114858c60357e8e23495204f35"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/analysis_plan.csv",
+      "sha256": "2567324a0e0228229a48e16c4e092cddbacd93adcc655ffa102e35be5e86122e"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/console.txt",
+      "sha256": "b54b1cfa9098997ded1416278c0be4b2c8faeda55694215a474013392ca2672b"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/correlations.csv",
+      "sha256": "a62d400d6e63a12209e6579e4bcfc44617237e05a5540a35b279bd42f5204782"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/game_associations.png",
+      "sha256": "4ad72c9a0b64fa46403aa4aa5f24a67290f42058757e18dc04e541b321949e2b"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/history_eligibility.csv",
+      "sha256": "a168f4ff849628411928ce4a18906a803c36e3d1b75e510e23975e7266743aca"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/history_group_support.csv",
+      "sha256": "b00479b1910ede5bfcca3268e95844f53ff5ac365fdbc17558dc4feee03c709d"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/influence_summary.csv",
+      "sha256": "0ea280001a34ab4b6d1e33aa62e03e5f70936144338193e7e127aa76bb5bbafe"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/input_hashes.csv",
+      "sha256": "a5453128b20e1cda215929aea3aec3f92ea73c87bb6f8dd96f51a8a7f836e46a"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/leave_one_game_out.csv",
+      "sha256": "a457a71b389180cd0554dab8bb498296624abc66e2b4bef866d3af4dbd0ec5b7"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/project4_game_associations.rds",
+      "sha256": "af2bcd5d404baf20c90996764027e51f5eb34ef8418e7aba01d1b38e28549a10"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/sessionInfo.txt",
+      "sha256": "c9a75defc699e961040bba515cb47d2a207ec2f3bfe3ab59be4cd10e671f9c71"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/streak_boundary_sensitivity.csv",
+      "sha256": "473b11cdfe7439e27d8fa30b7221f7d56194d14a385f4dd3d83b837f288bdd00"
+    },
+    {
+      "file": "outputs/project4/associations/20261003_194642_19800/win_loss_contrasts.csv",
+      "sha256": "f2506d394dcc0cad1809597ed705f03d07fd98c11fd79816ad7e232cd35cc454"
+    },
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_final_screenshots/game details.png",
+      "sha256": "2878ceaf9d476263b39a286ca38bbafdfca665bbca1ec8b5198cde213c38cc31"
+    },
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_final_screenshots/overview.png",
+      "sha256": "b83f542ee28ae1be97e69bc8eeca8079ea76620301819e2249d44afc2ba303bc"
+    }
+  ]
+}

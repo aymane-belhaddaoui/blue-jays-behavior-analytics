@@ -1,0 +1,83 @@
+{
+  "status": "Source-data feasibility and independent numeric references checked; local R execution pending",
+  "first_observed_loss_game": 3,
+  "streak_primary_n": 36,
+  "pair_data_rows": 218,
+  "leave_one_game_out_rows": 218,
+  "expected_results": [
+    {
+      "pair_id": "A1",
+      "context": "win",
+      "feature": "routine_undisrupted_mean_secs",
+      "n": 39,
+      "context_levels": 2,
+      "pearson_r": -0.13377624453127035,
+      "spearman_rho": -0.17776310919785848,
+      "loo_pearson_min": -0.20095312433110044,
+      "loo_pearson_max": -0.08427196267415743,
+      "pearson_sign_changes": false
+    },
+    {
+      "pair_id": "A2",
+      "context": "win",
+      "feature": "tics_undisrupted_mean",
+      "n": 39,
+      "context_levels": 2,
+      "pearson_r": -0.30672407087093184,
+      "spearman_rho": -0.28259776334018527,
+      "loo_pearson_min": -0.36148675222883847,
+      "loo_pearson_max": -0.2705803010713593,
+      "pearson_sign_changes": false
+    },
+    {
+      "pair_id": "A3",
+      "context": "prior5_win_rate",
+      "feature": "routine_undisrupted_mean_secs",
+      "n": 34,
+      "context_levels": 4,
+      "pearson_r": 0.4992546638494477,
+      "spearman_rho": 0.5216945689487178,
+      "loo_pearson_min": 0.462311840144842,
+      "loo_pearson_max": 0.5377718571082549,
+      "pearson_sign_changes": false
+    },
+    {
+      "pair_id": "A4",
+      "context": "prior5_win_rate",
+      "feature": "tics_undisrupted_mean",
+      "n": 34,
+      "context_levels": 4,
+      "pearson_r": 0.1100798254284036,
+      "spearman_rho": 0.13371838612610387,
+      "loo_pearson_min": 0.005732527063012207,
+      "loo_pearson_max": 0.22656780664614717,
+      "pearson_sign_changes": false
+    },
+    {
+      "pair_id": "A5",
+      "context": "window_win_streak_before",
+      "feature": "routine_undisrupted_mean_secs",
+      "n": 36,
+      "context_levels": 5,
+      "pearson_r": 0.15152204557881183,
+      "spearman_rho": 0.15011561978304985,
+      "loo_pearson_min": 0.11488328886246198,
+      "loo_pearson_max": 0.21420656988629186,
+      "pearson_sign_changes": false
+    },
+    {
+      "pair_id": "A6",
+      "context": "window_win_streak_before",
+      "feature": "tics_undisrupted_mean",
+      "n": 36,
+      "context_levels": 5,
+      "pearson_r": 0.02744699792611701,
+      "spearman_rho": 0.06038645328383308,
+      "loo_pearson_min": -0.02230297230282779,
+      "loo_pearson_max": 0.09433665773077703,
+      "pearson_sign_changes": true
+    }
+  ],
+  "R_available": false,
+  "limitations": "No claim that script 17 was executed in R. Pair coefficients are exploratory and were not used to change the six-comparison plan."
+}

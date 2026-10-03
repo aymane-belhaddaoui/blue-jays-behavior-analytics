@@ -1,0 +1,67 @@
+{
+  "status": "Supplied numerical checks passed; report presentation refinements remain",
+  "qa_tables": [
+    {
+      "file": "qa_overall.tsv",
+      "reference": "expected_overall.csv",
+      "rows": 1,
+      "columns": 17,
+      "missing_cells": 0,
+      "maximum_numeric_absolute_difference": 0.0,
+      "status": "passed",
+      "sha256": "7edfad40d178b4f69f59591d1b7e3704167381cf7172bf5b8a7a09cc3dd22677"
+    },
+    {
+      "file": "qa_venue.tsv",
+      "reference": "expected_by_venue.csv",
+      "rows": 2,
+      "columns": 18,
+      "missing_cells": 0,
+      "maximum_numeric_absolute_difference": 3.552713678800501e-15,
+      "status": "passed",
+      "sha256": "d155a1e0dd47a5e3c44e7f59cd43bbe3547bf9b4a80dbd9df76b26f0bebfc8a2"
+    },
+    {
+      "file": "qa_game.tsv",
+      "reference": "expected_by_game.csv",
+      "rows": 39,
+      "columns": 9,
+      "missing_cells": 18,
+      "maximum_numeric_absolute_difference": 3.907985046680551e-14,
+      "status": "passed",
+      "sha256": "912f79578345375bed59e0307419cfaea6554797c1901ee22c0f3eb4a2d70749"
+    }
+  ],
+  "model_screenshot": "Two solid one-to-many links, with single arrows from DimGame and DimBatter toward FactPitch. Exact join column settings are not fully displayed.",
+  "verified_scope": "Overall, venue, and 39-game results including 18 intentionally blank history cells; DimGame-to-FactPitch venue filtering is numerically supported.",
+  "not_verified": "No PBIX or model-definition export supplied. Batter-filter and opponent-filter QA result tables were not supplied; no claim of exhaustive filter-context verification.",
+  "report_observations": [
+    "Equal-game-weight cards show valid 14.19 seconds and 1.43 tics.",
+    "Two cards use automatic Sum of labels rather than explicit measure labels.",
+    "Curved interpolation is visible on both line charts.",
+    "The win-rate chart uses a fractional axis instead of percentage labels.",
+    "The detail table is narrow and scrolled, with no game_id visible in the submitted view."
+  ],
+  "manifest": [
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_review/model_view.png",
+      "sha256": "b720cf62f72236533388acd06a04e79ee177578c9c6dac0dbcb19bdddf0f0b58"
+    },
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_review/overview.png",
+      "sha256": "053c5d51a7816e730031aa50bd6d60b71e106cc6c05271aedd554a009272f95f"
+    },
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_review/qa_game.tsv",
+      "sha256": "912f79578345375bed59e0307419cfaea6554797c1901ee22c0f3eb4a2d70749"
+    },
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_review/qa_overall.tsv",
+      "sha256": "7edfad40d178b4f69f59591d1b7e3704167381cf7172bf5b8a7a09cc3dd22677"
+    },
+    {
+      "file": "outputs/project4/powerbi_qa/20261003_review/qa_venue.tsv",
+      "sha256": "d155a1e0dd47a5e3c44e7f59cd43bbe3547bf9b4a80dbd9df76b26f0bebfc8a2"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+
+DESCRIPTIVE ASSOCIATIONS
+  pair_id                  context            context_label                       feature                   feature_label
+1      A1                      win         Same-game result routine_undisrupted_mean_secs Mean routine duration (seconds)
+2      A2                      win         Same-game result         tics_undisrupted_mean                  Mean tic count
+3      A3          prior5_win_rate Prior-five-game win rate routine_undisrupted_mean_secs Mean routine duration (seconds)
+4      A4          prior5_win_rate Prior-five-game win rate         tics_undisrupted_mean                  Mean tic count
+5      A5 window_win_streak_before  Prior logged win streak routine_undisrupted_mean_secs Mean routine duration (seconds)
+6      A6 window_win_streak_before  Prior logged win streak         tics_undisrupted_mean                  Mean tic count
+                             cohort expected_n  n context_levels  pearson_r spearman_rho
+1                  All logged games         39 39              2 -0.1337762  -0.17776311
+2                  All logged games         39 39              2 -0.3067241  -0.28259776
+3  Complete prior-five-game history         34 34              4  0.4992547   0.52169457
+4  Complete prior-five-game history         34 34              4  0.1100798   0.13371839
+5 Observed prior loss resets streak         36 36              5  0.1515220   0.15011562
+6 Observed prior loss resets streak         36 36              5  0.0274470   0.06038645
+
+SINGLE-GAME INFLUENCE
+  pair_id  n  pearson_r loo_pearson_min loo_pearson_max pearson_min_omitted_game pearson_max_omitted_game pearson_sign_changes
+1      A1 39 -0.1337762    -0.200953124     -0.08427196           TOR_20260908_1           TOR_20260829_1                FALSE
+2      A2 39 -0.3067241    -0.361486752     -0.27058030           TOR_20260818_1           TOR_20260920_1                FALSE
+3      A3 34  0.4992547     0.462311840      0.53777186           TOR_20260927_2           TOR_20260822_1                FALSE
+4      A4 34  0.1100798     0.005732527      0.22656781           TOR_20260920_1           TOR_20260923_2                FALSE
+5      A5 36  0.1515220     0.114883289      0.21420657           TOR_20260906_1           TOR_20260908_1                FALSE
+6      A6 36  0.0274470    -0.022302972      0.09433666           TOR_20260920_1           TOR_20260905_1                 TRUE
+  spearman_rho loo_spearman_min loo_spearman_max
+1  -0.17776311      -0.23277996       -0.1415878
+2  -0.28259776      -0.33357129       -0.2499249
+3   0.52169457       0.48962804        0.5697126
+4   0.13371839       0.06107113        0.2299875
+5   0.15011562       0.10773783        0.2059638
+6   0.06038645       0.01811008        0.1205253
+
+STREAK BOUNDARY SENSITIVITY
+                        feature                          cohort  n pearson_r spearman_rho
+1 routine_undisrupted_mean_secs    Primary: observed prior loss 36 0.1515220   0.15011562
+2 routine_undisrupted_mean_secs All 39: window-truncated streak 39 0.1892814   0.20985766
+3         tics_undisrupted_mean    Primary: observed prior loss 36 0.0274470   0.06038645
+4         tics_undisrupted_mean All 39: window-truncated streak 39 0.0557576   0.11794111
+
+Outputs saved in: outputs/project4/associations/20261003_194642_19800 
