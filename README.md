@@ -1,98 +1,90 @@
-# Blue Jays Behavioral Analytics
+# Pre-Pitch Behavior and Game Outcomes
 
-An independent engineering and analytics portfolio studying recorded pre-pitch
-behavior, game context and baseball outcomes. **Work in progress: Workstream 1's
-initial exploratory analysis is complete; Workstreams 2–4 are under development.**
+An observational baseball analytics portfolio connecting relational data engineering, statistical inference, chronological prediction evaluation, and Power BI reporting.
 
-## Project scope
+**Status:** all four initial analytical workstreams are complete. Final dashboard presentation and public-release preparation are in progress.
 
-| Workstream | Question | Status |
-|---|---|---|
-| 1. Context and behavior | How do routine duration and recorded tics differ with RISP? | Initial analysis and summary complete |
-| 2. Disruption and outcomes | How is pitcher disruption associated with PA outcomes? | Exposure/timing diagnostics next |
-| 3. Outcome prediction | Can pre-pitch measurements help predict PA outcomes? | Chronological split and baseline prepared |
-| 4. Game-level analysis | How do aggregated behavioral KPIs relate to game results? | Planned |
+## Overview
 
-## Data and architecture
+This project studies recorded Toronto Blue Jays pre-pitch behavior across 39 logged games in August–September 2026. It asks how routine duration and tic counts vary with context, whether disruptions can be linked reliably to plate-appearance outcomes, and whether first-pitch behavior improves strikeout prediction on later games.
 
-39 games, 17 recorded batters, 1,461 plate appearances and 5,634 pitches.
-Core relational grain: game → plate appearance → pitch, with a batter dimension.
-The package includes four core tables and four project-specific analytical tables.
-Measurements are recorded as observed or calculated; no extrapolated data are
-claimed. Missing values and eligibility flags are retained explicitly. One
-calculated routine duration is excluded from primary duration models while its
-observed tic counts remain eligible for tic analyses.
+The Management Engineering motivation is to connect process measurement and variation with defensible decisions. The study preserves sparse-data limitations and an unsuccessful predictive benchmark comparison as part of its findings.
 
-The chronological split assigns 27 games to training, six to validation and six
-to test. Earlier predictor EDA used the full period; model fitting reported here
-uses training records. Consult the research summary for precise exclusions and
-limits; these counts alone are not an external authentication of observations.
+## Main findings
 
-## First exploratory findings
+| Workstream | Result |
+|---|---|
+| Context and behavior | After batter/game adjustment, RISP was associated with +0.698 seconds of routine duration and +0.111 recorded tics per pitch in the training cohort. |
+| Disruption and strikeout | Only 13 training PAs had first-pitch disruption, including one strikeout. The sample was too sparse to support a reliable richly adjusted association estimate. |
+| First-pitch prediction | The validation-selected behavior model did not beat prevalence on final test log loss: 0.480090 versus 0.475687. Brier score was also worse; test ROC-AUC was 0.541. |
+| Game-level patterns | Prior-five-game win rate and current-game routine mean had descriptive Pearson r = 0.499 across 34 games. This does not establish causal momentum or a forecasting benefit. |
 
-On undisrupted training pitches, with batter and game adjustment:
+**The central finding:** contextual behavioral associations did not translate into a demonstrated improvement in later-period strikeout probability prediction with the selected model.
 
-| Outcome | Adjusted RISP difference | Game CR2 95% CI |
-|---|---:|---:|
-| Routine duration | +0.698 seconds | +0.281 to +1.116 |
-| Recorded total tics | +0.111 tics per pitch | +0.028 to +0.193 |
+Read the [four-workstream synthesis](deliverables/portfolio/FOUR_WORKSTREAMS_SYNTHESIS.md) for interpretation and boundaries.
 
-![Workstream 1 primary results](deliverables/workstream1/workstream1_primary_results.png)
+## Data and provenance
 
-These are observational, exploratory associations. RISP is not a direct stress
-measurement, and neither model establishes causality or a performance benefit.
-The additive tic model has a small number of negative fitted counts; the report
-documents this conditional-mean limitation. Nominal inference uses 27 game
-clusters and assumes independence across games. Multiple specifications are
-supporting checks on the same sample, not independent replications.
+| Grain | Records |
+|---|---:|
+| Games | 39 |
+| Batters | 17 |
+| Plate appearances | 1,461 |
+| Pitches | 5,634 |
 
-Read the [Workstream 1 research summary](deliverables/workstream1/WORKSTREAM1_RESEARCH_SUMMARY.md).
+The core tables are `games`, `batters`, `plate_appearances`, and `pitches`. Four project-specific tables support the analytical tasks. The supplied measurements are declared observed or calculated, with none extrapolated. Calculated/missing values and sequence/outcome corrections remain flagged; eligibility rules select the appropriate cohort for each question. The database's provenance and data dictionary document these distinctions.
 
-## Reproduce the saved summary
+Analytical missing values were not replaced with zeros, and long observations were not discarded solely for being extreme. Three routine measurements remain missing. One calculated routine is excluded from observed-routine analyses while its separately observed tic count can remain eligible.
 
-1. Open an RStudio project at the repository root.
-2. Run `source("scripts/07_project1_summary.R")`.
-3. Find the new tables and PNG under `outputs/project1/summary/`.
+## Methods and tools
 
-This summary script uses base R and reads the preserved completed-run CSVs. It
-does not refit the models. Model scripts 04–06 also require `clubSandwich`:
+- **SQL Server / T-SQL:** relational tables, grain checks, joins, and analytical extracts.
+- **R:** cohort diagnostics, linear models with game-clustered CR2 inference, logistic models, chronological validation, ridge and random-forest candidates, and descriptive game-level associations.
+- **Power BI:** explicit DAX measures, game/pitch filtering, five-game history, and numerical reconciliation against R-derived references.
+- **Git/GitHub:** versioned source, immutable run folders, input hashes, session records, and research reports.
 
-```r
-install.packages("clubSandwich")
-source("scripts/04_project1_models.R")
-```
+Independent Python checks were used to reconcile exported data and numerical results. Their scope and engine limitations are recorded in the review files.
 
-Script 04 generates a new timestamped model run. Script 05 defaults to the archived
-model RDS at `20261002_111847_28440`; to analyze a newly generated run, pass its RDS
-path to `run_project1_sensitivity(model_path = "...")` after sourcing script 05.
-Sourcing script 05 itself runs the archived default first. Script 06 creates a
-new tic-model run independently. Script 07 deliberately reproduces the reviewed
-milestone from its three specified archived runs; update those input paths
-explicitly if producing a later milestone. Do not mix runs silently.
+## Evaluation design
 
-The reviewed user environment was R 4.6.1 on Windows with clubSandwich 0.7.0.
-Exact session information and input hashes accompany each completed run. Package
-versions are recorded, but an automated dependency lockfile is not yet supplied.
-SQL Server load/validation scripts are in `scripts`; configure their local import
-paths for your machine. SQL Server is not required merely to reproduce the R
-summary from the CSV exports.
+The prediction cohort contains one eligible first-pitch snapshot per PA. Train has 1,027 PAs across 27 games; Validation has 223 across six games; Test has 208 across six later games. Prediction time is after the first-pitch routine is observed and before the pitch outcome.
 
-## Repository contents
+Candidate development used expanding chronological folds within Train. A fixed shortlist was selected by validation log loss. The selected model was refitted on Train plus Validation, then assessed once under the recorded final-test protocol. The Test is now used, and model selection is closed. Earlier predictor EDA across all dates is documented.
 
-- `data/`: core and project CSV exports.
-- `metadata/`: schema, variable definitions, provenance and validation records.
-- `scripts/`: SQL and R preparation, diagnostics, models and summary code.
-- `outputs/`: timestamped run results, models, hashes and session information.
-- `deliverables/`: reviewed research summaries, tables and figures.
-- `docs/`: setup instructions and project notes.
+## Power BI preview
 
-Archival-package checksums in metadata describe the original package, including
-files not copied to the repository. They are not a checksum list for every Git
-checkout; individual run input hashes identify the inputs used in each analysis.
+![Game overview](deliverables/workstream4/overview.png)
 
-## Next milestone
+The behavioral cards give each game equal weight. The model also contains separately named pitch-weighted measures. Rolling windows use logged game order, preserving doubleheaders; prior-five windows exclude the current game, and trailing-five windows include it.
 
-Workstream 2 starts with `scripts/08_project2_diagnostics.R`. First-pitch disruption
-is the candidate primary exposure; any disruption during a PA is retrospective
-and depends on opportunities arising during that PA. Sparse exposed outcomes
-must be assessed before selecting the regression specification.
+## Reports
+
+- [Workstream 1: RISP and behavior](deliverables/workstream1/WORKSTREAM1_RESEARCH_SUMMARY.md)
+- [Workstream 2: disruption and strikeout](deliverables/workstream2/WORKSTREAM2_RESEARCH_SUMMARY.md)
+- [Workstream 3: first-pitch prediction](deliverables/workstream3/WORKSTREAM3_RESEARCH_SUMMARY.md)
+- [Workstream 4: game-level patterns](deliverables/workstream4/WORKSTREAM4_RESEARCH_SUMMARY.md)
+
+## Repository structure
+
+| Folder | Contents |
+|---|---|
+| `data/` | Core relational and project CSVs |
+| `metadata/` | Schema, data dictionary, provenance, and validation records |
+| `scripts/` | SQL, numbered R stages, and DAX definitions/checks |
+| `outputs/` | Timestamped run artifacts and submitted Power BI QA records |
+| `deliverables/` | Reviewed reports, tables, figures, and dashboard materials |
+| `docs/` | Review checkpoints, verification records, and workflow instructions |
+
+## Reproduction
+
+Use the repository root as the R working directory. Start with `scripts/01_import_R.R`. The recorded analysis stages use saved inputs from the archived run folders; inspect each script's default paths and its `input_hashes.csv` dependency record. Package versions are recorded in each run's `sessionInfo.txt`.
+
+For Power BI, import the three files from `outputs/project4/game_kpis/20261002_214708_23628/powerbi/` and follow `docs/POWERBI_BUILD_GUIDE.md`. Scripts 15 and 16 contain the DAX measures and QA queries. The submitted overall, venue, and game exports reconcile with independent numerical references.
+
+This repository records reproducible individual stages using archived inputs. A single fresh end-to-end automation command has not been validated. The final checkpoint records which local authoring files and presentation items remain to be placed in the release.
+
+## Limitations
+
+This is an observational study of one short team-specific window. RISP is not a direct measure of stress, and the recorded tic variables are not clinical measures. Workstream 1 inference assumes independent game clusters; Workstream 2's sparse-table uncertainty uses an independent-PA reference; Workstream 4 correlations are descriptive and unadjusted. None establishes a causal intervention effect.
+
+The selected prediction model did not demonstrate superiority to prevalence on the six test games. Its 81.73% accuracy at a 0.5 threshold came with zero strikeout recall and is not evidence of a useful classifier. Further predictive development would require fresh evaluation data.
